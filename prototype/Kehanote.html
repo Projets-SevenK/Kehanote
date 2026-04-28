@@ -1,0 +1,3165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kehanote</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700&family=Nunito:wght@400;500;600;700;800;900&family=DM+Serif+Display:ital@0;1&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --rose-50:  #FFF5F7;
+  --rose-100: #FFE7EE;
+  --rose-200: #FFD3DF;
+  --rose-300: #FBB6C8;
+  --rose-400: #F590AB;
+  --rose-500: #EC6F92;
+  --rose-600: #D9527A;
+  --rose-700: #B53A60;
+  --cream:    #FFFAF7;
+  --paper:    #FFF8F4;
+  --ink-900:  #2A1B26;
+  --ink-700:  #4A3441;
+  --ink-500:  #74606E;
+  --ink-300:  #B5A4AF;
+  --lav:      #C8B8DC;
+  --peach:    #FFD9C4;
+  --sage:     #BCD4C0;
+  --gold:     #E8C57A;
+  --bg:       #FFF5F7;
+  --card:     #FFFFFF;
+  --f-display: 'Fraunces', 'Cormorant Garamond', serif;
+  --f-body:    'Nunito', 'SF Pro Rounded', system-ui, sans-serif;
+  --r-sm: 12px; --r-md: 18px; --r-lg: 26px; --r-xl: 34px;
+  --sh-soft: 0 2px 6px rgba(180,60,100,0.06), 0 12px 28px rgba(180,60,100,0.08);
+  --sh-card: 0 1px 2px rgba(180,60,100,0.04), 0 6px 18px rgba(180,60,100,0.07);
+  --sh-pop:  0 4px 12px rgba(217,82,122,0.18), 0 18px 40px rgba(217,82,122,0.18);
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0;
+  font-family: var(--f-body);
+  color: var(--ink-900);
+  background: radial-gradient(80% 60% at 30% 20%, #FFE7EE 0%, transparent 60%), radial-gradient(70% 50% at 80% 80%, #EFE7F6 0%, transparent 60%), #F4E9EE;
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center; padding: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+#root { display: flex; align-items: center; justify-content: center; }
+button { font-family: inherit; cursor: pointer; }
+.kn-screen {
+  position: absolute; inset: 0;
+  background: radial-gradient(120% 80% at 50% -10%, #FFE2EB 0%, transparent 60%), radial-gradient(80% 60% at 100% 100%, #FFEEDD 0%, transparent 70%), var(--bg);
+  overflow: hidden;
+}
+.kn-scroll { height: 100%; overflow-y: auto; overflow-x: hidden; -webkit-overflow-scrolling: touch; }
+.kn-scroll::-webkit-scrollbar { display: none; }
+.kn-wordmark { font-family: var(--f-display); font-weight: 600; letter-spacing: -0.02em; font-style: italic; }
+.tap { -webkit-tap-highlight-color: transparent; user-select: none; }
+@keyframes sparkle { 0%,100%{transform:scale(1) rotate(0deg);opacity:0.6} 50%{transform:scale(1.3) rotate(20deg);opacity:1} }
+@keyframes float-y { 0%,100%{transform:translateY(0px)} 50%{transform:translateY(-6px)} }
+@keyframes heart-pop { 0%{transform:scale(0);opacity:0} 40%{transform:scale(1.3);opacity:1} 100%{transform:scale(1);opacity:1} }
+@keyframes confetti-fall { 0%{transform:translateY(-20px) rotate(0deg);opacity:1} 100%{transform:translateY(800px) rotate(720deg);opacity:0} }
+@keyframes screen-in { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+@keyframes panic-pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.4;transform:scale(0.7)} }
+@keyframes wiggle { 0%,100%{transform:rotate(0deg)} 25%{transform:rotate(-3deg)} 75%{transform:rotate(3deg)} }
+.screen-anim { animation: screen-in 380ms cubic-bezier(.22,.9,.32,1.02); }
+.float { animation: float-y 3.4s ease-in-out infinite; }
+.btn-primary {
+  background: linear-gradient(180deg, var(--rose-500), var(--rose-600));
+  color: white; border: none; border-radius: 999px; padding: 16px 28px;
+  font-weight: 800; font-size: 17px; letter-spacing: 0.01em;
+  box-shadow: var(--sh-pop), inset 0 1px 0 rgba(255,255,255,0.35);
+  transition: transform 120ms ease;
+}
+.btn-primary:active { transform: scale(0.97); }
+.btn-ghost {
+  background: rgba(255,255,255,0.7); color: var(--ink-900);
+  border: 1px solid rgba(180,60,100,0.12); border-radius: 999px; padding: 14px 22px;
+  font-weight: 700; font-size: 15px; backdrop-filter: blur(10px);
+}
+.kn-card { background: var(--card); border-radius: var(--r-lg); box-shadow: var(--sh-card); border: 1px solid rgba(180,60,100,0.05); }
+.kn-tabbar {
+  position: absolute; bottom: 18px; left: 12px; right: 12px; height: 64px;
+  background: rgba(255,255,255,0.78); backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255,255,255,0.7); border-radius: 28px; box-shadow: var(--sh-soft);
+  display: flex; align-items: center; justify-content: space-around; padding: 0 8px; z-index: 30;
+}
+.kn-tab { flex:1; height:56px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; border-radius:20px; background:transparent; border:none; color:var(--ink-500); font-size:10px; font-weight:700; letter-spacing:0.02em; position:relative; transition:color 200ms; }
+.kn-tab.active { color: var(--rose-600); }
+.kn-tab.active::after { content:''; position:absolute; top:6px; width:36px; height:36px; border-radius:12px; background:var(--rose-100); z-index:-1; }
+.chip { display:inline-flex; align-items:center; gap:6px; background:var(--rose-100); color:var(--rose-700); border-radius:999px; padding:6px 12px; font-size:12px; font-weight:800; letter-spacing:0.04em; text-transform:uppercase; }
+.chip.lav   { background:#EFE7F6; color:#6E5A8A; }
+.chip.peach { background:#FFE4D6; color:#B55F30; }
+.chip.sage  { background:#DDEDE1; color:#406B4D; }
+.dot-divider { height:1px; background-image:linear-gradient(to right, var(--rose-200) 50%, transparent 50%); background-size:8px 1px; background-repeat:repeat-x; margin:14px 0; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<script type="text/babel">
+
+// iOS.jsx — Simplified iOS 26 (Liquid Glass) device frame
+// Based on the iOS 26 UI Kit + Figma status bar spec. No assets, no deps.
+// Exports: IOSDevice, IOSStatusBar, IOSNavBar, IOSGlassPill, IOSList, IOSListRow, IOSKeyboard
+
+// ─────────────────────────────────────────────────────────────
+// Status bar
+// ─────────────────────────────────────────────────────────────
+function IOSStatusBar({ dark = false, time = '9:41' }) {
+  const c = dark ? '#fff' : '#000';
+  return (
+    <div style={{
+      display: 'flex', gap: 154, alignItems: 'center', justifyContent: 'center',
+      padding: '21px 24px 19px', boxSizing: 'border-box',
+      position: 'relative', zIndex: 20, width: '100%',
+    }}>
+      <div style={{ flex: 1, height: 22, display: 'flex', alignItems: 'center', justifyContent: 'center', paddingTop: 1.5 }}>
+        <span style={{
+          fontFamily: '-apple-system, "SF Pro", system-ui', fontWeight: 590,
+          fontSize: 17, lineHeight: '22px', color: c,
+        }}>{time}</span>
+      </div>
+      <div style={{ flex: 1, height: 22, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 7, paddingTop: 1, paddingRight: 1 }}>
+        <svg width="19" height="12" viewBox="0 0 19 12">
+          <rect x="0" y="7.5" width="3.2" height="4.5" rx="0.7" fill={c}/>
+          <rect x="4.8" y="5" width="3.2" height="7" rx="0.7" fill={c}/>
+          <rect x="9.6" y="2.5" width="3.2" height="9.5" rx="0.7" fill={c}/>
+          <rect x="14.4" y="0" width="3.2" height="12" rx="0.7" fill={c}/>
+        </svg>
+        <svg width="17" height="12" viewBox="0 0 17 12">
+          <path d="M8.5 3.2C10.8 3.2 12.9 4.1 14.4 5.6L15.5 4.5C13.7 2.7 11.2 1.5 8.5 1.5C5.8 1.5 3.3 2.7 1.5 4.5L2.6 5.6C4.1 4.1 6.2 3.2 8.5 3.2Z" fill={c}/>
+          <path d="M8.5 6.8C9.9 6.8 11.1 7.3 12 8.2L13.1 7.1C11.8 5.9 10.2 5.1 8.5 5.1C6.8 5.1 5.2 5.9 3.9 7.1L5 8.2C5.9 7.3 7.1 6.8 8.5 6.8Z" fill={c}/>
+          <circle cx="8.5" cy="10.5" r="1.5" fill={c}/>
+        </svg>
+        <svg width="27" height="13" viewBox="0 0 27 13">
+          <rect x="0.5" y="0.5" width="23" height="12" rx="3.5" stroke={c} strokeOpacity="0.35" fill="none"/>
+          <rect x="2" y="2" width="20" height="9" rx="2" fill={c}/>
+          <path d="M25 4.5V8.5C25.8 8.2 26.5 7.2 26.5 6.5C26.5 5.8 25.8 4.8 25 4.5Z" fill={c} fillOpacity="0.4"/>
+        </svg>
+      </div>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────
+// Liquid glass pill — blur + tint + shine
+// ─────────────────────────────────────────────────────────────
+function IOSGlassPill({ children, dark = false, style = {} }) {
+  return (
+    <div style={{
+      height: 44, minWidth: 44, borderRadius: 9999,
+      position: 'relative', overflow: 'hidden',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      boxShadow: dark
+        ? '0 2px 6px rgba(0,0,0,0.35), 0 6px 16px rgba(0,0,0,0.2)'
+        : '0 1px 3px rgba(0,0,0,0.07), 0 3px 10px rgba(0,0,0,0.06)',
+      ...style,
+    }}>
+      {/* blur + tint */}
+      <div style={{
+        position: 'absolute', inset: 0, borderRadius: 9999,
+        backdropFilter: 'blur(12px) saturate(180%)',
+        WebkitBackdropFilter: 'blur(12px) saturate(180%)',
+        background: dark ? 'rgba(120,120,128,0.28)' : 'rgba(255,255,255,0.5)',
+      }} />
+      {/* shine */}
+      <div style={{
+        position: 'absolute', inset: 0, borderRadius: 9999,
+        boxShadow: dark
+          ? 'inset 1.5px 1.5px 1px rgba(255,255,255,0.15), inset -1px -1px 1px rgba(255,255,255,0.08)'
+          : 'inset 1.5px 1.5px 1px rgba(255,255,255,0.7), inset -1px -1px 1px rgba(255,255,255,0.4)',
+        border: dark ? '0.5px solid rgba(255,255,255,0.15)' : '0.5px solid rgba(0,0,0,0.06)',
+      }} />
+      <div style={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', padding: '0 4px' }}>
+        {children}
+      </div>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────
+// Navigation bar — glass pills + large title
+// ─────────────────────────────────────────────────────────────
+function IOSNavBar({ title = 'Title', dark = false, trailingIcon = true }) {
+  const muted = dark ? 'rgba(255,255,255,0.6)' : '#404040';
+  const text = dark ? '#fff' : '#000';
+  const pillIcon = (content) => (
+    <IOSGlassPill dark={dark}>
+      <div style={{ width: 36, height: 36, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        {content}
+      </div>
+    </IOSGlassPill>
+  );
+  return (
+    <div style={{
+      display: 'flex', flexDirection: 'column', gap: 10,
+      paddingTop: 62, paddingBottom: 10, position: 'relative', zIndex: 5,
+    }}>
+      <div style={{
+        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+        padding: '0 16px',
+      }}>
+        {/* back chevron */}
+        {pillIcon(
+          <svg width="12" height="20" viewBox="0 0 12 20" fill="none" style={{ marginLeft: -1 }}>
+            <path d="M10 2L2 10l8 8" stroke={muted} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        )}
+        {/* trailing ellipsis */}
+        {trailingIcon && pillIcon(
+          <svg width="22" height="6" viewBox="0 0 22 6">
+            <circle cx="3" cy="3" r="2.5" fill={muted}/>
+            <circle cx="11" cy="3" r="2.5" fill={muted}/>
+            <circle cx="19" cy="3" r="2.5" fill={muted}/>
+          </svg>
+        )}
+      </div>
+      {/* large title */}
+      <div style={{
+        padding: '0 16px',
+        fontFamily: '-apple-system, system-ui',
+        fontSize: 34, fontWeight: 700, lineHeight: '41px',
+        color: text, letterSpacing: 0.4,
+      }}>{title}</div>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────
+// Grouped list (inset card, r:26) + row (52px)
+// ─────────────────────────────────────────────────────────────
+function IOSListRow({ title, detail, icon, chevron = true, isLast = false, dark = false }) {
+  const text = dark ? '#fff' : '#000';
+  const sec = dark ? 'rgba(235,235,245,0.6)' : 'rgba(60,60,67,0.6)';
+  const ter = dark ? 'rgba(235,235,245,0.3)' : 'rgba(60,60,67,0.3)';
+  const sep = dark ? 'rgba(84,84,88,0.65)' : 'rgba(60,60,67,0.12)';
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', minHeight: 52,
+      padding: '0 16px', position: 'relative',
+      fontFamily: '-apple-system, system-ui', fontSize: 17,
+      letterSpacing: -0.43,
+    }}>
+      {icon && (
+        <div style={{
+          width: 30, height: 30, borderRadius: 7, background: icon,
+          marginRight: 12, flexShrink: 0,
+        }} />
+      )}
+      <div style={{ flex: 1, color: text }}>{title}</div>
+      {detail && <span style={{ color: sec, marginRight: 6 }}>{detail}</span>}
+      {chevron && (
+        <svg width="8" height="14" viewBox="0 0 8 14" style={{ flexShrink: 0 }}>
+          <path d="M1 1l6 6-6 6" stroke={ter} strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      )}
+      {!isLast && (
+        <div style={{
+          position: 'absolute', bottom: 0, right: 0,
+          left: icon ? 58 : 16, height: 0.5, background: sep,
+        }} />
+      )}
+    </div>
+  );
+}
+
+function IOSList({ header, children, dark = false }) {
+  const hc = dark ? 'rgba(235,235,245,0.6)' : 'rgba(60,60,67,0.6)';
+  const bg = dark ? '#1C1C1E' : '#fff';
+  return (
+    <div>
+      {header && (
+        <div style={{
+          fontFamily: '-apple-system, system-ui', fontSize: 13,
+          color: hc, textTransform: 'uppercase',
+          padding: '8px 36px 6px', letterSpacing: -0.08,
+        }}>{header}</div>
+      )}
+      <div style={{
+        background: bg, borderRadius: 26,
+        margin: '0 16px', overflow: 'hidden',
+      }}>{children}</div>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────
+// Device frame
+// ─────────────────────────────────────────────────────────────
+function IOSDevice({
+  children, width = 402, height = 874, dark = false,
+  title, keyboard = false,
+}) {
+  return (
+    <div style={{
+      width, height, borderRadius: 48, overflow: 'hidden',
+      position: 'relative', background: dark ? '#000' : '#F2F2F7',
+      boxShadow: '0 40px 80px rgba(0,0,0,0.18), 0 0 0 1px rgba(0,0,0,0.12)',
+      fontFamily: '-apple-system, system-ui, sans-serif',
+      WebkitFontSmoothing: 'antialiased',
+    }}>
+      {/* dynamic island */}
+      <div style={{
+        position: 'absolute', top: 11, left: '50%', transform: 'translateX(-50%)',
+        width: 126, height: 37, borderRadius: 24, background: '#000', zIndex: 50,
+      }} />
+      {/* status bar (absolute) */}
+      <div style={{ position: 'absolute', top: 0, left: 0, right: 0, zIndex: 10 }}>
+        <IOSStatusBar dark={dark} />
+      </div>
+      {/* nav + content */}
+      <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+        {title !== undefined && <IOSNavBar title={title} dark={dark} />}
+        <div style={{ flex: 1, overflow: 'auto' }}>{children}</div>
+        {keyboard && <IOSKeyboard dark={dark} />}
+      </div>
+      {/* home indicator — always on top */}
+      <div style={{
+        position: 'absolute', bottom: 0, left: 0, right: 0, zIndex: 60,
+        height: 34, display: 'flex', justifyContent: 'center', alignItems: 'flex-end',
+        paddingBottom: 8, pointerEvents: 'none',
+      }}>
+        <div style={{
+          width: 139, height: 5, borderRadius: 100,
+          background: dark ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.25)',
+        }} />
+      </div>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────
+// Keyboard — iOS 26 liquid glass
+// ─────────────────────────────────────────────────────────────
+function IOSKeyboard({ dark = false }) {
+  const glyph = dark ? 'rgba(255,255,255,0.7)' : '#595959';
+  const sugg = dark ? 'rgba(255,255,255,0.6)' : '#333';
+  const keyBg = dark ? 'rgba(255,255,255,0.22)' : 'rgba(255,255,255,0.85)';
+
+  // special-key icons
+  const icons = {
+    shift: <svg width="19" height="17" viewBox="0 0 19 17"><path d="M9.5 1L1 9.5h4.5V16h8V9.5H18L9.5 1z" fill={glyph}/></svg>,
+    del: <svg width="23" height="17" viewBox="0 0 23 17"><path d="M7 1h13a2 2 0 012 2v11a2 2 0 01-2 2H7l-6-7.5L7 1z" fill="none" stroke={glyph} strokeWidth="1.6" strokeLinejoin="round"/><path d="M10 5l7 7M17 5l-7 7" stroke={glyph} strokeWidth="1.6" strokeLinecap="round"/></svg>,
+    ret: <svg width="20" height="14" viewBox="0 0 20 14"><path d="M18 1v6H4m0 0l4-4M4 7l4 4" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>,
+  };
+
+  const key = (content, { w, flex, ret, fs = 25, k } = {}) => (
+    <div key={k} style={{
+      height: 42, borderRadius: 8.5,
+      flex: flex ? 1 : undefined, width: w, minWidth: 0,
+      background: ret ? '#08f' : keyBg,
+      boxShadow: '0 1px 0 rgba(0,0,0,0.075)',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      fontFamily: '-apple-system, "SF Compact", system-ui',
+      fontSize: fs, fontWeight: 458, color: ret ? '#fff' : glyph,
+    }}>{content}</div>
+  );
+
+  const row = (keys, pad = 0) => (
+    <div style={{ display: 'flex', gap: 6.5, justifyContent: 'center', padding: `0 ${pad}px` }}>
+      {keys.map(l => key(l, { flex: true, k: l }))}
+    </div>
+  );
+
+  return (
+    <div style={{
+      position: 'relative', zIndex: 15, borderRadius: 27, overflow: 'hidden',
+      padding: '11px 0 2px',
+      display: 'flex', flexDirection: 'column', alignItems: 'center',
+      boxShadow: dark
+        ? '0 -2px 20px rgba(0,0,0,0.09)'
+        : '0 -1px 6px rgba(0,0,0,0.018), 0 -3px 20px rgba(0,0,0,0.012)',
+    }}>
+      {/* liquid glass bg — same recipe as nav pills */}
+      <div style={{
+        position: 'absolute', inset: 0, borderRadius: 27,
+        backdropFilter: 'blur(12px) saturate(180%)',
+        WebkitBackdropFilter: 'blur(12px) saturate(180%)',
+        background: dark ? 'rgba(120,120,128,0.14)' : 'rgba(255,255,255,0.25)',
+      }} />
+      <div style={{
+        position: 'absolute', inset: 0, borderRadius: 27,
+        boxShadow: dark
+          ? 'inset 1.5px 1.5px 1px rgba(255,255,255,0.15)'
+          : 'inset 1.5px 1.5px 1px rgba(255,255,255,0.7), inset -1px -1px 1px rgba(255,255,255,0.4)',
+        border: dark ? '0.5px solid rgba(255,255,255,0.15)' : '0.5px solid rgba(0,0,0,0.06)',
+        pointerEvents: 'none',
+      }} />
+
+      {/* autocorrect bar */}
+      <div style={{
+        display: 'flex', gap: 20, alignItems: 'center',
+        padding: '8px 22px 13px', width: '100%', boxSizing: 'border-box',
+        position: 'relative',
+      }}>
+        {['"The"', 'the', 'to'].map((w, i) => (
+          <React.Fragment key={i}>
+            {i > 0 && <div style={{ width: 1, height: 25, background: '#ccc', opacity: 0.3 }} />}
+            <div style={{
+              flex: 1, textAlign: 'center',
+              fontFamily: '-apple-system, system-ui', fontSize: 17,
+              color: sugg, letterSpacing: -0.43, lineHeight: '22px',
+            }}>{w}</div>
+          </React.Fragment>
+        ))}
+      </div>
+
+      {/* key layout */}
+      <div style={{
+        display: 'flex', flexDirection: 'column', gap: 13,
+        padding: '0 6.5px', width: '100%', boxSizing: 'border-box',
+        position: 'relative',
+      }}>
+        {row(['q','w','e','r','t','y','u','i','o','p'])}
+        {row(['a','s','d','f','g','h','j','k','l'], 20)}
+        <div style={{ display: 'flex', gap: 14.25, alignItems: 'center' }}>
+          {key(icons.shift, { w: 45, k: 'shift' })}
+          <div style={{ display: 'flex', gap: 6.5, flex: 1 }}>
+            {['z','x','c','v','b','n','m'].map(l => key(l, { flex: true, k: l }))}
+          </div>
+          {key(icons.del, { w: 45, k: 'del' })}
+        </div>
+        <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
+          {key('ABC', { w: 92.25, fs: 18, k: 'abc' })}
+          {key('', { flex: true, k: 'space' })}
+          {key(icons.ret, { w: 92.25, ret: true, k: 'ret' })}
+        </div>
+      </div>
+
+      {/* bottom spacer (emoji+mic area, icons omitted) */}
+      <div style={{ height: 56, width: '100%', position: 'relative' }} />
+    </div>
+  );
+}
+
+Object.assign(window, {
+  IOSDevice, IOSStatusBar, IOSNavBar, IOSGlassPill, IOSList, IOSListRow, IOSKeyboard,
+});
+// Sample content for Kehanote — Communication / Journalism studies
+
+const SUBJECTS = [
+  {
+    id: 'theo-info',
+    title: "Théories de l'information",
+    teacher: "M. Lefèvre",
+    progress: 0.72,
+    color: 'rose',
+    icon: 'book',
+    chapters: 8,
+    cards: 42,
+    next: "Mardi 14:00",
+  },
+  {
+    id: 'socio-medias',
+    title: "Sociologie des médias",
+    teacher: "Mme Hadj",
+    progress: 0.45,
+    color: 'lav',
+    icon: 'people',
+    chapters: 6,
+    cards: 28,
+    next: "Jeudi 9:00",
+  },
+  {
+    id: 'ecriture',
+    title: "Écriture journalistique",
+    teacher: "M. Bernard",
+    progress: 0.88,
+    color: 'peach',
+    icon: 'pen',
+    chapters: 5,
+    cards: 36,
+    next: "Vendredi 11:00",
+  },
+  {
+    id: 'droit-presse',
+    title: "Droit de la presse",
+    teacher: "Mme Renaud",
+    progress: 0.30,
+    color: 'sage',
+    icon: 'scale',
+    chapters: 7,
+    cards: 31,
+    next: "Lundi prochain",
+  },
+];
+
+// Le Concentré — summaries, organized as bullet sections per chapter
+const CONCENTRE = {
+  'theo-info': {
+    chapter: "Chapitre 3 — Le modèle de Shannon",
+    readingTime: "4 min",
+    sections: [
+      {
+        title: "L'essentiel",
+        kind: 'key',
+        bullets: [
+          "Modèle mathématique (1948) qui décrit la transmission d'un message",
+          "Six éléments : source, encodeur, canal, décodeur, destinataire, bruit",
+          "Vise à mesurer, pas à interpréter le sens",
+        ],
+      },
+      {
+        title: "À retenir",
+        kind: 'def',
+        bullets: [
+          "Information = ce qui réduit l'incertitude (mesuré en bits)",
+          "Le bruit = toute perturbation qui altère le message",
+          "Redondance = répétition pour assurer la transmission",
+        ],
+      },
+      {
+        title: "Pour l'oral",
+        kind: 'tip',
+        bullets: [
+          "Critique : modèle linéaire, ignore le contexte humain",
+          "Lasswell complète avec « qui dit quoi à qui ? »",
+          "Reste la base de toute théorie de la communication",
+        ],
+      },
+    ],
+  },
+  'socio-medias': {
+    chapter: "Chapitre 2 — Agenda-setting",
+    readingTime: "3 min",
+    sections: [
+      { title: "L'essentiel", kind: 'key', bullets: [
+        "McCombs & Shaw, 1972 — étude de la campagne Nixon",
+        "Les médias ne disent pas quoi penser, mais à quoi penser",
+        "Hiérarchie des sujets = hiérarchie des préoccupations publiques",
+      ]},
+      { title: "À retenir", kind: 'def', bullets: [
+        "Premier niveau : sélection des sujets traités",
+        "Second niveau : attributs mis en avant (cadrage)",
+        "Effet d'amorçage = priming",
+      ]},
+    ],
+  },
+  'ecriture': {
+    chapter: "Chapitre 1 — La pyramide inversée",
+    readingTime: "3 min",
+    sections: [
+      { title: "L'essentiel", kind: 'key', bullets: [
+        "Structure : du plus important au moins important",
+        "Le lead répond aux 5W (Qui, Quoi, Où, Quand, Pourquoi)",
+        "Permet une lecture rapide et un coupage facile",
+      ]},
+      { title: "À retenir", kind: 'def', bullets: [
+        "Lead = première phrase, max 30 mots",
+        "Attaque = accroche, peut être indirecte",
+        "Chute = phrase finale, fait écho au lead",
+      ]},
+    ],
+  },
+  'droit-presse': {
+    chapter: "Chapitre 1 — Loi de 1881",
+    readingTime: "5 min",
+    sections: [
+      { title: "L'essentiel", kind: 'key', bullets: [
+        "Loi fondatrice du 29 juillet 1881",
+        "Pose la liberté de la presse comme principe",
+        "Définit les délits : diffamation, injure, provocation",
+      ]},
+    ],
+  },
+};
+
+// Flashcards — Q/A
+const FLASHCARDS = {
+  'theo-info': [
+    { q: "Qui a formalisé le modèle mathématique de la communication en 1948 ?", a: "Claude Shannon (avec Warren Weaver)." },
+    { q: "Que mesure-t-on en bits dans la théorie de Shannon ?", a: "L'information, définie comme la réduction de l'incertitude." },
+    { q: "Quels sont les six éléments du modèle de Shannon ?", a: "Source, encodeur, canal, décodeur, destinataire, bruit." },
+    { q: "Que signifie « bruit » dans ce modèle ?", a: "Toute perturbation qui altère la transmission du message." },
+    { q: "Quelle est la principale critique adressée au modèle de Shannon ?", a: "Il est linéaire et ignore le contexte humain et le sens." },
+    { q: "À quoi sert la redondance ?", a: "À assurer la bonne transmission malgré le bruit." },
+  ],
+  'socio-medias': [
+    { q: "Qui a formulé la théorie de l'agenda-setting ?", a: "McCombs et Shaw, en 1972." },
+    { q: "Quelle est l'idée centrale de l'agenda-setting ?", a: "Les médias ne disent pas quoi penser, mais à quoi penser." },
+    { q: "Que désigne le « second niveau » d'agenda-setting ?", a: "Le cadrage : les attributs mis en avant pour chaque sujet." },
+    { q: "Qu'est-ce que l'effet d'amorçage (priming) ?", a: "Activer certains critères d'évaluation chez le public via les sujets traités." },
+  ],
+  'ecriture': [
+    { q: "Qu'appelle-t-on la pyramide inversée ?", a: "Une structure qui commence par l'information la plus importante." },
+    { q: "Que sont les 5W ?", a: "Qui, Quoi, Où, Quand, Pourquoi — les questions du lead." },
+    { q: "Quelle est la longueur idéale d'un lead ?", a: "Maximum 30 mots, en une seule phrase si possible." },
+    { q: "Qu'est-ce qu'une chute ?", a: "La phrase finale d'un article, qui fait souvent écho à l'attaque." },
+  ],
+  'droit-presse': [
+    { q: "Quelle est la loi fondatrice de la liberté de la presse en France ?", a: "La loi du 29 juillet 1881." },
+    { q: "Quels délits définit-elle ?", a: "Diffamation, injure, provocation, outrage." },
+  ],
+};
+
+// QCM — chaque question a un niveau : 'easy' | 'medium' | 'hard'
+const QCM = {
+  'theo-info': [
+    {
+      level: 'easy',
+      q: "Le modèle de Shannon date de…",
+      choices: ["1928", "1948", "1968", "1988"],
+      correct: 1,
+      explain: "Publié dans A Mathematical Theory of Communication en 1948.",
+    },
+    {
+      level: 'easy',
+      q: "L'information se mesure en…",
+      choices: ["Octets", "Hertz", "Bits", "Décibels"],
+      correct: 2,
+      explain: "L'unité fondamentale, introduite par Shannon, est le bit.",
+    },
+    {
+      level: 'medium',
+      q: "Dans le modèle, le « bruit » désigne…",
+      choices: [
+        "Le sens du message",
+        "Toute perturbation altérant la transmission",
+        "Le récepteur",
+        "Le canal de communication",
+      ],
+      correct: 1,
+      explain: "Le bruit regroupe toutes les interférences possibles.",
+    },
+    {
+      level: 'medium',
+      q: "Qui complète Shannon avec « qui dit quoi à qui » ?",
+      choices: ["Lazarsfeld", "Lasswell", "McLuhan", "Habermas"],
+      correct: 1,
+      explain: "Harold Lasswell, dès 1948 également.",
+    },
+    {
+      level: 'hard',
+      q: "Quelle est la principale limite épistémologique du modèle ?",
+      choices: [
+        "Il est trop complexe à formaliser",
+        "Il ignore le contexte humain et le sens",
+        "Il ne s'applique qu'à la radio",
+        "Il confond émetteur et canal",
+      ],
+      correct: 1,
+      explain: "C'est un modèle technique, pas sémantique — d'où les critiques de l'école de Palo Alto.",
+    },
+    {
+      level: 'hard',
+      q: "La redondance, chez Shannon, sert à…",
+      choices: [
+        "Réduire la quantité d'information",
+        "Compenser le bruit du canal",
+        "Augmenter la rapidité de transmission",
+        "Coder le message en binaire",
+      ],
+      correct: 1,
+      explain: "Plus de redondance = plus de chances que le message arrive intact malgré le bruit.",
+    },
+  ],
+  'socio-medias': [
+    { level: 'easy',   q: "Agenda-setting est de…", choices: ["1962","1972","1982","1992"], correct: 1, explain: "Étude lors de la campagne Nixon, 1972." },
+    { level: 'easy',   q: "Les médias nous disent…", choices: ["Quoi penser","À quoi penser","Comment penser","Quand penser"], correct: 1, explain: "Formulation classique de McCombs & Shaw." },
+    { level: 'medium', q: "La spirale du silence est de…", choices: ["McLuhan","Noelle-Neumann","Habermas","Bourdieu"], correct: 1, explain: "Elisabeth Noelle-Neumann, 1974." },
+    { level: 'medium', q: "Selon Gerbner, plus on regarde la TV, plus on…", choices: ["Devient critique","Surestime la violence du monde","Lit de livres","S'informe localement"], correct: 1, explain: "Effet de cultivation : la vision du monde est façonnée par la durée d'exposition." },
+    { level: 'hard',   q: "Le « cadrage » (framing) est…", choices: ["Synonyme d'agenda-setting","Le second niveau d'agenda-setting","L'opposé de l'agenda-setting","Une théorie behaviouriste"], correct: 1, explain: "Premier niveau : à quoi penser. Second : comment le penser." },
+    { level: 'hard',   q: "L'approche Usages & Gratifications postule un public…", choices: ["Passif et manipulé","Actif qui choisit","Sociologiquement homogène","Soumis à l'agenda"], correct: 1, explain: "Renversement : c'est le public qui utilise les médias selon ses besoins." },
+  ],
+  'ecriture': [
+    { level: 'easy',   q: "Le lead doit faire au maximum…", choices: ["10 mots","30 mots","50 mots","80 mots"], correct: 1, explain: "Pour rester lisible et efficace." },
+    { level: 'easy',   q: "Les 5W comprennent…", choices: ["Qui, Quoi, Où, Quand, Pourquoi","Qui, Quand, Où, Combien, Comment","Quoi, Comment, Pourquoi, Où, Qui","Pourquoi, Comment, Qui, Quand, Combien"], correct: 0, explain: "Les fondamentaux du lead journalistique." },
+    { level: 'medium', q: "Dans la pyramide inversée, on commence par…", choices: ["Le contexte historique","L'information principale","Une anecdote","La citation la plus longue"], correct: 1, explain: "L'essentiel d'abord — le lecteur doit pouvoir s'arrêter à tout moment." },
+    { level: 'medium', q: "La « chute » d'un article doit…", choices: ["Résumer le texte","Faire écho au lead","Ajouter une morale","Citer une source"], correct: 1, explain: "Une chute referme la boucle ouverte par l'attaque." },
+    { level: 'hard',   q: "Quelle structure n'est PAS classique en presse écrite ?", choices: ["Pyramide inversée","Récit chronologique","Plan dialectique académique","Plan thématique"], correct: 2, explain: "Le plan dialectique relève de la dissertation, pas du journalisme." },
+  ],
+  'droit-presse': [
+    { level: 'easy',   q: "Loi fondatrice de la presse :", choices: ["1789","1848","1881","1905"], correct: 2, explain: "29 juillet 1881." },
+    { level: 'easy',   q: "La diffamation porte atteinte à…", choices: ["L'image","L'honneur","Le secret","Le copyright"], correct: 1, explain: "Allégation portant atteinte à l'honneur ou la considération." },
+    { level: 'medium', q: "Le droit à l'image protège…", choices: ["Les œuvres d'art","Toute personne identifiable","Uniquement les célébrités","Les marques"], correct: 1, explain: "Toute personne identifiable doit consentir à la diffusion de son image." },
+    { level: 'medium', q: "Le secret des sources des journalistes a été renforcé par la loi…", choices: ["1881","1972","2010","1958"], correct: 2, explain: "Loi du 4 janvier 2010, encore renforcée en 2022." },
+    { level: 'hard',   q: "L'injure se distingue de la diffamation par…", choices: ["L'absence d'allégation factuelle","Sa peine plus lourde","Le médium utilisé","Sa prescription plus longue"], correct: 0, explain: "L'injure est une expression outrageante sans imputation d'un fait précis." },
+  ],
+};
+
+// Mode Panique — ultra condensed (~5 min)
+const PANIC = {
+  'theo-info': [
+    "Shannon (1948) — modèle mathématique en 6 éléments.",
+    "Bruit = perturbation. Redondance = sécurité.",
+    "Information mesurée en bits = réduction d'incertitude.",
+    "Critique : linéaire, sans contexte. Lasswell complète.",
+    "Base de toute théorie de la com.",
+  ],
+  'socio-medias': [
+    "Agenda-setting (McCombs & Shaw, 1972) : les médias dictent à quoi penser, pas quoi penser.",
+    "Cultivation theory (Gerbner) : l'exposition longue façonne la vision du monde.",
+    "Spirale du silence (Noelle-Neumann) : on tait son opinion si elle paraît minoritaire.",
+    "Usages & gratifications : le public est actif, il choisit ce qu'il consomme.",
+    "Cadrage = second niveau d'agenda-setting (comment penser le sujet).",
+  ],
+  'ecriture': [
+    "Pyramide inversée : le plus important d'abord, le contexte ensuite.",
+    "Lead = 5W (Qui, Quoi, Où, Quand, Pourquoi), 30 mots max.",
+    "Attaque = accroche · Chute = écho au lead, pas une morale.",
+    "Verbes actifs, présent de narration, phrases courtes.",
+    "Une idée par paragraphe. Couper, couper, couper.",
+  ],
+  'droit-presse': [
+    "Loi du 29 juillet 1881 : pierre angulaire de la liberté de la presse.",
+    "Délits principaux : diffamation, injure, provocation, outrage.",
+    "Diffamation = allégation portant atteinte à l'honneur d'une personne.",
+    "Droit à l'image : autorisation requise pour personnes identifiables.",
+    "Secret des sources protégé (loi 2010, renforcée 2022).",
+  ],
+};
+
+const STREAK_DATA = [true, true, true, false, true, true, true]; // last 7 days
+
+// Système de notation (sur 20)
+const SCORING = {
+  correct: 1,    // bonne réponse → +1
+  wrong: -0.5,   // mauvaise → -0.5
+  skip: -0.25,   // passée → -0.25
+};
+
+// Niveaux de difficulté (multiplicateur appliqué au score final sur 20)
+const LEVELS = [
+  {
+    id: 'easy',
+    label: 'Facile',
+    sub: 'Les bases',
+    icon: '🌸',
+    color: '#BCD4C0',
+    bg: 'rgba(188, 212, 192, 0.18)',
+    multiplier: 1,
+    target: 5,  // nombre de questions visé
+  },
+  {
+    id: 'medium',
+    label: 'Moyen',
+    sub: 'Pour progresser',
+    icon: '🌹',
+    color: '#EC6F92',
+    bg: 'rgba(236, 111, 146, 0.15)',
+    multiplier: 1.25,
+    target: 5,
+  },
+  {
+    id: 'hard',
+    label: 'Difficile',
+    sub: 'Pour le partiel',
+    icon: '⚡',
+    color: '#6E5A8A',
+    bg: 'rgba(110, 90, 138, 0.15)',
+    multiplier: 1.5,
+    target: 5,
+  },
+];
+
+const ENCOURAGE = [
+  "Respire. Tu progresses chaque jour.",
+  "Une petite session vaut mieux qu'une grande qui n'arrive pas.",
+  "Tu es exactement là où tu dois être.",
+  "Doucement, sûrement.",
+  "Trois cartes, et c'est déjà gagné.",
+];
+
+Object.assign(window, { SUBJECTS, CONCENTRE, FLASHCARDS, QCM, PANIC, STREAK_DATA, ENCOURAGE, SCORING, LEVELS });
+// Mochi — original kawaii bunny mascot for Kehanote.
+// Pure SVG, multiple expressions and poses.
+
+function Mochi({ size = 120, mood = 'happy', accessory = null, style = {} }) {
+  // mood: happy, wink, sleepy, hooray, focus, blush, sad
+  const fur = '#FFD1DC';
+  const furShade = '#F8B5C5';
+  const inner = '#FFE9EE';
+  const nose = '#E68FA1';
+  const blush = 'rgba(231, 100, 130, 0.45)';
+  const eye = '#3A2330';
+  const sparkleC = '#FFFFFF';
+
+  // Eyes per mood
+  const Eyes = () => {
+    if (mood === 'wink') return (
+      <g>
+        <ellipse cx="78" cy="115" rx="6" ry="8" fill={eye}/>
+        <circle cx="80" cy="112" r="2.2" fill={sparkleC}/>
+        <path d="M115 113 Q123 118 131 113" stroke={eye} strokeWidth="3.5" fill="none" strokeLinecap="round"/>
+      </g>
+    );
+    if (mood === 'sleepy') return (
+      <g>
+        <path d="M72 115 Q78 118 84 115" stroke={eye} strokeWidth="3.5" fill="none" strokeLinecap="round"/>
+        <path d="M115 115 Q121 118 127 115" stroke={eye} strokeWidth="3.5" fill="none" strokeLinecap="round"/>
+      </g>
+    );
+    if (mood === 'hooray') return (
+      <g>
+        <path d="M70 118 Q78 110 86 118" stroke={eye} strokeWidth="3.5" fill="none" strokeLinecap="round"/>
+        <path d="M113 118 Q121 110 129 118" stroke={eye} strokeWidth="3.5" fill="none" strokeLinecap="round"/>
+      </g>
+    );
+    if (mood === 'focus') return (
+      <g>
+        <ellipse cx="78" cy="115" rx="5" ry="6" fill={eye}/>
+        <ellipse cx="121" cy="115" rx="5" ry="6" fill={eye}/>
+      </g>
+    );
+    if (mood === 'sad') return (
+      <g>
+        <ellipse cx="78" cy="116" rx="5" ry="7" fill={eye}/>
+        <ellipse cx="121" cy="116" rx="5" ry="7" fill={eye}/>
+        <path d="M70 105 Q78 102 86 107" stroke={eye} strokeWidth="2.2" fill="none" strokeLinecap="round"/>
+        <path d="M113 107 Q121 102 129 105" stroke={eye} strokeWidth="2.2" fill="none" strokeLinecap="round"/>
+      </g>
+    );
+    // happy / blush default
+    return (
+      <g>
+        <ellipse cx="78" cy="115" rx="6.5" ry="8.5" fill={eye}/>
+        <circle cx="80" cy="112" r="2.4" fill={sparkleC}/>
+        <ellipse cx="121" cy="115" rx="6.5" ry="8.5" fill={eye}/>
+        <circle cx="123" cy="112" r="2.4" fill={sparkleC}/>
+      </g>
+    );
+  };
+
+  // Mouth per mood
+  const Mouth = () => {
+    if (mood === 'hooray') return (
+      <path d="M88 138 Q100 152 112 138 Q100 144 88 138 Z" fill="#C84968" stroke="#A33857" strokeWidth="1.5"/>
+    );
+    if (mood === 'sleepy') return (
+      <path d="M95 138 Q100 142 105 138" stroke={eye} strokeWidth="2.5" fill="none" strokeLinecap="round"/>
+    );
+    if (mood === 'sad') return (
+      <path d="M92 142 Q100 137 108 142" stroke={eye} strokeWidth="2.5" fill="none" strokeLinecap="round"/>
+    );
+    return (
+      <g>
+        <path d="M100 132 L96 138 L104 138 Z" fill={nose}/>
+        <path d="M96 138 Q92 144 88 142" stroke={eye} strokeWidth="2.2" fill="none" strokeLinecap="round"/>
+        <path d="M104 138 Q108 144 112 142" stroke={eye} strokeWidth="2.2" fill="none" strokeLinecap="round"/>
+      </g>
+    );
+  };
+
+  return (
+    <svg width={size} height={size} viewBox="0 0 200 200" style={style}>
+      {/* ears back shadow */}
+      <ellipse cx="62" cy="48" rx="14" ry="38" fill={furShade} transform="rotate(-12 62 48)"/>
+      <ellipse cx="138" cy="48" rx="14" ry="38" fill={furShade} transform="rotate(12 138 48)"/>
+      {/* ears */}
+      <ellipse cx="64" cy="50" rx="12" ry="34" fill={fur} transform="rotate(-12 64 50)"/>
+      <ellipse cx="136" cy="50" rx="12" ry="34" fill={fur} transform="rotate(12 136 50)"/>
+      {/* inner ears */}
+      <ellipse cx="64" cy="55" rx="6" ry="22" fill={inner} transform="rotate(-12 64 55)"/>
+      <ellipse cx="136" cy="55" rx="6" ry="22" fill={inner} transform="rotate(12 136 55)"/>
+
+      {/* head */}
+      <ellipse cx="100" cy="115" rx="58" ry="52" fill={fur}/>
+      {/* head shading */}
+      <ellipse cx="100" cy="125" rx="50" ry="40" fill={inner} opacity="0.55"/>
+
+      {/* blush */}
+      <ellipse cx="65" cy="132" rx="11" ry="6" fill={blush}/>
+      <ellipse cx="135" cy="132" rx="11" ry="6" fill={blush}/>
+
+      <Eyes />
+      <Mouth />
+
+      {/* tiny accessory: heart, book, etc. */}
+      {accessory === 'heart' && (
+        <g transform="translate(155 60)">
+          <path d="M0 6 C0 2 4 -1 8 1 C12 -1 16 2 16 6 C16 11 8 17 8 17 C8 17 0 11 0 6 Z" fill="#EC6F92"/>
+        </g>
+      )}
+      {accessory === 'book' && (
+        <g transform="translate(58 162)">
+          <rect x="0" y="0" width="84" height="22" rx="3" fill="#fff" stroke="#E68FA1" strokeWidth="1.5"/>
+          <line x1="42" y1="2" x2="42" y2="20" stroke="#E68FA1" strokeWidth="1"/>
+          <line x1="8" y1="8" x2="36" y2="8" stroke="#FFD1DC" strokeWidth="1"/>
+          <line x1="8" y1="13" x2="32" y2="13" stroke="#FFD1DC" strokeWidth="1"/>
+          <line x1="48" y1="8" x2="76" y2="8" stroke="#FFD1DC" strokeWidth="1"/>
+          <line x1="48" y1="13" x2="72" y2="13" stroke="#FFD1DC" strokeWidth="1"/>
+        </g>
+      )}
+      {accessory === 'star' && (
+        <g transform="translate(150 50)">
+          <path d="M10 0 L12 7 L19 7 L13.5 11.5 L15.5 19 L10 14.5 L4.5 19 L6.5 11.5 L1 7 L8 7 Z" fill="#E8C57A"/>
+        </g>
+      )}
+    </svg>
+  );
+}
+
+// Sparkle decoration
+function Sparkle({ x, y, size = 14, delay = 0, color = '#FFFFFF' }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 20 20" style={{
+      position: 'absolute', left: x, top: y,
+      animation: `sparkle 2.4s ease-in-out ${delay}s infinite`,
+      pointerEvents: 'none',
+    }}>
+      <path d="M10 0 L12 8 L20 10 L12 12 L10 20 L8 12 L0 10 L8 8 Z" fill={color}/>
+    </svg>
+  );
+}
+
+// Heart decoration
+function Heart({ size = 16, color = '#EC6F92', style = {} }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 20 20" style={style}>
+      <path d="M10 17 C10 17 1 11.5 1 6 C1 3 3.5 1 6 1 C8 1 9.5 2 10 3.5 C10.5 2 12 1 14 1 C16.5 1 19 3 19 6 C19 11.5 10 17 10 17 Z" fill={color}/>
+    </svg>
+  );
+}
+
+Object.assign(window, { Mochi, Sparkle, Heart });
+// Onboarding screen — first launch
+function Onboarding({ onStart, tweaks }) {
+  const [step, setStep] = React.useState(0);
+  const slides = [
+    {
+      mood: 'happy', acc: 'heart',
+      title: "Coucou, moi c'est Mochi",
+      sub: "Ton compagnon de révision. Ensemble, on transforme tes cours en bouchées faciles à mémoriser.",
+    },
+    {
+      mood: 'focus', acc: 'book',
+      title: "Trois manières de réviser",
+      sub: "Le Concentré pour comprendre. Swipe pour mémoriser. Challenge pour t'auto-tester. Tu choisis ton rythme.",
+    },
+    {
+      mood: 'wink', acc: 'star',
+      title: "Et si la panique arrive…",
+      sub: "Le Mode Panique te résume tout en 5 minutes chrono. Respire. Tu vas y arriver.",
+    },
+  ];
+  const cur = slides[step];
+  const isLast = step === slides.length - 1;
+
+  return (
+    <div className="kn-screen screen-anim" style={{ display: 'flex', flexDirection: 'column' }}>
+      {/* Decorative sparkles */}
+      <Sparkle x={42} y={120} size={16} delay={0.2} color="#FBB6C8" />
+      <Sparkle x={340} y={150} size={12} delay={0.6} color="#FBB6C8" />
+      <Sparkle x={60} y={420} size={10} delay={1.0} color="#E8C57A" />
+      <Sparkle x={330} y={460} size={14} delay={1.4} color="#FBB6C8" />
+
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '0 32px' }}>
+        <div className="float" style={{ marginTop: -40 }}>
+          <Mochi size={200} mood={cur.mood} accessory={cur.acc} />
+        </div>
+
+        <div className="kn-wordmark" style={{
+          fontSize: 38, color: 'var(--ink-900)', marginTop: 12,
+          display: 'flex', alignItems: 'center', gap: 2,
+        }}>
+          Kehan<span style={{ position: 'relative', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 36, height: 36 }}>
+            <Heart size={28} color="var(--rose-500)" style={{ position: 'absolute' }} />
+            <span style={{ position: 'relative', color: 'white', fontSize: 22, fontStyle: 'italic', fontWeight: 700, marginTop: -2 }}>o</span>
+          </span>te
+        </div>
+
+        <h1 style={{
+          fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+          fontSize: 30, lineHeight: 1.15, textAlign: 'center', margin: '24px 0 12px',
+          letterSpacing: '-0.01em', textWrap: 'balance',
+        }}>{cur.title}</h1>
+        <p style={{
+          fontSize: 16, lineHeight: 1.5, color: 'var(--ink-500)',
+          textAlign: 'center', margin: 0, maxWidth: 300, textWrap: 'pretty',
+        }}>{cur.sub}</p>
+      </div>
+
+      {/* Dots */}
+      <div style={{ display: 'flex', justifyContent: 'center', gap: 6, marginBottom: 18 }}>
+        {slides.map((_, i) => (
+          <div key={i} style={{
+            width: i === step ? 22 : 6, height: 6, borderRadius: 3,
+            background: i === step ? 'var(--rose-500)' : 'var(--rose-200)',
+            transition: 'all 320ms cubic-bezier(.22,.9,.32,1.02)',
+          }} />
+        ))}
+      </div>
+
+      <div style={{ padding: '0 28px 56px', display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <button className="btn-primary tap" onClick={() => isLast ? onStart() : setStep(step + 1)}>
+          {isLast ? "Commencer ma révision" : "Continuer"}
+        </button>
+        {!isLast && (
+          <button className="tap" onClick={onStart} style={{
+            background: 'transparent', border: 'none',
+            color: 'var(--ink-500)', fontWeight: 700, fontSize: 14,
+            padding: 8,
+          }}>Passer l'intro</button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { Onboarding });
+// Home screen — subjects list + greeting + streak + quick mode panique
+
+function ProgressRing({ value = 0, size = 44, stroke = 4, color = 'var(--rose-500)' }) {
+  const r = (size - stroke) / 2;
+  const c = 2 * Math.PI * r;
+  return (
+    <svg width={size} height={size} style={{ transform: 'rotate(-90deg)' }}>
+      <circle cx={size/2} cy={size/2} r={r} fill="none"
+        stroke="var(--rose-100)" strokeWidth={stroke}/>
+      <circle cx={size/2} cy={size/2} r={r} fill="none"
+        stroke={color} strokeWidth={stroke} strokeLinecap="round"
+        strokeDasharray={c} strokeDashoffset={c * (1 - value)}
+        style={{ transition: 'stroke-dashoffset 800ms cubic-bezier(.22,.9,.32,1.02)' }}/>
+    </svg>
+  );
+}
+
+function Home({ onOpenSubject, onPanic, onPlayMode }) {
+  const today = new Date().toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' });
+  const days = ['L','M','M','J','V','S','D'];
+  const greeting = ENCOURAGE[Math.floor(Date.now()/86400000) % ENCOURAGE.length];
+
+  return (
+    <div className="kn-screen screen-anim">
+      <Sparkle x={340} y={70} size={12} delay={0.4} color="#FBB6C8" />
+      <Sparkle x={30} y={210} size={10} delay={0.9} color="#E8C57A" />
+
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 110 }}>
+        {/* Greeting */}
+        <div style={{ padding: '8px 24px 20px', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between' }}>
+          <div>
+            <div style={{ fontSize: 12, fontWeight: 800, letterSpacing: '0.12em', color: 'var(--rose-600)', textTransform: 'uppercase' }}>
+              {today}
+            </div>
+            <h1 style={{
+              fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+              fontSize: 32, margin: '6px 0 4px', letterSpacing: '-0.01em', lineHeight: 1.1,
+            }}>Bonjour, Kehane</h1>
+            <p style={{ fontSize: 14, color: 'var(--ink-500)', margin: 0, maxWidth: 240, textWrap: 'pretty' }}>
+              {greeting}
+            </p>
+          </div>
+          <button className="tap" onClick={onPlayMode} style={{
+            width: 44, height: 44, borderRadius: '50%',
+            background: 'white', border: '1px solid rgba(180,60,100,0.08)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-card)',
+          }}>
+            <Mochi size={36} mood="happy" />
+          </button>
+        </div>
+
+        {/* Streak card */}
+        <div style={{ margin: '0 18px 16px', display: 'flex', gap: 10 }}>
+          <div className="kn-card" style={{ flex: 1.4, padding: 16, display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+              <div style={{ fontSize: 12, fontWeight: 800, color: 'var(--ink-500)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>Série</div>
+              <div style={{ fontSize: 13, color: 'var(--rose-600)', fontWeight: 800 }}>6 jours 💗</div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              {STREAK_DATA.map((on, i) => (
+                <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+                  <div style={{
+                    width: 22, height: 22, borderRadius: 8,
+                    background: on ? 'var(--rose-500)' : 'var(--rose-100)',
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  }}>
+                    {on && <Heart size={12} color="white" />}
+                  </div>
+                  <span style={{ fontSize: 10, color: 'var(--ink-500)', fontWeight: 700 }}>{days[i]}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Mode Panique button */}
+          <button className="tap" onClick={onPanic} style={{
+            flex: 1, border: 'none',
+            background: 'linear-gradient(155deg, #2A1B26 0%, #4A2B3E 100%)',
+            color: 'white', borderRadius: 'var(--r-lg)',
+            padding: 14, textAlign: 'left',
+            display: 'flex', flexDirection: 'column', justifyContent: 'space-between',
+            boxShadow: '0 8px 24px rgba(42, 27, 38, 0.25)',
+            position: 'relative', overflow: 'hidden',
+          }}>
+            <div style={{ fontSize: 22, lineHeight: 1 }}>🚨</div>
+            <div>
+              <div style={{ fontSize: 14, fontWeight: 800, marginBottom: 2 }}>Mode Panique</div>
+              <div style={{ fontSize: 11, opacity: 0.7, lineHeight: 1.3 }}>Tout en 5 min</div>
+            </div>
+            <Sparkle x={70} y={6} size={10} delay={0.3} color="#F590AB" />
+          </button>
+        </div>
+
+        {/* Subjects */}
+        <div style={{ padding: '8px 24px 6px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontSize: 22, fontWeight: 500 }}>
+            Tes matières
+          </div>
+          <span style={{ fontSize: 12, color: 'var(--ink-500)', fontWeight: 700 }}>{SUBJECTS.length} cours</span>
+        </div>
+
+        <div style={{ padding: '0 18px', display: 'flex', flexDirection: 'column', gap: 10 }}>
+          {SUBJECTS.map((s, i) => (
+            <button key={s.id} className="kn-card tap" onClick={() => onOpenSubject(s)}
+              style={{
+                border: 'none', textAlign: 'left',
+                padding: 16, display: 'flex', alignItems: 'center', gap: 14,
+                background: 'white',
+                animation: `screen-in 480ms ${i * 80}ms backwards cubic-bezier(.22,.9,.32,1.02)`,
+              }}>
+              {/* Color tab */}
+              <div style={{
+                width: 48, height: 48, borderRadius: 14,
+                background: s.color === 'rose' ? 'linear-gradient(155deg, #FFD3DF, #F590AB)'
+                          : s.color === 'lav'  ? 'linear-gradient(155deg, #EFE7F6, #C8B8DC)'
+                          : s.color === 'peach'? 'linear-gradient(155deg, #FFE4D6, #FFC09E)'
+                          :                       'linear-gradient(155deg, #DDEDE1, #BCD4C0)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                flexShrink: 0,
+              }}>
+                <SubjectIcon icon={s.icon} />
+              </div>
+
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ fontSize: 15, fontWeight: 800, marginBottom: 2, color: 'var(--ink-900)' }}>{s.title}</div>
+                <div style={{ fontSize: 12, color: 'var(--ink-500)', display: 'flex', gap: 8, alignItems: 'center' }}>
+                  <span>{s.chapters} chap.</span>
+                  <span style={{ color: 'var(--rose-200)' }}>•</span>
+                  <span>{s.cards} cartes</span>
+                </div>
+              </div>
+
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
+                <ProgressRing value={s.progress} />
+                <span style={{ fontSize: 10, fontWeight: 800, color: 'var(--rose-600)' }}>{Math.round(s.progress*100)}%</span>
+              </div>
+            </button>
+          ))}
+        </div>
+
+        {/* footer note */}
+        <div style={{ padding: '24px 32px 0', textAlign: 'center', fontSize: 12, color: 'var(--ink-300)', fontStyle: 'italic' }}>
+          « Doucement, sûrement. »
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function SubjectIcon({ icon }) {
+  const c = 'rgba(42, 27, 38, 0.7)';
+  if (icon === 'people') return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <circle cx="9" cy="8" r="3" stroke={c} strokeWidth="1.8"/>
+      <circle cx="16" cy="9" r="2.2" stroke={c} strokeWidth="1.8"/>
+      <path d="M3 19c0-3 3-5 6-5s6 2 6 5" stroke={c} strokeWidth="1.8" strokeLinecap="round"/>
+      <path d="M14 14c2.5 0 5 1.5 6 4" stroke={c} strokeWidth="1.8" strokeLinecap="round"/>
+    </svg>
+  );
+  if (icon === 'pen') return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M4 20l4-1 11-11-3-3L5 16l-1 4z" stroke={c} strokeWidth="1.8" strokeLinejoin="round"/>
+      <path d="M14 7l3 3" stroke={c} strokeWidth="1.8"/>
+    </svg>
+  );
+  if (icon === 'scale') return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M12 4v16M5 20h14M6 8h12" stroke={c} strokeWidth="1.8" strokeLinecap="round"/>
+      <path d="M3 13l3-5 3 5a3 3 0 11-6 0zM15 13l3-5 3 5a3 3 0 11-6 0z" stroke={c} strokeWidth="1.8" strokeLinejoin="round"/>
+    </svg>
+  );
+  // book default
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M4 5a2 2 0 012-2h12a2 2 0 012 2v14H6a2 2 0 00-2 2V5z" stroke={c} strokeWidth="1.8" strokeLinejoin="round"/>
+      <path d="M4 19a2 2 0 002 2h14" stroke={c} strokeWidth="1.8" strokeLinecap="round"/>
+    </svg>
+  );
+}
+
+Object.assign(window, { Home, ProgressRing, SubjectIcon });
+// Subject hub — opens after picking a subject. 3 modes + back nav.
+
+function SubjectHub({ subject, onBack, onMode, onPanic }) {
+  const modes = [
+    {
+      id: 'concentre',
+      title: "Le Concentré",
+      sub: "Comprendre l'essentiel",
+      icon: '📖',
+      bg: 'linear-gradient(155deg, #FFE7EE, #FFD3DF)',
+      time: "4 min",
+    },
+    {
+      id: 'swipe',
+      title: "Swipe & Retiens",
+      sub: "Mémoriser en s'amusant",
+      icon: '💗',
+      bg: 'linear-gradient(155deg, #FFD3DF, #F590AB)',
+      time: `${(FLASHCARDS[subject.id] || []).length} cartes`,
+    },
+    {
+      id: 'challenge',
+      title: "Challenge",
+      sub: "S'auto-tester",
+      icon: '🎯',
+      bg: 'linear-gradient(155deg, #EFE7F6, #C8B8DC)',
+      time: `${(QCM[subject.id] || []).length} questions`,
+    },
+  ];
+
+  return (
+    <div className="kn-screen screen-anim">
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 110 }}>
+        {/* Back */}
+        <div style={{ padding: '0 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <button className="tap" onClick={onBack} style={{
+            width: 40, height: 40, borderRadius: '50%',
+            background: 'white', border: '1px solid rgba(180,60,100,0.08)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-card)',
+          }}>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path d="M9 2L3 7l6 5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+          <div className="chip" style={{
+            background: subject.color === 'rose' ? 'var(--rose-100)'
+                      : subject.color === 'lav'  ? '#EFE7F6'
+                      : subject.color === 'peach'? '#FFE4D6'
+                      :                            '#DDEDE1',
+            color:      subject.color === 'rose' ? 'var(--rose-700)'
+                      : subject.color === 'lav'  ? '#6E5A8A'
+                      : subject.color === 'peach'? '#B55F30'
+                      :                            '#406B4D',
+          }}>
+            {subject.teacher}
+          </div>
+        </div>
+
+        {/* Title block */}
+        <div style={{ padding: '12px 24px 24px' }}>
+          <div style={{ fontSize: 12, fontWeight: 800, letterSpacing: '0.12em', color: 'var(--rose-600)', textTransform: 'uppercase', marginBottom: 6 }}>
+            Matière
+          </div>
+          <h1 style={{
+            fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+            fontSize: 36, margin: 0, lineHeight: 1.05, letterSpacing: '-0.01em',
+            textWrap: 'balance',
+          }}>{subject.title}</h1>
+
+          {/* Progress + next */}
+          <div style={{ marginTop: 18, display: 'flex', alignItems: 'center', gap: 12 }}>
+            <ProgressRing value={subject.progress} size={56} stroke={5} />
+            <div>
+              <div style={{ fontSize: 18, fontWeight: 800, color: 'var(--ink-900)' }}>
+                {Math.round(subject.progress*100)}<span style={{ fontSize: 12, opacity: 0.5 }}>%</span>
+              </div>
+              <div style={{ fontSize: 12, color: 'var(--ink-500)' }}>Prochain partiel · {subject.next}</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Mascot encouragement */}
+        <div style={{
+          margin: '0 18px 16px', padding: '14px 16px',
+          background: 'rgba(255,255,255,0.7)', backdropFilter: 'blur(10px)',
+          border: '1px solid rgba(180,60,100,0.08)', borderRadius: 'var(--r-md)',
+          display: 'flex', gap: 12, alignItems: 'center',
+        }}>
+          <Mochi size={48} mood="wink" />
+          <div style={{ fontSize: 13, color: 'var(--ink-700)', lineHeight: 1.4, fontStyle: 'italic', textWrap: 'pretty' }}>
+            « Une session de 10 minutes, c'est déjà énorme. Choisis ton format. »
+          </div>
+        </div>
+
+        {/* Modes */}
+        <div style={{ padding: '0 18px', display: 'flex', flexDirection: 'column', gap: 10 }}>
+          {modes.map((m, i) => (
+            <button key={m.id} className="tap" onClick={() => onMode(m.id)} style={{
+              border: 'none', textAlign: 'left',
+              padding: 18, display: 'flex', alignItems: 'center', gap: 16,
+              background: m.bg, borderRadius: 'var(--r-lg)',
+              boxShadow: 'var(--sh-card)',
+              animation: `screen-in 460ms ${i * 90}ms backwards cubic-bezier(.22,.9,.32,1.02)`,
+            }}>
+              <div style={{
+                width: 56, height: 56, borderRadius: 16,
+                background: 'rgba(255,255,255,0.7)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontSize: 28,
+              }}>{m.icon}</div>
+              <div style={{ flex: 1 }}>
+                <div style={{ fontSize: 17, fontWeight: 800, color: 'var(--ink-900)', marginBottom: 2 }}>{m.title}</div>
+                <div style={{ fontSize: 13, color: 'var(--ink-700)', opacity: 0.75 }}>{m.sub}</div>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 4 }}>
+                <span style={{ fontSize: 11, fontWeight: 800, color: 'var(--ink-700)', opacity: 0.7, letterSpacing: '0.04em' }}>
+                  {m.time}
+                </span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M5 2l6 5-6 5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+            </button>
+          ))}
+        </div>
+
+        {/* Mode Panique secondary */}
+        <button className="tap" onClick={onPanic} style={{
+          margin: '14px 18px 0', padding: 14,
+          background: 'transparent', border: '1.5px dashed rgba(180,60,100,0.25)',
+          borderRadius: 'var(--r-md)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+          color: 'var(--rose-700)', fontWeight: 800, fontSize: 14,
+          width: 'calc(100% - 36px)',
+        }}>
+          🚨 <span>Activer le Mode Panique</span>
+        </button>
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { SubjectHub });
+// Le Concentré — chapter summary, scrollable, with bullet sections
+function Concentre({ subject, onBack }) {
+  const data = CONCENTRE[subject.id];
+  if (!data) return null;
+
+  const kindStyle = (kind) => {
+    if (kind === 'key') return { chip: 'L\'essentiel', bg: 'var(--rose-100)', color: 'var(--rose-700)', icon: '✦' };
+    if (kind === 'def') return { chip: 'À retenir',   bg: '#EFE7F6', color: '#6E5A8A', icon: '◆' };
+    if (kind === 'tip') return { chip: 'Pour l\'oral', bg: '#FFE4D6', color: '#B55F30', icon: '✿' };
+    return { chip: '', bg: 'var(--rose-100)', color: 'var(--rose-700)', icon: '◇' };
+  };
+
+  return (
+    <div className="kn-screen screen-anim">
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 110 }}>
+        {/* Top bar */}
+        <div style={{ padding: '0 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <button className="tap" onClick={onBack} style={{
+            width: 40, height: 40, borderRadius: '50%',
+            background: 'white', border: '1px solid rgba(180,60,100,0.08)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-card)',
+          }}>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path d="M9 2L3 7l6 5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-500)', fontSize: 12, fontWeight: 700 }}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="2"/>
+              <path d="M12 7v5l3 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+            </svg>
+            <span>Lecture · {data.readingTime}</span>
+          </div>
+        </div>
+
+        <div style={{ padding: '12px 24px 8px' }}>
+          <div style={{ fontSize: 12, fontWeight: 800, letterSpacing: '0.12em', color: 'var(--rose-600)', textTransform: 'uppercase', marginBottom: 6 }}>
+            Le Concentré
+          </div>
+          <h1 style={{
+            fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+            fontSize: 28, margin: 0, lineHeight: 1.1, letterSpacing: '-0.01em',
+            textWrap: 'balance',
+          }}>{data.chapter}</h1>
+          <p style={{ fontSize: 13, color: 'var(--ink-500)', margin: '8px 0 0' }}>
+            {subject.title}
+          </p>
+        </div>
+
+        <div className="dot-divider" style={{ margin: '14px 24px' }} />
+
+        {/* Sections */}
+        <div style={{ padding: '0 18px', display: 'flex', flexDirection: 'column', gap: 14 }}>
+          {data.sections.map((sec, idx) => {
+            const ks = kindStyle(sec.kind);
+            return (
+              <div key={idx} className="kn-card" style={{
+                padding: 18,
+                animation: `screen-in 480ms ${idx * 100}ms backwards cubic-bezier(.22,.9,.32,1.02)`,
+              }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
+                  <span className="chip" style={{ background: ks.bg, color: ks.color }}>
+                    {ks.icon} {sec.title}
+                  </span>
+                </div>
+                <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 12 }}>
+                  {sec.bullets.map((b, i) => (
+                    <li key={i} style={{
+                      display: 'flex', gap: 10, alignItems: 'flex-start',
+                      fontSize: 15, lineHeight: 1.5, color: 'var(--ink-900)',
+                    }}>
+                      <span style={{
+                        width: 6, height: 6, borderRadius: '50%',
+                        background: ks.color, marginTop: 9, flexShrink: 0,
+                      }}/>
+                      <span style={{ flex: 1, textWrap: 'pretty' }}>{b}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            );
+          })}
+
+          {/* Mascot footer encouragement */}
+          <div style={{
+            display: 'flex', alignItems: 'center', gap: 12,
+            padding: '8px 8px 0', justifyContent: 'center', textAlign: 'center',
+            flexDirection: 'column', marginTop: 8,
+          }}>
+            <Mochi size={70} mood="happy" accessory="heart" />
+            <div style={{ fontSize: 13, fontStyle: 'italic', color: 'var(--ink-500)', textWrap: 'balance', maxWidth: 240 }}>
+              « Tu as fait le plus dur — maintenant on s'amuse avec les flashcards. »
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { Concentre });
+// Swipe & Retiens — draggable flashcards. Drag right = je connais, left = je ne connais pas.
+
+function Flashcards({ subject, onBack, onComplete }) {
+  const cards = FLASHCARDS[subject.id] || [];
+  const [idx, setIdx] = React.useState(0);
+  const [flipped, setFlipped] = React.useState(false);
+  const [drag, setDrag] = React.useState({ x: 0, y: 0, active: false });
+  const [feedback, setFeedback] = React.useState(null); // 'know' | 'unsure' | null
+  const [score, setScore] = React.useState({ know: 0, unsure: 0 });
+  const startRef = React.useRef({ x: 0, y: 0 });
+
+  const card = cards[idx];
+  const isLast = idx >= cards.length;
+
+  const startDrag = (clientX, clientY) => {
+    startRef.current = { x: clientX, y: clientY };
+    setDrag({ x: 0, y: 0, active: true });
+  };
+  const moveDrag = (clientX, clientY) => {
+    if (!drag.active) return;
+    setDrag({ x: clientX - startRef.current.x, y: clientY - startRef.current.y, active: true });
+  };
+  const endDrag = () => {
+    if (!drag.active) return;
+    const threshold = 80;
+    if (Math.abs(drag.x) > threshold) {
+      const dir = drag.x > 0 ? 'know' : 'unsure';
+      setFeedback(dir);
+      setScore(s => ({ ...s, [dir]: s[dir] + 1 }));
+      // Animate out then advance
+      setDrag({ x: drag.x > 0 ? 500 : -500, y: drag.y, active: false });
+      setTimeout(() => {
+        setDrag({ x: 0, y: 0, active: false });
+        setFlipped(false);
+        setFeedback(null);
+        setIdx(i => i + 1);
+      }, 320);
+    } else {
+      setDrag({ x: 0, y: 0, active: false });
+    }
+  };
+
+  const swipeButton = (dir) => {
+    setFeedback(dir);
+    setScore(s => ({ ...s, [dir]: s[dir] + 1 }));
+    setDrag({ x: dir === 'know' ? 500 : -500, y: 0, active: false });
+    setTimeout(() => {
+      setDrag({ x: 0, y: 0, active: false });
+      setFlipped(false);
+      setFeedback(null);
+      setIdx(i => i + 1);
+    }, 320);
+  };
+
+  React.useEffect(() => {
+    if (isLast && cards.length > 0) {
+      const t = setTimeout(() => onComplete(score), 600);
+      return () => clearTimeout(t);
+    }
+  }, [isLast]);
+
+  const rot = drag.x * 0.06;
+  const opacityRight = Math.max(0, Math.min(1, drag.x / 100));
+  const opacityLeft  = Math.max(0, Math.min(1, -drag.x / 100));
+
+  if (cards.length === 0) {
+    return (
+      <div className="kn-screen screen-anim" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ textAlign: 'center' }}>Pas de cartes pour cette matière.</div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="kn-screen screen-anim">
+      {/* Top bar */}
+      <div style={{ padding: '60px 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <button className="tap" onClick={onBack} style={{
+          width: 40, height: 40, borderRadius: '50%',
+          background: 'white', border: '1px solid rgba(180,60,100,0.08)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          boxShadow: 'var(--sh-card)',
+        }}>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M9 2L3 7l6 5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </button>
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.12em', color: 'var(--rose-600)', textTransform: 'uppercase' }}>
+            Swipe & Retiens
+          </div>
+          <div style={{ fontSize: 13, color: 'var(--ink-500)', fontWeight: 700 }}>
+            {Math.min(idx + 1, cards.length)} / {cards.length}
+          </div>
+        </div>
+        <div style={{ width: 40 }} />
+      </div>
+
+      {/* Progress bar */}
+      <div style={{ padding: '0 24px', marginBottom: 24 }}>
+        <div style={{ height: 6, borderRadius: 3, background: 'var(--rose-100)', overflow: 'hidden' }}>
+          <div style={{
+            height: '100%',
+            width: `${(idx / cards.length) * 100}%`,
+            background: 'linear-gradient(90deg, var(--rose-400), var(--rose-500))',
+            borderRadius: 3,
+            transition: 'width 400ms cubic-bezier(.22,.9,.32,1.02)',
+          }}/>
+        </div>
+      </div>
+
+      {/* Card stack area */}
+      <div style={{
+        position: 'relative', height: 440,
+        margin: '0 24px',
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        userSelect: 'none', touchAction: 'none',
+      }}>
+        {/* Next card peek */}
+        {!isLast && cards[idx + 1] && (
+          <div className="kn-card" style={{
+            position: 'absolute', inset: '8px 12px', borderRadius: 'var(--r-xl)',
+            transform: 'scale(0.94) translateY(10px)', opacity: 0.6,
+          }}/>
+        )}
+
+        {!isLast && card && (
+          <div
+            onMouseDown={(e) => { e.preventDefault(); startDrag(e.clientX, e.clientY); }}
+            onMouseMove={(e) => moveDrag(e.clientX, e.clientY)}
+            onMouseUp={endDrag}
+            onMouseLeave={endDrag}
+            onTouchStart={(e) => startDrag(e.touches[0].clientX, e.touches[0].clientY)}
+            onTouchMove={(e) => moveDrag(e.touches[0].clientX, e.touches[0].clientY)}
+            onTouchEnd={endDrag}
+            onClick={() => { if (Math.abs(drag.x) < 6) setFlipped(f => !f); }}
+            style={{
+              position: 'absolute', inset: 0,
+              transform: `translate(${drag.x}px, ${drag.y}px) rotate(${rot}deg)`,
+              transition: drag.active ? 'none' : 'transform 320ms cubic-bezier(.22,.9,.32,1.02)',
+              cursor: drag.active ? 'grabbing' : 'grab',
+              transformStyle: 'preserve-3d',
+              perspective: 1000,
+            }}
+          >
+            <div style={{
+              position: 'relative', width: '100%', height: '100%',
+              transformStyle: 'preserve-3d',
+              transition: 'transform 520ms cubic-bezier(.22,.9,.32,1.02)',
+              transform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
+            }}>
+              {/* Front: question */}
+              <CardFace>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+                  <span className="chip">Question</span>
+                  <span style={{ fontSize: 11, color: 'var(--ink-300)', fontWeight: 700 }}>Tape pour révéler</span>
+                </div>
+                <div style={{
+                  flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontFamily: 'var(--f-display)', fontStyle: 'italic', fontWeight: 500,
+                  fontSize: 24, lineHeight: 1.3, textAlign: 'center',
+                  color: 'var(--ink-900)', textWrap: 'balance', padding: '0 12px',
+                }}>
+                  {card.q}
+                </div>
+                <div style={{ display: 'flex', justifyContent: 'center', gap: 14, marginTop: 16 }}>
+                  <Mochi size={50} mood="focus" />
+                </div>
+              </CardFace>
+
+              {/* Back: answer */}
+              <CardFace flip>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+                  <span className="chip" style={{ background: '#EFE7F6', color: '#6E5A8A' }}>Réponse</span>
+                  <span style={{ fontSize: 11, color: 'var(--ink-300)', fontWeight: 700 }}>← inconnu · connu →</span>
+                </div>
+                <div style={{
+                  flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontSize: 17, lineHeight: 1.5, textAlign: 'center',
+                  color: 'var(--ink-900)', textWrap: 'pretty', padding: '0 6px',
+                }}>
+                  {card.a}
+                </div>
+              </CardFace>
+            </div>
+
+            {/* Feedback overlays */}
+            <div style={{
+              position: 'absolute', top: 22, left: 22,
+              padding: '8px 14px', borderRadius: 12,
+              background: 'var(--rose-500)', color: 'white',
+              fontWeight: 800, fontSize: 14, letterSpacing: '0.06em',
+              transform: 'rotate(-12deg)', opacity: opacityRight,
+              border: '2px solid white',
+            }}>JE CONNAIS 💗</div>
+            <div style={{
+              position: 'absolute', top: 22, right: 22,
+              padding: '8px 14px', borderRadius: 12,
+              background: 'var(--lav)', color: 'white',
+              fontWeight: 800, fontSize: 14, letterSpacing: '0.06em',
+              transform: 'rotate(12deg)', opacity: opacityLeft,
+              border: '2px solid white',
+            }}>À REVOIR</div>
+          </div>
+        )}
+
+        {isLast && (
+          <div style={{ textAlign: 'center' }}>
+            <Mochi size={120} mood="hooray" accessory="star" />
+            <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontSize: 24, marginTop: 12 }}>
+              Bravo, c'est fini !
+            </div>
+          </div>
+        )}
+
+        {/* Hearts on swipe right */}
+        {feedback === 'know' && <FloatingHearts />}
+      </div>
+
+      {/* Action buttons */}
+      {!isLast && (
+        <div style={{
+          display: 'flex', justifyContent: 'center', gap: 18, marginTop: 18,
+        }}>
+          <button className="tap" onClick={() => swipeButton('unsure')} style={{
+            width: 64, height: 64, borderRadius: '50%',
+            background: 'white', border: '2px solid var(--lav)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-card)',
+          }}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M6 6l12 12M18 6L6 18" stroke="#9784B0" strokeWidth="2.5" strokeLinecap="round"/>
+            </svg>
+          </button>
+          <button className="tap" onClick={() => setFlipped(f => !f)} style={{
+            width: 56, height: 56, borderRadius: '50%',
+            background: 'white', border: '1.5px solid rgba(180,60,100,0.15)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-card)',
+            alignSelf: 'center',
+          }}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M3 12a9 9 0 0115-6.7M21 4v5h-5M21 12a9 9 0 01-15 6.7M3 20v-5h5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+          <button className="tap" onClick={() => swipeButton('know')} style={{
+            width: 64, height: 64, borderRadius: '50%',
+            background: 'var(--rose-500)', border: 'none',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-pop)',
+          }}>
+            <Heart size={26} color="white" />
+          </button>
+        </div>
+      )}
+
+      {/* Score readout */}
+      <div style={{
+        position: 'absolute', bottom: 100, left: 0, right: 0,
+        display: 'flex', justifyContent: 'center', gap: 16, fontSize: 12, fontWeight: 800,
+      }}>
+        <span style={{ color: 'var(--rose-600)' }}>💗 {score.know}</span>
+        <span style={{ color: '#9784B0' }}>↻ {score.unsure}</span>
+      </div>
+    </div>
+  );
+}
+
+function CardFace({ children, flip = false }) {
+  return (
+    <div style={{
+      position: 'absolute', inset: 0,
+      backfaceVisibility: 'hidden', WebkitBackfaceVisibility: 'hidden',
+      transform: flip ? 'rotateY(180deg)' : 'rotateY(0deg)',
+      background: flip ? 'linear-gradient(155deg, #FFF, #FFF5F7)' : 'white',
+      borderRadius: 'var(--r-xl)',
+      border: '1px solid rgba(180,60,100,0.06)',
+      boxShadow: 'var(--sh-soft)',
+      padding: 22,
+      display: 'flex', flexDirection: 'column',
+    }}>
+      {children}
+    </div>
+  );
+}
+
+function FloatingHearts() {
+  const hearts = Array.from({ length: 6 }, (_, i) => i);
+  return (
+    <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
+      {hearts.map(i => (
+        <div key={i} style={{
+          position: 'absolute',
+          left: `${20 + i * 12}%`, top: '40%',
+          animation: `heart-pop 800ms ${i * 60}ms ease-out forwards, float-y 1.2s ${i * 60}ms ease-out forwards`,
+        }}>
+          <Heart size={18 + (i % 3) * 4} color={i % 2 ? 'var(--rose-500)' : 'var(--rose-400)'} />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+Object.assign(window, { Flashcards });
+// Challenge — QCM with difficulty selection + scoring system
+//
+// Scoring (cf. SCORING in data.jsx):
+//   +1   for correct
+//   -0.5 for wrong
+//   -0.25 for skip
+// Final raw score is multiplied by level.multiplier and rescaled to /20.
+// Best score per (subject, level) is persisted to localStorage so Kehane
+// can see her progress day after day.
+
+const STORAGE_KEY = 'kehanote.challenge.history.v1';
+
+function loadHistory() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  } catch { return {}; }
+}
+function saveHistory(h) {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(h)); } catch {}
+}
+function recordRun(subjectId, levelId, scoreOn20) {
+  const h = loadHistory();
+  const key = `${subjectId}__${levelId}`;
+  const today = new Date().toISOString().slice(0, 10);
+  const entry = h[key] || { best: 0, runs: [] };
+  entry.best = Math.max(entry.best || 0, scoreOn20);
+  entry.runs = [...(entry.runs || []), { date: today, score: scoreOn20 }].slice(-30);
+  h[key] = entry;
+  saveHistory(h);
+  return entry;
+}
+function readBest(subjectId, levelId) {
+  const h = loadHistory();
+  return h[`${subjectId}__${levelId}`]?.best || 0;
+}
+
+// ── Outer component: routes between difficulty picker and the actual quiz ──
+function Challenge({ subject, onBack, onComplete }) {
+  const [level, setLevel] = React.useState(null);
+
+  if (!level) {
+    return <DifficultyPicker subject={subject} onBack={onBack} onPick={setLevel} />;
+  }
+  return <Quiz
+    subject={subject}
+    level={level}
+    onBack={() => setLevel(null)}
+    onComplete={onComplete}
+  />;
+}
+
+// ── Difficulty picker ──────────────────────────────────────────────────────
+function DifficultyPicker({ subject, onBack, onPick }) {
+  const all = QCM[subject.id] || [];
+  return (
+    <div className="kn-screen screen-anim">
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 110 }}>
+        <div style={{ padding: '0 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <button className="tap" onClick={onBack} style={{
+            width: 40, height: 40, borderRadius: '50%',
+            background: 'white', border: '1px solid rgba(180,60,100,0.08)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-card)',
+          }}>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path d="M9 2L3 7l6 5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+          <div style={{ textAlign: 'center' }}>
+            <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.12em', color: '#6E5A8A', textTransform: 'uppercase' }}>
+              Challenge
+            </div>
+            <div style={{ fontSize: 13, color: 'var(--ink-500)', fontWeight: 700 }}>
+              {subject.title}
+            </div>
+          </div>
+          <div style={{ width: 40 }}/>
+        </div>
+
+        <div style={{ padding: '20px 24px 28px' }}>
+          <h1 style={{
+            fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+            fontSize: 32, margin: 0, lineHeight: 1.05, letterSpacing: '-0.01em',
+            textWrap: 'balance',
+          }}>
+            Choisis ton niveau.
+          </h1>
+          <p style={{ fontSize: 14, color: 'var(--ink-500)', margin: '10px 0 0', lineHeight: 1.5, textWrap: 'pretty' }}>
+            Plus c'est dur, plus le score compte. Pas de stress — tu peux toujours recommencer.
+          </p>
+        </div>
+
+        {/* Level cards */}
+        <div style={{ padding: '0 18px', display: 'flex', flexDirection: 'column', gap: 12 }}>
+          {LEVELS.map((lv, i) => {
+            const pool = all.filter(q => q.level === lv.id);
+            const count = Math.min(pool.length, lv.target);
+            const best = readBest(subject.id, lv.id);
+            const disabled = count === 0;
+            return (
+              <button
+                key={lv.id}
+                className="tap"
+                disabled={disabled}
+                onClick={() => !disabled && onPick(lv)}
+                style={{
+                  textAlign: 'left',
+                  padding: 18,
+                  background: disabled ? 'rgba(255,255,255,0.6)' : 'white',
+                  border: `1.5px solid ${disabled ? 'rgba(180,60,100,0.06)' : lv.color + '55'}`,
+                  borderRadius: 'var(--r-lg)',
+                  display: 'flex', alignItems: 'center', gap: 16,
+                  boxShadow: disabled ? 'none' : 'var(--sh-card)',
+                  opacity: disabled ? 0.5 : 1,
+                  cursor: disabled ? 'not-allowed' : 'pointer',
+                  animation: `screen-in 480ms ${i * 80}ms backwards cubic-bezier(.22,.9,.32,1.02)`,
+                }}
+              >
+                <div style={{
+                  width: 56, height: 56, borderRadius: 16,
+                  background: lv.bg,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontSize: 28, flexShrink: 0,
+                }}>{lv.icon}</div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 2 }}>
+                    <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontWeight: 600, fontSize: 22, color: 'var(--ink-900)', lineHeight: 1.1 }}>
+                      {lv.label}
+                    </div>
+                    <span style={{
+                      fontSize: 10, fontWeight: 800, letterSpacing: '0.08em',
+                      padding: '3px 7px', borderRadius: 999,
+                      background: lv.color, color: 'white',
+                    }}>×{lv.multiplier}</span>
+                  </div>
+                  <div style={{ fontSize: 12, color: 'var(--ink-500)', marginBottom: 6 }}>
+                    {lv.sub} · {count > 0 ? `${count} questions` : 'À venir'}
+                  </div>
+                  {best > 0 && (
+                    <div style={{
+                      display: 'inline-flex', alignItems: 'center', gap: 6,
+                      padding: '4px 10px', borderRadius: 999,
+                      background: 'var(--rose-100)', color: 'var(--rose-700)',
+                      fontSize: 11, fontWeight: 800,
+                    }}>
+                      <span>★</span> Meilleur : {best.toFixed(1)}/20
+                    </div>
+                  )}
+                </div>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style={{ flexShrink: 0, opacity: 0.4 }}>
+                  <path d="M5 2l6 5-6 5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Scoring legend */}
+        <div style={{ padding: '24px 18px 0' }}>
+          <div style={{
+            padding: '16px 18px',
+            background: 'rgba(255,255,255,0.7)',
+            border: '1px dashed var(--rose-300)',
+            borderRadius: 'var(--r-md)',
+          }}>
+            <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.12em', color: '#6E5A8A', textTransform: 'uppercase', marginBottom: 10 }}>
+              Comment ça se note
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 8, fontSize: 13, color: 'var(--ink-700)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <span style={{ width: 36, fontWeight: 800, color: '#2C5A38', fontVariantNumeric: 'tabular-nums' }}>+1</span>
+                <span>bonne réponse</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <span style={{ width: 36, fontWeight: 800, color: 'var(--rose-700)', fontVariantNumeric: 'tabular-nums' }}>−0,5</span>
+                <span>mauvaise réponse</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <span style={{ width: 36, fontWeight: 800, color: '#6E5A8A', fontVariantNumeric: 'tabular-nums' }}>−0,25</span>
+                <span>question passée</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ── Actual quiz ────────────────────────────────────────────────────────────
+function Quiz({ subject, level, onBack, onComplete }) {
+  // Filter to questions of the chosen level, capped at level.target
+  const questions = React.useMemo(() => {
+    const pool = (QCM[subject.id] || []).filter(q => q.level === level.id);
+    return pool.slice(0, level.target);
+  }, [subject.id, level.id]);
+
+  const [idx, setIdx] = React.useState(0);
+  const [picked, setPicked] = React.useState(null);
+  const [answers, setAnswers] = React.useState([]); // {status: 'correct'|'wrong'|'skip', picked?: i}
+
+  const q = questions[idx];
+  const isLast = idx >= questions.length;
+
+  const tally = React.useMemo(() => {
+    let raw = 0, c = 0, w = 0, s = 0;
+    answers.forEach(a => {
+      if (a.status === 'correct') { raw += SCORING.correct; c++; }
+      else if (a.status === 'wrong') { raw += SCORING.wrong; w++; }
+      else if (a.status === 'skip') { raw += SCORING.skip; s++; }
+    });
+    return { raw, c, w, s };
+  }, [answers]);
+
+  const onPick = (i) => {
+    if (picked !== null) return;
+    setPicked(i);
+    const correct = i === q.correct;
+    setAnswers(a => [...a, { status: correct ? 'correct' : 'wrong', picked: i }]);
+  };
+
+  const onSkip = () => {
+    if (picked !== null) return;
+    setAnswers(a => [...a, { status: 'skip' }]);
+    advance();
+  };
+
+  const advance = () => {
+    setPicked(null);
+    if (idx + 1 >= questions.length) {
+      // Finished — compute final
+      finalize();
+    } else {
+      setIdx(i => i + 1);
+    }
+  };
+
+  const next = () => advance();
+
+  const finalize = () => {
+    // Build final answers list including the one we just added (state may not be flushed)
+    const finalAnswers = answers; // already up-to-date if called from advance after setAnswers
+    let raw = 0, c = 0, w = 0, s = 0;
+    finalAnswers.forEach(a => {
+      if (a.status === 'correct') { raw += SCORING.correct; c++; }
+      else if (a.status === 'wrong') { raw += SCORING.wrong; w++; }
+      else if (a.status === 'skip') { raw += SCORING.skip; s++; }
+    });
+    // Convert raw (max = questions.length) to /20, applying level multiplier
+    const maxRaw = questions.length * SCORING.correct;
+    const normalized = Math.max(0, raw) / maxRaw; // clamp at 0 — never negative grade
+    const scoreOn20 = Math.min(20, normalized * 20 * level.multiplier);
+    const rounded = Math.round(scoreOn20 * 10) / 10;
+    const history = recordRun(subject.id, level.id, rounded);
+    onComplete({
+      score: rounded,
+      total: 20,
+      counts: { correct: c, wrong: w, skip: s, n: questions.length },
+      level,
+      best: history.best,
+      isNewBest: rounded >= history.best,
+    });
+  };
+
+  // Use an effect to finalize once we hit the end (state-flush safe)
+  React.useEffect(() => {
+    if (isLast && questions.length > 0) {
+      let raw = 0, c = 0, w = 0, s = 0;
+      answers.forEach(a => {
+        if (a.status === 'correct') { raw += SCORING.correct; c++; }
+        else if (a.status === 'wrong') { raw += SCORING.wrong; w++; }
+        else if (a.status === 'skip') { raw += SCORING.skip; s++; }
+      });
+      const maxRaw = questions.length * SCORING.correct;
+      const normalized = Math.max(0, raw) / maxRaw;
+      const scoreOn20 = Math.min(20, normalized * 20 * level.multiplier);
+      const rounded = Math.round(scoreOn20 * 10) / 10;
+      const prevBest = readBest(subject.id, level.id);
+      const isNewBest = rounded > prevBest;
+      const history = recordRun(subject.id, level.id, rounded);
+      onComplete({
+        score: rounded,
+        total: 20,
+        counts: { correct: c, wrong: w, skip: s, n: questions.length },
+        level,
+        best: history.best,
+        isNewBest,
+      });
+    }
+  }, [isLast]);
+
+  if (questions.length === 0) {
+    return <div className="kn-screen screen-anim" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div>Pas encore de QCM pour ce niveau.</div>
+    </div>;
+  }
+  if (isLast) return null;
+
+  return (
+    <div className="kn-screen screen-anim">
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 130 }}>
+        {/* Top bar */}
+        <div style={{ padding: '0 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <button className="tap" onClick={onBack} style={{
+            width: 40, height: 40, borderRadius: '50%',
+            background: 'white', border: '1px solid rgba(180,60,100,0.08)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-card)',
+          }}>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path d="M9 2L3 7l6 5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+          <div style={{ textAlign: 'center' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, fontSize: 11, fontWeight: 800, letterSpacing: '0.12em', color: level.color, textTransform: 'uppercase' }}>
+              <span>{level.icon}</span> {level.label}
+            </div>
+            <div style={{ fontSize: 13, color: 'var(--ink-500)', fontWeight: 700 }}>
+              {idx + 1} / {questions.length}
+            </div>
+          </div>
+          <div style={{
+            padding: '6px 10px', minWidth: 56, height: 36, borderRadius: 12,
+            background: tally.raw >= 0 ? 'rgba(188, 212, 192, 0.25)' : 'rgba(252, 220, 230, 0.7)',
+            border: `1px solid ${tally.raw >= 0 ? 'rgba(188, 212, 192, 0.6)' : 'var(--rose-300)'}`,
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            color: tally.raw >= 0 ? '#2C5A38' : 'var(--rose-700)',
+            fontWeight: 800, fontSize: 13, fontVariantNumeric: 'tabular-nums',
+          }}>
+            {tally.raw > 0 ? '+' : ''}{tally.raw.toFixed(2).replace(/\.?0+$/, '')}
+          </div>
+        </div>
+
+        {/* Progress */}
+        <div style={{ padding: '0 24px', marginBottom: 24 }}>
+          <div style={{ display: 'flex', gap: 4 }}>
+            {questions.map((_, i) => (
+              <div key={i} style={{
+                flex: 1, height: 6, borderRadius: 3,
+                background: i < idx
+                  ? (answers[i]?.status === 'correct' ? 'var(--rose-500)'
+                    : answers[i]?.status === 'wrong' ? 'var(--lav)'
+                    : '#D8D0E4')
+                  : i === idx
+                  ? 'var(--rose-300)'
+                  : 'var(--rose-100)',
+              }}/>
+            ))}
+          </div>
+        </div>
+
+        {/* Question card */}
+        <div style={{ padding: '0 18px' }}>
+          <div className="kn-card" style={{ padding: 22, marginBottom: 16 }}>
+            <span className="chip lav" style={{ marginBottom: 14, display: 'inline-flex' }}>Question {idx + 1}</span>
+            <h2 style={{
+              fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+              fontSize: 23, lineHeight: 1.25, margin: '4px 0 0',
+              letterSpacing: '-0.01em', textWrap: 'balance',
+            }}>{q.q}</h2>
+          </div>
+
+          {/* Choices */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+            {q.choices.map((c, i) => {
+              const isPicked = picked === i;
+              const isCorrect = i === q.correct;
+              const showResult = picked !== null;
+              let bg = 'white';
+              let border = 'rgba(180,60,100,0.08)';
+              let color = 'var(--ink-900)';
+              let label = String.fromCharCode(65 + i);
+              let labelBg = 'var(--rose-100)';
+              let labelColor = 'var(--rose-700)';
+              if (showResult && isCorrect) {
+                bg = '#EAF7EE'; border = 'var(--sage)'; labelBg = 'var(--sage)'; labelColor = '#2C5A38';
+              } else if (showResult && isPicked && !isCorrect) {
+                bg = '#FBE7EC'; border = 'var(--rose-300)'; labelBg = 'var(--rose-400)'; labelColor = 'white';
+              }
+              return (
+                <button key={i} className="tap" onClick={() => onPick(i)} disabled={showResult} style={{
+                  textAlign: 'left', padding: '14px 16px',
+                  background: bg, border: `1.5px solid ${border}`,
+                  borderRadius: 'var(--r-md)',
+                  display: 'flex', alignItems: 'center', gap: 12,
+                  fontSize: 15, fontWeight: 600, color,
+                  cursor: showResult ? 'default' : 'pointer',
+                  transition: 'all 240ms ease',
+                  animation: `screen-in 380ms ${i * 60}ms backwards`,
+                }}>
+                  <span style={{
+                    width: 28, height: 28, borderRadius: 8,
+                    background: labelBg, color: labelColor,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    fontWeight: 800, fontSize: 13, flexShrink: 0,
+                  }}>{showResult && isCorrect ? '✓' : showResult && isPicked && !isCorrect ? '✕' : label}</span>
+                  <span style={{ flex: 1, textWrap: 'pretty' }}>{c}</span>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Feedback */}
+          {picked !== null && (
+            <div style={{
+              marginTop: 16, padding: 16,
+              background: picked === q.correct ? 'rgba(188, 212, 192, 0.25)' : 'rgba(252, 220, 230, 0.6)',
+              borderRadius: 'var(--r-md)',
+              display: 'flex', gap: 12, alignItems: 'flex-start',
+              animation: 'screen-in 320ms',
+            }}>
+              <Mochi size={48} mood={picked === q.correct ? 'hooray' : 'sad'} />
+              <div style={{ flex: 1 }}>
+                <div style={{ fontWeight: 800, fontSize: 14, marginBottom: 4, color: picked === q.correct ? '#2C5A38' : 'var(--rose-700)' }}>
+                  {picked === q.correct ? `Bravo, c'est ça ! +${SCORING.correct}` : `Pas tout à fait. ${SCORING.wrong}`}
+                </div>
+                <div style={{ fontSize: 13, color: 'var(--ink-700)', lineHeight: 1.5, textWrap: 'pretty' }}>
+                  {q.explain}
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Bottom CTAs */}
+      <div style={{ position: 'absolute', bottom: 96, left: 18, right: 18, display: 'flex', flexDirection: 'column', gap: 8 }}>
+        {picked !== null ? (
+          <button className="btn-primary tap" onClick={next}>
+            {idx + 1 >= questions.length ? "Voir mon score" : "Question suivante"}
+          </button>
+        ) : (
+          <button className="tap" onClick={onSkip} style={{
+            width: '100%',
+            padding: '12px 16px',
+            background: 'rgba(255,255,255,0.7)',
+            border: '1px dashed rgba(110, 90, 138, 0.4)',
+            color: '#6E5A8A',
+            borderRadius: 'var(--r-md)',
+            fontSize: 13, fontWeight: 700,
+          }}>
+            Passer cette question · −0,25
+          </button>
+        )}
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { Challenge, readBest: readBest });
+// Mode Panique — ultra condensed, dark theme, 5-min countdown vibes.
+// Lets user switch between subjects via a picker pill row.
+function Panic({ subject, onBack }) {
+  const [activeId, setActiveId] = React.useState((subject || SUBJECTS[0]).id);
+  const active = SUBJECTS.find(s => s.id === activeId) || SUBJECTS[0];
+  const items = PANIC[activeId] || PANIC['theo-info'] || [];
+
+  // 5-min countdown — restarts whenever the subject changes
+  const [seconds, setSeconds] = React.useState(300);
+  React.useEffect(() => {
+    setSeconds(300);
+    const id = setInterval(() => setSeconds(s => (s > 0 ? s - 1 : 0)), 1000);
+    return () => clearInterval(id);
+  }, [activeId]);
+  const mm = Math.floor(seconds / 60);
+  const ss = String(seconds % 60).padStart(2, '0');
+  const timeUp = seconds === 0;
+
+  return (
+    <div className="screen-anim" style={{
+      position: 'absolute', inset: 0,
+      background: 'radial-gradient(120% 80% at 50% 0%, #4A2B3E 0%, #2A1B26 60%, #1B0F18 100%)',
+      color: 'white', overflow: 'hidden',
+    }}>
+      <Sparkle x={50} y={120} size={10} delay={0.2} color="#F590AB" />
+      <Sparkle x={340} y={180} size={8} delay={0.7} color="#FBB6C8" />
+      <Sparkle x={60} y={500} size={12} delay={1.1} color="#E8C57A" />
+
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 100 }}>
+        {/* Top bar */}
+        <div style={{ padding: '0 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <button className="tap" onClick={onBack} style={{
+            width: 40, height: 40, borderRadius: '50%',
+            background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.15)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            backdropFilter: 'blur(10px)',
+          }}>
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <path d="M9 2L3 7l6 5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+          </button>
+          <div title="Compte à rebours de révision — 5 minutes pour parcourir l'essentiel" style={{
+            padding: '6px 12px', borderRadius: 999,
+            background: timeUp ? 'rgba(255,107,138,0.25)' : 'rgba(255,255,255,0.12)',
+            backdropFilter: 'blur(10px)',
+            border: timeUp ? '1px solid rgba(255,107,138,0.5)' : '1px solid transparent',
+            fontSize: 11, fontWeight: 800, letterSpacing: '0.04em',
+            display: 'flex', alignItems: 'center', gap: 8,
+            transition: 'all 300ms',
+          }}>
+            <span style={{
+              width: 6, height: 6, borderRadius: '50%',
+              background: '#FF6B8A',
+              boxShadow: '0 0 8px #FF6B8A',
+              animation: timeUp ? 'none' : 'panic-pulse 1.4s ease-in-out infinite',
+            }}/>
+            <span style={{ opacity: 0.7, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
+              {timeUp ? 'Terminé' : 'Révision'}
+            </span>
+            <span style={{
+              fontVariantNumeric: 'tabular-nums', fontSize: 13,
+              color: timeUp ? '#FFB6C7' : 'white',
+            }}>
+              {mm}:{ss}
+            </span>
+          </div>
+        </div>
+
+        {/* Title */}
+        <div style={{ padding: '12px 24px 16px' }}>
+          <div style={{ fontSize: 52, lineHeight: 1, marginBottom: 8 }}>🚨</div>
+          <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.18em', color: '#F590AB', textTransform: 'uppercase', marginBottom: 6 }}>
+            Mode Panique
+          </div>
+          <h1 style={{
+            fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+            fontSize: 34, margin: 0, lineHeight: 1.05, color: 'white',
+            letterSpacing: '-0.01em', textWrap: 'balance',
+          }}>L'examen dans 1 heure ? Respire.</h1>
+          <p style={{ fontSize: 14, color: 'rgba(255,255,255,0.65)', margin: '12px 0 0', lineHeight: 1.5, textWrap: 'pretty', maxWidth: 320 }}>
+            Choisis la matière à réviser en 5 minutes chrono.
+          </p>
+        </div>
+
+        {/* Subject picker — horizontal scroll */}
+        <div style={{
+          display: 'flex', gap: 8, padding: '0 18px 18px',
+          overflowX: 'auto', scrollbarWidth: 'none',
+        }}>
+          {SUBJECTS.map(s => {
+            const isActive = s.id === activeId;
+            const has = (PANIC[s.id] || []).length > 0;
+            return (
+              <button key={s.id} className="tap" onClick={() => setActiveId(s.id)} style={{
+                flexShrink: 0, padding: '9px 14px',
+                background: isActive ? 'white' : 'rgba(255,255,255,0.08)',
+                color: isActive ? '#2A1B26' : 'rgba(255,255,255,0.7)',
+                border: isActive ? 'none' : '1px solid rgba(255,255,255,0.12)',
+                borderRadius: 999,
+                fontSize: 12, fontWeight: 800,
+                whiteSpace: 'nowrap',
+                display: 'flex', alignItems: 'center', gap: 6,
+                opacity: has ? 1 : 0.5,
+                transition: 'all 200ms',
+              }}>
+                {s.title}
+                {!has && <span style={{ fontSize: 10, opacity: 0.6 }}>· bientôt</span>}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Active subject heading */}
+        <div style={{ padding: '0 24px 14px' }}>
+          <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.1em', color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', marginBottom: 4 }}>
+            Tu révises
+          </div>
+          <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontSize: 22, fontWeight: 500, color: 'white', lineHeight: 1.1 }}>
+            {active.title}
+          </div>
+        </div>
+
+        {/* Items */}
+        <div style={{ padding: '0 18px', display: 'flex', flexDirection: 'column', gap: 10 }} key={activeId}>
+          {items.length === 0 ? (
+            <div style={{
+              padding: 24, textAlign: 'center',
+              background: 'rgba(255,255,255,0.05)',
+              border: '1px dashed rgba(255,255,255,0.15)',
+              borderRadius: 'var(--r-lg)',
+              fontSize: 14, color: 'rgba(255,255,255,0.6)',
+              fontStyle: 'italic',
+            }}>
+              Le résumé éclair pour cette matière arrive très bientôt.
+            </div>
+          ) : items.map((line, i) => (
+            <div key={i} style={{
+              padding: '16px 18px',
+              background: 'rgba(255,255,255,0.07)',
+              backdropFilter: 'blur(10px)',
+              border: '1px solid rgba(255,255,255,0.1)',
+              borderRadius: 'var(--r-md)',
+              display: 'flex', gap: 14, alignItems: 'flex-start',
+              animation: `screen-in 480ms ${i * 110}ms backwards cubic-bezier(.22,.9,.32,1.02)`,
+            }}>
+              <div style={{
+                width: 28, height: 28, borderRadius: '50%',
+                background: 'linear-gradient(155deg, var(--rose-400), var(--rose-600))',
+                color: 'white', fontWeight: 800, fontSize: 13,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                flexShrink: 0, boxShadow: '0 4px 12px rgba(236, 111, 146, 0.4)',
+              }}>{i + 1}</div>
+              <div style={{ flex: 1, fontSize: 15, lineHeight: 1.45, textWrap: 'pretty' }}>
+                {line}
+              </div>
+            </div>
+          ))}
+
+          {/* Mochi calming message */}
+          <div style={{
+            marginTop: 18, padding: 18,
+            background: 'linear-gradient(155deg, rgba(255, 211, 223, 0.12), rgba(236, 111, 146, 0.08))',
+            border: '1px solid rgba(255, 211, 223, 0.25)',
+            borderRadius: 'var(--r-lg)',
+            display: 'flex', gap: 14, alignItems: 'center',
+          }}>
+            <Mochi size={64} mood="sleepy" />
+            <div style={{ flex: 1 }}>
+              <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontSize: 18, marginBottom: 4 }}>
+                Inspire 4s, expire 6s.
+              </div>
+              <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.65)', lineHeight: 1.4 }}>
+                Tu sais déjà plus que tu ne crois.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { Panic });
+// Reward screen — confetti, score (sur 20), level badge, breakdown,
+// best-score progression vs today, and a personal note from "Nini".
+function Reward({ subject, score, total, mode, counts, level, best, isNewBest, onContinue }) {
+  // For QCM mode, total = 20 (score-on-20). For swipe mode, total = card count, score = known.
+  const isQuiz = mode === 'qcm';
+  const ratio = total ? Math.max(0, Math.min(1, score / total)) : 0;
+
+  // Tone based on the /20 grade or the swipe ratio
+  const tone = isQuiz
+    ? (score >= 14 ? 'great' : score >= 10 ? 'good' : 'gentle')
+    : (ratio >= 0.8 ? 'great' : ratio >= 0.5 ? 'good' : 'gentle');
+
+  const confetti = React.useMemo(() => Array.from({ length: 32 }, (_, i) => ({
+    left: Math.random() * 100,
+    delay: Math.random() * 0.6,
+    color: ['#EC6F92', '#F590AB', '#FFD3DF', '#E8C57A', '#C8B8DC', '#BCD4C0'][i % 6],
+    size: 6 + Math.random() * 8,
+    rot: Math.random() * 360,
+    dur: 2 + Math.random() * 1.5
+  })), []);
+
+  const messages = {
+    great:  { t: "Magnifique.",     s: "Tu maîtrises ce chapitre. Sérieusement, c'est impressionnant." },
+    good:   { t: "Très bien joué.", s: "Encore un passage et ce sera ancré pour de bon." },
+    gentle: { t: "C'est un début.", s: "Pas de pression — chaque erreur, c'est un point qui rentre." },
+  }[tone];
+
+  return (
+    <div className="screen-anim" style={{
+      position: 'absolute', inset: 0,
+      background: 'linear-gradient(170deg, #FFE7EE 0%, #FFF5F7 50%, #FFFAF7 100%)',
+      overflow: 'hidden',
+    }}>
+      {/* Confetti */}
+      <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
+        {confetti.map((c, i) => (
+          <div key={i} style={{
+            position: 'absolute', top: -20, left: `${c.left}%`,
+            width: c.size, height: c.size,
+            background: c.color,
+            borderRadius: i % 3 === 0 ? '50%' : 2,
+            transform: `rotate(${c.rot}deg)`,
+            animation: `confetti-fall ${c.dur}s ${c.delay}s linear forwards`,
+          }} />
+        ))}
+      </div>
+
+      <Sparkle x={50}  y={140} size={18} delay={0.3} color="#FBB6C8" />
+      <Sparkle x={340} y={180} size={14} delay={0.8} color="#E8C57A" />
+      <Sparkle x={60}  y={580} size={12} delay={1.2} color="#FBB6C8" />
+
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 110 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '12px 28px 0' }}>
+          {/* Mascot */}
+          <div className="float">
+            <Mochi size={150} mood="hooray" accessory="star" />
+          </div>
+
+          {/* Level badge (quiz only) */}
+          {isQuiz && level && (
+            <div style={{
+              marginTop: 12,
+              display: 'inline-flex', alignItems: 'center', gap: 8,
+              padding: '6px 12px', borderRadius: 999,
+              background: 'white', border: `1.5px solid ${level.color}55`,
+              boxShadow: 'var(--sh-card)',
+              fontSize: 12, fontWeight: 800, color: level.color,
+              letterSpacing: '0.04em',
+            }}>
+              <span>{level.icon}</span>
+              <span style={{ textTransform: 'uppercase', letterSpacing: '0.1em' }}>{level.label}</span>
+              <span style={{ opacity: 0.5 }}>·</span>
+              <span>×{level.multiplier}</span>
+            </div>
+          )}
+
+          {/* Score ring */}
+          {total > 0 && (
+            <div style={{ position: 'relative', marginTop: 18 }}>
+              <ProgressRing value={ratio} size={130} stroke={9} />
+              <div style={{
+                position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                flexDirection: 'column',
+              }}>
+                <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontSize: 38, fontWeight: 600, color: 'var(--ink-900)', lineHeight: 1, fontVariantNumeric: 'tabular-nums' }}>
+                  {isQuiz ? score.toFixed(1).replace('.', ',') : score}
+                  <span style={{ fontSize: 18, color: 'var(--ink-300)' }}>/{total}</span>
+                </div>
+                <div style={{ fontSize: 10, color: 'var(--rose-600)', fontWeight: 800, letterSpacing: '0.1em', textTransform: 'uppercase', marginTop: 2 }}>
+                  {isQuiz ? 'Note' : 'Score'}
+                </div>
+              </div>
+            </div>
+          )}
+
+          <h1 style={{
+            fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+            fontSize: 32, margin: '18px 0 6px', textAlign: 'center', lineHeight: 1.05,
+            letterSpacing: '-0.01em', textWrap: 'balance',
+          }}>{messages.t}</h1>
+          <p style={{ fontSize: 14, color: 'var(--ink-500)', textAlign: 'center', margin: 0, maxWidth: 300, lineHeight: 1.5, textWrap: 'pretty' }}>
+            {messages.s}
+          </p>
+
+          {/* QCM breakdown */}
+          {isQuiz && counts && (
+            <div style={{
+              marginTop: 18, padding: '14px 18px',
+              background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(10px)',
+              border: '1px solid rgba(180,60,100,0.08)',
+              borderRadius: 'var(--r-md)',
+              display: 'flex', alignItems: 'stretch', gap: 14,
+              boxShadow: 'var(--sh-card)',
+            }}>
+              <BreakdownStat
+                label="Bonnes"
+                value={counts.correct}
+                color="#2C5A38"
+                bg="rgba(188, 212, 192, 0.3)"
+              />
+              <div style={{ width: 1, background: 'rgba(0,0,0,0.06)' }}/>
+              <BreakdownStat
+                label="Mauvaises"
+                value={counts.wrong}
+                color="var(--rose-700)"
+                bg="rgba(252, 220, 230, 0.6)"
+              />
+              <div style={{ width: 1, background: 'rgba(0,0,0,0.06)' }}/>
+              <BreakdownStat
+                label="Passées"
+                value={counts.skip}
+                color="#6E5A8A"
+                bg="rgba(200, 184, 220, 0.3)"
+              />
+            </div>
+          )}
+
+          {/* Best progress (quiz only) */}
+          {isQuiz && best != null && (
+            <div style={{
+              marginTop: 12, padding: '12px 16px',
+              background: isNewBest ? 'linear-gradient(155deg, #FFE0EB, #FFF0F5)' : 'rgba(255,255,255,0.7)',
+              border: isNewBest ? '1.5px solid var(--rose-400)' : '1px solid rgba(180,60,100,0.08)',
+              borderRadius: 'var(--r-md)',
+              display: 'flex', alignItems: 'center', gap: 12,
+              width: '100%', maxWidth: 340,
+            }}>
+              <div style={{
+                width: 36, height: 36, borderRadius: '50%',
+                background: isNewBest ? 'var(--rose-500)' : 'var(--rose-100)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                color: isNewBest ? 'white' : 'var(--rose-700)',
+                flexShrink: 0, fontSize: 16,
+              }}>★</div>
+              <div style={{ flex: 1 }}>
+                <div style={{ fontSize: 13, fontWeight: 800, color: 'var(--ink-900)', lineHeight: 1.2 }}>
+                  {isNewBest ? 'Nouveau record !' : `Meilleur : ${best.toFixed(1).replace('.', ',')}/20`}
+                </div>
+                <div style={{ fontSize: 11, color: 'var(--ink-500)', marginTop: 2 }}>
+                  {isNewBest
+                    ? 'Tu progresses, ça se voit.'
+                    : `Aujourd'hui : ${score.toFixed(1).replace('.', ',')}/20`}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Personal note from Nini */}
+          <div style={{
+            marginTop: 18, padding: '16px 20px',
+            background: 'rgba(255,255,255,0.85)', backdropFilter: 'blur(10px)',
+            border: '1px dashed var(--rose-300)',
+            borderRadius: 'var(--r-lg)', maxWidth: 340,
+            position: 'relative',
+          }}>
+            <div style={{
+              position: 'absolute', top: -10, left: 16,
+              padding: '2px 10px', background: 'var(--rose-500)', color: 'white',
+              borderRadius: 999, fontSize: 10, fontWeight: 800, letterSpacing: '0.08em',
+            }}>UN MOT POUR TOI</div>
+            <p style={{
+              margin: 0, fontFamily: 'var(--f-display)', fontStyle: 'italic',
+              fontSize: 15, lineHeight: 1.5, color: 'var(--ink-700)',
+              textWrap: 'pretty',
+            }}>
+              « Quoi qu'il arrive à l'examen, je suis déjà fière de toi. Tu fais le boulot, jour après jour Nini »
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div style={{ position: 'absolute', bottom: 56, left: 28, right: 28, display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <button className="btn-primary tap" onClick={onContinue}>
+          Continuer
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function BreakdownStat({ label, value, color, bg }) {
+  return (
+    <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
+      <div style={{
+        width: 36, height: 36, borderRadius: '50%',
+        background: bg,
+        display: 'flex', alignItems: 'center', justifyContent: 'center',
+        color, fontWeight: 800, fontSize: 15, fontVariantNumeric: 'tabular-nums',
+      }}>{value}</div>
+      <div style={{ fontSize: 10, fontWeight: 700, color: 'var(--ink-500)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
+        {label}
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { Reward });
+// Profile / progression screen
+function Profile({ onBack }) {
+  const totalCards = SUBJECTS.reduce((s, x) => s + x.cards, 0);
+  const learned = Math.round(totalCards * 0.62);
+  const days = ['L','M','M','J','V','S','D'];
+
+  const stats = [
+    { label: 'Cartes apprises', value: learned, sub: `sur ${totalCards}` },
+    { label: 'Sessions', value: 24, sub: 'ce mois' },
+    { label: 'Précision', value: '83%', sub: 'aux QCM' },
+  ];
+
+  return (
+    <div className="kn-screen screen-anim">
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 110 }}>
+        {/* Top bar */}
+        <div style={{ padding: '0 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ width: 40 }} />
+          <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.12em', color: 'var(--rose-600)', textTransform: 'uppercase' }}>
+            Profil
+          </div>
+          <button className="tap" style={{
+            width: 40, height: 40, borderRadius: '50%',
+            background: 'white', border: '1px solid rgba(180,60,100,0.08)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            boxShadow: 'var(--sh-card)',
+          }}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="3" stroke="var(--ink-700)" strokeWidth="2"/>
+              <path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round"/>
+            </svg>
+          </button>
+        </div>
+
+        {/* Avatar header */}
+        <div style={{ padding: '12px 24px 20px', textAlign: 'center' }}>
+          <div style={{
+            position: 'relative', width: 130, height: 130, margin: '0 auto 10px',
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+          }}>
+            <div style={{
+              position: 'absolute', inset: 0, borderRadius: '50%',
+              background: 'linear-gradient(155deg, #FFD3DF, #F590AB)',
+            }}/>
+            <div style={{
+              position: 'absolute', inset: 6, borderRadius: '50%',
+              background: 'white',
+            }}/>
+            <div style={{ position: 'relative', zIndex: 1 }}>
+              <Mochi size={110} mood="happy" accessory="heart" />
+            </div>
+          </div>
+          <h1 style={{
+            fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+            fontSize: 28, margin: '4px 0 4px', letterSpacing: '-0.01em',
+          }}>Kehane</h1>
+          <p style={{ fontSize: 13, color: 'var(--ink-500)', margin: 0 }}>
+            L3 · Communication & Journalisme
+          </p>
+        </div>
+
+        {/* Stats row */}
+        <div style={{ padding: '0 18px 14px', display: 'flex', gap: 8 }}>
+          {stats.map((s, i) => (
+            <div key={i} className="kn-card" style={{ flex: 1, padding: 14, textAlign: 'center' }}>
+              <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontWeight: 600, fontSize: 22, color: 'var(--ink-900)', lineHeight: 1 }}>
+                {s.value}
+              </div>
+              <div style={{ fontSize: 10, color: 'var(--rose-600)', fontWeight: 800, letterSpacing: '0.06em', textTransform: 'uppercase', margin: '6px 0 2px' }}>
+                {s.label}
+              </div>
+              <div style={{ fontSize: 11, color: 'var(--ink-500)' }}>{s.sub}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* Streak chart */}
+        <div style={{ padding: '0 18px 14px' }}>
+          <div className="kn-card" style={{ padding: 18 }}>
+            <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: 14 }}>
+              <div>
+                <div style={{ fontSize: 11, fontWeight: 800, color: 'var(--rose-600)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+                  Cette semaine
+                </div>
+                <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontSize: 22, fontWeight: 600 }}>
+                  6 jours sur 7
+                </div>
+              </div>
+              <div style={{ fontSize: 28 }}>💗</div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', height: 90, gap: 6 }}>
+              {[0.6, 0.8, 0.4, 0, 0.7, 0.9, 0.5].map((h, i) => (
+                <div key={i} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
+                  <div style={{
+                    width: '100%',
+                    height: h ? `${h * 70}px` : '4px',
+                    background: h
+                      ? 'linear-gradient(180deg, var(--rose-400), var(--rose-500))'
+                      : 'var(--rose-100)',
+                    borderRadius: 6,
+                    transition: 'height 800ms cubic-bezier(.22,.9,.32,1.02)',
+                  }}/>
+                  <span style={{ fontSize: 10, color: 'var(--ink-500)', fontWeight: 700 }}>{days[i]}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Achievements */}
+        <div style={{ padding: '0 24px 6px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontSize: 20, fontWeight: 500 }}>
+            Tes badges
+          </div>
+        </div>
+        <div style={{ padding: '8px 18px 0', display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 10 }}>
+          {[
+            { e: '🌸', t: 'Première fleur', s: 'Première session' },
+            { e: '💗', t: '7 jours', s: 'Une semaine de suite' },
+            { e: '✨', t: 'Sans-faute', s: '10 QCM parfaits' },
+            { e: '🌙', t: 'Nuit douce', s: 'Révisé après 22h' },
+            { e: '⭐', t: 'Locked', s: '50 cartes', locked: true },
+            { e: '🏆', t: 'Locked', s: 'Examen', locked: true },
+          ].map((a, i) => (
+            <div key={i} className="kn-card" style={{
+              padding: 14, textAlign: 'center',
+              opacity: a.locked ? 0.4 : 1,
+              filter: a.locked ? 'grayscale(0.8)' : 'none',
+            }}>
+              <div style={{ fontSize: 28, marginBottom: 6 }}>{a.e}</div>
+              <div style={{ fontSize: 11, fontWeight: 800, color: 'var(--ink-900)' }}>{a.t}</div>
+              <div style={{ fontSize: 10, color: 'var(--ink-500)', marginTop: 2 }}>{a.s}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { Profile });
+// All Cards screen — big subject cards containing their lessons (chapters).
+function AllCards({ onOpenSubject, onOpenLesson }) {
+  const [query, setQuery] = React.useState('');
+  const [filter, setFilter] = React.useState('all');
+  const [expanded, setExpanded] = React.useState(null);
+
+  // Synthesize lessons per subject (each subject -> chapters with cards count + status)
+  const SUBJECT_LESSONS = React.useMemo(() => {
+    const lessonNames = {
+      'theo-info': [
+        "Modèle de Shannon", "Lasswell & ses limites", "Cybernétique de Wiener",
+        "École de Palo Alto", "Théorie des deux étages", "Médiologie",
+        "Communication & sens", "Synthèse",
+      ],
+      'socio-medias': [
+        "Agenda-setting", "Cultivation theory", "Spirale du silence",
+        "Usages & gratifications", "Sociologie de la réception", "Synthèse critique",
+      ],
+      'ecriture': [
+        "La pyramide inversée", "Le lead & les 5W", "L'attaque & la chute",
+        "Style direct & verbes actifs", "Réécriture",
+      ],
+      'droit-presse': [
+        "Loi de 1881", "Diffamation", "Droit à l'image", "RGPD & journalisme",
+        "Sources & secret professionnel", "Responsabilité éditoriale", "Cas pratiques",
+      ],
+    };
+    return SUBJECTS.map(s => {
+      const names = lessonNames[s.id] || [];
+      const totalCards = (FLASHCARDS[s.id] || []).length;
+      // distribute cards roughly equal across chapters
+      const lessons = names.slice(0, s.chapters).map((name, i) => {
+        const r = (i + 0.5) / s.chapters;
+        let status = 'new';
+        if (r < s.progress - 0.1) status = 'learned';
+        else if (r < s.progress + 0.1) status = 'review';
+        const cards = Math.max(3, Math.round(totalCards / s.chapters) + (i % 2 ? 1 : 0));
+        return { id: `${s.id}-${i}`, name, cards, status, idx: i };
+      });
+      return { ...s, lessons };
+    });
+  }, []);
+
+  const subjBg = (s) =>
+    s.color === 'rose'  ? 'linear-gradient(155deg, #FFD3DF, #F590AB)'
+  : s.color === 'lav'   ? 'linear-gradient(155deg, #EFE7F6, #C8B8DC)'
+  : s.color === 'peach' ? 'linear-gradient(155deg, #FFE4D6, #FFC09E)'
+  :                       'linear-gradient(155deg, #DDEDE1, #BCD4C0)';
+
+  const subjAccent = (s) =>
+    s.color === 'rose'  ? 'var(--rose-600)'
+  : s.color === 'lav'   ? '#6E5A8A'
+  : s.color === 'peach' ? '#B55F30'
+  :                       '#406B4D';
+
+  // filter logic
+  const filteredSubjects = SUBJECT_LESSONS.map(s => {
+    const lessons = s.lessons.filter(l => {
+      const m = !query
+        || l.name.toLowerCase().includes(query.toLowerCase())
+        || s.title.toLowerCase().includes(query.toLowerCase());
+      const f = filter === 'all' || l.status === filter;
+      return m && f;
+    });
+    return { ...s, lessons };
+  }).filter(s => s.lessons.length > 0);
+
+  const allLessons = SUBJECT_LESSONS.flatMap(s => s.lessons);
+  const counts = {
+    all: allLessons.length,
+    learned: allLessons.filter(l => l.status === 'learned').length,
+    review: allLessons.filter(l => l.status === 'review').length,
+    new: allLessons.filter(l => l.status === 'new').length,
+  };
+
+  const filters = [
+    { id: 'all', label: 'Tout', dot: 'var(--ink-300)' },
+    { id: 'learned', label: 'Apprises', dot: 'var(--rose-500)' },
+    { id: 'review', label: 'À revoir', dot: '#C8B8DC' },
+    { id: 'new', label: 'Nouvelles', dot: '#E8C57A' },
+  ];
+
+  const statusMeta = (s) => s === 'learned'
+    ? { color: 'var(--rose-500)', label: 'Apprise' }
+    : s === 'review'
+    ? { color: '#9784B0', label: 'À revoir' }
+    : { color: '#B89240', label: 'Nouvelle' };
+
+  return (
+    <div className="kn-screen screen-anim">
+      <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 110 }}>
+        {/* Header */}
+        <div style={{ padding: '8px 24px 16px' }}>
+          <div style={{ fontSize: 12, fontWeight: 800, letterSpacing: '0.12em', color: 'var(--rose-600)', textTransform: 'uppercase' }}>
+            Tes leçons
+          </div>
+          <h1 style={{
+            fontFamily: 'var(--f-display)', fontWeight: 500, fontStyle: 'italic',
+            fontSize: 30, margin: '6px 0 0', lineHeight: 1.05, letterSpacing: '-0.01em',
+          }}>Par matière</h1>
+        </div>
+
+        {/* Search bar */}
+        <div style={{ padding: '0 18px 12px' }}>
+          <div style={{
+            display: 'flex', alignItems: 'center', gap: 10,
+            padding: '12px 14px',
+            background: 'white',
+            border: '1px solid rgba(180,60,100,0.08)',
+            borderRadius: 'var(--r-md)',
+            boxShadow: 'var(--sh-card)',
+          }}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0 }}>
+              <circle cx="11" cy="11" r="7" stroke="var(--ink-500)" strokeWidth="2"/>
+              <path d="M20 20l-3.5-3.5" stroke="var(--ink-500)" strokeWidth="2" strokeLinecap="round"/>
+            </svg>
+            <input
+              type="text"
+              placeholder="Rechercher une leçon, une matière…"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              style={{
+                flex: 1, border: 'none', outline: 'none', background: 'transparent',
+                fontFamily: 'inherit', fontSize: 15, color: 'var(--ink-900)',
+                fontWeight: 600, minWidth: 0,
+              }}
+            />
+            {query && (
+              <button className="tap" onClick={() => setQuery('')} style={{
+                width: 22, height: 22, borderRadius: '50%',
+                background: 'var(--rose-100)', border: 'none',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                color: 'var(--rose-700)', fontSize: 11, fontWeight: 800,
+                flexShrink: 0,
+              }}>✕</button>
+            )}
+          </div>
+        </div>
+
+        {/* Filter chips */}
+        <div style={{
+          display: 'flex', gap: 8, padding: '0 18px 14px',
+          overflowX: 'auto', scrollbarWidth: 'none',
+        }}>
+          {filters.map(f => (
+            <button key={f.id} className="tap" onClick={() => setFilter(f.id)} style={{
+              flexShrink: 0,
+              padding: '8px 14px',
+              background: filter === f.id ? 'var(--rose-500)' : 'white',
+              color:      filter === f.id ? 'white' : 'var(--ink-700)',
+              border: filter === f.id ? 'none' : '1px solid rgba(180,60,100,0.1)',
+              borderRadius: 999,
+              fontSize: 13, fontWeight: 800,
+              display: 'flex', alignItems: 'center', gap: 6,
+              boxShadow: filter === f.id ? 'var(--sh-pop)' : 'none',
+              transition: 'all 200ms',
+              whiteSpace: 'nowrap',
+            }}>
+              <span style={{
+                width: 6, height: 6, borderRadius: '50%',
+                background: filter === f.id ? 'white' : f.dot,
+              }}/>
+              {f.label}
+              <span style={{
+                fontSize: 11,
+                opacity: filter === f.id ? 0.85 : 0.55,
+              }}>{counts[f.id]}</span>
+            </button>
+          ))}
+        </div>
+
+        {/* Empty state */}
+        {filteredSubjects.length === 0 ? (
+          <div style={{ padding: '40px 32px', textAlign: 'center' }}>
+            <Mochi size={100} mood="sleepy" />
+            <div style={{ fontFamily: 'var(--f-display)', fontStyle: 'italic', fontSize: 20, marginTop: 12 }}>
+              Aucune leçon trouvée
+            </div>
+            <p style={{ fontSize: 13, color: 'var(--ink-500)', marginTop: 6 }}>
+              Essaie un autre mot-clé ou un autre filtre.
+            </p>
+          </div>
+        ) : (
+          <div style={{ padding: '0 18px', display: 'flex', flexDirection: 'column', gap: 14 }}>
+            {filteredSubjects.map((s, si) => {
+              const isOpen = expanded === s.id || query.length > 0 || filter !== 'all';
+              const learnedCount = s.lessons.filter(l => l.status === 'learned').length;
+              return (
+                <div key={s.id} className="kn-card" style={{
+                  overflow: 'hidden', padding: 0,
+                  animation: `screen-in 460ms ${si * 80}ms backwards cubic-bezier(.22,.9,.32,1.02)`,
+                }}>
+                  {/* Subject header */}
+                  <button className="tap"
+                    onClick={() => setExpanded(expanded === s.id ? null : s.id)}
+                    style={{
+                      width: '100%', border: 'none', textAlign: 'left',
+                      background: subjBg(s),
+                      padding: 18,
+                      display: 'flex', alignItems: 'center', gap: 14,
+                      position: 'relative',
+                    }}>
+                    <div style={{
+                      width: 52, height: 52, borderRadius: 16,
+                      background: 'rgba(255,255,255,0.65)',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      flexShrink: 0,
+                    }}>
+                      <SubjectIcon icon={s.icon} />
+                    </div>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <div style={{
+                        fontFamily: 'var(--f-display)', fontStyle: 'italic',
+                        fontSize: 19, fontWeight: 600, color: 'var(--ink-900)',
+                        lineHeight: 1.15, letterSpacing: '-0.01em',
+                        textWrap: 'balance',
+                      }}>{s.title}</div>
+                      <div style={{
+                        fontSize: 12, color: subjAccent(s),
+                        fontWeight: 800, marginTop: 4,
+                        display: 'flex', alignItems: 'center', gap: 8,
+                        whiteSpace: 'nowrap',
+                      }}>
+                        <span style={{ flexShrink: 0 }}>{s.lessons.length} leçons</span>
+                        <span style={{ opacity: 0.4, flexShrink: 0 }}>•</span>
+                        <span style={{ flexShrink: 0 }}>{learnedCount}/{s.lessons.length} ✓</span>
+                      </div>
+                    </div>
+                    {/* Chevron */}
+                    <div style={{
+                      width: 32, height: 32, borderRadius: '50%',
+                      background: 'rgba(255,255,255,0.7)',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      flexShrink: 0,
+                      transform: isOpen ? 'rotate(90deg)' : 'rotate(0deg)',
+                      transition: 'transform 280ms',
+                    }}>
+                      <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
+                        <path d="M5 2l6 5-6 5" stroke={subjAccent(s)} strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                  </button>
+
+                  {/* Lessons (collapsible) */}
+                  {isOpen && (
+                    <div style={{ padding: 12, display: 'flex', flexDirection: 'column', gap: 6 }}>
+                      {s.lessons.map((l, li) => {
+                        const sm = statusMeta(l.status);
+                        return (
+                          <button key={l.id} className="tap"
+                            onClick={() => onOpenLesson ? onOpenLesson(s, l) : onOpenSubject(s)}
+                            style={{
+                              border: 'none', textAlign: 'left',
+                              background: 'rgba(255, 245, 247, 0.5)',
+                              borderRadius: 14, padding: '12px 14px',
+                              display: 'flex', alignItems: 'center', gap: 12,
+                              animation: `screen-in 320ms ${li * 30}ms backwards`,
+                            }}>
+                            <div style={{
+                              width: 28, height: 28, borderRadius: 9,
+                              background: 'white',
+                              display: 'flex', alignItems: 'center', justifyContent: 'center',
+                              flexShrink: 0,
+                              border: `1px solid ${sm.color}30`,
+                              fontSize: 11, fontWeight: 800,
+                              color: subjAccent(s),
+                            }}>{l.idx + 1}</div>
+                            <div style={{ flex: 1, minWidth: 0 }}>
+                              <div style={{
+                                fontSize: 14, fontWeight: 700, color: 'var(--ink-900)',
+                                whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
+                              }}>{l.name}</div>
+                              <div style={{
+                                fontSize: 11, color: 'var(--ink-500)',
+                                display: 'flex', alignItems: 'center', gap: 8, marginTop: 2,
+                                whiteSpace: 'nowrap',
+                              }}>
+                                <span style={{ flexShrink: 0 }}>{l.cards} cartes</span>
+                                <span style={{ opacity: 0.4, flexShrink: 0 }}>•</span>
+                                <span style={{
+                                  display: 'inline-flex', alignItems: 'center', gap: 4,
+                                  color: sm.color, fontWeight: 800,
+                                  whiteSpace: 'nowrap', flexShrink: 0,
+                                }}>
+                                  <span style={{ width: 5, height: 5, borderRadius: '50%', background: sm.color }}/>
+                                  {sm.label}
+                                </span>
+                              </div>
+                            </div>
+                            <svg width="12" height="12" viewBox="0 0 14 14" fill="none" style={{ flexShrink: 0, opacity: 0.35 }}>
+                              <path d="M5 2l6 5-6 5" stroke="var(--ink-700)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            </svg>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+Object.assign(window, { AllCards });
+
+// ── TweaksPanel minimal stub (no host protocol needed for standalone) ──────
+function useTweaks(defaults) {
+  const [values, setValues] = React.useState(defaults);
+  const setTweak = React.useCallback((keyOrEdits, val) => {
+    const edits = typeof keyOrEdits === 'object' && keyOrEdits !== null ? keyOrEdits : { [keyOrEdits]: val };
+    setValues(prev => ({ ...prev, ...edits }));
+  }, []);
+  return [values, setTweak];
+}
+function TweaksPanel({ children }) { return null; }
+function TweakSection({ children }) { return null; }
+function TweakRadio() { return null; }
+function TweakSelect() { return null; }
+function TweakSlider() { return null; }
+function TweakButton() { return null; }
+Object.assign(window, { useTweaks, TweaksPanel, TweakSection, TweakRadio, TweakSelect, TweakSlider, TweakButton });
+
+// ── App ────────────────────────────────────────────────────────────────────
+const TWEAK_DEFAULTS = { primary: 'rose', kawaii: 'balanced', font: 'fraunces', darkAccent: false, mascotSize: 100 };
+
+function Nav({ active, onSelect }) {
+  const tabs = [
+    { id: 'home',    label: 'Accueil', icon: HomeIcon },
+    { id: 'cards',   label: 'Cartes',  icon: CardsIcon },
+    { id: 'profile', label: 'Profil',  icon: UserIcon },
+  ];
+  return (
+    <div className="kn-tabbar">
+      {tabs.map(t => (
+        <button key={t.id} className={`kn-tab tap ${active === t.id ? 'active' : ''}`} onClick={() => onSelect(t.id)}>
+          <t.icon active={active === t.id} />
+          <span>{t.label}</span>
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function HomeIcon({ active }) {
+  const c = active ? 'var(--rose-600)' : 'var(--ink-500)';
+  return <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 11l9-7 9 7v9a2 2 0 01-2 2h-4v-6h-6v6H5a2 2 0 01-2-2v-9z" stroke={c} strokeWidth="1.8" strokeLinejoin="round" fill={active ? c : 'none'} fillOpacity={active ? 0.15 : 0}/></svg>;
+}
+function CardsIcon({ active }) {
+  const c = active ? 'var(--rose-600)' : 'var(--ink-500)';
+  return <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="14" height="12" rx="3" stroke={c} strokeWidth="1.8" fill={active ? c : 'none'} fillOpacity={active ? 0.15 : 0}/><rect x="7" y="3" width="14" height="12" rx="3" stroke={c} strokeWidth="1.8" fill="white"/></svg>;
+}
+function UserIcon({ active }) {
+  const c = active ? 'var(--rose-600)' : 'var(--ink-500)';
+  return <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke={c} strokeWidth="1.8" fill={active ? c : 'none'} fillOpacity={active ? 0.15 : 0}/><path d="M4 21c0-4.5 3.5-8 8-8s8 3.5 8 8" stroke={c} strokeWidth="1.8" strokeLinecap="round"/></svg>;
+}
+
+function App() {
+  const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
+  const [route, setRoute] = React.useState({ name: 'onboarding' });
+  const [tab, setTab] = React.useState('home');
+
+  const go = (r) => setRoute(r);
+  const startApp = () => go({ name: 'home' });
+
+  let screen = null;
+  if (route.name === 'onboarding') {
+    screen = <Onboarding onStart={startApp} tweaks={tweaks} />;
+  } else if (route.name === 'home') {
+    if (tab === 'home') {
+      screen = <Home
+        onOpenSubject={(s) => go({ name: 'subject', subject: s })}
+        onPanic={() => go({ name: 'panic', subject: SUBJECTS[0] })}
+        onPlayMode={() => go({ name: 'subject', subject: SUBJECTS[0] })}
+      />;
+    } else if (tab === 'cards') {
+      screen = <AllCards onOpenSubject={(s) => go({ name: 'flashcards', subject: s })} />;
+    } else if (tab === 'profile') {
+      screen = <Profile />;
+    }
+  } else if (route.name === 'subject') {
+    screen = <SubjectHub
+      subject={route.subject}
+      onBack={() => go({ name: 'home' })}
+      onMode={(m) => {
+        if (m === 'concentre') go({ name: 'concentre', subject: route.subject });
+        if (m === 'swipe') go({ name: 'flashcards', subject: route.subject });
+        if (m === 'challenge') go({ name: 'challenge', subject: route.subject });
+      }}
+      onPanic={() => go({ name: 'panic', subject: route.subject })}
+    />;
+  } else if (route.name === 'concentre') {
+    screen = <Concentre subject={route.subject} onBack={() => go({ name: 'subject', subject: route.subject })} />;
+  } else if (route.name === 'flashcards') {
+    screen = <Flashcards
+      subject={route.subject}
+      onBack={() => go({ name: 'subject', subject: route.subject })}
+      onComplete={(score) => go({ name: 'reward', subject: route.subject, score: score.know, total: score.know + score.unsure, mode: 'swipe' })}
+    />;
+  } else if (route.name === 'challenge') {
+    screen = <Challenge
+      subject={route.subject}
+      onBack={() => go({ name: 'subject', subject: route.subject })}
+      onComplete={(payload) => go({ name: 'reward', subject: route.subject, ...payload, mode: 'qcm' })}
+    />;
+  } else if (route.name === 'panic') {
+    screen = <Panic subject={route.subject} onBack={() => go({ name: route.fromHub ? 'subject' : 'home', subject: route.subject })} />;
+  } else if (route.name === 'reward') {
+    screen = <Reward
+      subject={route.subject}
+      score={route.score} total={route.total} mode={route.mode}
+      counts={route.counts} level={route.level}
+      best={route.best} isNewBest={route.isNewBest}
+      onContinue={() => go({ name: 'home' })}
+    />;
+  }
+
+  const showTabs = route.name === 'home';
+
+  return (
+    <IOSDevice width={402} height={874} dark={false}>
+      <div style={{ position: 'absolute', inset: 0 }} key={route.name + (route.subject?.id || '') + tab}>
+        {screen}
+        {showTabs && <Nav active={tab} onSelect={setTab} />}
+      </div>
+    </IOSDevice>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+</script>
+</body>
+</html>
