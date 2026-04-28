@@ -16,12 +16,12 @@
 
 ---
 
-## Étape 2 — Connexion Supabase + données réelles
+## Étape 2 — Connexion Supabase + données réelles ✅
 
-- [ ] Créer le projet Supabase
-- [ ] Ajouter les vraies clés dans `.env`
-- [ ] Créer le schéma SQL (tables du CLAUDE.md)
-- [ ] Vérifier que les hooks chargent les données
+- [x] Créer le projet Supabase
+- [x] Ajouter les vraies clés dans `.env` (URL corrigée : sans `/rest/v1/`)
+- [x] Schéma SQL créé (7 tables vérifiées : subjects, flashcards, qcm_questions, concentre, panic_items, challenge_scores, sessions)
+- [x] Connexion vérifiée : toutes les tables répondent ✅
 
 ---
 
