@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700&family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --rose-50:  #FFF5F7;
+  --rose-100: #FFE7EE;
+  --rose-200: #FFD3DF;
+  --rose-300: #FBB6C8;
+  --rose-400: #F590AB;
+  --rose-500: #EC6F92;
+  --rose-600: #D9527A;
+  --rose-700: #B53A60;
+  --cream:    #FFFAF7;
+  --paper:    #FFF8F4;
+  --ink-900:  #2A1B26;
+  --ink-700:  #4A3441;
+  --ink-500:  #74606E;
+  --ink-300:  #B5A4AF;
+  --lav:      #C8B8DC;
+  --peach:    #FFD9C4;
+  --sage:     #BCD4C0;
+  --gold:     #E8C57A;
+  --bg:       #FFF5F7;
+  --card:     #FFFFFF;
+  --f-display: 'Fraunces', 'Cormorant Garamond', serif;
+  --f-body:    'Nunito', 'SF Pro Rounded', system-ui, sans-serif;
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 26px;
+  --r-xl: 34px;
+  --sh-soft: 0 2px 6px rgba(180,60,100,0.06), 0 12px 28px rgba(180,60,100,0.08);
+  --sh-card: 0 1px 2px rgba(180,60,100,0.04), 0 6px 18px rgba(180,60,100,0.07);
+  --sh-pop:  0 4px 12px rgba(217,82,122,0.18), 0 18px 40px rgba(217,82,122,0.18);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--f-body);
+  color: var(--ink-900);
+  background: radial-gradient(80% 60% at 30% 20%, #FFE7EE 0%, transparent 60%),
+              radial-gradient(70% 50% at 80% 80%, #EFE7F6 0%, transparent 60%),
+              #F4E9EE;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+button { font-family: inherit; cursor: pointer; }
+
+/* ── Screens ── */
+.kn-screen {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120% 80% at 50% -10%, #FFE2EB 0%, transparent 60%),
+              radial-gradient(80% 60% at 100% 100%, #FFEEDD 0%, transparent 70%),
+              var(--bg);
+  overflow: hidden;
+}
+
+.kn-scroll {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.kn-scroll::-webkit-scrollbar { display: none; }
+
+/* ── Typography ── */
+.kn-wordmark {
+  font-family: var(--f-display);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-style: italic;
+}
+
+/* ── Touch ── */
+.tap {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* ── Animations ── */
+@keyframes sparkle {
+  0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.6; }
+  50%       { transform: scale(1.3) rotate(20deg); opacity: 1; }
+}
+@keyframes float-y {
+  0%, 100% { transform: translateY(0px); }
+  50%      { transform: translateY(-6px); }
+}
+@keyframes heart-pop {
+  0%   { transform: scale(0); opacity: 0; }
+  40%  { transform: scale(1.3); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes confetti-fall {
+  0%   { transform: translateY(-20px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(800px) rotate(720deg); opacity: 0; }
+}
+@keyframes screen-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes panic-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.4; transform: scale(0.7); }
+}
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25%      { transform: rotate(-3deg); }
+  75%      { transform: rotate(3deg); }
+}
+
+.screen-anim { animation: screen-in 380ms cubic-bezier(.22,.9,.32,1.02); }
+.float       { animation: float-y 3.4s ease-in-out infinite; }
+
+/* ── Buttons ── */
+.btn-primary {
+  background: linear-gradient(180deg, var(--rose-500), var(--rose-600));
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 16px 28px;
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: 0.01em;
+  box-shadow: var(--sh-pop), inset 0 1px 0 rgba(255,255,255,0.35);
+  transition: transform 120ms ease;
+}
+.btn-primary:active { transform: scale(0.97); }
+
+.btn-ghost {
+  background: rgba(255,255,255,0.7);
+  color: var(--ink-900);
+  border: 1px solid rgba(180,60,100,0.12);
+  border-radius: 999px;
+  padding: 14px 22px;
+  font-weight: 700;
+  font-size: 15px;
+  backdrop-filter: blur(10px);
+}
+
+/* ── Cards ── */
+.kn-card {
+  background: var(--card);
+  border-radius: var(--r-lg);
+  box-shadow: var(--sh-card);
+  border: 1px solid rgba(180,60,100,0.05);
+}
+
+/* ── Tab bar ── */
+.kn-tabbar {
+  position: absolute;
+  bottom: 18px;
+  left: 12px;
+  right: 12px;
+  height: 64px;
+  background: rgba(255,255,255,0.78);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255,255,255,0.7);
+  border-radius: 28px;
+  box-shadow: var(--sh-soft);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 8px;
+  z-index: 30;
+}
+
+.kn-tab {
+  flex: 1;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border-radius: 20px;
+  background: transparent;
+  border: none;
+  color: var(--ink-500);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  position: relative;
+  transition: color 200ms;
+}
+.kn-tab.active { color: var(--rose-600); }
+.kn-tab.active::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: var(--rose-100);
+  z-index: -1;
+}
+
+/* ── Chips ── */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--rose-100);
+  color: var(--rose-700);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.chip.lav   { background: #EFE7F6; color: #6E5A8A; }
+.chip.peach { background: #FFE4D6; color: #B55F30; }
+.chip.sage  { background: #DDEDE1; color: #406B4D; }
+
+/* ── Dot divider ── */
+.dot-divider {
+  height: 1px;
+  background-image: linear-gradient(to right, var(--rose-200) 50%, transparent 50%);
+  background-size: 8px 1px;
+  background-repeat: repeat-x;
+  margin: 14px 0;
+}
