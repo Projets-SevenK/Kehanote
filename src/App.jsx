@@ -10,31 +10,22 @@ import { Reward }     from './screens/Reward'
 import { Profile }    from './screens/Profile'
 import { AllCards }   from './screens/AllCards'
 
-const SCREENS = {
-  onboarding: Onboarding,
-  home:       Home,
-  subjectHub: SubjectHub,
-  concentre:  Concentre,
-  flashcards: Flashcards,
-  challenge:  Challenge,
-  panic:      Panic,
-  reward:     Reward,
-  profile:    Profile,
-  allCards:   AllCards,
-}
-
 export default function App() {
   const [route, setRoute] = useState({ name: 'onboarding' })
+  const [tab, setTab]     = useState('home')
 
-  function go(newRoute) {
-    setRoute(newRoute)
+  function go(newRoute) { setRoute(newRoute) }
+
+  // Screens that live outside the tab shell
+  const MODAL_SCREENS = { onboarding: Onboarding, subjectHub: SubjectHub, concentre: Concentre, flashcards: Flashcards, challenge: Challenge, panic: Panic, reward: Reward }
+
+  if (route.name !== 'home') {
+    const Screen = MODAL_SCREENS[route.name]
+    if (Screen) return <Screen key={route.name + (route.subject?.id ?? '')} route={route} go={go} />
   }
 
-  const Screen = SCREENS[route.name] ?? Home
-
-  return (
-    <div style={{ position: 'relative', width: '100%', minHeight: '100vh' }}>
-      <Screen key={route.name} route={route} go={go} />
-    </div>
-  )
+  // Tab shell (home / cards / profile)
+  if (tab === 'cards')   return <AllCards key="cards"   route={{ name: 'cards' }}   go={go} tab={tab} onTab={setTab} />
+  if (tab === 'profile') return <Profile  key="profile" route={{ name: 'profile' }} go={go} tab={tab} onTab={setTab} />
+  return <Home key="home" route={{ name: 'home' }} go={go} tab={tab} onTab={setTab} />
 }

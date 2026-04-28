@@ -1,12 +1,13 @@
 import React from 'react'
 
-export function Sparkle({ size = 16, color = 'var(--gold)', style = {} }) {
+export function Sparkle({ x, y, size = 14, delay = 0, color = '#FFFFFF' }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 16 16" style={{ animation: 'sparkle 2s ease-in-out infinite', ...style }}>
-      <path
-        d="M8 1 L9 6.5 L14.5 8 L9 9.5 L8 15 L7 9.5 L1.5 8 L7 6.5 Z"
-        fill={color}
-      />
+    <svg width={size} height={size} viewBox="0 0 20 20" style={{
+      position: 'absolute', left: x, top: y,
+      animation: `sparkle 2.4s ease-in-out ${delay}s infinite`,
+      pointerEvents: 'none',
+    }}>
+      <path d="M10 0 L12 8 L20 10 L12 12 L10 20 L8 12 L0 10 L8 8 Z" fill={color}/>
     </svg>
   )
 }

@@ -1,42 +1,58 @@
 import React from 'react'
 
+function HomeIcon({ active }) {
+  const col = active ? 'var(--rose-600)' : 'var(--ink-500)'
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <path d="M3 11l9-7 9 7v9a2 2 0 01-2 2h-4v-6h-6v6H5a2 2 0 01-2-2v-9z"
+        stroke={col} strokeWidth="1.8" strokeLinejoin="round"
+        fill={active ? col : 'none'} fillOpacity={active ? 0.15 : 0}/>
+    </svg>
+  )
+}
+
+function CardsIcon({ active }) {
+  const col = active ? 'var(--rose-600)' : 'var(--ink-500)'
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <rect x="3" y="6" width="14" height="12" rx="3"
+        stroke={col} strokeWidth="1.8"
+        fill={active ? col : 'none'} fillOpacity={active ? 0.15 : 0}/>
+      <rect x="7" y="3" width="14" height="12" rx="3" stroke={col} strokeWidth="1.8" fill="white"/>
+    </svg>
+  )
+}
+
+function UserIcon({ active }) {
+  const col = active ? 'var(--rose-600)' : 'var(--ink-500)'
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="8" r="4" stroke={col} strokeWidth="1.8"
+        fill={active ? col : 'none'} fillOpacity={active ? 0.15 : 0}/>
+      <path d="M4 21c0-4.5 3.5-8 8-8s8 3.5 8 8" stroke={col} strokeWidth="1.8" strokeLinecap="round"/>
+    </svg>
+  )
+}
+
 const TABS = [
-  {
-    name: 'home', label: 'Accueil',
-    icon: (active) => (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill={active ? 'var(--rose-500)' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-        <polyline points="9,22 9,12 15,12 15,22" />
-      </svg>
-    ),
-  },
-  {
-    name: 'profile', label: 'Profil',
-    icon: (active) => (
-      <svg width="22" height="22" viewBox="0 0 24 24" fill={active ? 'var(--rose-500)' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-        <circle cx="12" cy="7" r="4" />
-      </svg>
-    ),
-  },
+  { id: 'home',    label: 'Accueil', Icon: HomeIcon  },
+  { id: 'cards',   label: 'Cartes',  Icon: CardsIcon },
+  { id: 'profile', label: 'Profil',  Icon: UserIcon  },
 ]
 
-export function Nav({ route, go }) {
+export function Nav({ tab, onTab }) {
   return (
     <div className="kn-tabbar">
-      {TABS.map(tab => {
-        const active = route.name === tab.name
-        return (
-          <button
-            key={tab.name}
-            className={`kn-tab tap${active ? ' active' : ''}`}
-            onClick={() => go({ name: tab.name })}
-          >
-            {tab.icon(active)}
-            <span>{tab.label}</span>
-          </button>
-        )
-      })}
+      {TABS.map(({ id, label, Icon }) => (
+        <button
+          key={id}
+          className={`kn-tab tap${tab === id ? ' active' : ''}`}
+          onClick={() => onTab(id)}
+        >
+          <Icon active={tab === id} />
+          <span>{label}</span>
+        </button>
+      ))}
     </div>
   )
 }

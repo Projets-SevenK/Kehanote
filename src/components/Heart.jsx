@@ -1,10 +1,10 @@
 import React from 'react'
 
-export function Heart({ size = 16, color = 'var(--rose-500)', style = {} }) {
+export function Heart({ size = 16, color = '#EC6F92', style = {} }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" style={{ animation: 'heart-pop 400ms ease forwards', ...style }}>
+    <svg width={size} height={size} viewBox="0 0 20 20" style={style}>
       <path
-        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+        d="M10 17 C10 17 1 11.5 1 6 C1 3 3.5 1 6 1 C8 1 9.5 2 10 3.5 C10.5 2 12 1 14 1 C16.5 1 19 3 19 6 C19 11.5 10 17 10 17 Z"
         fill={color}
       />
     </svg>

@@ -2,19 +2,23 @@ import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
 
 export function useProgress() {
-  const [data, setData] = useState({ streak: 0, totalSessions: 0, scores: [] })
+  const [data, setData]       = useState({ streak: 0, totalSessions: 0, scores: [], sessions: [] })
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const [error, setError]     = useState(null)
 
   useEffect(() => {
     Promise.all([
       supabase.from('sessions').select('*').order('played_at', { ascending: false }),
       supabase.from('challenge_scores').select('*').order('played_at', { ascending: false }),
-    ]).then(([sessions, scores]) => {
-      if (sessions.error) { setError(sessions.error); setLoading(false); return }
-      const rows = sessions.data ?? []
-      const streak = computeStreak(rows)
-      setData({ streak, totalSessions: rows.length, scores: scores.data ?? [] })
+    ]).then(([sessRes, scoresRes]) => {
+      if (sessRes.error) { setError(sessRes.error); setLoading(false); return }
+      const sessions = sessRes.data ?? []
+      setData({
+        streak:        computeStreak(sessions),
+        totalSessions: sessions.length,
+        scores:        scoresRes.data ?? [],
+        sessions,
+      })
       setLoading(false)
     })
   }, [])

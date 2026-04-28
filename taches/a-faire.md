@@ -25,11 +25,14 @@
 
 ---
 
-## Étape 3 — Écran Home pixel-perfect
+## Étape 3 — Écran Home pixel-perfect ✅
 
-- [ ] Header avec streak + mascotte humeur dynamique
-- [ ] Cards matières avec couleur/icône
-- [ ] Barre de navigation bottom
+- [x] Header : date en uppercase, "Bonjour Kehane" en Fraunces italic, phrase d'encouragement rotative, bouton Mochi
+- [x] Streak card : grille 7 jours (L M M J V S D) avec cœurs remplis, compteur dynamique
+- [x] Mode Panique : bouton dark gradient avec sparkle
+- [x] Cards matières : fond dégradé par couleur, ProgressRing, animation staggerée screen-in
+- [x] Nav 3 onglets : Accueil / Cartes / Profil avec icônes SVG du prototype
+- [x] Mochi SVG complet (7 humeurs), Sparkle, Heart, SubjectIcon mis à jour pixel-perfect
 
 ---
 
