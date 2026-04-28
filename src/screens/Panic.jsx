@@ -3,6 +3,7 @@ import { useSubjects } from '../hooks/useSubjects'
 import { usePanic }    from '../hooks/usePanic'
 import { Mascot }      from '../components/Mascot'
 import { Sparkle }     from '../components/Sparkle'
+import { supabase }    from '../lib/supabase'
 
 function SubjectPanicContent({ subjectId }) {
   const { data, loading } = usePanic(subjectId)
@@ -33,6 +34,12 @@ export function Panic({ route, go }) {
 
   // Set first subject once loaded
   useEffect(() => { if (!activeId && subjects.length) setActiveId(subjects[0].id) }, [subjects])
+
+  useEffect(() => {
+    if (activeId) {
+      supabase.from('sessions').insert({ subject_id: activeId, mode: 'panic', cards_done: 1 }).then(() => {})
+    }
+  }, [activeId])
 
   // 5-min countdown
   const [seconds, setSeconds] = useState(300)

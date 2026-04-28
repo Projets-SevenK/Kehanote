@@ -9,11 +9,19 @@ export function useSubjects() {
   useEffect(() => {
     supabase
       .from('subjects')
-      .select('*')
+      .select('*, flashcards(count), sessions(count)')
       .order('created_at')
       .then(({ data, error }) => {
-        if (error) setError(error)
-        else setData(data ?? [])
+        if (error) {
+          setError(error)
+        } else {
+          const formatted = (data ?? []).map(s => ({
+            ...s,
+            cards_count: s.flashcards?.[0]?.count ?? 0,
+            progress: Math.min(1, (s.sessions?.[0]?.count ?? 0) / 10)
+          }))
+          setData(formatted)
+        }
         setLoading(false)
       })
   }, [])

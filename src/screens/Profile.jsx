@@ -16,19 +16,31 @@ function buildWeekHeights(sessions) {
   })
 }
 
-const BADGES = [
-  { e: '🌸', t: 'Première fleur', s: 'Première session' },
-  { e: '💗', t: '7 jours',        s: 'Une semaine de suite' },
-  { e: '✨', t: 'Sans-faute',     s: '10 QCM parfaits' },
-  { e: '🌙', t: 'Nuit douce',     s: 'Révisé après 22h' },
-  { e: '⭐', t: 'Locked',         s: '50 cartes',  locked: true },
-  { e: '🏆', t: 'Locked',         s: 'Examen',     locked: true },
-]
-
 export function Profile({ go, tab, onTab }) {
   const { data, loading } = useProgress()
 
   const sessions    = data.sessions ?? []
+  const scores      = data.scores ?? []
+  
+  const totalCardsDone = sessions.reduce((acc, s) => acc + (s.cards_done || 0), 0)
+  const hasFirstSession = sessions.length > 0
+  const has7Days = data.streak >= 7
+  const hasPerfectQCM = scores.filter(s => s.score >= 20).length >= 10
+  const has50Cards = totalCardsDone >= 50
+
+  const isAfter22 = new Date().getHours() >= 22;
+  const hasNightOwl = isAfter22 || localStorage.getItem('kehanote.nightowl') === 'true';
+  if (isAfter22) localStorage.setItem('kehanote.nightowl', 'true');
+
+  const BADGES = [
+    { e: '🌸', t: 'Première fleur', s: 'Première session', locked: !hasFirstSession },
+    { e: '💗', t: '7 jours',        s: 'Une semaine de suite', locked: !has7Days },
+    { e: '✨', t: 'Sans-faute',     s: '10 QCM parfaits', locked: !hasPerfectQCM },
+    { e: '🌙', t: 'Nuit douce',     s: 'Révisé après 22h', locked: !hasNightOwl },
+    { e: '⭐', t: has50Cards ? 'Exploratrice' : 'Locked', s: '50 cartes', locked: !has50Cards },
+    { e: '🏆', t: 'Locked',         s: 'Examen', locked: true },
+  ]
+
   const weekHeights = buildWeekHeights(sessions)
   const daysThisWeek = weekHeights.filter(h => h > 0).length
 

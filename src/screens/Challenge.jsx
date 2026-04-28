@@ -138,11 +138,7 @@ function Quiz({ subject, level, questions, onBack, onComplete }) {
 
   function advance(answerCount) {
     setPicked(null)
-    if (answerCount >= questions.length) {
-      // finalize (state flushed via useEffect)
-    } else {
-      setIdx(i => i + 1)
-    }
+    setIdx(i => i + 1)
   }
 
   useEffect(() => {
@@ -160,7 +156,8 @@ function Quiz({ subject, level, questions, onBack, onComplete }) {
     const history   = recordRun(subject?.id, level.id, rounded)
 
     // Persist to Supabase
-    supabase.from('challenge_scores').insert({ subject_id: subject?.id, level: level.id, score: rounded })
+    supabase.from('challenge_scores').insert({ subject_id: subject?.id, level: level.id, score: rounded }).then(() => {})
+    supabase.from('sessions').insert({ subject_id: subject?.id, mode: 'qcm', cards_done: questions.length }).then(() => {})
 
     onComplete({ score: rounded, total: 20, counts: { correct: c, wrong: w, skip: s, n: questions.length }, level, best: history.best, isNewBest: rounded > prevBest })
   }, [isLast])

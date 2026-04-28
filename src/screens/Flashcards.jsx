@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { useFlashcards } from '../hooks/useFlashcards'
 import { Mascot }        from '../components/Mascot'
 import { Heart }         from '../components/Heart'
+import { supabase }      from '../lib/supabase'
 
 function BackBtn({ onBack }) {
   return (
@@ -71,6 +72,7 @@ export function Flashcards({ route, go }) {
 
   useEffect(() => {
     if (isLast && cards.length > 0) {
+      supabase.from('sessions').insert({ subject_id: subject?.id, mode: 'swipe', cards_done: cards.length }).then(() => {})
       const t = setTimeout(() => go({ name: 'reward', subject, score: score.know, total: cards.length, mode: 'swipe' }), 600)
       return () => clearTimeout(t)
     }

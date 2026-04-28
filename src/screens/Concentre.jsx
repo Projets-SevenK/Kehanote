@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useConcentre } from '../hooks/useConcentre'
 import { Mascot }       from '../components/Mascot'
+import { supabase }     from '../lib/supabase'
 
 function BackBtn({ onBack }) {
   return (
@@ -22,6 +23,12 @@ export function Concentre({ route, go }) {
   const { subject } = route
   const { data, loading } = useConcentre(subject?.id)
   const chapter = data[0]
+
+  useEffect(() => {
+    if (chapter && subject) {
+      supabase.from('sessions').insert({ subject_id: subject.id, mode: 'concentre', cards_done: 1 }).then(() => {})
+    }
+  }, [chapter, subject])
 
   return (
     <div className="kn-screen screen-anim">
