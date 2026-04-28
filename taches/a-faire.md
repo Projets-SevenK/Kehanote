@@ -36,59 +36,15 @@
 
 ---
 
-## Étape 4 — SubjectHub
+## Étapes 4–10 — Tous les écrans ✅
 
-- [ ] 4 modes avec stats rapides
-- [ ] Prochain examen
-- [ ] Animation screen-in
-
----
-
-## Étape 5 — Swipe & Retiens (Flashcards)
-
-- [ ] Swipe drag gauche/droite
-- [ ] Animation flip carte
-- [ ] Compteur + indicateur progression
-
----
-
-## Étape 6 — Le Concentré
-
-- [ ] Chapitres avec sections
-- [ ] Bullets structurés
-- [ ] Lecture estimée
-
----
-
-## Étape 7 — Challenge (QCM)
-
-- [ ] Sélection niveau (easy/medium/hard)
-- [ ] Feedback immédiat couleur
-- [ ] Explication + score final → Reward
-
----
-
-## Étape 8 — Mode Panique
-
-- [ ] Liste ultra-condensée
-- [ ] Animation panic-pulse
-- [ ] Design rouge urgence
-
----
-
-## Étape 9 — Écran Reward
-
-- [ ] Confettis animés
-- [ ] Mascotte humeur selon score
-- [ ] CTA retour / réessayer
-
----
-
-## Étape 10 — Profil & Progression
-
-- [ ] Streak jours
-- [ ] Badges
-- [ ] ProgressRing par matière
+- [x] **SubjectHub** — back rond, chip prof, titre display, ProgressRing, Mochi wink, 3 mode cards gradient staggerées, bouton Panique dashed
+- [x] **Concentré** — top bar avec horloge + lecture time, sections bullets typées (key/def/tip), Mochi footer heart
+- [x] **Flashcards** — drag swipe (souris + touch), flip 3D, badges JE CONNAIS / À REVOIR, FloatingHearts, 3 boutons, score readout, → Reward
+- [x] **Challenge** — DifficultyPicker (3 niveaux, best score localStorage, scoring legend), Quiz (progress dots colorés, feedback Mochi, passer −0,25), → Reward + persist Supabase
+- [x] **Panic** — thème sombre, countdown 5 min, picker multi-matières, items numérotés, Mochi sleepy calming
+- [x] **Reward** — confettis 32 pièces, ProgressRing score, badge niveau, breakdown bonnes/mauvaises/passées, best record, note personnelle Nini
+- [x] **Profile** — avatar Mochi ring gradient, 3 stats, bar chart semaine dynamique, 6 badges (dont 2 locked)
 
 ---
 
