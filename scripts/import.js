@@ -32,21 +32,22 @@ async function run() {
   console.log("Création de la matière...")
   // Create subject
   const { data: subject, error: subErr } = await supabase.from('subjects').insert({
-    title: 'Droit de la Communication',
-    teacher: 'Licence Info-Com',
-    color: 'peach',
-    icon: 'scale',
+    title: data.subject_name || 'Nouvelle Matière',
+    teacher: data.teacher_name || 'Professeur',
+    color: data.subject_color || 'rose',
+    icon: data.icon || 'book',
     chapters: 1,
-    next_exam: 'Prochainement'
+    next_exam: data.next_exam || 'Prochainement'
   }).select().single()
 
   if (subErr) throw subErr
   console.log("✅ Matière créée :", subject.title)
 
   // Insert QCM
-  if (data.qcm && data.qcm.quizData) {
-    console.log(`Injection de ${data.qcm.quizData.length} questions QCM...`)
-    const qcmToInsert = data.qcm.quizData.map(q => {
+  const quizData = data.qcm.quizData || data.qcm.questions
+  if (data.qcm && quizData) {
+    console.log(`Injection de ${quizData.length} questions QCM...`)
+    const qcmToInsert = quizData.map(q => {
       const levelMap = { 'Facile': 'easy', 'Moyenne': 'medium', 'Difficile': 'hard' }
       const correctIndex = q.options.findIndex(o => o.isCorrect)
       return {

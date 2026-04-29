@@ -1,2018 +1,1950 @@
 {
+  "subject_name": "Internationalisation des Programmes de Fiction",
+  "teacher_name": "Licence",
+  "subject_color": "lav",
+  "icon": "globe",
+  "next_exam": "Partiel Final",
+  "panic": [
+    "1894 : Edison invente le kinétoscope (visionnage individuel).",
+    "1895 : Frères Lumière inventent le cinématographe (projections collectives).",
+    "1902 : 'Le Voyage dans la Lune' (Méliès) lance la fiction et les trucages.",
+    "Intégration verticale : Maîtrise de la production, distribution et exploitation (salles).",
+    "Pathé : Premier empire mondial avant 1914 (75% du CA à l'export).",
+    "Nickelodeons (1905) : Salles populaires à 5 cents ; essor du public immigré.",
+    "Cartel MPPC (1908) : Edison tente de verrouiller le marché via les brevets.",
+    "Hollywood : Cité créée par des indépendants fuyant le cartel vers la Californie.",
+    "1915 : 'The Birth of a Nation' (Griffith) lance l'ère des superproductions rentables.",
+    "1925 : Premier quota protectionniste (Allemagne, limite à 120 films US/an).",
+    "1927 : 'The Jazz Singer' (Warner) marque le tournant du cinéma parlant.",
+    "Versions multiples : Retourner un film avec d'autres acteurs pour exporter le parlant.",
+    "Big Five : Paramount, MGM, 20th Century Fox, Warner Bros, RKO.",
+    "Little Three : Universal, Columbia, United Artists (sans réseaux de salles).",
+    "Code Hays (1930) : Autocensure morale pour éviter la censure gouvernementale.",
+    "Mogul : Producteur tout-puissant, tyran du 'final cut' en studio.",
+    "Arrêt Paramount (1948) : Fin de l'intégration verticale ; séparation forcée salles/production.",
+    "1955 : Hollywood collabore enfin avec la TV (premières séries Disney/Warner).",
+    "Fin-Syn Rules (1970) : Interdiction aux réseaux TV d'avoir des intérêts dans la production.",
+    "Proximité culturelle : Préférence des audiences pour des réalités sociales proches.",
+    "Masala (Inde) : Mélange de genres (action, romance, musique) pour toucher tout le pays.",
+    "1998 (Inde) : Statut d'industrie accordé au cinéma ; accès aux prêts bancaires légaux.",
+    "Trendy Drama (Japon) : Focus 20 ans, Tokyo branché, mode et tubes pop.",
+    "Hallyu : Vague culturelle coréenne lancée par l'État après la crise de 1997.",
+    "Exception culturelle : Principe selon lequel le film n'est pas une marchandise banale.",
+    "Longue Traîne : Rentabilisation des niches via le stockage numérique illimité.",
+    "Windowing : Chronologie des médias en cascade pour maximiser les revenus.",
+    "Direct-to-Consumer (D2C) : Distribution directe par les studios via leurs plateformes.",
+    "Content ID : Système Google/YouTube d'identification automatique des droits d'auteur.",
+    "iTunes Store (2003) : Première plateforme majeure de distribution légale payante."
+  ],
+  "flashcards": [
+    {
+      "question": "Qui est l'inventeur du kinétoscope en 1894 ?",
+      "answer": "Thomas Edison a inventé cet appareil permettant un visionnage individuel d'images animées."
+    },
+    {
+      "question": "En quelle année les frères Lumière présentent-ils le cinématographe ?",
+      "answer": "Le cinématographe a été présenté officiellement en 1895, marquant le début des projections collectives."
+    },
+    {
+      "question": "Quelle est la particularité esthétique des films de Georges Méliès ?",
+      "answer": "Méliès a introduit la mise en scène théâtrale et les premiers trucages (effets spéciaux) au cinéma."
+    },
+    {
+      "question": "Quel film de 1902 de Méliès a connu un succès mondial ?",
+      "answer": "Il s'agit du film 'Le Voyage dans la Lune', célèbre pour son image de l'obus dans l'œil de la Lune."
+    },
+    {
+      "question": "Qu'est-ce que l'intégration verticale dans l'industrie cinématographique ?",
+      "answer": "C'est lorsqu'une entreprise contrôle toute la chaîne : la production, la distribution et les salles de cinéma."
+    },
+    {
+      "question": "Quelle entreprise française dominait le marché mondial avant 1914 ?",
+      "answer": "Pathé Frères était alors le premier empire cinématographique mondial, exportant la majorité de sa production."
+    },
+    {
+      "question": "Pourquoi la domination de Pathé était-elle jugée fragile ?",
+      "answer": "À cause de l'étroitesse du marché intérieur français, rendant l'entreprise trop dépendante des revenus étrangers."
+    },
+    {
+      "question": "Qu'est-ce qu'un 'nickelodeon' aux États-Unis ?",
+      "answer": "Ce sont des salles de cinéma populaires et rudimentaires où l'entrée ne coûtait que 5 cents (un 'nickel')."
+    },
+    {
+      "question": "Quel film de 1915 marque le début des superproductions ?",
+      "answer": "C'est 'Naissance d'une Nation' (The Birth of a Nation) de D.W. Griffith, au budget et aux recettes records."
+    },
+    {
+      "question": "Pourquoi les producteurs indépendants ont-ils créé Hollywood en Californie ?",
+      "answer": "Pour fuir le cartel d'Edison à New York et profiter du soleil permanent permettant de tourner en extérieur."
+    },
+    {
+      "question": "Quelle mesure protectionniste l'Allemagne a-t-elle prise en 1925 ?",
+      "answer": "L'instauration d'un quota limitant l'importation de films américains à 120 par an."
+    },
+    {
+      "question": "Quel est le premier film parlant de l'histoire (1927) ?",
+      "answer": "'Le Chanteur de Jazz' (The Jazz Singer), produit par la Warner Bros."
+    },
+    {
+      "question": "Comment Hollywood a-t-il géré la barrière des langues avant le doublage ?",
+      "answer": "En produisant des 'versions multiples', c'est-à-dire en retournant le film avec des acteurs parlant d'autres langues."
+    },
+    {
+      "question": "Qui composait les 'Big Five' de l'âge d'or d'Hollywood ?",
+      "answer": "Paramount, MGM, 20th Century Fox, Warner Bros et RKO."
+    },
+    {
+      "question": "Quelle était la différence entre les 'Big Five' et les 'Little Three' ?",
+      "answer": "Les Big Five possédaient leurs propres réseaux de salles de cinéma, contrairement aux Little Three."
+    },
+    {
+      "question": "Qu'est-ce que le Code Hays instauré en 1930 ?",
+      "answer": "Un code d'autocensure morale imposant des règles strictes sur le contenu des films (pas de sexe, pas d'insultes religieuses)."
+    },
+    {
+      "question": "Quel a été l'impact de l'arrêt 'Paramount' de 1948 ?",
+      "answer": "La Cour Suprême a forcé les studios à vendre leurs salles de cinéma, mettant fin à l'intégration verticale totale."
+    },
+    {
+      "question": "Pourquoi l'année 1955 est-elle un tournant pour Hollywood et la TV ?",
+      "answer": "Elle marque le passage du boycott à la collaboration, les studios produisant désormais des séries pour la télévision."
+    },
+    {
+      "question": "Quelles étaient les 'Fin-Syn Rules' de 1970 ?",
+      "answer": "Des règles interdisant aux réseaux TV d'avoir des intérêts financiers dans la production de leurs propres programmes."
+    },
+    {
+      "question": "Pourquoi le Betamax de Sony était-il craint par Hollywood en 1975 ?",
+      "answer": "À cause des risques de piratage et de la possibilité pour les usagers de sauter les publicités."
+    },
+    {
+      "question": "Quelle est l'origine géographique des 'novelas' ?",
+      "answer": "Elles sont nées à Cuba dans les années 1940 sous forme de feuilletons radiophoniques."
+    },
+    {
+      "question": "Qu'est-ce que la 'proximité culturelle' selon Joseph Straubhaar ?",
+      "answer": "La tendance du public à préférer des programmes qui reflètent sa propre culture et ses valeurs sociales."
+    },
+    {
+      "question": "Quel est le style dominant des telenovelas mexicaines ?",
+      "answer": "Le mélodrame pur, souvent basé sur des histoires d'amour impossibles entre classes sociales différentes."
+    },
+    {
+      "question": "Quelle est la particularité des telenovelas brésiliennes (Rede Globo) ?",
+      "answer": "Elles intègrent souvent un réalisme social et des thématiques politiques plus complexes."
+    },
+    {
+      "question": "Que signifie le terme 'Masala' pour le cinéma indien ?",
+      "answer": "C'est un mélange de genres (action, romance, musique, comédie) dans un seul et même film."
+    },
+    {
+      "question": "Pourquoi l'année 1998 est-elle majeure pour Bollywood ?",
+      "answer": "Le gouvernement indien a enfin reconnu le cinéma comme une industrie légitime, facilitant les financements bancaires."
+    },
+    {
+      "question": "Quelle est la cible principale des exportations de films indiens ?",
+      "answer": "La diaspora indienne vivant à l'étranger, qui représente 75% des recettes internationales."
+    },
+    {
+      "question": "Qu'est-ce que le 'Trendy Drama' japonais ?",
+      "answer": "Un genre de série moderne ciblant les jeunes urbains, axé sur la mode, la ville de Tokyo et la musique pop."
+    },
+    {
+      "question": "Que désigne le terme 'Hallyu' ?",
+      "answer": "La 'vague coréenne', soit le succès mondial massif des produits culturels de Corée du Sud (K-dramas, K-pop)."
+    },
+    {
+      "question": "Quelle crise a favorisé l'essor de la Hallyu en 1997-1998 ?",
+      "answer": "La crise financière asiatique, qui a poussé l'État coréen à soutenir l'exportation culturelle pour sauver l'économie."
+    },
+    {
+      "question": "Qu'est-ce que le 'Block Booking' ?",
+      "answer": "Une pratique consistant à forcer les salles à louer un lot de plusieurs films médiocres pour obtenir un seul hit."
+    },
+    {
+      "question": "Qu'est-ce que le 'Blind Bidding' ?",
+      "answer": "L'achat obligatoire d'un film par un exploitant de salle avant même que celui-ci ne soit tourné."
+    },
+    {
+      "question": "Qui sont les 'Moguls' d'Hollywood ?",
+      "answer": "Des producteurs tout-puissants et souvent tyranniques qui dirigeaient les grands studios à l'âge d'or."
+    },
+    {
+      "question": "À quoi servent les 'Test Screenings' ?",
+      "answer": "À tester un film devant un public avant sa sortie pour éventuellement modifier la fin ou le montage selon les réactions."
+    },
+    {
+      "question": "Qu'est-ce que l'exception culturelle ?",
+      "answer": "Le principe juridique selon lequel la culture n'est pas une marchandise comme les autres et peut être protégée par l'État."
+    },
+    {
+      "question": "Qu'est-ce que la chronologie des médias (windowing) ?",
+      "answer": "L'ordre et les délais imposés pour diffuser un film sur différents supports (salle, puis DVD, puis TV, puis streaming)."
+    },
+    {
+      "question": "Quelle est la théorie de la 'Longue Traîne' (Long Tail) ?",
+      "answer": "L'idée qu'Internet permet de rentabiliser une infinité de produits de niche plutôt que seulement quelques blockbusters."
+    },
+    {
+      "question": "Qu'est-ce que le modèle 'Direct-to-Consumer' (D2C) ?",
+      "answer": "Le fait pour un studio (comme Disney+) de diffuser ses films directement via sa propre plateforme sans intermédiaire."
+    },
+    {
+      "question": "Qu'est-ce que l'intégration horizontale ?",
+      "answer": "L'acquisition d'entreprises concurrentes ou de franchises complémentaires (ex: Disney rachetant Marvel)."
+    },
+    {
+      "question": "Qu'est-ce que le 'Cultural Discount' ?",
+      "answer": "La perte de valeur d'un programme TV ou d'un film lorsqu'il traverse les frontières et perd de sa pertinence culturelle."
+    },
+    {
+      "question": "Qu'est-ce que la vente de 'Format' à la télévision ?",
+      "answer": "C'est vendre le concept et la structure d'une série pour qu'elle soit adaptée localement (ex: Ugly Betty)."
+    },
+    {
+      "question": "Quel service a bouleversé l'industrie musicale en 1999 ?",
+      "answer": "Napster, le premier grand réseau de partage de fichiers pair-à-pair (P2P)."
+    },
+    {
+      "question": "Quel système YouTube utilise-t-il pour gérer les droits d'auteur ?",
+      "answer": "Content ID, un outil qui identifie automatiquement les contenus protégés uploadés par les utilisateurs."
+    },
+    {
+      "question": "Pourquoi Apple est-il devenu un acteur majeur de la fiction ?",
+      "answer": "Grâce à l'iTunes Store (2003) qui a centralisé la distribution payante de musique puis de vidéos."
+    },
+    {
+      "question": "Quelle était l'activité originelle de Netflix en 1997 ?",
+      "answer": "La location de DVD par correspondance (courrier postal)."
+    }
+  ],
   "qcm": {
-    "examName": "Droit de la Communication - Licence Info-Com",
+    "examName": "Internationalisation des Programmes de Fiction",
     "totalQuestions": 60,
     "quizData": [
       {
         "id": 1,
         "difficulty": "Moyenne",
-        "question": "Quelle est la principale différence entre la règle de droit et la déontologie ?",
+        "question": "Quelle est la principale différence d'approche entre les films des frères Lumière et ceux de Georges Méliès ?",
         "options": [
           {
-            "text": "La règle de droit est facultative alors que la déontologie est obligatoire.",
-            "isCorrect": false,
-            "rationale": "C'est l'inverse : la règle de droit est obligatoire et coercitive, tandis que la déontologie est souvent une auto-régulation."
-          },
-          {
-            "text": "Le droit est sanctionné par la puissance publique, la déontologie par les pairs (profession).",
+            "text": "Lumière privilégie la reconstruction du réel tandis que Méliès introduit la mise en scène théâtrale et les trucages.",
             "isCorrect": true,
-            "rationale": "Le droit émane de l'État (Parlement, juges), alors que la déontologie est élaborée et appliquée par une profession spécifique."
+            "rationale": "Louis Lumière s'inspire du réalisme des photographies, alors que Méliès, ancien prestidigitateur, apporte l'art du spectacle et des effets spéciaux."
           },
           {
-            "text": "Il n'y a aucune différence, ce sont deux termes synonymes.",
+            "text": "Lumière a inventé le kinétoscope alors que Méliès a inventé le cinématographe.",
             "isCorrect": false,
-            "rationale": "Le cours distingue l'origine (puissance publique vs profession) et la sanction de ces deux types de règles."
+            "rationale": "Le kinétoscope est une invention d'Edison ; le cinématographe est l'œuvre des Lumière."
           },
           {
-            "text": "La déontologie n'existe que pour les avocats.",
+            "text": "Méliès produisait des documentaires alors que Lumière faisait de la science-fiction.",
             "isCorrect": false,
-            "rationale": "De nombreuses professions, dont les journalistes, possèdent leurs propres codes de déontologie."
+            "rationale": "C'est l'inverse : les scènes de vie quotidienne sont la marque des Lumière, Méliès étant le père de la fiction fantastique."
+          },
+          {
+            "text": "Les frères Lumière ont été les premiers à utiliser des acteurs professionnels.",
+            "isCorrect": false,
+            "rationale": "Les Lumière utilisaient des 'sujets' du quotidien, contrairement à l'approche théâtrale et professionnelle de Méliès."
           }
-        ],
-        "hint": "Réfléchissez à l'origine de la sanction."
+        ]
       },
       {
         "id": 2,
         "difficulty": "Moyenne",
-        "question": "Quel critère distingue l'injure privée de l'injure publique sur les réseaux sociaux ?",
+        "question": "Quel concept économique définit le fait qu'une entreprise contrôle la production, la distribution et les salles ?",
         "options": [
           {
-            "text": "Le nombre exact de followers (plus de 500).",
+            "text": "L'expansion horizontale",
             "isCorrect": false,
-            "rationale": "Le nombre est un indice pour le juge, mais il n'existe pas de seuil chiffré légal."
+            "rationale": "L'expansion horizontale consiste à racheter des concurrents sur le même palier d'activité."
           },
           {
-            "text": "L'utilisation de pseudonymes.",
-            "isCorrect": false,
-            "rationale": "L'anonymat ne change pas la nature publique ou privée de l'espace de diffusion."
-          },
-          {
-            "text": "L'existence d'une 'communauté d'intérêt' et l'accès restreint.",
+            "text": "L'intégration verticale",
             "isCorrect": true,
-            "rationale": "Si les propos ne sont accessibles qu'à des personnes agréées formant un groupe fermé, le caractère est privé."
+            "rationale": "Ce modèle permet de contrôler l'ensemble de la filière, de la création (amont) à la diffusion (aval)."
           },
           {
-            "text": "La présence de publicités sur la page.",
+            "text": "L'organisation oligopolistique",
             "isCorrect": false,
-            "rationale": "L'aspect commercial n'influence pas la qualification juridique de la publicité du message."
+            "rationale": "L'oligopole désigne un marché dominé par un petit nombre d'acteurs, pas une structure de contrôle interne."
+          },
+          {
+            "text": "Le système des majors",
+            "isCorrect": false,
+            "rationale": "C'est un terme générique pour les grands studios, mais pas le terme technique décrivant le contrôle de la chaîne."
           }
-        ],
-        "hint": "Pensez aux paramètres de confidentialité d'un compte."
+        ]
       },
       {
         "id": 3,
         "difficulty": "Moyenne",
-        "question": "Où se situe la CEDH par rapport aux lois françaises dans la hiérarchie des normes ?",
+        "question": "Pourquoi la domination de Pathé avant 1914 était-elle considérée comme fragile ?",
         "options": [
           {
-            "text": "Elle est inférieure aux lois nationales.",
-            "isCorrect": false,
-            "rationale": "La Constitution française accorde une primauté aux traités internationaux sur les lois internes."
-          },
-          {
-            "text": "Elle est supérieure aux lois françaises régulièrement ratifiées.",
+            "text": "Parce que le marché intérieur français était trop petit pour amortir seul les coûts de production.",
             "isCorrect": true,
-            "rationale": "Selon l'article 55 de la Constitution, les traités ont une autorité supérieure à celle des lois."
+            "rationale": "Le succès de Pathé dépendait à 75% des revenus étrangers, rendant l'entreprise vulnérable aux tensions internationales."
           },
           {
-            "text": "Elles sont de valeur égale.",
+            "text": "À cause de la concurrence immédiate des studios d'Hollywood dès 1905.",
             "isCorrect": false,
-            "rationale": "Le principe de hiérarchie des normes place les traités au-dessus du niveau législatif."
+            "rationale": "Hollywood n'est devenu un centre de production alternatif qu'à partir de 1909-1910."
           },
           {
-            "text": "Elle n'a qu'une valeur symbolique.",
+            "text": "Parce que Pathé refusait de vendre ses films aux États-Unis.",
             "isCorrect": false,
-            "rationale": "Les juges français ont l'obligation d'appliquer la CEDH et peuvent écarter une loi contraire."
+            "rationale": "Au contraire, Pathé était le premier fournisseur de films et de matériel sur le sol américain avant 1908."
+          },
+          {
+            "text": "En raison de la mauvaise qualité technique de leurs projecteurs.",
+            "isCorrect": false,
+            "rationale": "La domination de Pathé reposait justement sur une excellence technique et industrielle reconnue."
           }
-        ],
-        "hint": "Article 55 de la Constitution."
+        ]
       },
       {
         "id": 4,
         "difficulty": "Moyenne",
-        "question": "Quelle est la définition de la diffamation (Art. 29 Loi 1881) ?",
+        "question": "Que désignait le terme 'nickelodeon' aux États-Unis au début du XXe siècle ?",
         "options": [
           {
-            "text": "Une insulte sans précision.",
+            "text": "Un studio de production spécialisé dans les westerns.",
             "isCorrect": false,
-            "rationale": "Ceci définit l'injure, qui ne contient l'imputation d'aucun fait."
+            "rationale": "C'est un lieu de diffusion et non un lieu de création."
           },
           {
-            "text": "L'allégation d'un fait précis portant atteinte à l'honneur.",
+            "text": "Des salles de cinéma populaires et bon marché où l'entrée coûtait 5 cents.",
             "isCorrect": true,
-            "rationale": "La diffamation repose sur un fait qui peut être prouvé et discuté contradictoirement."
+            "rationale": "Le nom vient du 'nickel' (5 cents), créant un réseau de diffusion massif accessible aux classes populaires."
           },
           {
-            "text": "La critique des produits d'une marque.",
+            "text": "Le premier système de sonorisation des films muets.",
             "isCorrect": false,
-            "rationale": "Viser un produit relève du dénigrement, pas de la diffamation d'une personne."
+            "rationale": "Le son synchronisé n'existait pas encore ; le terme fait référence au prix d'entrée."
           },
           {
-            "text": "Un propos méchant sans preuve.",
+            "text": "Le cartel créé par Thomas Edison pour contrôler les brevets.",
             "isCorrect": false,
-            "rationale": "La méchanceté ne suffit pas ; il faut l'imputation d'un fait attentatoire à l'honneur."
+            "rationale": "Le cartel d'Edison s'appelait la MPPC (Motion Picture Patents Company)."
           }
-        ],
-        "hint": "Le mot clé est 'fait'."
+        ]
       },
       {
         "id": 5,
         "difficulty": "Moyenne",
-        "question": "Quel est le délai de prescription de principe pour un délit de presse ?",
+        "question": "Quel film de 1915 a lancé l'ère des superproductions hollywoodiennes ?",
         "options": [
           {
-            "text": "3 ans.",
+            "text": "Le Voyage dans la Lune",
             "isCorrect": false,
-            "rationale": "C'est le délai de droit commun, mais la presse a un régime dérogatoire plus court."
+            "rationale": "C'est un film fondateur de 1902, mais pas une superproduction au sens financier moderne."
           },
           {
-            "text": "1 an.",
-            "isCorrect": false,
-            "rationale": "Le délai d'un an est l'exception pour les propos racistes, sexistes ou homophobes."
-          },
-          {
-            "text": "3 mois.",
+            "text": "The Birth of a Nation (Naissance d'une Nation) de D.W. Griffith",
             "isCorrect": true,
-            "rationale": "Le délai est de 3 mois pour protéger la liberté d'expression contre des poursuites trop tardives."
+            "rationale": "Avec un budget et des recettes records, il a prouvé la rentabilité des investissements massifs."
           },
           {
-            "text": "6 ans.",
+            "text": "The Great Train Robbery",
             "isCorrect": false,
-            "rationale": "C'est le délai pour les délits ordinaires du Code de procédure pénale."
+            "rationale": "C'est un western de 1903, pionnier du montage mais d'une envergure moindre."
+          },
+          {
+            "text": "Le Chanteur de Jazz",
+            "isCorrect": false,
+            "rationale": "Célèbre pour le son en 1927, il ne correspond pas à l'émergence des superproductions de 1915."
           }
-        ],
-        "hint": "Un délai très bref pour favoriser la liberté des médias."
+        ]
       },
       {
         "id": 6,
         "difficulty": "Moyenne",
-        "question": "Qu'est-ce que la 'responsabilité en cascade' ?",
+        "question": "Quelle mesure protectionniste l'Allemagne a-t-elle mise en place en 1925 ?",
         "options": [
           {
-            "text": "Une condamnation solidaire de tous les journalistes.",
+            "text": "Une taxe de 50% sur les billets de films étrangers.",
             "isCorrect": false,
-            "rationale": "La cascade établit un ordre de responsabilité individuelle, pas une responsabilité de groupe."
+            "rationale": "La mesure allemande visait le volume de films et non le prix du ticket."
           },
           {
-            "text": "Le Directeur de Publication est le premier responsable pénal.",
+            "text": "L'interdiction totale des films produits à Hollywood.",
+            "isCorrect": false,
+            "rationale": "Le marché restait ouvert mais strictement limité."
+          },
+          {
+            "text": "Une loi de quotas limitant l'importation à 120 films américains par an.",
             "isCorrect": true,
-            "rationale": "L'article 42 désigne le DP comme auteur principal, suivi de l'auteur du propos, puis de l'imprimeur."
+            "rationale": "C'est une politique pionnière visant à favoriser la production nationale face à l'hégémonie américaine."
           },
           {
-            "text": "La responsabilité de l'annonceur pour les fautes du média.",
+            "text": "L'obligation de doubler tous les films en allemand.",
             "isCorrect": false,
-            "rationale": "L'annonceur n'est pas inclus dans cet ordre de responsabilité spécifique à la loi de 1881."
-          },
-          {
-            "text": "Le transfert de responsabilité de l'État vers le citoyen.",
-            "isCorrect": false,
-            "rationale": "Ce concept n'existe pas dans le cadre pénal des délits de presse."
+            "rationale": "Le doublage n'est devenu une réalité technique qu'après 1930."
           }
-        ],
-        "hint": "Qui est le 'capitaine' du média ?"
+        ]
       },
       {
         "id": 7,
         "difficulty": "Moyenne",
-        "question": "Quelle exception limite la responsabilité du DP sur Internet ?",
+        "question": "Comment Hollywood a-t-il réagi à la barrière de la langue avec le parlant (1928) ?",
         "options": [
           {
-            "text": "Il est toujours responsable.",
+            "text": "En utilisant exclusivement des sous-titres.",
             "isCorrect": false,
-            "rationale": "La loi prévoit des limites liées à la nature technique de la diffusion."
+            "rationale": "Le public de l'époque n'était pas habitué à lire pendant un film ; cette solution n'était pas privilégiée."
           },
           {
-            "text": "L'absence de fixation préalable du message (ex: direct).",
+            "text": "En retournant les films avec des acteurs parlant la langue du marché visé.",
             "isCorrect": true,
-            "rationale": "Si le message n'est pas enregistré avant diffusion, le DP ne peut exercer son contrôle préalable."
+            "rationale": "Hollywood a d'abord produit des 'versions multiples' coûteuses avant la généralisation du doublage."
           },
           {
-            "text": "L'hébergement du site à l'étranger.",
+            "text": "En cessant d'exporter des films pendant cinq ans.",
             "isCorrect": false,
-            "rationale": "La localisation géographique ne change pas les obligations éditoriales en droit français."
+            "rationale": "L'exportation était vitale ; les studios ont préféré investir dans l'adaptation."
           },
           {
-            "text": "Le secret des sources.",
+            "text": "En imposant l'apprentissage de l'anglais dans les cinémas.",
             "isCorrect": false,
-            "rationale": "Le secret des sources protège l'information, pas la responsabilité pénale du dirigeant."
+            "rationale": "Cette option n'est pas réaliste commercialement et n'a jamais existé."
           }
-        ],
-        "hint": "Pensez au contrôle matériel du contenu."
+        ]
       },
       {
         "id": 8,
         "difficulty": "Moyenne",
-        "question": "Quels sont les deux moyens de défense pour une diffamation ?",
+        "question": "Qui sont les 'Big Five' de l'âge d'or d'Hollywood ?",
         "options": [
           {
-            "text": "L'humour et la parodie.",
+            "text": "Universal, Columbia, United Artists, Disney et Fox.",
             "isCorrect": false,
-            "rationale": "L'humour est une interprétation du juge, pas un moyen de preuve légal formel."
+            "rationale": "Universal, Columbia et United Artists étaient les 'Little Three' (sans réseaux de salles)."
           },
           {
-            "text": "La provocation et l'erreur.",
-            "isCorrect": false,
-            "rationale": "La provocation ne s'applique qu'à l'injure simple, pas à la diffamation."
-          },
-          {
-            "text": "La vérité des faits et la bonne foi.",
+            "text": "Paramount, MGM, 20th Century Fox, Warner Bros et RKO.",
             "isCorrect": true,
-            "rationale": "On peut s'exonérer en prouvant que le fait est vrai OU qu'on a travaillé avec sérieux et sans haine."
+            "rationale": "Ces cinq majors possédaient l'ensemble de la chaîne de valeur, y compris les réseaux de salles."
           },
           {
-            "text": "L'intérêt public et le secret professionnel.",
+            "text": "Edison, Pathé, Gaumont, Lumière et Méliès.",
             "isCorrect": false,
-            "rationale": "L'intérêt public est un sous-critère de la bonne foi, pas un moyen autonome."
+            "rationale": "Ce sont les pionniers de l'industrie, pas les majors du système classique."
+          },
+          {
+            "text": "Sony, Netflix, Disney, Warner et Paramount.",
+            "isCorrect": false,
+            "rationale": "Il s'agit d'un mélange d'acteurs contemporains et historiques."
           }
-        ],
-        "hint": "Vérité ou Intention ?"
+        ]
       },
       {
         "id": 9,
         "difficulty": "Moyenne",
-        "question": "Lequel n'est PAS un critère de la bonne foi ?",
+        "question": "Quel était l'objectif principal du Code Hays ?",
         "options": [
           {
-            "text": "Le but légitime.",
+            "text": "Augmenter les salaires des acteurs.",
             "isCorrect": false,
-            "rationale": "C'est un critère essentiel : le journaliste doit vouloir informer le public."
+            "rationale": "Le code portait sur la morale et le contenu, pas sur les conditions de travail."
           },
           {
-            "text": "L'absence d'animosité.",
-            "isCorrect": false,
-            "rationale": "Le journaliste ne doit pas agir par vengeance personnelle."
-          },
-          {
-            "text": "La preuve absolue de la vérité.",
+            "text": "Pratiquer une auto-censure pour éviter une censure gouvernementale.",
             "isCorrect": true,
-            "rationale": "La bonne foi s'utilise justement quand on ne peut pas apporter la preuve parfaite de la vérité."
+            "rationale": "En se régulant elle-même, l'industrie évitait l'intervention directe de l'État dans les contenus."
           },
           {
-            "text": "La prudence dans l'expression.",
+            "text": "Favoriser l'exportation vers l'URSS.",
             "isCorrect": false,
-            "rationale": "Il faut éviter les termes excessifs ou sensationnalistes pour être de bonne foi."
+            "rationale": "Le code visait plutôt à rassurer les franges conservatrices de l'Amérique et de ses alliés."
+          },
+          {
+            "text": "Standardiser la durée des films.",
+            "isCorrect": false,
+            "rationale": "La morale des films était l'unique préoccupation de ce code de production."
           }
-        ],
-        "hint": "La bonne foi est une alternative à la vérité."
+        ]
       },
       {
         "id": 10,
         "difficulty": "Moyenne",
-        "question": "Quelle condition engage la responsabilité d'un hébergeur (LCEN) ?",
+        "question": "Qu'a imposé la décision de la Cour Suprême dans l'affaire 'Paramount' en 1948 ?",
         "options": [
           {
-            "text": "Il doit tout surveiller.",
+            "text": "L'intégration de la télévision.",
             "isCorrect": false,
-            "rationale": "Il n'y a pas d'obligation générale de surveillance pour les hébergeurs."
+            "rationale": "À l'époque, la télévision était encore perçue comme une menace à boycotter."
           },
           {
-            "text": "La connaissance effective et l'absence de retrait prompt.",
+            "text": "La fusion de toutes les majors.",
+            "isCorrect": false,
+            "rationale": "La loi antitrust vise au contraire à démanteler les concentrations excessives."
+          },
+          {
+            "text": "Le 'divorcement' : la séparation obligatoire entre production et exploitation.",
             "isCorrect": true,
-            "rationale": "L'hébergeur devient responsable s'il est alerté d'un contenu illicite et qu'il ne le supprime pas."
+            "rationale": "Cela a forcé les studios à vendre leurs salles, mettant fin à leur contrôle total vertical."
           },
           {
-            "text": "La présence de publicités.",
+            "text": "L'interdiction des films en couleur.",
             "isCorrect": false,
-            "rationale": "La publicité n'entraîne pas automatiquement une responsabilité éditoriale selon la jurisprudence."
-          },
-          {
-            "text": "L'anonymat de l'internaute.",
-            "isCorrect": false,
-            "rationale": "L'hébergeur doit aider à identifier l'auteur, mais l'anonymat ne le rend pas responsable par défaut."
+            "rationale": "La décision était structurelle et économique, pas technologique."
           }
-        ],
-        "hint": "Signalement et réactivité."
+        ]
       },
       {
         "id": 11,
         "difficulty": "Moyenne",
-        "question": "De combien de membres est composée l'ARCOM ?",
+        "question": "Pourquoi 1955 est-elle une année tournant entre Hollywood et la TV ?",
         "options": [
           {
-            "text": "7 membres.",
+            "text": "Hollywood a racheté les réseaux TV.",
             "isCorrect": false,
-            "rationale": "Le collège de l'ARCOM compte plus de membres pour assurer sa pluralité."
+            "rationale": "Les deux secteurs sont restés distincts juridiquement à cette période."
           },
           {
-            "text": "9 membres.",
+            "text": "Les majors collaborent en produisant des séries pour les networks.",
             "isCorrect": true,
-            "rationale": "Elle est composée de 9 membres nommés par différentes autorités (PR, AN, Sénat, etc.)."
+            "rationale": "Disney et Warner ont commencé à produire des programmes originaux pour la télévision."
           },
           {
-            "text": "12 membres.",
+            "text": "La télévision a été interdite aux USA.",
             "isCorrect": false,
-            "rationale": "Ce chiffre ne correspond pas à la composition légale actuelle de l'autorité."
+            "rationale": "La télévision était déjà un média de masse installé en 1955."
           },
           {
-            "text": "5 membres.",
+            "text": "Le cinéma est devenu parlant.",
             "isCorrect": false,
-            "rationale": "C'est trop peu pour une autorité de régulation de cette importance."
+            "rationale": "C'est un anachronisme : le parlant date de 1927."
           }
-        ],
-        "hint": "Un chiffre impair proche de 10."
+        ]
       },
       {
         "id": 12,
         "difficulty": "Moyenne",
-        "question": "Quelle est la règle de pluralisme hors élection ?",
+        "question": "Que sont les 'Fin-Syn Rules' adoptées en 1970 ?",
         "options": [
           {
-            "text": "Égalité totale.",
-            "isCorrect": false,
-            "rationale": "L'égalité n'est pas imposée en permanence, elle est trop rigide."
-          },
-          {
-            "text": "1/3 exécutif, 2/3 partis selon représentativité.",
+            "text": "Des règles interdisant aux réseaux TV d'avoir des intérêts financiers dans la production.",
             "isCorrect": true,
-            "rationale": "C'est l'équilibre classique pour garantir l'accès de tous les courants d'opinion."
+            "rationale": "Elles visaient à briser le monopole des networks au profit des producteurs indépendants et des studios."
           },
           {
-            "text": "Priorité à l'opposition.",
+            "text": "Une taxe sur les exportations vers l'Europe.",
             "isCorrect": false,
-            "rationale": "L'opposition a des droits, mais pas une priorité absolue hors campagne."
+            "rationale": "Il s'agissait d'une régulation interne au marché américain de la diffusion."
           },
           {
-            "text": "Liberté totale de la chaîne.",
+            "text": "L'obligation de doubler les séries.",
             "isCorrect": false,
-            "rationale": "Les chaînes doivent respecter le pluralisme sous peine de sanction de l'ARCOM."
+            "rationale": "Ces règles concernaient la structure financière, pas la langue."
+          },
+          {
+            "text": "L'interdiction des banques dans le cinéma.",
+            "isCorrect": false,
+            "rationale": "Les banques ont au contraire toujours été des partenaires essentiels d'Hollywood."
           }
-        ],
-        "hint": "Répartition entre gouvernement et formations politiques."
+        ]
       },
       {
         "id": 13,
         "difficulty": "Moyenne",
-        "question": "Qu'implique la présomption d'innocence ?",
+        "question": "Pourquoi les majors ont-elles fait un procès à Sony pour le Betamax ?",
         "options": [
           {
-            "text": "Interdiction de citer le nom.",
+            "text": "Car Sony refusait de payer les droits TV.",
             "isCorrect": false,
-            "rationale": "On peut citer le nom, mais sans conclure à la culpabilité."
+            "rationale": "Le conflit portait sur l'enregistrement domestique par le public."
           },
           {
-            "text": "Ne pas présenter quelqu'un comme coupable avant jugement.",
+            "text": "Elles craignaient que l'enregistreur vidéo ne menace les recettes des salles et facilite le piratage.",
             "isCorrect": true,
-            "rationale": "C'est le droit d'être considéré innocent tant que la justice n'a pas tranché."
+            "rationale": "L'industrie voyait d'un mauvais œil la possibilité pour le public de posséder une copie des œuvres."
           },
           {
-            "text": "L'absence de garde à vue.",
+            "text": "Car le Betamax utilisait une technologie Pathé.",
             "isCorrect": false,
-            "rationale": "La garde à vue est une mesure d'enquête, elle n'annule pas la présomption d'innocence."
+            "rationale": "C'était une innovation technologique purement japonaise."
           },
           {
-            "text": "La preuve de l'innocence par le média.",
+            "text": "Sony voulait racheter Disney.",
             "isCorrect": false,
-            "rationale": "C'est à l'accusation de prouver la faute, pas au média de prouver l'innocence."
+            "rationale": "Les rachats de studios par des groupes électroniques n'ont eu lieu que plus tard (Sony/Columbia en 1989)."
           }
-        ],
-        "hint": "Respect du temps de la justice."
+        ]
       },
       {
         "id": 14,
         "difficulty": "Moyenne",
-        "question": "Quelle étape précède toute sanction de l'ARCOM ?",
+        "question": "Quelle est l'origine des 'novelas' ?",
         "options": [
           {
-            "text": "L'amende immédiate.",
+            "text": "La télévision mexicaine des années 70.",
             "isCorrect": false,
-            "rationale": "Une amende ne peut être prononcée sans avertissement formel préalable."
+            "rationale": "Le genre est plus ancien et ne vient pas initialement de la télévision."
           },
           {
-            "text": "La mise en demeure.",
+            "text": "Cuba dans les années 40 sous forme de feuilletons radiophoniques.",
             "isCorrect": true,
-            "rationale": "C'est l'acte qui ordonne au média de cesser un manquement avant de sévir."
+            "rationale": "Le genre est né à la radio cubaine avant de s'étendre à la télévision sur tout le continent."
           },
           {
-            "text": "La suspension d'antenne.",
+            "text": "Le cinéma américain du samedi matin.",
             "isCorrect": false,
-            "rationale": "C'est une sanction très lourde, pas un préalable."
+            "rationale": "C'est un genre avec une identité culturelle latino-américaine spécifique."
           },
           {
-            "text": "La lettre simple.",
+            "text": "Netflix au Brésil.",
             "isCorrect": false,
-            "rationale": "La lettre simple est une pratique, mais seule la mise en demeure est un acte juridique préalable obligatoire."
+            "rationale": "Netflix a simplement récupéré un genre qui existait depuis des décennies."
           }
-        ],
-        "hint": "Une injonction formelle."
+        ]
       },
       {
         "id": 15,
         "difficulty": "Moyenne",
-        "question": "Quelle est la règle sur l'enregistrement des procès ?",
+        "question": "Quel facteur explique le succès des telenovelas selon Joseph Straubhaar ?",
         "options": [
           {
-            "text": "Liberté totale.",
-            "isCorrect": false,
-            "rationale": "La captation d'image est interdite pour préserver la sérénité des débats."
-          },
-          {
-            "text": "Interdiction par principe (Art. 38 ter).",
+            "text": "La 'proximité culturelle'.",
             "isCorrect": true,
-            "rationale": "La loi interdit l'enregistrement, sauf pour archives historiques ou motifs pédagogiques récents."
+            "rationale": "Les spectateurs s'identifient mieux aux thèmes sociaux et familiaux proches de leur propre culture."
           },
           {
-            "text": "Autorisé avec accord de l'avocat.",
+            "text": "La supériorité des effets spéciaux.",
             "isCorrect": false,
-            "rationale": "L'accord de l'avocat ne lève pas l'interdiction légale générale."
+            "rationale": "Le succès repose sur l'émotion et le récit, pas sur la technologie visuelle."
           },
           {
-            "text": "Uniquement pour le civil.",
+            "text": "L'utilisation de la langue anglaise.",
             "isCorrect": false,
-            "rationale": "L'interdiction s'applique à tous les types de procès (pénal, civil, administratif)."
+            "rationale": "C'est l'usage de l'espagnol ou du portugais qui renforce justement le lien avec le public."
+          },
+          {
+            "text": "La diffusion gratuite sur YouTube.",
+            "isCorrect": false,
+            "rationale": "Le succès international des novelas a commencé bien avant l'existence d'Internet."
           }
-        ],
-        "hint": "Sérénité de la justice."
+        ]
       },
       {
         "id": 16,
         "difficulty": "Moyenne",
-        "question": "Qu'est-ce qui échappe au domaine privé d'une star ?",
+        "question": "Qu'est-ce que le cinéma 'masala' ?",
         "options": [
           {
-            "text": "Rien, tout est protégé.",
+            "text": "Un cinéma documentaire.",
             "isCorrect": false,
-            "rationale": "Le statut public réduit légèrement la zone protégée."
+            "rationale": "C'est un cinéma de fiction populaire et commercial."
           },
           {
-            "text": "Les infos liées aux fonctions officielles ou au débat public.",
+            "text": "Un genre mélangeant action, romance, comédie et musique.",
             "isCorrect": true,
-            "rationale": "Si l'info est nécessaire pour éclairer le public sur un sujet d'intérêt général, elle est licite."
+            "rationale": "Comme l'épice du même nom, c'est un mélange d'ingrédients pour plaire au plus grand nombre."
           },
           {
-            "text": "Sa vie sentimentale complète.",
+            "text": "Un cinéma d'auteur sans musique.",
             "isCorrect": false,
-            "rationale": "La vie sentimentale reste privée, sauf impact direct sur la fonction publique."
+            "rationale": "Le masala est indissociable des séquences chantées et dansées."
           },
           {
-            "text": "Ses comptes bancaires.",
+            "text": "Des films pour l'URSS.",
             "isCorrect": false,
-            "rationale": "Le patrimoine est privé, sauf obligation de déclaration de transparence."
+            "rationale": "Bien qu'exportés, ils sont créés pour le marché massif de l'Inde."
           }
-        ],
-        "hint": "Information nécessaire au citoyen."
+        ]
       },
       {
         "id": 17,
         "difficulty": "Moyenne",
-        "question": "Qu'est-ce que l'excuse de provocation en injure ?",
+        "question": "Pourquoi 1998 est-elle cruciale pour le cinéma indien ?",
         "options": [
           {
-            "text": "Droit d'injurier les politiques.",
-            "isCorrect": false,
-            "rationale": "Les politiques sont protégés par la loi, même si la critique est plus libre."
-          },
-          {
-            "text": "Défense si l'injure répond à une attaque préalable.",
+            "text": "Reconnaissance officielle comme 'industrie' par l'État.",
             "isCorrect": true,
-            "rationale": "Si la victime a provoqué l'auteur, celui-ci peut invoquer cette défense pour être relaxé."
+            "rationale": "Cela a permis de professionnaliser le secteur et de faciliter les prêts bancaires légaux."
           },
           {
-            "text": "Action de l'ARCOM.",
+            "text": "Invention de Bollywood.",
             "isCorrect": false,
-            "rationale": "L'ARCOM ne provoque pas les médias, elle les régule."
+            "rationale": "Bollywood existait déjà, c'est son statut juridique qui a évolué."
           },
           {
-            "text": "Circonstance aggravante.",
+            "text": "Interdiction des films US.",
             "isCorrect": false,
-            "rationale": "C'est un moyen de défense (atténuation), pas une aggravation."
+            "rationale": "L'Inde est restée un marché ouvert malgré la force de sa propre production."
+          },
+          {
+            "text": "Salles gratuites.",
+            "isCorrect": false,
+            "rationale": "C'est une industrie privée qui fonctionne sur la vente de billets."
           }
-        ],
-        "hint": "Réponse immédiate à une agression verbale."
+        ]
       },
       {
         "id": 18,
         "difficulty": "Moyenne",
-        "question": "Qu'est-ce que l'immunité des débats judiciaires ?",
+        "question": "Caractéristiques du 'trendy drama' japonais ?",
         "options": [
           {
-            "text": "Interdiction d'arrêter un journaliste.",
+            "text": "Acteurs âgés en milieu rural.",
             "isCorrect": false,
-            "rationale": "L'immunité concerne les propos, pas l'arrestation pour des faits extérieurs."
+            "rationale": "Le genre est au contraire centré sur la jeunesse et l'urbanité moderne."
           },
           {
-            "text": "On ne peut poursuivre un avocat pour ses propos en plaidoirie.",
+            "text": "Acteurs jeunes, lieux branchés de Tokyo, mode et tubes musicaux.",
             "isCorrect": true,
-            "rationale": "Les paroles dites devant le tribunal sont protégées pour garantir la liberté de la défense."
+            "rationale": "Il vendait un style de vie moderne et consumériste à la jeunesse asiatique."
           },
           {
-            "text": "Les juges ne motivent pas leurs arrêts.",
+            "text": "Dessins animés uniquement.",
             "isCorrect": false,
-            "rationale": "Les juges ont l'obligation légale de motiver toutes leurs décisions."
+            "rationale": "Ce sont des séries avec des acteurs réels (live action)."
           },
           {
-            "text": "Appel impossible.",
+            "text": "Films de samouraïs.",
             "isCorrect": false,
-            "rationale": "Le droit à l'appel est un principe fondamental du double degré de juridiction."
+            "rationale": "Le trendy drama rompt avec les traditions historiques pour se concentrer sur le présent."
           }
-        ],
-        "hint": "Liberté totale de la défense à l'audience."
+        ]
       },
       {
         "id": 19,
         "difficulty": "Moyenne",
-        "question": "Quelle juridiction juge les recours contre l'ARCOM ?",
+        "question": "Développement du savoir-faire coréen en drama ?",
         "options": [
           {
-            "text": "Le Tribunal de Paris.",
+            "text": "Aide financière d'Hollywood.",
             "isCorrect": false,
-            "rationale": "Ce tribunal est judiciaire, alors que l'ARCOM est une autorité administrative."
+            "rationale": "Le développement a été soutenu par l'État coréen et des influences régionales."
           },
           {
-            "text": "Le Conseil d'État.",
+            "text": "Imitation et adaptation du trendy drama japonais.",
             "isCorrect": true,
-            "rationale": "Il est le juge naturel des autorités publiques indépendantes nationales."
+            "rationale": "Les réalisateurs coréens ont repris les codes efficaces de leurs voisins japonais pour créer leur propre style."
           },
           {
-            "text": "Le Conseil Constitutionnel.",
+            "text": "Refus de la télévision.",
             "isCorrect": false,
-            "rationale": "Il vérifie la constitutionnalité des lois, pas les sanctions administratives."
+            "rationale": "La télévision a été le moteur principal du succès culturel coréen."
           },
           {
-            "text": "La Cour de Cassation.",
+            "text": "Programmes religieux.",
             "isCorrect": false,
-            "rationale": "Elle s'occupe de l'ordre judiciaire, pas des actes administratifs du régulateur."
+            "rationale": "Les K-dramas sont centrés sur la romance et les réalités sociales contemporaines."
           }
-        ],
-        "hint": "Sommet de l'ordre administratif."
+        ]
       },
       {
         "id": 20,
         "difficulty": "Moyenne",
-        "question": "Pourquoi le droit de la com est-il 'non codifié' ?",
+        "question": "Stratégie des majors face à Netflix fin 2010 ?",
         "options": [
           {
-            "text": "Aucune loi n'existe.",
+            "text": "Donner les films à Netflix.",
             "isCorrect": false,
-            "rationale": "Les lois sont nombreuses, mais dispersées."
+            "rationale": "Elles ont au contraire retiré leurs catalogues pour affaiblir le concurrent."
           },
           {
-            "text": "Les règles sont dispersées dans plusieurs codes.",
+            "text": "Lancement de leurs propres plateformes (Disney+, etc.).",
             "isCorrect": true,
-            "rationale": "Il n'existe pas de 'Code de la Communication' unique réunissant tout."
+            "rationale": "Elles ont cherché à reprendre le contrôle de la distribution directe vers le consommateur."
           },
           {
-            "text": "Décisions sans texte.",
+            "text": "Fermeture des studios.",
             "isCorrect": false,
-            "rationale": "Tout jugement doit reposer sur un texte légal en droit français."
+            "rationale": "Elles ont augmenté la production pour alimenter leurs nouvelles plateformes."
           },
           {
-            "text": "Langage secret.",
+            "text": "Interdiction d'Internet.",
             "isCorrect": false,
-            "rationale": "Le droit est public et accessible à tout citoyen."
+            "rationale": "Elles ont dû s'adapter à la réalité technologique du streaming."
           }
-        ],
-        "hint": "Droit carrefour."
+        ]
       },
       {
         "id": 21,
         "difficulty": "Facile",
-        "question": "Qu'est-ce que le 'Droit objectif' ?",
+        "question": "Qui a inventé le Kinétoscope en 1894 ?",
         "options": [
           {
-            "text": "Règles régissant la vie en société sanctionnées par l'État.",
+            "text": "Auguste Lumière",
+            "isCorrect": false,
+            "rationale": "Il a inventé le cinématographe collectif."
+          },
+          {
+            "text": "Thomas Edison",
             "isCorrect": true,
-            "rationale": "C'est la règle de conduite impersonnelle qui s'applique à tous."
+            "rationale": "C'est l'inventeur de cet appareil de visionnage individuel."
           },
           {
-            "text": "Droits individuels de chaque personne.",
+            "text": "Georges Méliès",
             "isCorrect": false,
-            "rationale": "Ceci définit le droit subjectif (les prérogatives d'un individu)."
+            "rationale": "C'était un réalisateur, pas un inventeur d'appareils."
           },
           {
-            "text": "Codes secrets des journalistes.",
+            "text": "Charles Pathé",
             "isCorrect": false,
-            "rationale": "Le droit est un ensemble de règles publiques et obligatoires."
-          },
-          {
-            "text": "Règles morales sans sanction.",
-            "isCorrect": false,
-            "rationale": "Le droit est par nature obligatoire et assorti d'une sanction (coercitif)."
+            "rationale": "Il était un industriel de la vente."
           }
-        ],
-        "hint": "La loi commune."
+        ]
       },
       {
         "id": 22,
         "difficulty": "Facile",
-        "question": "Quel texte de 1789 fonde la liberté de communication ?",
+        "question": "Année de présentation du cinématographe Lumière ?",
         "options": [
           {
-            "text": "La DDHC (Art. 11).",
+            "text": "1890",
+            "isCorrect": false,
+            "rationale": "Trop tôt pour cette invention finalisée."
+          },
+          {
+            "text": "1895",
             "isCorrect": true,
-            "rationale": "L'article 11 de la Déclaration des Droits de l'Homme et du Citoyen pose ce principe fondateur."
+            "rationale": "C'est la date officielle de la naissance du cinéma."
           },
           {
-            "text": "La Constitution de 1958.",
+            "text": "1900",
             "isCorrect": false,
-            "rationale": "Elle organise l'État mais reprend la DDHC en préambule pour les droits."
+            "rationale": "Le cinéma était déjà en expansion à cette date."
           },
           {
-            "text": "Le Code Civil.",
+            "text": "1914",
             "isCorrect": false,
-            "rationale": "Il s'occupe des relations entre personnes, pas de la liberté de presse."
-          },
-          {
-            "text": "La loi de 1881.",
-            "isCorrect": false,
-            "rationale": "Elle applique le principe, mais c'est la DDHC qui le fonde."
+            "rationale": "C'est le début de la Grande Guerre."
           }
-        ],
-        "hint": "Texte révolutionnaire."
+        ]
       },
       {
         "id": 23,
         "difficulty": "Facile",
-        "question": "Quels sont les 3 éléments d'une infraction ?",
+        "question": "Spécialité d'origine des frères Pathé ?",
         "options": [
           {
-            "text": "Légal, matériel, moral.",
+            "text": "Vente d'appareils phonographiques",
             "isCorrect": true,
-            "rationale": "Un texte (loi), un acte (fait) et une intention (conscience)."
+            "rationale": "Ils vendaient des machines à son avant l'image."
           },
           {
-            "text": "Juge, avocat, témoin.",
+            "text": "Appareils photo",
             "isCorrect": false,
-            "rationale": "Ce sont les participants au procès, pas les composants de l'infraction."
+            "rationale": "C'était l'activité des Lumière."
           },
           {
-            "text": "Preuve, dommage, victime.",
+            "text": "Théâtre",
             "isCorrect": false,
-            "rationale": "Ce sont les éléments de la responsabilité civile, pas de la constitution du délit."
+            "rationale": "C'était le domaine de Méliès."
           },
           {
-            "text": "Loi, amende, prison.",
+            "text": "Cartes postales",
             "isCorrect": false,
-            "rationale": "L'amende et la prison sont les peines, pas les éléments constitutifs."
+            "rationale": "C'était une source d'inspiration, pas leur métier."
           }
-        ],
-        "hint": "Texte, Acte et Esprit."
+        ]
       },
       {
         "id": 24,
         "difficulty": "Facile",
-        "question": "Quel droit régit les relations État-particuliers ?",
+        "question": "Qui a introduit les trucages au cinéma ?",
         "options": [
           {
-            "text": "Le droit public.",
+            "text": "Louis Lumière",
+            "isCorrect": false,
+            "rationale": "Il restait dans le réalisme quotidien."
+          },
+          {
+            "text": "Georges Méliès",
             "isCorrect": true,
-            "rationale": "Il organise les pouvoirs publics et leurs rapports avec les citoyens."
+            "rationale": "Ancien magicien, il a créé le spectacle cinématographique."
           },
           {
-            "text": "Le droit privé.",
+            "text": "Léon Gaumont",
             "isCorrect": false,
-            "rationale": "Il s'occupe des relations entre particuliers (famille, commerce)."
+            "rationale": "Il était un industriel de l'optique."
           },
           {
-            "text": "Le droit pénal.",
+            "text": "Charles Pathé",
             "isCorrect": false,
-            "rationale": "C'est une branche du droit privé (sanction des comportements)."
-          },
-          {
-            "text": "Le droit du travail.",
-            "isCorrect": false,
-            "rationale": "C'est un droit spécifique aux relations employeurs-salariés."
+            "rationale": "Il gérait la production de masse."
           }
-        ],
-        "hint": "Intérêt général."
+        ]
       },
       {
         "id": 25,
         "difficulty": "Facile",
-        "question": "Comment appelle-t-on la critique des produits ?",
+        "question": "Prix d'un nickelodeon vers 1905 ?",
         "options": [
           {
-            "text": "Le dénigrement.",
+            "text": "1 cent",
+            "isCorrect": false,
+            "rationale": "Le prix était fixé à 5 cents."
+          },
+          {
+            "text": "5 cents",
             "isCorrect": true,
-            "rationale": "Il vise les biens ou services d'un concurrent, pas sa personne."
+            "rationale": "D'où le nom 'nickel', pièce de 5 cents."
           },
           {
-            "text": "La diffamation.",
+            "text": "25 cents",
             "isCorrect": false,
-            "rationale": "Elle vise l'honneur d'une personne physique ou morale."
+            "rationale": "Trop cher pour le public populaire visé."
           },
           {
-            "text": "L'injure.",
+            "text": "1 dollar",
             "isCorrect": false,
-            "rationale": "C'est une insulte gratuite, pas une critique de produit."
-          },
-          {
-            "text": "Le harcèlement.",
-            "isCorrect": false,
-            "rationale": "C'est la répétition d'actes contre une personne."
+            "rationale": "Prix exorbitant pour l'époque."
           }
-        ],
-        "hint": "Attaque contre la marchandise."
+        ]
       },
       {
         "id": 26,
         "difficulty": "Facile",
-        "question": "Différence injure / diffamation ?",
+        "question": "Pourquoi Hollywood en Californie ?",
         "options": [
           {
-            "text": "Fait précis vs Expression.",
+            "text": "Proximité du Mexique",
+            "isCorrect": false,
+            "rationale": "Utile pour la fuite légale, mais secondaire."
+          },
+          {
+            "text": "Climat et lumière naturelle",
             "isCorrect": true,
-            "rationale": "La diffamation impute un fait, l'injure est une pure invective."
+            "rationale": "Permettait de tourner en extérieur toute l'année."
           },
           {
-            "text": "Gravité.",
+            "text": "Proche du cartel Edison",
             "isCorrect": false,
-            "rationale": "La gravité varie, mais la distinction est technique."
+            "rationale": "Ils fuyaient justement Edison (basé à New York)."
           },
           {
-            "text": "Public / Privé.",
+            "text": "Terrain gratuit",
             "isCorrect": false,
-            "rationale": "Les deux peuvent exister sous les deux formes."
-          },
-          {
-            "text": "Aucune.",
-            "isCorrect": false,
-            "rationale": "La loi les distingue formellement à l'article 29."
+            "rationale": "Moins cher, mais pas gratuit."
           }
-        ],
-        "hint": "Précision du grief."
+        ]
       },
       {
         "id": 27,
         "difficulty": "Facile",
-        "question": "Qui remplace le CSA et la HADOPI ?",
+        "question": "Leader mondial vers 1910 ?",
         "options": [
           {
-            "text": "L'ARCOM.",
+            "text": "Paramount",
+            "isCorrect": false,
+            "rationale": "N'était pas encore dominante mondialement."
+          },
+          {
+            "text": "Pathé",
             "isCorrect": true,
-            "rationale": "Autorité de régulation de la communication audiovisuelle et numérique."
+            "rationale": "Compagnie française dominant alors le monde."
           },
           {
-            "text": "L'ANFR.",
+            "text": "Universal",
             "isCorrect": false,
-            "rationale": "L'agence des fréquences gère l'aspect purement technique des ondes."
+            "rationale": "Apparue plus tard dans la hiérarchie."
           },
           {
-            "text": "La CNIL.",
+            "text": "Edison",
             "isCorrect": false,
-            "rationale": "Elle s'occupe des données personnelles, pas de l'audiovisuel."
-          },
-          {
-            "text": "Le CSA.",
-            "isCorrect": false,
-            "rationale": "Le CSA a été absorbé dans la fusion créant l'ARCOM."
+            "rationale": "Dominant sur les brevets, pas la production."
           }
-        ],
-        "hint": "Nouveau nom du régulateur."
+        ]
       },
       {
         "id": 28,
         "difficulty": "Facile",
-        "question": "La liberté d'expression est-elle absolue ?",
+        "question": "Premier film parlant (1927) ?",
         "options": [
           {
-            "text": "Non, limitée pour protéger autrui.",
+            "text": "Metropolis",
+            "isCorrect": false,
+            "rationale": "Chef-d'œuvre muet allemand."
+          },
+          {
+            "text": "Le Chanteur de Jazz",
             "isCorrect": true,
-            "rationale": "On ne peut pas tout dire (injure, haine, etc. sont punis)."
+            "rationale": "Le premier avec des dialogues synchronisés."
           },
           {
-            "text": "Oui.",
+            "text": "Voyage dans la Lune",
             "isCorrect": false,
-            "rationale": "Aucune liberté n'est sans limites dans une société de droit."
+            "rationale": "Film muet de 1902."
           },
           {
-            "text": "Oui car c'est 1789.",
+            "text": "Great Train Robbery",
             "isCorrect": false,
-            "rationale": "1789 prévoit justement que la loi définit les abus."
-          },
-          {
-            "text": "Interdite en ligne.",
-            "isCorrect": false,
-            "rationale": "Elle s'applique partout, réseaux sociaux compris."
+            "rationale": "Western muet de 1903."
           }
-        ],
-        "hint": "Abus et limites."
+        ]
       },
       {
         "id": 29,
         "difficulty": "Facile",
-        "question": "Qu'est-ce que la censure ?",
+        "question": "Nom des producteurs tout-puissants ?",
         "options": [
           {
-            "text": "Contrôle avant publication.",
+            "text": "Les Majors",
+            "isCorrect": false,
+            "rationale": "C'est le nom des entreprises."
+          },
+          {
+            "text": "Les Moguls",
             "isCorrect": true,
-            "rationale": "Action d'empêcher la diffusion en amont."
+            "rationale": "Désigne les chefs de studios tyranniques."
           },
           {
-            "text": "Amende après.",
+            "text": "Les Stars",
             "isCorrect": false,
-            "rationale": "C'est une sanction, pas de la censure préventive."
+            "rationale": "Ce sont les acteurs."
           },
           {
-            "text": "Droit de réponse.",
+            "text": "Les Independents",
             "isCorrect": false,
-            "rationale": "C'est une garantie de parole, pas une suppression de propos."
-          },
-          {
-            "text": "Suppression volontaire.",
-            "isCorrect": false,
-            "rationale": "Si c'est l'auteur qui retire, ce n'est pas de la censure extérieure."
+            "rationale": "Ceux qui luttaient contre les studios."
           }
-        ],
-        "hint": "Intervention préventive."
+        ]
       },
       {
         "id": 30,
         "difficulty": "Facile",
-        "question": "Compte privé = ?",
+        "question": "Rôle de la MPAA ?",
         "options": [
           {
-            "text": "Communication privée.",
+            "text": "Financer les studios",
+            "isCorrect": false,
+            "rationale": "C'est un organe de lobbying et de défense."
+          },
+          {
+            "text": "Défendre les intérêts et autocensure",
             "isCorrect": true,
-            "rationale": "Communauté d'intérêt entre membres agréés."
+            "rationale": "Protège l'image d'Hollywood."
           },
           {
-            "text": "Communication publique.",
+            "text": "Vendre des tickets",
             "isCorrect": false,
-            "rationale": "Internet n'est pas public par défaut si l'accès est verrouillé."
+            "rationale": "C'est le rôle des salles."
           },
           {
-            "text": "Non punissable.",
+            "text": "Organiser les Oscars",
             "isCorrect": false,
-            "rationale": "Même privé, un délit reste une infraction (mais moins punie)."
-          },
-          {
-            "text": "Diffamation automatique.",
-            "isCorrect": false,
-            "rationale": "Le cadre ne définit pas la nature du propos tenu."
+            "rationale": "Rôle de l'Académie."
           }
-        ],
-        "hint": "Cercle d'amis."
+        ]
       },
       {
         "id": 31,
         "difficulty": "Facile",
-        "question": "Négationnisme = ?",
+        "question": "Technologie cauchemar pour Hollywood (1970) ?",
         "options": [
           {
-            "text": "Contestation des crimes contre l'humanité.",
+            "text": "Couleur",
+            "isCorrect": false,
+            "rationale": "Bénéfice artistique et financier."
+          },
+          {
+            "text": "Magnétoscope (vidéo)",
             "isCorrect": true,
-            "rationale": "Le fait de nier l'existence de génocides reconnus."
+            "rationale": "Permettait la copie et le saut de pub."
           },
           {
-            "text": "Nier une erreur.",
+            "text": "Numérique",
             "isCorrect": false,
-            "rationale": "Une erreur de fait n'est pas un négationnisme historique."
+            "rationale": "Arrivé bien plus tard."
           },
           {
-            "text": "Refus d'impôts.",
+            "text": "Son Dolby",
             "isCorrect": false,
-            "rationale": "C'est de la fraude fiscale."
-          },
-          {
-            "text": "Critique politique.",
-            "isCorrect": false,
-            "rationale": "La critique est un droit démocratique."
+            "rationale": "Amélioration technique sans risque légal."
           }
-        ],
-        "hint": "Shoah et génocides."
+        ]
       },
       {
         "id": 32,
         "difficulty": "Facile",
-        "question": "Rôle d'un FA ?",
+        "question": "Lieu de naissance des radionovelas ?",
         "options": [
           {
-            "text": "Connexion technique.",
+            "text": "Brésil",
+            "isCorrect": false,
+            "rationale": "Producteur massif, mais pas le berceau."
+          },
+          {
+            "text": "Mexique",
+            "isCorrect": false,
+            "rationale": "A popularisé le genre, pas créé."
+          },
+          {
+            "text": "Cuba",
             "isCorrect": true,
-            "rationale": "Il permet l'accès au réseau sans contrôler les messages."
+            "rationale": "Né à la radio cubaine dans les années 40."
           },
           {
-            "text": "Contrôle vérité.",
+            "text": "Argentine",
             "isCorrect": false,
-            "rationale": "Il ne peut pas vérifier des milliards de données."
-          },
-          {
-            "text": "Stockage vidéos.",
-            "isCorrect": false,
-            "rationale": "C'est le rôle de l'hébergeur."
-          },
-          {
-            "text": "Police du web.",
-            "isCorrect": false,
-            "rationale": "Il n'a pas de pouvoir judiciaire ou policier propre."
+            "rationale": "Gros marché, mais pas l'origine."
           }
-        ],
-        "hint": "Orange, SFR, Free."
+        ]
       },
       {
         "id": 33,
         "difficulty": "Facile",
-        "question": "Art 9 Code Civil = ?",
+        "question": "Telenovela brésilienne vs mexicaine ?",
         "options": [
           {
-            "text": "Vie privée.",
+            "text": "Plus violente",
+            "isCorrect": false,
+            "rationale": "Pas une distinction majeure."
+          },
+          {
+            "text": "Proche des réalités sociales",
             "isCorrect": true,
-            "rationale": "Le texte fondamental protégeant l'intimité de chacun."
+            "rationale": "Le Brésil y intègre des thèmes de société."
           },
           {
-            "text": "Propriété.",
+            "text": "Plus courte",
             "isCorrect": false,
-            "rationale": "Protégée par d'autres articles et la DDHC."
+            "rationale": "Format long dans les deux cas."
           },
           {
-            "text": "Presse.",
+            "text": "Sans musique",
             "isCorrect": false,
-            "rationale": "Régie par la loi de 1881."
-          },
-          {
-            "text": "Santé.",
-            "isCorrect": false,
-            "rationale": "Relève du code de la santé publique."
+            "rationale": "La musique est vitale partout."
           }
-        ],
-        "hint": "Mon intimité."
+        ]
       },
       {
         "id": 34,
         "difficulty": "Facile",
-        "question": "Image d'un bien ?",
+        "question": "Sens du mot 'Masala' ?",
         "options": [
           {
-            "text": "Libre sauf trouble anormal.",
+            "text": "Film sacré",
+            "isCorrect": false,
+            "rationale": "C'est un produit commercial."
+          },
+          {
+            "text": "Mélange d'épices",
             "isCorrect": true,
-            "rationale": "On peut photographier une maison sauf si cela nuit au propriétaire."
+            "rationale": "Désigne le mélange des genres."
           },
           {
-            "text": "Interdit.",
+            "text": "Danse traditionnelle",
             "isCorrect": false,
-            "rationale": "Le propriétaire n'a pas de droit exclusif sur l'image."
+            "rationale": "Ingrédient du film, pas le sens global."
           },
           {
-            "text": "Après 100 ans.",
+            "text": "Cinéma muet",
             "isCorrect": false,
-            "rationale": "Le critère de l'âge n'existe pas pour l'image du bien."
-          },
-          {
-            "text": "Seulement presse.",
-            "isCorrect": false,
-            "rationale": "Tout le monde peut le faire dans le respect du trouble anormal."
+            "rationale": "Bollywood est né avec le son."
           }
-        ],
-        "hint": "Liberté de l'image des choses."
+        ]
       },
       {
         "id": 35,
         "difficulty": "Facile",
-        "question": "Sanction injure privée ?",
+        "question": "Informaticien devenu géant de la fiction ?",
         "options": [
           {
-            "text": "38 euros.",
+            "text": "Microsoft",
+            "isCorrect": false,
+            "rationale": "Pas un distributeur majeur de films."
+          },
+          {
+            "text": "Apple",
             "isCorrect": true,
-            "rationale": "C'est une contravention légère pour les conflits privés."
+            "rationale": "Via iTunes et Apple TV."
           },
           {
-            "text": "Prison.",
+            "text": "Sony",
             "isCorrect": false,
-            "rationale": "Jamais de prison pour une injure simple privée."
+            "rationale": "A dû racheter Columbia."
           },
           {
-            "text": "45 000 euros.",
+            "text": "IBM",
             "isCorrect": false,
-            "rationale": "Seulement pour les injures raciales ou graves."
-          },
-          {
-            "text": "Coupure internet.",
-            "isCorrect": false,
-            "rationale": "Peine non prévue pour cette infraction."
+            "rationale": "Resté dans le service pro."
           }
-        ],
-        "hint": "Petit montant."
+        ]
       },
       {
         "id": 36,
         "difficulty": "Facile",
-        "question": "Droit de réponse = ?",
+        "question": "Lobby des Big Five en 1922 ?",
         "options": [
           {
-            "text": "Donner sa version des faits.",
+            "text": "The Cartel",
+            "isCorrect": false,
+            "rationale": "Terme général, pas le nom."
+          },
+          {
+            "text": "MPPDA",
             "isCorrect": true,
-            "rationale": "Permet de rétablir la vérité après une mise en cause."
+            "rationale": "Dirigée par William Hays."
           },
           {
-            "text": "Fermer le journal.",
+            "text": "Hollywood Guild",
             "isCorrect": false,
-            "rationale": "N'est pas une sanction de fermeture."
+            "rationale": "Nom des syndicats."
           },
           {
-            "text": "Gagner de l'argent.",
+            "text": "Sherman Act",
             "isCorrect": false,
-            "rationale": "C'est un droit d'expression, pas une indemnité."
-          },
-          {
-            "text": "Empêcher l'article.",
-            "isCorrect": false,
-            "rationale": "Intervient après la publication."
+            "rationale": "Nom de la loi antitrust."
           }
-        ],
-        "hint": "Réplique gratuite."
+        ]
       },
       {
         "id": 37,
         "difficulty": "Facile",
-        "question": "Où sont les types d'infractions ?",
+        "question": "Service P2P en 1999 ?",
         "options": [
           {
-            "text": "Code pénal.",
+            "text": "Spotify",
+            "isCorrect": false,
+            "rationale": "Service légal de streaming plus tardif."
+          },
+          {
+            "text": "Napster",
             "isCorrect": true,
-            "rationale": "Définit les contraventions, délits et crimes."
+            "rationale": "A lancé le téléchargement massif de MP3."
           },
           {
-            "text": "Code civil.",
+            "text": "YouTube",
             "isCorrect": false,
-            "rationale": "S'occupe des contrats et dommages civils."
+            "rationale": "Hébergement vidéo (2005)."
           },
           {
-            "text": "Code de la com.",
+            "text": "Megaupload",
             "isCorrect": false,
-            "rationale": "N'existe pas."
-          },
-          {
-            "text": "Constitution.",
-            "isCorrect": false,
-            "rationale": "Définit les pouvoirs, pas les délits précis."
+            "rationale": "Plus tardif, avec serveurs centraux."
           }
-        ],
-        "hint": "Livre des punitions."
+        ]
       },
       {
         "id": 38,
         "difficulty": "Facile",
-        "question": "Signalement LCEN ?",
+        "question": "Pays avec quota 120 films US (1925) ?",
         "options": [
           {
-            "text": "Description, URL, motifs.",
+            "text": "Italie",
+            "isCorrect": false,
+            "rationale": "Mesures protectionnistes plus tardives."
+          },
+          {
+            "text": "Allemagne",
             "isCorrect": true,
-            "rationale": "Formalisme obligatoire pour alerter l'hébergeur."
+            "rationale": "Premier grand pays à limiter Hollywood."
           },
           {
-            "text": "Juste screen.",
+            "text": "Grande-Bretagne",
             "isCorrect": false,
-            "rationale": "Insuffisant légalement pour engager la responsabilité."
+            "rationale": "A utilisé des pourcentages en salle."
           },
           {
-            "text": "Menace.",
+            "text": "Japon",
             "isCorrect": false,
-            "rationale": "Inutile pour la validité technique."
-          },
-          {
-            "text": "Nom du juge.",
-            "isCorrect": false,
-            "rationale": "On peut signaler avant tout procès."
+            "rationale": "Interdictions culturelles différentes."
           }
-        ],
-        "hint": "Détails précis."
+        ]
       },
       {
         "id": 39,
         "difficulty": "Facile",
-        "question": "Signalétique jeunesse = ?",
+        "question": "Qu'est-ce que la 'Hallyu' ?",
         "options": [
           {
-            "text": "Protection enfance.",
+            "text": "Plat japonais",
+            "isCorrect": false,
+            "rationale": "Terme culturel."
+          },
+          {
+            "text": "Vague culturelle coréenne",
             "isCorrect": true,
-            "rationale": "Mission de l'ARCOM pour les publics fragiles."
+            "rationale": "Désigne le succès mondial de la Corée du Sud."
           },
           {
-            "text": "Pub clandestine.",
+            "text": "Censure chinoise",
             "isCorrect": false,
-            "rationale": "Lutte contre la pub cachée, pas l'âge."
+            "rationale": "Concerne le rayonnement, pas la limite."
           },
           {
-            "text": "Téléchargement.",
+            "text": "Montage indien",
             "isCorrect": false,
-            "rationale": "Concerne le droit d'auteur."
-          },
-          {
-            "text": "Pluralisme.",
-            "isCorrect": false,
-            "rationale": "Concerne le temps de parole."
+            "rationale": "C'est le masala."
           }
-        ],
-        "hint": "Déconseillé aux moins de..."
+        ]
       },
       {
         "id": 40,
         "difficulty": "Facile",
-        "question": "Litiges particuliers ?",
+        "question": "Premier marché extérieur pour Hollywood (1920) ?",
         "options": [
           {
-            "text": "Ordre judiciaire.",
+            "text": "Londres",
+            "isCorrect": false,
+            "rationale": "Important mais pas le record cité."
+          },
+          {
+            "text": "New York",
             "isCorrect": true,
-            "rationale": "Compétent pour les conflits entre personnes privées."
+            "rationale": "La ville seule valait le marché français."
           },
           {
-            "text": "Administratif.",
+            "text": "Paris",
             "isCorrect": false,
-            "rationale": "Compétent pour les conflits avec l'État."
+            "rationale": "Territoire de la puissance rivale."
           },
           {
-            "text": "Conseil Consti.",
+            "text": "Moscou",
             "isCorrect": false,
-            "rationale": "Juge les lois, pas les gens."
-          },
-          {
-            "text": "CEDH.",
-            "isCorrect": false,
-            "rationale": "Juge les États après tous les recours."
+            "rationale": "Marché de prestige restreint."
           }
-        ],
-        "hint": "Tribunaux classiques."
+        ]
       },
       {
         "id": 41,
         "difficulty": "Difficile",
-        "question": "Peut-on prouver la vérité d'un fait privé en diffamation ?",
+        "question": "Pourquoi le film est-il un 'bien public' imparfait ?",
         "options": [
           {
-            "text": "Oui, si c'est vrai.",
+            "text": "Financé par l'État",
             "isCorrect": false,
-            "rationale": "La vérité ne suffit pas si le domaine est interdit par la loi."
+            "rationale": "Peut être privé."
           },
           {
-            "text": "Non, Art 35 l'interdit.",
+            "text": "Non-rivalité de consommation",
             "isCorrect": true,
-            "rationale": "On ne peut prouver la vérité pour des faits relevant de la vie privée."
+            "rationale": "Consommé par un, il reste dispo pour les autres."
           },
           {
-            "text": "Sous 24h.",
+            "text": "Prix réglementé",
             "isCorrect": false,
-            "rationale": "Le délai est de 10 jours et l'interdiction vie privée demeure."
+            "rationale": "Fixé par le marché."
           },
           {
-            "text": "Seulement si ministre.",
+            "text": "Gratuit après 2 ans",
             "isCorrect": false,
-            "rationale": "La fonction ne lève pas l'interdiction pour la sphère intime."
+            "rationale": "Règle inexistante."
           }
-        ],
-        "hint": "Limites de l'exceptio veritatis."
+        ]
       },
       {
         "id": 42,
         "difficulty": "Difficile",
-        "question": "Responsabilité DP en direct ?",
+        "question": "But occulte de la MPPC d'Edison (1908) ?",
         "options": [
           {
-            "text": "Toujours responsable.",
+            "text": "Aider l'Europe",
             "isCorrect": false,
-            "rationale": "Le DP ne peut être tenu pour ce qu'il ne peut matériellement pas contrôler."
+            "rationale": "Voulait les évincer."
           },
           {
-            "text": "Non, si pas de fixation.",
+            "text": "Monopole par les brevets",
             "isCorrect": true,
-            "rationale": "L'absence d'enregistrement préalable écarte la cascade automatique."
+            "rationale": "Contrôle technique total pour taxer tout le monde."
           },
           {
-            "text": "Seulement public.",
+            "text": "Caméras gratuites",
             "isCorrect": false,
-            "rationale": "S'applique à tout l'audiovisuel."
+            "rationale": "Était une machine à cash."
           },
           {
-            "text": "Devrait différer.",
+            "text": "Promouvoir le muet",
             "isCorrect": false,
-            "rationale": "Le différé n'est pas une obligation légale pour écarter la faute."
+            "rationale": "Le parlant n'existait pas encore."
           }
-        ],
-        "hint": "Contrôle a priori impossible."
+        ]
       },
       {
         "id": 43,
         "difficulty": "Difficile",
-        "question": "Risque double qualification ?",
+        "question": "Pratique abusive interdite en 1948 ?",
         "options": [
           {
-            "text": "Plus de sous.",
-            "isCorrect": false,
-            "rationale": "C'est une erreur de procédure, pas un gain."
-          },
-          {
-            "text": "Nullité assignation.",
+            "text": "Blind Bidding",
             "isCorrect": true,
-            "rationale": "On ne peut poursuivre pour deux délits pour le même propos (Art 50/53)."
+            "rationale": "Vendre des films sans visionnage préalable."
           },
           {
-            "text": "Conseil d'État.",
+            "text": "Star System",
             "isCorrect": false,
-            "rationale": "Mauvais ordre de juridiction."
+            "rationale": "Méthode marketing."
           },
           {
-            "text": "Juge choisit.",
+            "text": "Merchandising",
             "isCorrect": false,
-            "rationale": "En presse, le juge ne requalifie pas d'office (sauf racisme/sexisme)."
+            "rationale": "Vente de produits dérivés."
+          },
+          {
+            "text": "Intégration horizontale",
+            "isCorrect": false,
+            "rationale": "Structure de groupe."
           }
-        ],
-        "hint": "Droits de la défense."
+        ]
       },
       {
         "id": 44,
         "difficulty": "Difficile",
-        "question": "Calcul pluralisme ARCOM ?",
+        "question": "Fonction du 'Star System' ?",
         "options": [
           {
-            "text": "Égalité députés.",
+            "text": "Baisser les salaires techniques",
             "isCorrect": false,
-            "rationale": "Trop rigide, ne reflète pas la vie politique réelle."
+            "rationale": "Au contraire, augmente les coûts."
           },
           {
-            "text": "1/3 exé, 2/3 représentativité.",
+            "text": "Réduire l'incertitude financière",
             "isCorrect": true,
-            "rationale": "Règle des trois tiers combinant gouvernement et formations politiques."
+            "rationale": "Une star garantit un seuil d'audience minimal."
           },
           {
-            "text": "Libre choix chaîne.",
+            "text": "Permettre aux acteurs de réaliser",
             "isCorrect": false,
-            "rationale": "Le régulateur surveille strictement cet équilibre."
+            "rationale": "Étaient des employés sous contrat."
           },
           {
-            "text": "Priorité opposition.",
+            "text": "Éviter les impôts",
             "isCorrect": false,
-            "rationale": "L'opposition a un droit d'accès, mais pas une priorité démesurée."
+            "rationale": "Stratégie d'image et de vente."
           }
-        ],
-        "hint": "Bloc gouvernemental vs Partis."
+        ]
       },
       {
         "id": 45,
         "difficulty": "Difficile",
-        "question": "Qui n'est PAS tenu au secret instruction ?",
+        "question": "Effet de la décision Paramount 1948 ?",
         "options": [
           {
-            "text": "Juge.",
+            "text": "Arrêt de la production",
             "isCorrect": false,
-            "rationale": "Acteur central de la procédure."
+            "rationale": "Production maintenue."
           },
           {
-            "text": "OPJ.",
-            "isCorrect": false,
-            "rationale": "Chargé de l'enquête sous secret."
-          },
-          {
-            "text": "Journaliste.",
+            "text": "Focus sur les blockbusters",
             "isCorrect": true,
-            "rationale": "Ne concourt pas à la procédure, peut publier s'il obtient l'info."
+            "rationale": "Privilégier la qualité événementielle sur la quantité."
           },
           {
-            "text": "Expert.",
+            "text": "Rachat TV Europe",
             "isCorrect": false,
-            "rationale": "Auxiliaire de justice tenu au secret."
+            "rationale": "Impossible juridiquement."
+          },
+          {
+            "text": "Baisse des budgets",
+            "isCorrect": false,
+            "rationale": "Explosion des budgets spectaculaires."
           }
-        ],
-        "hint": "Observateur extérieur."
+        ]
       },
       {
         "id": 46,
         "difficulty": "Difficile",
-        "question": "Hébergeur notifié ne retire pas ?",
+        "question": "Théorie de Herbert Schiller ?",
         "options": [
           {
-            "text": "Auteur principal.",
+            "text": "Libre Échange",
             "isCorrect": false,
-            "rationale": "Il n'a pas créé le contenu original."
+            "rationale": "C'est une théorie économique pure."
           },
           {
-            "text": "Irresponsabilité totale.",
-            "isCorrect": false,
-            "rationale": "Perdue s'il n'agit pas après alerte."
-          },
-          {
-            "text": "Responsable par omission.",
+            "text": "Impérialisme Culturel",
             "isCorrect": true,
-            "rationale": "Sa responsabilité est engagée car il a laissé l'illicite en ligne."
+            "rationale": "Domination par l'imposition de valeurs dominantes."
           },
           {
-            "text": "Complice employé.",
+            "text": "Longue Traîne",
             "isCorrect": false,
-            "rationale": "Le lien de subordination ne définit pas le régime LCEN."
+            "rationale": "Distribution numérique."
+          },
+          {
+            "text": "Déterminisme technique",
+            "isCorrect": false,
+            "rationale": "Focus sur l'outil, pas l'idéologie."
           }
-        ],
-        "hint": "Connaissance effective."
+        ]
       },
       {
         "id": 47,
         "difficulty": "Difficile",
-        "question": "Diffamation au conditionnel ?",
+        "question": "Entreprise mexicaine leader ?",
         "options": [
           {
-            "text": "Non.",
+            "text": "Rede Globo",
             "isCorrect": false,
-            "rationale": "Le droit punit l'attaque, pas seulement l'affirmation."
+            "rationale": "C'est le géant brésilien."
           },
           {
-            "text": "Oui, insinuation comprise.",
+            "text": "Televisa",
             "isCorrect": true,
-            "rationale": "L'article 29 punit l'allégation, même déguisée ou douteuse."
+            "rationale": "A industrialisé l'exportation des novelas."
           },
           {
-            "text": "Si pas mention enquête.",
+            "text": "Telemundo",
             "isCorrect": false,
-            "rationale": "La mention ne protège pas si l'honneur est touché."
+            "rationale": "Réseau américain en espagnol."
           },
           {
-            "text": "Hypothèse permise.",
+            "text": "Cisneros",
             "isCorrect": false,
-            "rationale": "Permise si base factuelle, sinon c'est diffamatoire."
+            "rationale": "Groupe vénézuélien."
           }
-        ],
-        "hint": "Forme dubitative."
+        ]
       },
       {
         "id": 48,
         "difficulty": "Difficile",
-        "question": "Exception identité mineur ?",
+        "question": "Pourquoi l'Inde reconnait l'industrie en 1998 ?",
         "options": [
           {
-            "text": "Accord mineur.",
+            "text": "État paie les acteurs",
             "isCorrect": false,
-            "rationale": "Le mineur n'a pas la capacité juridique pour cela."
+            "rationale": "Pas de financement direct."
           },
           {
-            "text": "Demande des gardiens.",
+            "text": "Prêts bancaires et sortie du crime",
             "isCorrect": true,
-            "rationale": "Seuls les parents/tuteurs peuvent lever l'anonymat (Art 39 bis)."
+            "rationale": "Éviter l'argent sale des réseaux mafieux."
           },
           {
-            "text": "Lieu public.",
+            "text": "Bombay obligatoire",
             "isCorrect": false,
-            "rationale": "Le lieu ne change pas la protection de l'enfance."
+            "rationale": "Localisation libre."
           },
           {
-            "text": "Enfant star.",
+            "text": "Intégration UE",
             "isCorrect": false,
-            "rationale": "La notoriété n'enlève pas la protection de victime."
+            "rationale": "Non-éligible."
           }
-        ],
-        "hint": "Autorité parentale."
+        ]
       },
       {
         "id": 49,
         "difficulty": "Difficile",
-        "question": "Critères Bédat (CEDH) ?",
+        "question": "Public des Trendy Dramas ?",
         "options": [
           {
-            "text": "Ventes journal.",
+            "text": "Enfants",
             "isCorrect": false,
-            "rationale": "Critère économique sans valeur juridique de droits de l'homme."
+            "rationale": "C'est le public de l'animation."
           },
           {
-            "text": "Intérêt général / Gêne enquête.",
+            "text": "Jeunes adultes urbains",
             "isCorrect": true,
-            "rationale": "Équilibre entre droit de savoir et bon fonctionnement justice."
+            "rationale": "Célibataires aux revenus élevés."
           },
           {
-            "text": "Accord procureur.",
+            "text": "Personnes âgées",
             "isCorrect": false,
-            "rationale": "S'il y a accord, il n'y a plus de litige."
+            "rationale": "Rejetait les thèmes ruraux."
           },
           {
-            "text": "Couleur politique.",
+            "text": "Touristes US",
             "isCorrect": false,
-            "rationale": "La neutralité interdit ce critère."
+            "rationale": "Public régional asiatique."
           }
-        ],
-        "hint": "Proportionnalité."
+        ]
       },
       {
         "id": 50,
         "difficulty": "Difficile",
-        "question": "Départ prescription web ?",
+        "question": "Événement 1997 en Corée ?",
         "options": [
           {
-            "text": "Chaque jour.",
+            "text": "Pétrole à Séoul",
             "isCorrect": false,
-            "rationale": "Pas d'infraction continue pour la presse en ligne en France."
+            "rationale": "Absence de ressources."
           },
           {
-            "text": "Découverte victime.",
-            "isCorrect": false,
-            "rationale": "La date subjective est rejetée au profit de la date objective."
-          },
-          {
-            "text": "Mise en ligne initiale.",
+            "text": "Crise financière asiatique",
             "isCorrect": true,
-            "rationale": "Date du premier acte de publication."
+            "rationale": "Support de l'État pour exporter de la culture."
           },
           {
-            "text": "Notification.",
+            "text": "Rachat Samsung",
             "isCorrect": false,
-            "rationale": "Ne concerne pas le délai de prescription pénale."
+            "rationale": "Samsung est resté indépendant."
+          },
+          {
+            "text": "Interdiction voitures",
+            "isCorrect": false,
+            "rationale": "Ajout de la culture aux piliers."
           }
-        ],
-        "hint": "Premier clic public."
+        ]
       },
       {
         "id": 51,
         "difficulty": "Difficile",
-        "question": "Condition validation sanction ARCOM ?",
+        "question": "Théorie de la 'Longue Traîne' ?",
         "options": [
           {
-            "text": "Seulement argent.",
+            "text": "Disparition petits créateurs",
             "isCorrect": false,
-            "rationale": "Elle peut suspendre, c'est validé par le Conseil Consti."
+            "rationale": "Au contraire, visibilité accrue."
           },
           {
-            "text": "Garanties procédure.",
+            "text": "Audiences de niche rentables",
             "isCorrect": true,
-            "rationale": "Respect des droits de la défense et recours possible."
+            "rationale": "L'agrégation des niches égale les hits."
           },
           {
-            "text": "Magistrats seuls.",
+            "text": "Films de 10 min",
             "isCorrect": false,
-            "rationale": "Le collège est mixte (politiques, experts)."
+            "rationale": "Durée non liée au concept."
           },
           {
-            "text": "Validation PM.",
+            "text": "Pays développés uniquement",
             "isCorrect": false,
-            "rationale": "Indépendance vis-à-vis du gouvernement."
+            "rationale": "S'applique au numérique global."
           }
-        ],
-        "hint": "Droits de la défense."
+        ]
       },
       {
         "id": 52,
         "difficulty": "Difficile",
-        "question": "Revenge Porn (226-2-1) ?",
+        "question": "But du Windowing ?",
         "options": [
           {
-            "text": "Diffamation.",
+            "text": "Hygiène de vie",
             "isCorrect": false,
-            "rationale": "C'est une violation d'intimité, pas une diffamation."
+            "rationale": "Règle purement économique."
           },
           {
-            "text": "Diffusion sans accord d'un support consenti.",
+            "text": "Maximiser les revenus par paliers",
             "isCorrect": true,
-            "rationale": "Punit le fait de rendre public ce qui était privé à l'origine."
+            "rationale": "Diffusion en cascade sur divers supports."
           },
           {
-            "text": "Harcèlement meute.",
+            "text": "Sortie mondiale unique",
             "isCorrect": false,
-            "rationale": "Peut être lié, mais c'est un délit spécifique."
+            "rationale": "C'est l'opposé exact."
           },
           {
-            "text": "Débauche.",
-            "isCorrect": false,
-            "rationale": "Terme non juridique dans ce cadre."
+            "text": "Action pour le cinéma",
+            "is   Correct": false,
+            "rationale": "S'applique à tous les genres."
           }
-        ],
-        "hint": "Vengeance pornographique."
+        ]
       },
       {
         "id": 53,
         "difficulty": "Difficile",
-        "question": "Action Art 35 quater ?",
+        "question": "Modèle Direct-to-Consumer (D2C) ?",
         "options": [
           {
-            "text": "Asso victime.",
+            "text": "Vendre des figurines",
             "isCorrect": false,
-            "rationale": "L'asso n'est pas le titulaire premier du droit à la dignité."
+            "rationale": "Concerne le flux vidéo."
           },
           {
-            "text": "Exclusivement victime vivante.",
+            "text": "Supprimer les intermédiaires",
             "isCorrect": true,
-            "rationale": "Seule la personne touchée peut juger de l'atteinte à sa dignité."
+            "rationale": "Vendre via sa propre plateforme (Disney+)."
           },
           {
-            "text": "Procureur d'office.",
+            "text": "Envoi DVD poste",
             "isCorrect": false,
-            "rationale": "Ne peut pas agir sans plainte pour ce délit."
+            "rationale": "Forme ancienne de D2C."
           },
           {
-            "text": "Héritiers.",
+            "text": "Consommateurs au travail",
             "isCorrect": false,
-            "rationale": "N'ont pas qualité pour agir sur ce fondement précis."
+            "rationale": "Vente directe sans tiers."
           }
-        ],
-        "hint": "Droit strictement personnel."
+        ]
       },
       {
         "id": 54,
         "difficulty": "Difficile",
-        "question": "Harcèlement meute (Schiappa) ?",
+        "question": "Intégration horizontale (Marvel/Disney) ?",
         "options": [
           {
-            "text": "Attaque physique.",
+            "text": "Projecteurs des salles",
             "isCorrect": false,
-            "rationale": "C'est un délit de propos répétés."
+            "rationale": "C'est l'intégration verticale."
           },
           {
-            "text": "Succession propos par plusieurs.",
+            "text": "Rachat concurrents/IP",
             "isCorrect": true,
-            "rationale": "Chaque auteur n'agit qu'une fois mais l'effet est répété."
+            "rationale": "Dominance par l'acquisition de marques."
           },
           {
-            "text": "Plusieurs articles.",
+            "text": "Champs de coton",
             "isCorrect": false,
-            "rationale": "Le droit d'informer n'est pas un harcèlement."
+            "rationale": "Verticale extrême."
           },
           {
-            "text": "10 personnes rue.",
+            "text": "Fusion banque",
             "isCorrect": false,
-            "rationale": "Conception trop étroite, vise surtout le web."
+            "rationale": "Alliance conglomérale."
           }
-        ],
-        "hint": "Effet de raid."
+        ]
       },
       {
         "id": 55,
         "difficulty": "Difficile",
-        "question": "Compte-rendu protégé ?",
+        "question": "Exception Culturelle 1993 ?",
         "options": [
           {
-            "text": "Non.",
+            "text": "Interdiction pop-corn",
             "isCorrect": false,
-            "rationale": "La loi protège le récit de l'audience."
+            "rationale": "Règle économique."
           },
           {
-            "text": "Oui si fidèle et bonne foi.",
+            "text": "Pas une marchandise simple",
             "isCorrect": true,
-            "rationale": "Condition d'immunité de l'article 41."
+            "rationale": "Droit aux aides et quotas d'État."
           },
           {
-            "text": "Seulement revue juridique.",
+            "text": "Hollywood en français",
             "isCorrect": false,
-            "rationale": "Tout média peut en bénéficier."
+            "rationale": "Pas le pouvoir d'imposer cela."
           },
           {
-            "text": "Secret instruction.",
+            "text": "Suppression taxes US",
             "isCorrect": false,
-            "rationale": "Ne s'applique pas au procès public."
+            "rationale": "Objectif des USA, pas de la France."
           }
-        ],
-        "hint": "Récit honnête."
+        ]
       },
       {
         "id": 56,
         "difficulty": "Difficile",
-        "question": "Action asso racisme ?",
+        "question": "Netflix Local Originals (Lupin) ?",
         "options": [
           {
-            "text": "10 ans existence.",
+            "text": "Scénaristes US nuls",
             "isCorrect": false,
-            "rationale": "La loi demande 5 ans."
+            "rationale": "Stratégie de diversification."
           },
           {
-            "text": "Accord personne visée.",
+            "text": "S'implanter localement",
             "isCorrect": true,
-            "rationale": "Indispensable si une personne physique est ciblée."
+            "rationale": "Glocal : séduire ici pour vendre partout."
           },
           {
-            "text": "3 villes.",
+            "text": "Moins cher Europe",
             "isCorrect": false,
-            "rationale": "Critère géographique inexistant."
+            "rationale": "Raison stratégique, pas coût."
           },
           {
-            "text": "Procureur origine.",
+            "text": "Ordres ONU",
             "isCorrect": false,
-            "rationale": "L'asso peut initier seule sous réserve d'accord."
+            "rationale": "Pas de contrainte légale ONU."
           }
-        ],
-        "hint": "Consentement victime."
+        ]
       },
       {
         "id": 57,
         "difficulty": "Difficile",
-        "question": "Délai réponse après relaxe ?",
+        "question": "Abrogation Fin-Syn Rules 1990 ?",
         "options": [
           {
-            "text": "10 jours.",
+            "text": "Fin TV gratuite",
             "isCorrect": false,
-            "rationale": "Délai des preuves, pas de la réponse."
+            "rationale": "TV gratuite maintenue."
           },
           {
-            "text": "3 mois.",
+            "text": "Méga-conglomérats (Disney-ABC)",
             "isCorrect": true,
-            "rationale": "Réouverture légale pour laver son honneur après le procès."
+            "rationale": "Mariage entre diffuseurs et créateurs."
           },
           {
-            "text": "1 an.",
+            "text": "Citoyen réalisateur",
             "isCorrect": false,
-            "rationale": "Concerne la prescription de certains délits."
+            "rationale": "Dérégulation patronale."
           },
           {
-            "text": "Permanent.",
+            "text": "Interdiction info politique",
             "isCorrect": false,
-            "rationale": "Rien n'est permanent en droit de la presse."
+            "rationale": "Concerne les intérêts financiers."
           }
-        ],
-        "hint": "Même durée que la prescription."
+        ]
       },
       {
         "id": 58,
         "difficulty": "Difficile",
-        "question": "Critique technique arrêt ?",
+        "question": "Cultural Discount ?",
         "options": [
           {
-            "text": "Discrédit puni.",
+            "text": "Réduction étudiants",
             "isCorrect": false,
-            "rationale": "La critique est permise par la loi."
+            "rationale": "Concept théorique de valeur."
           },
           {
-            "text": "Protégée par Art 434-25 al 2.",
+            "text": "Perte de valeur frontière",
             "isCorrect": true,
-            "rationale": "La loi exclut expressément la technique du délit de discrédit."
+            "rationale": "Incompréhension des codes locaux réduit le prix."
           },
           {
-            "text": "Si anonyme.",
+            "text": "Films anciens",
             "isCorrect": false,
-            "rationale": "L'anonymat ne définit pas la légalité."
+            "rationale": "C'est la dépréciation classique."
           },
           {
-            "text": "Accord juge.",
+            "text": "Taxe nationale",
             "isCorrect": false,
-            "rationale": "Le juge ne peut pas interdire la critique de son œuvre."
+            "rationale": "Mécanisme de marché."
           }
-        ],
-        "hint": "Liberté de doctrine."
+        ]
       },
       {
         "id": 59,
         "difficulty": "Difficile",
-        "question": "Happy Slapping et Journaliste ?",
+        "question": "Réadaptation locale d'un concept ?",
         "options": [
           {
-            "text": "Brassard suffit.",
+            "text": "Merchandising",
             "isCorrect": false,
-            "rationale": "C'est l'acte d'informer qui compte, pas l'objet."
+            "rationale": "Produits physiques."
           },
           {
-            "text": "Inapplicable si mission info.",
+            "text": "Le Format",
             "isCorrect": true,
-            "rationale": "Exclusion légale pour ne pas entraver le reportage."
+            "rationale": "Vente de la recette narrative."
           },
           {
-            "text": "Intervenir physiquement.",
+            "text": "Block Booking",
             "isCorrect": false,
-            "rationale": "Le secours est une autre obligation légale."
+            "rationale": "Vente par lots."
           },
           {
-            "text": "Flouter.",
+            "text": "Dubbing",
             "isCorrect": false,
-            "rationale": "Question d'image, pas de constitution du délit."
+            "rationale": "Doublage de voix."
           }
-        ],
-        "hint": "Exclusion professionnelle."
+        ]
       },
       {
         "id": 60,
         "difficulty": "Difficile",
-        "question": "Retrait sans mise en demeure ?",
+        "question": "Manifestations Séoul 2006 ?",
         "options": [
           {
-            "text": "Jamais.",
+            "text": "Repas tournages",
             "isCorrect": false,
-            "rationale": "La loi prévoit des exceptions à cette règle."
+            "rationale": "Motif structurel profond."
           },
           {
-            "text": "Changement substantiel capital.",
+            "text": "Réduction Screen Quota",
             "isCorrect": true,
-            "rationale": "Si la structure du média change trop, l'autorisation saute."
+            "rationale": "Défense du temps d'écran national face aux USA."
           },
           {
-            "text": "Audience < 1%.",
+            "text": "Interdiction Internet",
             "isCorrect": false,
-            "rationale": "Pas un motif de retrait légal."
+            "rationale": "Le pays misait sur le haut débit."
           },
           {
-            "text": "Accord Conseil Consti.",
+            "text": "Couleur TV",
             "isCorrect": false,
-            "rationale": "Le Conseil Consti n'est pas le tuteur de l'ARCOM."
+            "rationale": "Déjà installée."
           }
-        ],
-        "hint": "Cadre contractuel rompu."
+        ]
       }
     ]
   },
-  "flashcards": [
-    [
-      {
-        "question": "Quelle est la différence de sanction entre le droit et la déontologie ?",
-        "answer": "Le droit est sanctionné par la puissance publique (État), alors que la déontologie est sanctionnée par les pairs de la profession."
-      },
-      {
-        "question": "Quel texte de 1789 fonde la liberté de communication en France ?",
-        "answer": "C'est l'article 11 de la Déclaration des Droits de l'Homme et du Citoyen (DDHC)."
-      },
-      {
-        "question": "Quels sont les trois éléments nécessaires pour constituer une infraction ?",
-        "answer": "L'élément légal (un texte), l'élément matériel (un acte) et l'élément moral (l'intention)."
-      },
-      {
-        "question": "Quelle branche du droit régit les rapports entre l'État et les citoyens ?",
-        "answer": "Le droit public."
-      },
-      {
-        "question": "Quelle branche du droit régit les rapports entre les particuliers ?",
-        "answer": "Le droit privé."
-      },
-      {
-        "question": "Comment définit-on juridiquement le dénigrement ?",
-        "answer": "C'est la critique malveillante des produits ou services d'une entreprise concurrente."
-      },
-      {
-        "question": "Quelle est la définition légale de la diffamation ?",
-        "answer": "L'allégation ou l'imputation d'un fait précis qui porte atteinte à l'honneur ou à la considération."
-      },
-      {
-        "question": "Qu'est-ce qu'une injure selon la loi de 1881 ?",
-        "answer": "Une expression outrageante ou un terme de mépris ne renfermant l'imputation d'aucun fait précis."
-      },
-      {
-        "question": "Quel organisme est né de la fusion du CSA et de la HADOPI ?",
-        "answer": "L'ARCOM (Autorité de régulation de la communication audiovisuelle et numérique)."
-      },
-      {
-        "question": "Qu'est-ce que la censure par rapport à la sanction judiciaire ?",
-        "answer": "La censure est un contrôle administratif préventif (avant), tandis que la sanction est répressive (après)."
-      },
-      {
-        "question": "Quel critère permet de qualifier un groupe sur un réseau social de privé ?",
-        "answer": "L'existence d'une 'communauté d'intérêt' et un accès restreint aux membres agréés."
-      },
-      {
-        "question": "Que punit l'article 24 bis de la loi de 1881 ?",
-        "answer": "Le négationnisme, soit la contestation de l'existence des crimes contre l'humanité (ex: la Shoah)."
-      },
-      {
-        "question": "Quel est le rôle principal d'un Fournisseur d'Accès à Internet (FAI) ?",
-        "answer": "Assurer la connexion technique au réseau sans contrôler le contenu des messages."
-      },
-      {
-        "question": "Quelle est la responsabilité d'un hébergeur selon la LCEN ?",
-        "answer": "Il n'est responsable que s'il ne retire pas promptement un contenu illicite après avoir été notifié."
-      },
-      {
-        "question": "Quel droit fondamental est protégé par l'article 9 du Code Civil ?",
-        "answer": "Le droit au respect de la vie privée."
-      },
-      {
-        "question": "Peut-on utiliser l'image du bien d'autrui (ex: sa maison) ?",
-        "answer": "Oui, sauf si cette exploitation cause un trouble anormal au propriétaire."
-      },
-      {
-        "question": "Quel est le délai de prescription de principe pour les délits de presse ?",
-        "answer": "3 mois à compter de la première publication."
-      },
-      {
-        "question": "Dans quels cas la prescription de presse est-elle portée à 1 an ?",
-        "answer": "Pour les propos provoquant à la haine, à la violence ou à la discrimination (racisme, sexisme, etc.)."
-      },
-      {
-        "question": "Qu'est-ce que le droit de réponse ?",
-        "answer": "La faculté pour toute personne nommée dans un média de faire insérer gratuitement sa version des faits."
-      },
-      {
-        "question": "Qui est le premier responsable pénal dans le régime de la cascade ?",
-        "answer": "Le Directeur de Publication (DP)."
-      },
-      {
-        "question": "Qu'est-ce que l'Exception de Vérité (exceptio veritatis) ?",
-        "answer": "Un moyen de défense permettant de prouver la réalité des faits diffamatoires pour être relaxé."
-      },
-      {
-        "question": "Quels sont les 4 critères de la bonne foi du journaliste ?",
-        "answer": "But légitime, absence d'animosité, prudence dans l'expression et sérieux de l'enquête."
-      },
-      {
-        "question": "Qu'est-ce que la règle des trois tiers de l'ARCOM ?",
-        "answer": "Répartition du temps de parole : 1/3 pour l'exécutif et 2/3 pour les autres formations politiques."
-      },
-      {
-        "question": "Qui n'est pas tenu au secret de l'instruction selon la jurisprudence ?",
-        "answer": "Le journaliste, car il ne concourt pas directement à la procédure judiciaire."
-      },
-      {
-        "question": "L'enregistrement audiovisuel des procès est-il autorisé ?",
-        "answer": "Non, il est interdit par principe (Art. 38 ter de la loi de 1881) pour préserver la sérénité des débats."
-      },
-      {
-        "question": "Qu'est-ce que l'immunité judiciaire de l'article 41 ?",
-        "answer": "La protection des avocats contre les poursuites en diffamation pour leurs propos tenus en audience."
-      },
-      {
-        "question": "Quelle juridiction traite les recours contre les sanctions de l'ARCOM ?",
-        "answer": "Le Conseil d'État."
-      },
-      {
-        "question": "Pourquoi dit-on que le droit de la communication est 'non codifié' ?",
-        "answer": "Parce qu'il n'existe pas de Code unique ; les règles sont dispersées dans divers textes et codes."
-      },
-      {
-        "question": "Quelle est l'exception de responsabilité du DP pour le direct ?",
-        "answer": "Le DP n'est pas responsable s'il n'y a pas eu de fixation préalable du message avant diffusion."
-      },
-      {
-        "question": "Peut-on qualifier un même propos à la fois de diffamation et d'injure ?",
-        "answer": "Non, le cumul de qualifications entraîne la nullité de l'acte de poursuite."
-      },
-      {
-        "question": "Peut-on diffuser l'identité d'un mineur victime d'infraction ?",
-        "answer": "Non, sauf si la publication est faite à la demande des parents ou tuteurs (ex: avis de recherche)."
-      },
-      {
-        "question": "Qu'est-ce que le Revenge Porn (Art. 226-2-1 CP) ?",
-        "answer": "La diffusion sans accord d'images sexuelles obtenues avec le consentement de la personne."
-      },
-      {
-        "question": "Comment définit-on le harcèlement de meute numérique ?",
-        "answer": "Des propos répétés par plusieurs personnes, de manière concertée ou successive, contre une victime."
-      },
-      {
-        "question": "Quelle est la condition pour qu'une association poursuive un propos raciste ?",
-        "answer": "Elle doit avoir 5 ans d'existence et obtenir l'accord de la victime identifiée."
-      },
-      {
-        "question": "La critique technique d'un arrêt de justice est-elle un délit ?",
-        "answer": "Non, l'article 434-25 exclut expressément les commentaires techniques et la doctrine juridique."
-      },
-      {
-        "question": "Qu'est-ce que le Happy Slapping ?",
-        "answer": "Le fait de filmer et diffuser des violences physiques, puni comme complicité de ces violences."
-      },
-      {
-        "question": "Quelle mesure l'ARCOM doit-elle prendre avant de sanctionner ?",
-        "answer": "Une mise en demeure formelle."
-      },
-      {
-        "question": "La diffamation peut-elle être sous forme de doute ?",
-        "answer": "Oui, elle peut être constituée par voie d'insinuation ou sous forme dubitative (conditionnel)."
-      },
-      {
-        "question": "Quel droit protège la présomption d'innocence (Art. 9-1) ?",
-        "answer": "Le droit de ne pas être présenté comme coupable avant une condamnation définitive."
-      },
-      {
-        "question": "Quel ordre de juridiction juge les conflits entre particuliers ?",
-        "answer": "L'ordre judiciaire."
-      },
-      {
-        "question": "Quelle est la sanction maximale pour une injure privée simple ?",
-        "answer": "Une contravention de 38 euros (1ère classe)."
-      },
-      {
-        "question": "Peut-on prouver la vérité d'un fait relevant de la vie privée ?",
-        "answer": "Non, la loi interdit l'offre de preuve pour les faits concernant l'intimité de la vie privée."
-      },
-      {
-        "question": "Que signifie la neutralité technique du Fournisseur d'Accès ?",
-        "answer": "Le FAI transporte les données sans exercer de contrôle éditorial sur leur contenu."
-      },
-      {
-        "question": "Quel est le but de la signalétique jeunesse de l'ARCOM ?",
-        "answer": "Protéger les mineurs contre les contenus violents ou inadaptés à la télévision."
-      },
-      {
-        "question": "Un héritier peut-il agir en diffamation envers un mort ?",
-        "answer": "Oui, s'il prouve que le propos porte atteinte à l'honneur ou à la considération des héritiers."
-      }
-    ]
-  ],
-  "panic": [
-    [
-      "1881 : Loi pilier fondamentale sur la liberté de la presse.",
-      "Art. 11 DDHC : Fondement constitutionnel de la liberté d'expression.",
-      "Art. 9 Code Civil : Respect absolu de la vie privée.",
-      "Art. 9-1 Code Civil : Respect de la présomption d'innocence.",
-      "Prescription Presse : 3 mois (principe) / 1 an (haine, racisme, sexisme).",
-      "Diffamation : Imputation d'un FAIT PRÉCIS (débat sur la vérité possible).",
-      "Injure : Terme de mépris ou invective SANS fait précis.",
-      "Responsabilité Cascade : DP (1er) > Auteur (2e) > Imprimeur (3e).",
-      "Exception Direct : Pas de fixation préalable = DP non responsable.",
-      "ARCOM : Fusion CSA + HADOPI (9 membres nommés).",
-      "Mise en demeure : Préalable obligatoire avant toute sanction ARCOM.",
-      "Conseil d'État : Juge des recours contre les décisions de l'ARCOM.",
-      "LCEN 2004 : Responsabilité de l'hébergeur uniquement après signalement.",
-      "Notification LCEN : URL + motifs légaux + description (obligatoires).",
-      "Exceptio Veritatis : Offre de preuve de vérité (délai de 10 jours).",
-      "Vérité + Vie Privée : Preuve INTERDITE en diffamation (Art. 35).",
-      "Dénigrement : Vise les produits/services (responsabilité civile).",
-      "Droit de réponse : Gratuit, même place, mêmes caractères que l'article.",
-      "Art. 38 ter : Interdiction de filmer ou enregistrer les audiences.",
-      "Art. 41 : Immunité des plaidoiries et des comptes-rendus fidèles.",
-      "Secret instruction : Inopposable aux journalistes (Arrêt Bédat).",
-      "Cumul de qualifications : Interdit (Diffamation + Injure = Nullité).",
-      "Image d'un bien : Libre d'utilisation sauf trouble anormal de jouissance.",
-      "Revenge Porn : Délit de diffusion sans accord (Art. 226-2-1 CP).",
-      "Harcèlement de meute : Propos répétés par plusieurs (concertés ou non).",
-      "Bonne foi : But légitime + enquête sérieuse + prudence + pas d'animosité.",
-      "Communauté d'intérêt : Critère pour l'injure 'privée' sur les réseaux.",
-      "Éléments du délit : Légal (texte), Matériel (acte), Moral (intention).",
-      "Droit objectif : Ensemble des règles sanctionnées par la puissance publique.",
-      "Signalétique jeunesse : Mission ARCOM de protection des mineurs."
-    ]
-  ],
   "concentre": {
-    "chapter_title": "Droit de la Communication - L'essentiel",
+    "chapter_title": "Internationalisation des Programmes de Fiction - Fiche de Révision",
     "reading_time": "15 min",
     "sections": [
       {
-        "title": "Les Fondements et la Hiérarchie du Droit",
+        "title": "Les Pionniers : Réalisme vs Spectacle",
         "kind": "key",
         "bullets": [
-          "Le droit objectif est l'ensemble des règles obligatoires et coercitives régissant la vie en société, tandis que la déontologie est une auto-régulation sanctionnée par les pairs.",
-          "Le droit public régit les relations entre l'État et les particuliers, alors que le droit privé s'occupe des rapports entre individus.",
-          "Selon l'article 55 de la Constitution, les traités internationaux comme la CEDH ont une autorité supérieure aux lois françaises régulièrement ratifiées."
+          "Frères Lumière (1895) : Approche basée sur la reconstruction du réel, inspirée par les cartes postales et la photographie.",
+          "Georges Méliès (1902) : Introduction de la mise en scène théâtrale et des trucages poétiques (ex: Le Voyage dans la Lune).",
+          "Échec de Méliès : Son incapacité à s'adapter à la dimension industrielle du cinéma a conduit à sa faillite en 1912."
         ]
       },
       {
-        "title": "La Liberté de Communication et ses Limites",
-        "kind": "key",
-        "bullets": [
-          "L'article 11 de la DDHC de 1789 est le texte fondateur : 'La libre communication des pensées et des opinions est un des droits les plus précieux de l'homme'.",
-          "Cette liberté n'est pas absolue ; elle est limitée par la loi pour protéger l'honneur, la vie privée et l'ordre public.",
-          "La censure est un contrôle administratif préventif (avant diffusion), contrairement à la sanction judiciaire qui intervient a posteriori."
-        ]
-      },
-      {
-        "title": "Diffamation et Injure : Distinctions",
+        "title": "Le Modèle Industriel de Pathé Frères",
         "kind": "def",
         "bullets": [
-          "La diffamation (Art. 29) est l'allégation ou l'imputation d'un fait précis portant atteinte à l'honneur ou à la considération. Elle peut être insinuée ou dubitative.",
-          "L'injure est toute expression outrageante, terme de mépris ou invective qui ne renferme l'imputation d'aucun fait.",
-          "Le caractère public ou privé dépend de l'existence d'une 'communauté d'intérêt' (ex: compte privé sur réseau social avec accès restreint)."
+          "Intégration verticale : Stratégie où une entreprise contrôle toute la chaîne (production, distribution, exploitation en salles).",
+          "Domination mondiale : Pathé était la première puissance du cinéma mondial avant 1914, exportant 75% de son chiffre d'affaires.",
+          "Fragilité structurelle : Le marché intérieur français était trop petit pour amortir seul les investissements massifs, contrairement au marché américain."
         ]
       },
       {
-        "title": "Le Régime de Responsabilité en Cascade",
+        "title": "L'Essor d'Hollywood et les Nickelodeons",
         "kind": "key",
         "bullets": [
-          "L'article 42 de la loi de 1881 désigne le Directeur de Publication (DP) comme auteur principal, suivi de l'auteur du propos, puis de l'imprimeur.",
-          "Dans l'audiovisuel et sur Internet, la responsabilité pénale du DP est écartée en cas d'absence de fixation préalable du message (ex: direct imprévu).",
-          "Le DP est le 'capitaine' du média et assume la responsabilité éditoriale des contenus diffusés."
+          "Nickelodeons (1905) : Salles populaires bon marché (5 cents) qui ont permis de créer le premier réseau mondial de diffusion.",
+          "Fuite du Cartel MPPC : Les producteurs indépendants se sont installés en Californie pour fuir le monopole d'Edison et profiter du climat ensoleillé.",
+          "Blockbusters : Dès 1915 avec 'The Birth of a Nation', Hollywood prouve que de gros budgets génèrent des recettes non proportionnelles."
         ]
       },
       {
-        "title": "Les Moyens de Défense en Diffamation",
-        "kind": "key",
-        "bullets": [
-          "L'Exception de Vérité (exceptio veritatis) permet de s'exonérer en prouvant la réalité du fait, sauf si cela concerne la vie privée (Art. 35).",
-          "La Bonne Foi repose sur quatre critères : un but légitime d'informer, l'absence d'animosité personnelle, la prudence dans l'expression et une enquête sérieuse.",
-          "Contrairement à la vérité, la bonne foi n'exige pas la preuve absolue de la réalité des faits mais la preuve d'un travail honnête."
-        ]
-      },
-      {
-        "title": "Régulation du Numérique et LCEN",
-        "kind": "key",
-        "bullets": [
-          "Le Fournisseur d'Accès (FAI) assure la connexion technique, tandis que l'hébergeur stocke les contenus.",
-          "L'hébergeur bénéficie d'une responsabilité limitée : il ne devient responsable que s'il ne retire pas 'promptement' un contenu illicite après une notification valide.",
-          "Une notification valide doit obligatoirement contenir la description du contenu, sa localisation exacte (URL) et les motifs légaux du signalement."
-        ]
-      },
-      {
-        "title": "L'ARCOM : Pouvoirs et Missions",
-        "kind": "key",
-        "bullets": [
-          "L'ARCOM (fusion CSA/HADOPI) est composée de 9 membres et régule la communication audiovisuelle et numérique.",
-          "La mise en demeure est un préalable obligatoire avant toute sanction plus grave (amende, suspension, retrait d'autorisation).",
-          "Elle garantit le pluralisme politique (règle des trois tiers hors élection) et assure la protection des mineurs (signalétique jeunesse)."
-        ]
-      },
-      {
-        "title": "Vie Privée et Droit à l'Image",
-        "kind": "key",
-        "bullets": [
-          "L'article 9 du Code Civil garantit à chacun le respect de sa vie privée. Les personnalités publiques ont la même protection pour leur sphère intime.",
-          "Une atteinte est licite si l'information est indispensable à un débat d'intérêt général ou liée aux fonctions officielles.",
-          "L'image d'un bien (maison, voiture) est libre d'utilisation, sauf si sa diffusion cause un 'trouble anormal' au propriétaire."
-        ]
-      },
-      {
-        "title": "Justice et Liberté d'Informer",
-        "kind": "key",
-        "bullets": [
-          "Le secret de l'instruction s'applique aux magistrats et policiers, mais les journalistes ne sont pas tenus au secret (arrêt Bédat).",
-          "L'enregistrement des audiences est interdit par principe (Art. 38 ter) pour garantir la sérénité des débats.",
-          "L'article 41 prévoit une immunité pour les propos tenus lors des plaidoiries et pour les comptes-rendus fidèles d'audiences."
-        ]
-      },
-      {
-        "title": "Délais, Procédure et Droit de Réponse",
-        "kind": "tip",
-        "bullets": [
-          "Le délai de prescription est de 3 mois (ou 1 an pour haine/racisme) à compter du premier acte de publication.",
-          "Une assignation est nulle si elle cumule les qualifications de diffamation et d'injure pour le même propos (Art. 50).",
-          "Le droit de réponse permet une insertion gratuite dans le média pour rétablir l'équilibre de l'information."
-        ]
-      },
-      {
-        "title": "Délits Spécifiques et Évolutions",
+        "title": "L'Oligopole Hollywoodien : Big Five et Little Three",
         "kind": "def",
         "bullets": [
-          "Le négationnisme (Art. 24 bis) réprime la contestation de l'existence des crimes contre l'humanité reconnus.",
-          "Le Revenge Porn (Art. 226-2-1) punit la diffusion sans accord d'un support sexuel obtenu avec consentement.",
-          "Le harcèlement de meute (Loi Schiappa) est constitué par la répétition de propos par plusieurs personnes, même sans concertation préalable."
+          "Big Five : Paramount, MGM, 20th Century Fox, Warner Bros et RKO. Elles possédaient leurs propres réseaux de salles.",
+          "Little Three : Universal, Columbia et United Artists. Elles produisaient et distribuaient mais n'avaient pas de salles.",
+          "Mogul : Terme désignant les chefs de studios aux pouvoirs décisionnels absolus (ex: Louis B. Mayer)."
         ]
       },
       {
-        "title": "Astuces pour le QCM",
+        "title": "Pratiques Commerciales et Rationalisation",
         "kind": "tip",
         "bullets": [
-          "Ne confondez pas le dénigrement (vise le produit) et la diffamation (vise la personne).",
-          "Attention au 'direct' : le DP est exonéré s'il n'y a pas eu de fixation préalable du message.",
-          "Retenez que le Conseil d'État est la juridiction de recours pour les décisions de l'ARCOM."
+          "Block Booking : Vente liée forçant les exploitants à acheter des lots de films (navets + hits).",
+          "Blind Bidding : Vente 'à l'aveugle' de films avant même leur réalisation.",
+          "Studio System : Standardisation de la production (contrats de 7 ans pour les stars, division du travail type Taylor)."
+        ]
+      },
+      {
+        "title": "Régulation et Code Hays",
+        "kind": "key",
+        "bullets": [
+          "MPPDA (1922) : Lobby créé pour défendre les intérêts des studios et pratiquer l'autocensure.",
+          "Code Hays (1930) : Ensemble de règles morales (interdiction des couples mixtes, insultes religieuses) pour éviter la censure d'État.",
+          "Ambassadeur privé : La MPPDA servait de vitrine au 'mode de vie américain' pour favoriser l'exportation de tous les produits US."
+        ]
+      },
+      {
+        "title": "Le Tournant de l'Après-Guerre (1948-1955)",
+        "kind": "tip",
+        "bullets": [
+          "Affaire Paramount (1948) : La Cour Suprême impose le 'divorcement' entre production et exploitation.",
+          "Conséquence économique : Hollywood passe de la quantité (séries B) à la qualité événementielle (blockbusters spectaculaires).",
+          "Collaboration avec la TV (1955) : Fin du boycott ; les studios produisent désormais des séries pour les networks (ex: Disney, Warner)."
+        ]
+      },
+      {
+        "title": "Telenovelas et Proximité Culturelle",
+        "kind": "key",
+        "bullets": [
+          "Origine : Nées à Cuba (années 40) sous forme de radionovelas mélodramatiques.",
+          "Proximité culturelle : Théorie de Straubhaar expliquant le succès par l'identification du public à des réalités sociales proches.",
+          "Modèle brésilien (Rede Globo) : Plus réaliste et social, il a servi de refuge aux intellectuels critiques sous la dictature."
+        ]
+      },
+      {
+        "title": "L'Industrie Cinématographique Indienne",
+        "kind": "def",
+        "bullets": [
+          "Masala : Genre mélangeant action, romance, comédie et musique pour toucher tout le public indien ('all India films').",
+          "Formalisation (1998) : Le cinéma indien obtient le statut d'industrie, permettant l'accès aux prêts bancaires et écartant l'argent sale.",
+          "Marché de la diaspora : 75% des revenus internationaux proviennent des Indiens vivant à l'étranger (plus riches que les locaux)."
+        ]
+      },
+      {
+        "title": "Asie de l'Est : Dramas et Vague Coréenne",
+        "kind": "key",
+        "bullets": [
+          "Trendy Drama (Japon) : Lancé par Ota Toru (Fuji TV), ciblant les jeunes urbains avec un mode de vie opulent.",
+          "Hallyu (Corée du Sud) : Essor né de l'imitation des codes japonais après le retour à la démocratie en 1992.",
+          "Crise de 1998 : A poussé l'État coréen à soutenir l'exportation culturelle massive pour générer des devises."
+        ]
+      },
+      {
+        "title": "Stratégies Numériques et Longue Traîne",
+        "kind": "tip",
+        "bullets": [
+          "Fenêtrage (Windowing) : Organisation temporelle des sorties sur différents supports pour maximiser les profits.",
+          "Longue Traîne : Théorie où l'agrégation de multiples niches peu connues peut égaler les hits grâce au stockage numérique illimité.",
+          "D2C (Direct-to-Consumer) : Stratégie de plateformes comme Disney+ pour supprimer les intermédiaires et contrôler les données abonnés."
         ]
       }
     ]
