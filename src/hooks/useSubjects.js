@@ -19,7 +19,7 @@ export function useSubjects() {
             const cards_count = s.flashcards?.[0]?.count ?? 0
             
             // Flashcards mastery: how many cards swiped vs total existing cards
-            const fcDone = s.sessions?.filter(x => x.mode === 'flashcards').reduce((acc, x) => acc + (x.cards_done || 0), 0) ?? 0
+            const fcDone = s.sessions?.filter(x => x.mode === 'swipe').reduce((acc, x) => acc + (x.cards_done || 0), 0) ?? 0
             const fcProgress = cards_count > 0 ? Math.min(1, fcDone / cards_count) : 0
             
             // QCM mastery: highest score out of 20
