@@ -48,11 +48,11 @@
 
 ---
 
-## Étape 11 — PWA
+## Étape 11 — PWA ✅
 
-- [ ] Icons 192 + 512
-- [ ] Manifest complet
-- [ ] Service worker (cache offline)
+- [x] Icons 192 + 512
+- [x] Manifest complet
+- [x] Service worker (cache offline)
 
 ---
 
