@@ -16,15 +16,18 @@ const ENCOURAGE = [
   "Trois cartes, et c'est déjà gagné.",
 ]
 
-const DAY_LABELS = ['L', 'M', 'M', 'J', 'V', 'S', 'D']
-
 function buildWeekStreak(sessions) {
   const today = new Date()
   return Array.from({ length: 7 }, (_, i) => {
     const d = new Date(today)
     d.setDate(today.getDate() - (6 - i))
     const iso = d.toISOString().slice(0, 10)
-    return sessions.some(s => s.played_at === iso)
+    // Get first letter of the day in French
+    const label = d.toLocaleDateString('fr-FR', { weekday: 'short' }).charAt(0).toUpperCase()
+    return {
+      label,
+      on: sessions.some(s => s.played_at === iso)
+    }
   })
 }
 
@@ -77,12 +80,12 @@ export function Home({ go, tab, onTab }) {
               <div style={{ fontSize: 13, color: 'var(--rose-600)', fontWeight: 800 }}>{streak} jour{streak !== 1 ? 's' : ''} 💗</div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-              {weekDays.map((on, i) => (
+              {weekDays.map((day, i) => (
                 <div key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
-                  <div style={{ width: 22, height: 22, borderRadius: 8, background: on ? 'var(--rose-500)' : 'var(--rose-100)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    {on && <Heart size={12} color="white" />}
+                  <div style={{ width: 22, height: 22, borderRadius: 8, background: day.on ? 'var(--rose-500)' : 'var(--rose-100)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    {day.on && <Heart size={12} color="white" />}
                   </div>
-                  <span style={{ fontSize: 10, color: 'var(--ink-500)', fontWeight: 700 }}>{DAY_LABELS[i]}</span>
+                  <span style={{ fontSize: 10, color: 'var(--ink-500)', fontWeight: 700 }}>{day.label}</span>
                 </div>
               ))}
             </div>
