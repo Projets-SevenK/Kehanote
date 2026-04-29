@@ -258,7 +258,10 @@ export function Challenge({ route, go }) {
 
   if (!level) return <DifficultyPicker subject={subject} allQcm={allQcm} onBack={() => go({ name: 'subjectHub', subject })} onPick={setLevel} />
 
-  const questions = allQcm.filter(q => q.level === level.id).sort(() => 0.5 - Math.random()).slice(0, level.target)
+  const questions = useMemo(() => {
+    if (!level || !allQcm) return []
+    return allQcm.filter(q => q.level === level.id).sort(() => 0.5 - Math.random()).slice(0, level.target)
+  }, [allQcm, level])
 
   return (
     <Quiz
