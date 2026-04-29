@@ -104,7 +104,7 @@ export function SubjectHub({ route, go }) {
         </div>
 
         {/* Mode Panique secondary */}
-        <button className="tap" onClick={() => go({ name: 'panic', subject, fromHub: true })} style={{ margin: '14px 18px 0', padding: 14, background: 'transparent', border: '1.5px dashed rgba(180,60,100,0.25)', borderRadius: 'var(--r-md)', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, color: 'var(--rose-700)', fontWeight: 800, fontSize: 14, width: 'calc(100% - 36px)' }}>
+        <button className="tap" onClick={() => go({ name: 'panic', subject, fromHub: true })} style={{ margin: '14px 18px 0', padding: 14, background: 'transparent', border: '1.5px dashed rgba(180,60,100,0.25)', borderRadius: 'var(--r-md)', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, color: 'var(--rose-700)', fontWeight: 800, fontSize: 14 }}>
           🚨 <span>Activer le Mode Panique</span>
         </button>
       </div>

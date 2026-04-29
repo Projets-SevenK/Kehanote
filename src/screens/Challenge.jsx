@@ -4,9 +4,9 @@ import { Mascot } from '../components/Mascot'
 import { supabase } from '../lib/supabase'
 
 const LEVELS = [
-  { id: 'easy',   label: 'Facile',    sub: 'Les bases',       icon: '🌸', color: '#BCD4C0', bg: 'rgba(188,212,192,0.18)', multiplier: 1,    target: 5 },
-  { id: 'medium', label: 'Moyen',     sub: 'Pour progresser', icon: '🌹', color: '#EC6F92', bg: 'rgba(236,111,146,0.15)', multiplier: 1.25, target: 5 },
-  { id: 'hard',   label: 'Difficile', sub: 'Pour le partiel', icon: '⚡',  color: '#6E5A8A', bg: 'rgba(110,90,138,0.15)',  multiplier: 1.5,  target: 5 },
+  { id: 'easy',   label: 'Facile',    sub: 'Les bases',       icon: '🌸', color: '#BCD4C0', bg: 'rgba(188,212,192,0.18)', multiplier: 1,    target: 10 },
+  { id: 'medium', label: 'Moyen',     sub: 'Pour progresser', icon: '🌹', color: '#EC6F92', bg: 'rgba(236,111,146,0.15)', multiplier: 1.25, target: 10 },
+  { id: 'hard',   label: 'Difficile', sub: 'Pour le partiel', icon: '⚡',  color: '#6E5A8A', bg: 'rgba(110,90,138,0.15)',  multiplier: 1.5,  target: 10 },
 ]
 const SCORING = { correct: 1, wrong: -0.5, skip: -0.25 }
 const HISTORY_KEY = 'kehanote.challenge.history.v1'
@@ -258,7 +258,7 @@ export function Challenge({ route, go }) {
 
   if (!level) return <DifficultyPicker subject={subject} allQcm={allQcm} onBack={() => go({ name: 'subjectHub', subject })} onPick={setLevel} />
 
-  const questions = allQcm.filter(q => q.level === level.id).slice(0, level.target)
+  const questions = allQcm.filter(q => q.level === level.id).sort(() => 0.5 - Math.random()).slice(0, level.target)
 
   return (
     <Quiz
