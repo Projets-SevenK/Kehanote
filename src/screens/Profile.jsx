@@ -3,8 +3,6 @@ import { useProgress } from '../hooks/useProgress'
 import { Mascot }      from '../components/Mascot'
 import { Nav }         from '../components/Nav'
 
-const DAY_LABELS = ['L', 'M', 'M', 'J', 'V', 'S', 'D']
-
 function buildWeekHeights(sessions) {
   const today = new Date()
   return Array.from({ length: 7 }, (_, i) => {
@@ -12,7 +10,11 @@ function buildWeekHeights(sessions) {
     d.setDate(today.getDate() - (6 - i))
     const iso  = d.toISOString().slice(0, 10)
     const count = sessions.filter(s => s.played_at === iso).length
-    return Math.min(1, count * 0.4 + (count > 0 ? 0.2 : 0))
+    const label = d.toLocaleDateString('fr-FR', { weekday: 'short' }).charAt(0).toUpperCase()
+    return {
+      label,
+      h: Math.min(1, count * 0.4 + (count > 0 ? 0.2 : 0))
+    }
   })
 }
 
@@ -42,7 +44,7 @@ export function Profile({ go, tab, onTab }) {
   ]
 
   const weekHeights = buildWeekHeights(sessions)
-  const daysThisWeek = weekHeights.filter(h => h > 0).length
+  const daysThisWeek = weekHeights.filter(day => day.h > 0).length
 
   const stats = [
     { label: 'Sessions', value: data.totalSessions, sub: 'au total' },
@@ -101,10 +103,10 @@ export function Profile({ go, tab, onTab }) {
               <div style={{ fontSize: 28 }}>💗</div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', height: 90, gap: 6 }}>
-              {weekHeights.map((h, i) => (
+              {weekHeights.map((day, i) => (
                 <div key={i} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6 }}>
-                  <div style={{ width: '100%', height: h ? `${h * 70}px` : '4px', background: h ? 'linear-gradient(180deg, var(--rose-400), var(--rose-500))' : 'var(--rose-100)', borderRadius: 6, transition: 'height 800ms cubic-bezier(.22,.9,.32,1.02)' }}/>
-                  <span style={{ fontSize: 10, color: 'var(--ink-500)', fontWeight: 700 }}>{DAY_LABELS[i]}</span>
+                  <div style={{ width: '100%', height: day.h ? `${day.h * 70}px` : '4px', background: day.h ? 'linear-gradient(180deg, var(--rose-400), var(--rose-500))' : 'var(--rose-100)', borderRadius: 6, transition: 'height 800ms cubic-bezier(.22,.9,.32,1.02)' }}/>
+                  <span style={{ fontSize: 10, color: 'var(--ink-500)', fontWeight: 700 }}>{day.label}</span>
                 </div>
               ))}
             </div>

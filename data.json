@@ -1,0 +1,2020 @@
+{
+  "qcm": {
+    "examName": "Droit de la Communication - Licence Info-Com",
+    "totalQuestions": 60,
+    "quizData": [
+      {
+        "id": 1,
+        "difficulty": "Moyenne",
+        "question": "Quelle est la principale différence entre la règle de droit et la déontologie ?",
+        "options": [
+          {
+            "text": "La règle de droit est facultative alors que la déontologie est obligatoire.",
+            "isCorrect": false,
+            "rationale": "C'est l'inverse : la règle de droit est obligatoire et coercitive, tandis que la déontologie est souvent une auto-régulation."
+          },
+          {
+            "text": "Le droit est sanctionné par la puissance publique, la déontologie par les pairs (profession).",
+            "isCorrect": true,
+            "rationale": "Le droit émane de l'État (Parlement, juges), alors que la déontologie est élaborée et appliquée par une profession spécifique."
+          },
+          {
+            "text": "Il n'y a aucune différence, ce sont deux termes synonymes.",
+            "isCorrect": false,
+            "rationale": "Le cours distingue l'origine (puissance publique vs profession) et la sanction de ces deux types de règles."
+          },
+          {
+            "text": "La déontologie n'existe que pour les avocats.",
+            "isCorrect": false,
+            "rationale": "De nombreuses professions, dont les journalistes, possèdent leurs propres codes de déontologie."
+          }
+        ],
+        "hint": "Réfléchissez à l'origine de la sanction."
+      },
+      {
+        "id": 2,
+        "difficulty": "Moyenne",
+        "question": "Quel critère distingue l'injure privée de l'injure publique sur les réseaux sociaux ?",
+        "options": [
+          {
+            "text": "Le nombre exact de followers (plus de 500).",
+            "isCorrect": false,
+            "rationale": "Le nombre est un indice pour le juge, mais il n'existe pas de seuil chiffré légal."
+          },
+          {
+            "text": "L'utilisation de pseudonymes.",
+            "isCorrect": false,
+            "rationale": "L'anonymat ne change pas la nature publique ou privée de l'espace de diffusion."
+          },
+          {
+            "text": "L'existence d'une 'communauté d'intérêt' et l'accès restreint.",
+            "isCorrect": true,
+            "rationale": "Si les propos ne sont accessibles qu'à des personnes agréées formant un groupe fermé, le caractère est privé."
+          },
+          {
+            "text": "La présence de publicités sur la page.",
+            "isCorrect": false,
+            "rationale": "L'aspect commercial n'influence pas la qualification juridique de la publicité du message."
+          }
+        ],
+        "hint": "Pensez aux paramètres de confidentialité d'un compte."
+      },
+      {
+        "id": 3,
+        "difficulty": "Moyenne",
+        "question": "Où se situe la CEDH par rapport aux lois françaises dans la hiérarchie des normes ?",
+        "options": [
+          {
+            "text": "Elle est inférieure aux lois nationales.",
+            "isCorrect": false,
+            "rationale": "La Constitution française accorde une primauté aux traités internationaux sur les lois internes."
+          },
+          {
+            "text": "Elle est supérieure aux lois françaises régulièrement ratifiées.",
+            "isCorrect": true,
+            "rationale": "Selon l'article 55 de la Constitution, les traités ont une autorité supérieure à celle des lois."
+          },
+          {
+            "text": "Elles sont de valeur égale.",
+            "isCorrect": false,
+            "rationale": "Le principe de hiérarchie des normes place les traités au-dessus du niveau législatif."
+          },
+          {
+            "text": "Elle n'a qu'une valeur symbolique.",
+            "isCorrect": false,
+            "rationale": "Les juges français ont l'obligation d'appliquer la CEDH et peuvent écarter une loi contraire."
+          }
+        ],
+        "hint": "Article 55 de la Constitution."
+      },
+      {
+        "id": 4,
+        "difficulty": "Moyenne",
+        "question": "Quelle est la définition de la diffamation (Art. 29 Loi 1881) ?",
+        "options": [
+          {
+            "text": "Une insulte sans précision.",
+            "isCorrect": false,
+            "rationale": "Ceci définit l'injure, qui ne contient l'imputation d'aucun fait."
+          },
+          {
+            "text": "L'allégation d'un fait précis portant atteinte à l'honneur.",
+            "isCorrect": true,
+            "rationale": "La diffamation repose sur un fait qui peut être prouvé et discuté contradictoirement."
+          },
+          {
+            "text": "La critique des produits d'une marque.",
+            "isCorrect": false,
+            "rationale": "Viser un produit relève du dénigrement, pas de la diffamation d'une personne."
+          },
+          {
+            "text": "Un propos méchant sans preuve.",
+            "isCorrect": false,
+            "rationale": "La méchanceté ne suffit pas ; il faut l'imputation d'un fait attentatoire à l'honneur."
+          }
+        ],
+        "hint": "Le mot clé est 'fait'."
+      },
+      {
+        "id": 5,
+        "difficulty": "Moyenne",
+        "question": "Quel est le délai de prescription de principe pour un délit de presse ?",
+        "options": [
+          {
+            "text": "3 ans.",
+            "isCorrect": false,
+            "rationale": "C'est le délai de droit commun, mais la presse a un régime dérogatoire plus court."
+          },
+          {
+            "text": "1 an.",
+            "isCorrect": false,
+            "rationale": "Le délai d'un an est l'exception pour les propos racistes, sexistes ou homophobes."
+          },
+          {
+            "text": "3 mois.",
+            "isCorrect": true,
+            "rationale": "Le délai est de 3 mois pour protéger la liberté d'expression contre des poursuites trop tardives."
+          },
+          {
+            "text": "6 ans.",
+            "isCorrect": false,
+            "rationale": "C'est le délai pour les délits ordinaires du Code de procédure pénale."
+          }
+        ],
+        "hint": "Un délai très bref pour favoriser la liberté des médias."
+      },
+      {
+        "id": 6,
+        "difficulty": "Moyenne",
+        "question": "Qu'est-ce que la 'responsabilité en cascade' ?",
+        "options": [
+          {
+            "text": "Une condamnation solidaire de tous les journalistes.",
+            "isCorrect": false,
+            "rationale": "La cascade établit un ordre de responsabilité individuelle, pas une responsabilité de groupe."
+          },
+          {
+            "text": "Le Directeur de Publication est le premier responsable pénal.",
+            "isCorrect": true,
+            "rationale": "L'article 42 désigne le DP comme auteur principal, suivi de l'auteur du propos, puis de l'imprimeur."
+          },
+          {
+            "text": "La responsabilité de l'annonceur pour les fautes du média.",
+            "isCorrect": false,
+            "rationale": "L'annonceur n'est pas inclus dans cet ordre de responsabilité spécifique à la loi de 1881."
+          },
+          {
+            "text": "Le transfert de responsabilité de l'État vers le citoyen.",
+            "isCorrect": false,
+            "rationale": "Ce concept n'existe pas dans le cadre pénal des délits de presse."
+          }
+        ],
+        "hint": "Qui est le 'capitaine' du média ?"
+      },
+      {
+        "id": 7,
+        "difficulty": "Moyenne",
+        "question": "Quelle exception limite la responsabilité du DP sur Internet ?",
+        "options": [
+          {
+            "text": "Il est toujours responsable.",
+            "isCorrect": false,
+            "rationale": "La loi prévoit des limites liées à la nature technique de la diffusion."
+          },
+          {
+            "text": "L'absence de fixation préalable du message (ex: direct).",
+            "isCorrect": true,
+            "rationale": "Si le message n'est pas enregistré avant diffusion, le DP ne peut exercer son contrôle préalable."
+          },
+          {
+            "text": "L'hébergement du site à l'étranger.",
+            "isCorrect": false,
+            "rationale": "La localisation géographique ne change pas les obligations éditoriales en droit français."
+          },
+          {
+            "text": "Le secret des sources.",
+            "isCorrect": false,
+            "rationale": "Le secret des sources protège l'information, pas la responsabilité pénale du dirigeant."
+          }
+        ],
+        "hint": "Pensez au contrôle matériel du contenu."
+      },
+      {
+        "id": 8,
+        "difficulty": "Moyenne",
+        "question": "Quels sont les deux moyens de défense pour une diffamation ?",
+        "options": [
+          {
+            "text": "L'humour et la parodie.",
+            "isCorrect": false,
+            "rationale": "L'humour est une interprétation du juge, pas un moyen de preuve légal formel."
+          },
+          {
+            "text": "La provocation et l'erreur.",
+            "isCorrect": false,
+            "rationale": "La provocation ne s'applique qu'à l'injure simple, pas à la diffamation."
+          },
+          {
+            "text": "La vérité des faits et la bonne foi.",
+            "isCorrect": true,
+            "rationale": "On peut s'exonérer en prouvant que le fait est vrai OU qu'on a travaillé avec sérieux et sans haine."
+          },
+          {
+            "text": "L'intérêt public et le secret professionnel.",
+            "isCorrect": false,
+            "rationale": "L'intérêt public est un sous-critère de la bonne foi, pas un moyen autonome."
+          }
+        ],
+        "hint": "Vérité ou Intention ?"
+      },
+      {
+        "id": 9,
+        "difficulty": "Moyenne",
+        "question": "Lequel n'est PAS un critère de la bonne foi ?",
+        "options": [
+          {
+            "text": "Le but légitime.",
+            "isCorrect": false,
+            "rationale": "C'est un critère essentiel : le journaliste doit vouloir informer le public."
+          },
+          {
+            "text": "L'absence d'animosité.",
+            "isCorrect": false,
+            "rationale": "Le journaliste ne doit pas agir par vengeance personnelle."
+          },
+          {
+            "text": "La preuve absolue de la vérité.",
+            "isCorrect": true,
+            "rationale": "La bonne foi s'utilise justement quand on ne peut pas apporter la preuve parfaite de la vérité."
+          },
+          {
+            "text": "La prudence dans l'expression.",
+            "isCorrect": false,
+            "rationale": "Il faut éviter les termes excessifs ou sensationnalistes pour être de bonne foi."
+          }
+        ],
+        "hint": "La bonne foi est une alternative à la vérité."
+      },
+      {
+        "id": 10,
+        "difficulty": "Moyenne",
+        "question": "Quelle condition engage la responsabilité d'un hébergeur (LCEN) ?",
+        "options": [
+          {
+            "text": "Il doit tout surveiller.",
+            "isCorrect": false,
+            "rationale": "Il n'y a pas d'obligation générale de surveillance pour les hébergeurs."
+          },
+          {
+            "text": "La connaissance effective et l'absence de retrait prompt.",
+            "isCorrect": true,
+            "rationale": "L'hébergeur devient responsable s'il est alerté d'un contenu illicite et qu'il ne le supprime pas."
+          },
+          {
+            "text": "La présence de publicités.",
+            "isCorrect": false,
+            "rationale": "La publicité n'entraîne pas automatiquement une responsabilité éditoriale selon la jurisprudence."
+          },
+          {
+            "text": "L'anonymat de l'internaute.",
+            "isCorrect": false,
+            "rationale": "L'hébergeur doit aider à identifier l'auteur, mais l'anonymat ne le rend pas responsable par défaut."
+          }
+        ],
+        "hint": "Signalement et réactivité."
+      },
+      {
+        "id": 11,
+        "difficulty": "Moyenne",
+        "question": "De combien de membres est composée l'ARCOM ?",
+        "options": [
+          {
+            "text": "7 membres.",
+            "isCorrect": false,
+            "rationale": "Le collège de l'ARCOM compte plus de membres pour assurer sa pluralité."
+          },
+          {
+            "text": "9 membres.",
+            "isCorrect": true,
+            "rationale": "Elle est composée de 9 membres nommés par différentes autorités (PR, AN, Sénat, etc.)."
+          },
+          {
+            "text": "12 membres.",
+            "isCorrect": false,
+            "rationale": "Ce chiffre ne correspond pas à la composition légale actuelle de l'autorité."
+          },
+          {
+            "text": "5 membres.",
+            "isCorrect": false,
+            "rationale": "C'est trop peu pour une autorité de régulation de cette importance."
+          }
+        ],
+        "hint": "Un chiffre impair proche de 10."
+      },
+      {
+        "id": 12,
+        "difficulty": "Moyenne",
+        "question": "Quelle est la règle de pluralisme hors élection ?",
+        "options": [
+          {
+            "text": "Égalité totale.",
+            "isCorrect": false,
+            "rationale": "L'égalité n'est pas imposée en permanence, elle est trop rigide."
+          },
+          {
+            "text": "1/3 exécutif, 2/3 partis selon représentativité.",
+            "isCorrect": true,
+            "rationale": "C'est l'équilibre classique pour garantir l'accès de tous les courants d'opinion."
+          },
+          {
+            "text": "Priorité à l'opposition.",
+            "isCorrect": false,
+            "rationale": "L'opposition a des droits, mais pas une priorité absolue hors campagne."
+          },
+          {
+            "text": "Liberté totale de la chaîne.",
+            "isCorrect": false,
+            "rationale": "Les chaînes doivent respecter le pluralisme sous peine de sanction de l'ARCOM."
+          }
+        ],
+        "hint": "Répartition entre gouvernement et formations politiques."
+      },
+      {
+        "id": 13,
+        "difficulty": "Moyenne",
+        "question": "Qu'implique la présomption d'innocence ?",
+        "options": [
+          {
+            "text": "Interdiction de citer le nom.",
+            "isCorrect": false,
+            "rationale": "On peut citer le nom, mais sans conclure à la culpabilité."
+          },
+          {
+            "text": "Ne pas présenter quelqu'un comme coupable avant jugement.",
+            "isCorrect": true,
+            "rationale": "C'est le droit d'être considéré innocent tant que la justice n'a pas tranché."
+          },
+          {
+            "text": "L'absence de garde à vue.",
+            "isCorrect": false,
+            "rationale": "La garde à vue est une mesure d'enquête, elle n'annule pas la présomption d'innocence."
+          },
+          {
+            "text": "La preuve de l'innocence par le média.",
+            "isCorrect": false,
+            "rationale": "C'est à l'accusation de prouver la faute, pas au média de prouver l'innocence."
+          }
+        ],
+        "hint": "Respect du temps de la justice."
+      },
+      {
+        "id": 14,
+        "difficulty": "Moyenne",
+        "question": "Quelle étape précède toute sanction de l'ARCOM ?",
+        "options": [
+          {
+            "text": "L'amende immédiate.",
+            "isCorrect": false,
+            "rationale": "Une amende ne peut être prononcée sans avertissement formel préalable."
+          },
+          {
+            "text": "La mise en demeure.",
+            "isCorrect": true,
+            "rationale": "C'est l'acte qui ordonne au média de cesser un manquement avant de sévir."
+          },
+          {
+            "text": "La suspension d'antenne.",
+            "isCorrect": false,
+            "rationale": "C'est une sanction très lourde, pas un préalable."
+          },
+          {
+            "text": "La lettre simple.",
+            "isCorrect": false,
+            "rationale": "La lettre simple est une pratique, mais seule la mise en demeure est un acte juridique préalable obligatoire."
+          }
+        ],
+        "hint": "Une injonction formelle."
+      },
+      {
+        "id": 15,
+        "difficulty": "Moyenne",
+        "question": "Quelle est la règle sur l'enregistrement des procès ?",
+        "options": [
+          {
+            "text": "Liberté totale.",
+            "isCorrect": false,
+            "rationale": "La captation d'image est interdite pour préserver la sérénité des débats."
+          },
+          {
+            "text": "Interdiction par principe (Art. 38 ter).",
+            "isCorrect": true,
+            "rationale": "La loi interdit l'enregistrement, sauf pour archives historiques ou motifs pédagogiques récents."
+          },
+          {
+            "text": "Autorisé avec accord de l'avocat.",
+            "isCorrect": false,
+            "rationale": "L'accord de l'avocat ne lève pas l'interdiction légale générale."
+          },
+          {
+            "text": "Uniquement pour le civil.",
+            "isCorrect": false,
+            "rationale": "L'interdiction s'applique à tous les types de procès (pénal, civil, administratif)."
+          }
+        ],
+        "hint": "Sérénité de la justice."
+      },
+      {
+        "id": 16,
+        "difficulty": "Moyenne",
+        "question": "Qu'est-ce qui échappe au domaine privé d'une star ?",
+        "options": [
+          {
+            "text": "Rien, tout est protégé.",
+            "isCorrect": false,
+            "rationale": "Le statut public réduit légèrement la zone protégée."
+          },
+          {
+            "text": "Les infos liées aux fonctions officielles ou au débat public.",
+            "isCorrect": true,
+            "rationale": "Si l'info est nécessaire pour éclairer le public sur un sujet d'intérêt général, elle est licite."
+          },
+          {
+            "text": "Sa vie sentimentale complète.",
+            "isCorrect": false,
+            "rationale": "La vie sentimentale reste privée, sauf impact direct sur la fonction publique."
+          },
+          {
+            "text": "Ses comptes bancaires.",
+            "isCorrect": false,
+            "rationale": "Le patrimoine est privé, sauf obligation de déclaration de transparence."
+          }
+        ],
+        "hint": "Information nécessaire au citoyen."
+      },
+      {
+        "id": 17,
+        "difficulty": "Moyenne",
+        "question": "Qu'est-ce que l'excuse de provocation en injure ?",
+        "options": [
+          {
+            "text": "Droit d'injurier les politiques.",
+            "isCorrect": false,
+            "rationale": "Les politiques sont protégés par la loi, même si la critique est plus libre."
+          },
+          {
+            "text": "Défense si l'injure répond à une attaque préalable.",
+            "isCorrect": true,
+            "rationale": "Si la victime a provoqué l'auteur, celui-ci peut invoquer cette défense pour être relaxé."
+          },
+          {
+            "text": "Action de l'ARCOM.",
+            "isCorrect": false,
+            "rationale": "L'ARCOM ne provoque pas les médias, elle les régule."
+          },
+          {
+            "text": "Circonstance aggravante.",
+            "isCorrect": false,
+            "rationale": "C'est un moyen de défense (atténuation), pas une aggravation."
+          }
+        ],
+        "hint": "Réponse immédiate à une agression verbale."
+      },
+      {
+        "id": 18,
+        "difficulty": "Moyenne",
+        "question": "Qu'est-ce que l'immunité des débats judiciaires ?",
+        "options": [
+          {
+            "text": "Interdiction d'arrêter un journaliste.",
+            "isCorrect": false,
+            "rationale": "L'immunité concerne les propos, pas l'arrestation pour des faits extérieurs."
+          },
+          {
+            "text": "On ne peut poursuivre un avocat pour ses propos en plaidoirie.",
+            "isCorrect": true,
+            "rationale": "Les paroles dites devant le tribunal sont protégées pour garantir la liberté de la défense."
+          },
+          {
+            "text": "Les juges ne motivent pas leurs arrêts.",
+            "isCorrect": false,
+            "rationale": "Les juges ont l'obligation légale de motiver toutes leurs décisions."
+          },
+          {
+            "text": "Appel impossible.",
+            "isCorrect": false,
+            "rationale": "Le droit à l'appel est un principe fondamental du double degré de juridiction."
+          }
+        ],
+        "hint": "Liberté totale de la défense à l'audience."
+      },
+      {
+        "id": 19,
+        "difficulty": "Moyenne",
+        "question": "Quelle juridiction juge les recours contre l'ARCOM ?",
+        "options": [
+          {
+            "text": "Le Tribunal de Paris.",
+            "isCorrect": false,
+            "rationale": "Ce tribunal est judiciaire, alors que l'ARCOM est une autorité administrative."
+          },
+          {
+            "text": "Le Conseil d'État.",
+            "isCorrect": true,
+            "rationale": "Il est le juge naturel des autorités publiques indépendantes nationales."
+          },
+          {
+            "text": "Le Conseil Constitutionnel.",
+            "isCorrect": false,
+            "rationale": "Il vérifie la constitutionnalité des lois, pas les sanctions administratives."
+          },
+          {
+            "text": "La Cour de Cassation.",
+            "isCorrect": false,
+            "rationale": "Elle s'occupe de l'ordre judiciaire, pas des actes administratifs du régulateur."
+          }
+        ],
+        "hint": "Sommet de l'ordre administratif."
+      },
+      {
+        "id": 20,
+        "difficulty": "Moyenne",
+        "question": "Pourquoi le droit de la com est-il 'non codifié' ?",
+        "options": [
+          {
+            "text": "Aucune loi n'existe.",
+            "isCorrect": false,
+            "rationale": "Les lois sont nombreuses, mais dispersées."
+          },
+          {
+            "text": "Les règles sont dispersées dans plusieurs codes.",
+            "isCorrect": true,
+            "rationale": "Il n'existe pas de 'Code de la Communication' unique réunissant tout."
+          },
+          {
+            "text": "Décisions sans texte.",
+            "isCorrect": false,
+            "rationale": "Tout jugement doit reposer sur un texte légal en droit français."
+          },
+          {
+            "text": "Langage secret.",
+            "isCorrect": false,
+            "rationale": "Le droit est public et accessible à tout citoyen."
+          }
+        ],
+        "hint": "Droit carrefour."
+      },
+      {
+        "id": 21,
+        "difficulty": "Facile",
+        "question": "Qu'est-ce que le 'Droit objectif' ?",
+        "options": [
+          {
+            "text": "Règles régissant la vie en société sanctionnées par l'État.",
+            "isCorrect": true,
+            "rationale": "C'est la règle de conduite impersonnelle qui s'applique à tous."
+          },
+          {
+            "text": "Droits individuels de chaque personne.",
+            "isCorrect": false,
+            "rationale": "Ceci définit le droit subjectif (les prérogatives d'un individu)."
+          },
+          {
+            "text": "Codes secrets des journalistes.",
+            "isCorrect": false,
+            "rationale": "Le droit est un ensemble de règles publiques et obligatoires."
+          },
+          {
+            "text": "Règles morales sans sanction.",
+            "isCorrect": false,
+            "rationale": "Le droit est par nature obligatoire et assorti d'une sanction (coercitif)."
+          }
+        ],
+        "hint": "La loi commune."
+      },
+      {
+        "id": 22,
+        "difficulty": "Facile",
+        "question": "Quel texte de 1789 fonde la liberté de communication ?",
+        "options": [
+          {
+            "text": "La DDHC (Art. 11).",
+            "isCorrect": true,
+            "rationale": "L'article 11 de la Déclaration des Droits de l'Homme et du Citoyen pose ce principe fondateur."
+          },
+          {
+            "text": "La Constitution de 1958.",
+            "isCorrect": false,
+            "rationale": "Elle organise l'État mais reprend la DDHC en préambule pour les droits."
+          },
+          {
+            "text": "Le Code Civil.",
+            "isCorrect": false,
+            "rationale": "Il s'occupe des relations entre personnes, pas de la liberté de presse."
+          },
+          {
+            "text": "La loi de 1881.",
+            "isCorrect": false,
+            "rationale": "Elle applique le principe, mais c'est la DDHC qui le fonde."
+          }
+        ],
+        "hint": "Texte révolutionnaire."
+      },
+      {
+        "id": 23,
+        "difficulty": "Facile",
+        "question": "Quels sont les 3 éléments d'une infraction ?",
+        "options": [
+          {
+            "text": "Légal, matériel, moral.",
+            "isCorrect": true,
+            "rationale": "Un texte (loi), un acte (fait) et une intention (conscience)."
+          },
+          {
+            "text": "Juge, avocat, témoin.",
+            "isCorrect": false,
+            "rationale": "Ce sont les participants au procès, pas les composants de l'infraction."
+          },
+          {
+            "text": "Preuve, dommage, victime.",
+            "isCorrect": false,
+            "rationale": "Ce sont les éléments de la responsabilité civile, pas de la constitution du délit."
+          },
+          {
+            "text": "Loi, amende, prison.",
+            "isCorrect": false,
+            "rationale": "L'amende et la prison sont les peines, pas les éléments constitutifs."
+          }
+        ],
+        "hint": "Texte, Acte et Esprit."
+      },
+      {
+        "id": 24,
+        "difficulty": "Facile",
+        "question": "Quel droit régit les relations État-particuliers ?",
+        "options": [
+          {
+            "text": "Le droit public.",
+            "isCorrect": true,
+            "rationale": "Il organise les pouvoirs publics et leurs rapports avec les citoyens."
+          },
+          {
+            "text": "Le droit privé.",
+            "isCorrect": false,
+            "rationale": "Il s'occupe des relations entre particuliers (famille, commerce)."
+          },
+          {
+            "text": "Le droit pénal.",
+            "isCorrect": false,
+            "rationale": "C'est une branche du droit privé (sanction des comportements)."
+          },
+          {
+            "text": "Le droit du travail.",
+            "isCorrect": false,
+            "rationale": "C'est un droit spécifique aux relations employeurs-salariés."
+          }
+        ],
+        "hint": "Intérêt général."
+      },
+      {
+        "id": 25,
+        "difficulty": "Facile",
+        "question": "Comment appelle-t-on la critique des produits ?",
+        "options": [
+          {
+            "text": "Le dénigrement.",
+            "isCorrect": true,
+            "rationale": "Il vise les biens ou services d'un concurrent, pas sa personne."
+          },
+          {
+            "text": "La diffamation.",
+            "isCorrect": false,
+            "rationale": "Elle vise l'honneur d'une personne physique ou morale."
+          },
+          {
+            "text": "L'injure.",
+            "isCorrect": false,
+            "rationale": "C'est une insulte gratuite, pas une critique de produit."
+          },
+          {
+            "text": "Le harcèlement.",
+            "isCorrect": false,
+            "rationale": "C'est la répétition d'actes contre une personne."
+          }
+        ],
+        "hint": "Attaque contre la marchandise."
+      },
+      {
+        "id": 26,
+        "difficulty": "Facile",
+        "question": "Différence injure / diffamation ?",
+        "options": [
+          {
+            "text": "Fait précis vs Expression.",
+            "isCorrect": true,
+            "rationale": "La diffamation impute un fait, l'injure est une pure invective."
+          },
+          {
+            "text": "Gravité.",
+            "isCorrect": false,
+            "rationale": "La gravité varie, mais la distinction est technique."
+          },
+          {
+            "text": "Public / Privé.",
+            "isCorrect": false,
+            "rationale": "Les deux peuvent exister sous les deux formes."
+          },
+          {
+            "text": "Aucune.",
+            "isCorrect": false,
+            "rationale": "La loi les distingue formellement à l'article 29."
+          }
+        ],
+        "hint": "Précision du grief."
+      },
+      {
+        "id": 27,
+        "difficulty": "Facile",
+        "question": "Qui remplace le CSA et la HADOPI ?",
+        "options": [
+          {
+            "text": "L'ARCOM.",
+            "isCorrect": true,
+            "rationale": "Autorité de régulation de la communication audiovisuelle et numérique."
+          },
+          {
+            "text": "L'ANFR.",
+            "isCorrect": false,
+            "rationale": "L'agence des fréquences gère l'aspect purement technique des ondes."
+          },
+          {
+            "text": "La CNIL.",
+            "isCorrect": false,
+            "rationale": "Elle s'occupe des données personnelles, pas de l'audiovisuel."
+          },
+          {
+            "text": "Le CSA.",
+            "isCorrect": false,
+            "rationale": "Le CSA a été absorbé dans la fusion créant l'ARCOM."
+          }
+        ],
+        "hint": "Nouveau nom du régulateur."
+      },
+      {
+        "id": 28,
+        "difficulty": "Facile",
+        "question": "La liberté d'expression est-elle absolue ?",
+        "options": [
+          {
+            "text": "Non, limitée pour protéger autrui.",
+            "isCorrect": true,
+            "rationale": "On ne peut pas tout dire (injure, haine, etc. sont punis)."
+          },
+          {
+            "text": "Oui.",
+            "isCorrect": false,
+            "rationale": "Aucune liberté n'est sans limites dans une société de droit."
+          },
+          {
+            "text": "Oui car c'est 1789.",
+            "isCorrect": false,
+            "rationale": "1789 prévoit justement que la loi définit les abus."
+          },
+          {
+            "text": "Interdite en ligne.",
+            "isCorrect": false,
+            "rationale": "Elle s'applique partout, réseaux sociaux compris."
+          }
+        ],
+        "hint": "Abus et limites."
+      },
+      {
+        "id": 29,
+        "difficulty": "Facile",
+        "question": "Qu'est-ce que la censure ?",
+        "options": [
+          {
+            "text": "Contrôle avant publication.",
+            "isCorrect": true,
+            "rationale": "Action d'empêcher la diffusion en amont."
+          },
+          {
+            "text": "Amende après.",
+            "isCorrect": false,
+            "rationale": "C'est une sanction, pas de la censure préventive."
+          },
+          {
+            "text": "Droit de réponse.",
+            "isCorrect": false,
+            "rationale": "C'est une garantie de parole, pas une suppression de propos."
+          },
+          {
+            "text": "Suppression volontaire.",
+            "isCorrect": false,
+            "rationale": "Si c'est l'auteur qui retire, ce n'est pas de la censure extérieure."
+          }
+        ],
+        "hint": "Intervention préventive."
+      },
+      {
+        "id": 30,
+        "difficulty": "Facile",
+        "question": "Compte privé = ?",
+        "options": [
+          {
+            "text": "Communication privée.",
+            "isCorrect": true,
+            "rationale": "Communauté d'intérêt entre membres agréés."
+          },
+          {
+            "text": "Communication publique.",
+            "isCorrect": false,
+            "rationale": "Internet n'est pas public par défaut si l'accès est verrouillé."
+          },
+          {
+            "text": "Non punissable.",
+            "isCorrect": false,
+            "rationale": "Même privé, un délit reste une infraction (mais moins punie)."
+          },
+          {
+            "text": "Diffamation automatique.",
+            "isCorrect": false,
+            "rationale": "Le cadre ne définit pas la nature du propos tenu."
+          }
+        ],
+        "hint": "Cercle d'amis."
+      },
+      {
+        "id": 31,
+        "difficulty": "Facile",
+        "question": "Négationnisme = ?",
+        "options": [
+          {
+            "text": "Contestation des crimes contre l'humanité.",
+            "isCorrect": true,
+            "rationale": "Le fait de nier l'existence de génocides reconnus."
+          },
+          {
+            "text": "Nier une erreur.",
+            "isCorrect": false,
+            "rationale": "Une erreur de fait n'est pas un négationnisme historique."
+          },
+          {
+            "text": "Refus d'impôts.",
+            "isCorrect": false,
+            "rationale": "C'est de la fraude fiscale."
+          },
+          {
+            "text": "Critique politique.",
+            "isCorrect": false,
+            "rationale": "La critique est un droit démocratique."
+          }
+        ],
+        "hint": "Shoah et génocides."
+      },
+      {
+        "id": 32,
+        "difficulty": "Facile",
+        "question": "Rôle d'un FA ?",
+        "options": [
+          {
+            "text": "Connexion technique.",
+            "isCorrect": true,
+            "rationale": "Il permet l'accès au réseau sans contrôler les messages."
+          },
+          {
+            "text": "Contrôle vérité.",
+            "isCorrect": false,
+            "rationale": "Il ne peut pas vérifier des milliards de données."
+          },
+          {
+            "text": "Stockage vidéos.",
+            "isCorrect": false,
+            "rationale": "C'est le rôle de l'hébergeur."
+          },
+          {
+            "text": "Police du web.",
+            "isCorrect": false,
+            "rationale": "Il n'a pas de pouvoir judiciaire ou policier propre."
+          }
+        ],
+        "hint": "Orange, SFR, Free."
+      },
+      {
+        "id": 33,
+        "difficulty": "Facile",
+        "question": "Art 9 Code Civil = ?",
+        "options": [
+          {
+            "text": "Vie privée.",
+            "isCorrect": true,
+            "rationale": "Le texte fondamental protégeant l'intimité de chacun."
+          },
+          {
+            "text": "Propriété.",
+            "isCorrect": false,
+            "rationale": "Protégée par d'autres articles et la DDHC."
+          },
+          {
+            "text": "Presse.",
+            "isCorrect": false,
+            "rationale": "Régie par la loi de 1881."
+          },
+          {
+            "text": "Santé.",
+            "isCorrect": false,
+            "rationale": "Relève du code de la santé publique."
+          }
+        ],
+        "hint": "Mon intimité."
+      },
+      {
+        "id": 34,
+        "difficulty": "Facile",
+        "question": "Image d'un bien ?",
+        "options": [
+          {
+            "text": "Libre sauf trouble anormal.",
+            "isCorrect": true,
+            "rationale": "On peut photographier une maison sauf si cela nuit au propriétaire."
+          },
+          {
+            "text": "Interdit.",
+            "isCorrect": false,
+            "rationale": "Le propriétaire n'a pas de droit exclusif sur l'image."
+          },
+          {
+            "text": "Après 100 ans.",
+            "isCorrect": false,
+            "rationale": "Le critère de l'âge n'existe pas pour l'image du bien."
+          },
+          {
+            "text": "Seulement presse.",
+            "isCorrect": false,
+            "rationale": "Tout le monde peut le faire dans le respect du trouble anormal."
+          }
+        ],
+        "hint": "Liberté de l'image des choses."
+      },
+      {
+        "id": 35,
+        "difficulty": "Facile",
+        "question": "Sanction injure privée ?",
+        "options": [
+          {
+            "text": "38 euros.",
+            "isCorrect": true,
+            "rationale": "C'est une contravention légère pour les conflits privés."
+          },
+          {
+            "text": "Prison.",
+            "isCorrect": false,
+            "rationale": "Jamais de prison pour une injure simple privée."
+          },
+          {
+            "text": "45 000 euros.",
+            "isCorrect": false,
+            "rationale": "Seulement pour les injures raciales ou graves."
+          },
+          {
+            "text": "Coupure internet.",
+            "isCorrect": false,
+            "rationale": "Peine non prévue pour cette infraction."
+          }
+        ],
+        "hint": "Petit montant."
+      },
+      {
+        "id": 36,
+        "difficulty": "Facile",
+        "question": "Droit de réponse = ?",
+        "options": [
+          {
+            "text": "Donner sa version des faits.",
+            "isCorrect": true,
+            "rationale": "Permet de rétablir la vérité après une mise en cause."
+          },
+          {
+            "text": "Fermer le journal.",
+            "isCorrect": false,
+            "rationale": "N'est pas une sanction de fermeture."
+          },
+          {
+            "text": "Gagner de l'argent.",
+            "isCorrect": false,
+            "rationale": "C'est un droit d'expression, pas une indemnité."
+          },
+          {
+            "text": "Empêcher l'article.",
+            "isCorrect": false,
+            "rationale": "Intervient après la publication."
+          }
+        ],
+        "hint": "Réplique gratuite."
+      },
+      {
+        "id": 37,
+        "difficulty": "Facile",
+        "question": "Où sont les types d'infractions ?",
+        "options": [
+          {
+            "text": "Code pénal.",
+            "isCorrect": true,
+            "rationale": "Définit les contraventions, délits et crimes."
+          },
+          {
+            "text": "Code civil.",
+            "isCorrect": false,
+            "rationale": "S'occupe des contrats et dommages civils."
+          },
+          {
+            "text": "Code de la com.",
+            "isCorrect": false,
+            "rationale": "N'existe pas."
+          },
+          {
+            "text": "Constitution.",
+            "isCorrect": false,
+            "rationale": "Définit les pouvoirs, pas les délits précis."
+          }
+        ],
+        "hint": "Livre des punitions."
+      },
+      {
+        "id": 38,
+        "difficulty": "Facile",
+        "question": "Signalement LCEN ?",
+        "options": [
+          {
+            "text": "Description, URL, motifs.",
+            "isCorrect": true,
+            "rationale": "Formalisme obligatoire pour alerter l'hébergeur."
+          },
+          {
+            "text": "Juste screen.",
+            "isCorrect": false,
+            "rationale": "Insuffisant légalement pour engager la responsabilité."
+          },
+          {
+            "text": "Menace.",
+            "isCorrect": false,
+            "rationale": "Inutile pour la validité technique."
+          },
+          {
+            "text": "Nom du juge.",
+            "isCorrect": false,
+            "rationale": "On peut signaler avant tout procès."
+          }
+        ],
+        "hint": "Détails précis."
+      },
+      {
+        "id": 39,
+        "difficulty": "Facile",
+        "question": "Signalétique jeunesse = ?",
+        "options": [
+          {
+            "text": "Protection enfance.",
+            "isCorrect": true,
+            "rationale": "Mission de l'ARCOM pour les publics fragiles."
+          },
+          {
+            "text": "Pub clandestine.",
+            "isCorrect": false,
+            "rationale": "Lutte contre la pub cachée, pas l'âge."
+          },
+          {
+            "text": "Téléchargement.",
+            "isCorrect": false,
+            "rationale": "Concerne le droit d'auteur."
+          },
+          {
+            "text": "Pluralisme.",
+            "isCorrect": false,
+            "rationale": "Concerne le temps de parole."
+          }
+        ],
+        "hint": "Déconseillé aux moins de..."
+      },
+      {
+        "id": 40,
+        "difficulty": "Facile",
+        "question": "Litiges particuliers ?",
+        "options": [
+          {
+            "text": "Ordre judiciaire.",
+            "isCorrect": true,
+            "rationale": "Compétent pour les conflits entre personnes privées."
+          },
+          {
+            "text": "Administratif.",
+            "isCorrect": false,
+            "rationale": "Compétent pour les conflits avec l'État."
+          },
+          {
+            "text": "Conseil Consti.",
+            "isCorrect": false,
+            "rationale": "Juge les lois, pas les gens."
+          },
+          {
+            "text": "CEDH.",
+            "isCorrect": false,
+            "rationale": "Juge les États après tous les recours."
+          }
+        ],
+        "hint": "Tribunaux classiques."
+      },
+      {
+        "id": 41,
+        "difficulty": "Difficile",
+        "question": "Peut-on prouver la vérité d'un fait privé en diffamation ?",
+        "options": [
+          {
+            "text": "Oui, si c'est vrai.",
+            "isCorrect": false,
+            "rationale": "La vérité ne suffit pas si le domaine est interdit par la loi."
+          },
+          {
+            "text": "Non, Art 35 l'interdit.",
+            "isCorrect": true,
+            "rationale": "On ne peut prouver la vérité pour des faits relevant de la vie privée."
+          },
+          {
+            "text": "Sous 24h.",
+            "isCorrect": false,
+            "rationale": "Le délai est de 10 jours et l'interdiction vie privée demeure."
+          },
+          {
+            "text": "Seulement si ministre.",
+            "isCorrect": false,
+            "rationale": "La fonction ne lève pas l'interdiction pour la sphère intime."
+          }
+        ],
+        "hint": "Limites de l'exceptio veritatis."
+      },
+      {
+        "id": 42,
+        "difficulty": "Difficile",
+        "question": "Responsabilité DP en direct ?",
+        "options": [
+          {
+            "text": "Toujours responsable.",
+            "isCorrect": false,
+            "rationale": "Le DP ne peut être tenu pour ce qu'il ne peut matériellement pas contrôler."
+          },
+          {
+            "text": "Non, si pas de fixation.",
+            "isCorrect": true,
+            "rationale": "L'absence d'enregistrement préalable écarte la cascade automatique."
+          },
+          {
+            "text": "Seulement public.",
+            "isCorrect": false,
+            "rationale": "S'applique à tout l'audiovisuel."
+          },
+          {
+            "text": "Devrait différer.",
+            "isCorrect": false,
+            "rationale": "Le différé n'est pas une obligation légale pour écarter la faute."
+          }
+        ],
+        "hint": "Contrôle a priori impossible."
+      },
+      {
+        "id": 43,
+        "difficulty": "Difficile",
+        "question": "Risque double qualification ?",
+        "options": [
+          {
+            "text": "Plus de sous.",
+            "isCorrect": false,
+            "rationale": "C'est une erreur de procédure, pas un gain."
+          },
+          {
+            "text": "Nullité assignation.",
+            "isCorrect": true,
+            "rationale": "On ne peut poursuivre pour deux délits pour le même propos (Art 50/53)."
+          },
+          {
+            "text": "Conseil d'État.",
+            "isCorrect": false,
+            "rationale": "Mauvais ordre de juridiction."
+          },
+          {
+            "text": "Juge choisit.",
+            "isCorrect": false,
+            "rationale": "En presse, le juge ne requalifie pas d'office (sauf racisme/sexisme)."
+          }
+        ],
+        "hint": "Droits de la défense."
+      },
+      {
+        "id": 44,
+        "difficulty": "Difficile",
+        "question": "Calcul pluralisme ARCOM ?",
+        "options": [
+          {
+            "text": "Égalité députés.",
+            "isCorrect": false,
+            "rationale": "Trop rigide, ne reflète pas la vie politique réelle."
+          },
+          {
+            "text": "1/3 exé, 2/3 représentativité.",
+            "isCorrect": true,
+            "rationale": "Règle des trois tiers combinant gouvernement et formations politiques."
+          },
+          {
+            "text": "Libre choix chaîne.",
+            "isCorrect": false,
+            "rationale": "Le régulateur surveille strictement cet équilibre."
+          },
+          {
+            "text": "Priorité opposition.",
+            "isCorrect": false,
+            "rationale": "L'opposition a un droit d'accès, mais pas une priorité démesurée."
+          }
+        ],
+        "hint": "Bloc gouvernemental vs Partis."
+      },
+      {
+        "id": 45,
+        "difficulty": "Difficile",
+        "question": "Qui n'est PAS tenu au secret instruction ?",
+        "options": [
+          {
+            "text": "Juge.",
+            "isCorrect": false,
+            "rationale": "Acteur central de la procédure."
+          },
+          {
+            "text": "OPJ.",
+            "isCorrect": false,
+            "rationale": "Chargé de l'enquête sous secret."
+          },
+          {
+            "text": "Journaliste.",
+            "isCorrect": true,
+            "rationale": "Ne concourt pas à la procédure, peut publier s'il obtient l'info."
+          },
+          {
+            "text": "Expert.",
+            "isCorrect": false,
+            "rationale": "Auxiliaire de justice tenu au secret."
+          }
+        ],
+        "hint": "Observateur extérieur."
+      },
+      {
+        "id": 46,
+        "difficulty": "Difficile",
+        "question": "Hébergeur notifié ne retire pas ?",
+        "options": [
+          {
+            "text": "Auteur principal.",
+            "isCorrect": false,
+            "rationale": "Il n'a pas créé le contenu original."
+          },
+          {
+            "text": "Irresponsabilité totale.",
+            "isCorrect": false,
+            "rationale": "Perdue s'il n'agit pas après alerte."
+          },
+          {
+            "text": "Responsable par omission.",
+            "isCorrect": true,
+            "rationale": "Sa responsabilité est engagée car il a laissé l'illicite en ligne."
+          },
+          {
+            "text": "Complice employé.",
+            "isCorrect": false,
+            "rationale": "Le lien de subordination ne définit pas le régime LCEN."
+          }
+        ],
+        "hint": "Connaissance effective."
+      },
+      {
+        "id": 47,
+        "difficulty": "Difficile",
+        "question": "Diffamation au conditionnel ?",
+        "options": [
+          {
+            "text": "Non.",
+            "isCorrect": false,
+            "rationale": "Le droit punit l'attaque, pas seulement l'affirmation."
+          },
+          {
+            "text": "Oui, insinuation comprise.",
+            "isCorrect": true,
+            "rationale": "L'article 29 punit l'allégation, même déguisée ou douteuse."
+          },
+          {
+            "text": "Si pas mention enquête.",
+            "isCorrect": false,
+            "rationale": "La mention ne protège pas si l'honneur est touché."
+          },
+          {
+            "text": "Hypothèse permise.",
+            "isCorrect": false,
+            "rationale": "Permise si base factuelle, sinon c'est diffamatoire."
+          }
+        ],
+        "hint": "Forme dubitative."
+      },
+      {
+        "id": 48,
+        "difficulty": "Difficile",
+        "question": "Exception identité mineur ?",
+        "options": [
+          {
+            "text": "Accord mineur.",
+            "isCorrect": false,
+            "rationale": "Le mineur n'a pas la capacité juridique pour cela."
+          },
+          {
+            "text": "Demande des gardiens.",
+            "isCorrect": true,
+            "rationale": "Seuls les parents/tuteurs peuvent lever l'anonymat (Art 39 bis)."
+          },
+          {
+            "text": "Lieu public.",
+            "isCorrect": false,
+            "rationale": "Le lieu ne change pas la protection de l'enfance."
+          },
+          {
+            "text": "Enfant star.",
+            "isCorrect": false,
+            "rationale": "La notoriété n'enlève pas la protection de victime."
+          }
+        ],
+        "hint": "Autorité parentale."
+      },
+      {
+        "id": 49,
+        "difficulty": "Difficile",
+        "question": "Critères Bédat (CEDH) ?",
+        "options": [
+          {
+            "text": "Ventes journal.",
+            "isCorrect": false,
+            "rationale": "Critère économique sans valeur juridique de droits de l'homme."
+          },
+          {
+            "text": "Intérêt général / Gêne enquête.",
+            "isCorrect": true,
+            "rationale": "Équilibre entre droit de savoir et bon fonctionnement justice."
+          },
+          {
+            "text": "Accord procureur.",
+            "isCorrect": false,
+            "rationale": "S'il y a accord, il n'y a plus de litige."
+          },
+          {
+            "text": "Couleur politique.",
+            "isCorrect": false,
+            "rationale": "La neutralité interdit ce critère."
+          }
+        ],
+        "hint": "Proportionnalité."
+      },
+      {
+        "id": 50,
+        "difficulty": "Difficile",
+        "question": "Départ prescription web ?",
+        "options": [
+          {
+            "text": "Chaque jour.",
+            "isCorrect": false,
+            "rationale": "Pas d'infraction continue pour la presse en ligne en France."
+          },
+          {
+            "text": "Découverte victime.",
+            "isCorrect": false,
+            "rationale": "La date subjective est rejetée au profit de la date objective."
+          },
+          {
+            "text": "Mise en ligne initiale.",
+            "isCorrect": true,
+            "rationale": "Date du premier acte de publication."
+          },
+          {
+            "text": "Notification.",
+            "isCorrect": false,
+            "rationale": "Ne concerne pas le délai de prescription pénale."
+          }
+        ],
+        "hint": "Premier clic public."
+      },
+      {
+        "id": 51,
+        "difficulty": "Difficile",
+        "question": "Condition validation sanction ARCOM ?",
+        "options": [
+          {
+            "text": "Seulement argent.",
+            "isCorrect": false,
+            "rationale": "Elle peut suspendre, c'est validé par le Conseil Consti."
+          },
+          {
+            "text": "Garanties procédure.",
+            "isCorrect": true,
+            "rationale": "Respect des droits de la défense et recours possible."
+          },
+          {
+            "text": "Magistrats seuls.",
+            "isCorrect": false,
+            "rationale": "Le collège est mixte (politiques, experts)."
+          },
+          {
+            "text": "Validation PM.",
+            "isCorrect": false,
+            "rationale": "Indépendance vis-à-vis du gouvernement."
+          }
+        ],
+        "hint": "Droits de la défense."
+      },
+      {
+        "id": 52,
+        "difficulty": "Difficile",
+        "question": "Revenge Porn (226-2-1) ?",
+        "options": [
+          {
+            "text": "Diffamation.",
+            "isCorrect": false,
+            "rationale": "C'est une violation d'intimité, pas une diffamation."
+          },
+          {
+            "text": "Diffusion sans accord d'un support consenti.",
+            "isCorrect": true,
+            "rationale": "Punit le fait de rendre public ce qui était privé à l'origine."
+          },
+          {
+            "text": "Harcèlement meute.",
+            "isCorrect": false,
+            "rationale": "Peut être lié, mais c'est un délit spécifique."
+          },
+          {
+            "text": "Débauche.",
+            "isCorrect": false,
+            "rationale": "Terme non juridique dans ce cadre."
+          }
+        ],
+        "hint": "Vengeance pornographique."
+      },
+      {
+        "id": 53,
+        "difficulty": "Difficile",
+        "question": "Action Art 35 quater ?",
+        "options": [
+          {
+            "text": "Asso victime.",
+            "isCorrect": false,
+            "rationale": "L'asso n'est pas le titulaire premier du droit à la dignité."
+          },
+          {
+            "text": "Exclusivement victime vivante.",
+            "isCorrect": true,
+            "rationale": "Seule la personne touchée peut juger de l'atteinte à sa dignité."
+          },
+          {
+            "text": "Procureur d'office.",
+            "isCorrect": false,
+            "rationale": "Ne peut pas agir sans plainte pour ce délit."
+          },
+          {
+            "text": "Héritiers.",
+            "isCorrect": false,
+            "rationale": "N'ont pas qualité pour agir sur ce fondement précis."
+          }
+        ],
+        "hint": "Droit strictement personnel."
+      },
+      {
+        "id": 54,
+        "difficulty": "Difficile",
+        "question": "Harcèlement meute (Schiappa) ?",
+        "options": [
+          {
+            "text": "Attaque physique.",
+            "isCorrect": false,
+            "rationale": "C'est un délit de propos répétés."
+          },
+          {
+            "text": "Succession propos par plusieurs.",
+            "isCorrect": true,
+            "rationale": "Chaque auteur n'agit qu'une fois mais l'effet est répété."
+          },
+          {
+            "text": "Plusieurs articles.",
+            "isCorrect": false,
+            "rationale": "Le droit d'informer n'est pas un harcèlement."
+          },
+          {
+            "text": "10 personnes rue.",
+            "isCorrect": false,
+            "rationale": "Conception trop étroite, vise surtout le web."
+          }
+        ],
+        "hint": "Effet de raid."
+      },
+      {
+        "id": 55,
+        "difficulty": "Difficile",
+        "question": "Compte-rendu protégé ?",
+        "options": [
+          {
+            "text": "Non.",
+            "isCorrect": false,
+            "rationale": "La loi protège le récit de l'audience."
+          },
+          {
+            "text": "Oui si fidèle et bonne foi.",
+            "isCorrect": true,
+            "rationale": "Condition d'immunité de l'article 41."
+          },
+          {
+            "text": "Seulement revue juridique.",
+            "isCorrect": false,
+            "rationale": "Tout média peut en bénéficier."
+          },
+          {
+            "text": "Secret instruction.",
+            "isCorrect": false,
+            "rationale": "Ne s'applique pas au procès public."
+          }
+        ],
+        "hint": "Récit honnête."
+      },
+      {
+        "id": 56,
+        "difficulty": "Difficile",
+        "question": "Action asso racisme ?",
+        "options": [
+          {
+            "text": "10 ans existence.",
+            "isCorrect": false,
+            "rationale": "La loi demande 5 ans."
+          },
+          {
+            "text": "Accord personne visée.",
+            "isCorrect": true,
+            "rationale": "Indispensable si une personne physique est ciblée."
+          },
+          {
+            "text": "3 villes.",
+            "isCorrect": false,
+            "rationale": "Critère géographique inexistant."
+          },
+          {
+            "text": "Procureur origine.",
+            "isCorrect": false,
+            "rationale": "L'asso peut initier seule sous réserve d'accord."
+          }
+        ],
+        "hint": "Consentement victime."
+      },
+      {
+        "id": 57,
+        "difficulty": "Difficile",
+        "question": "Délai réponse après relaxe ?",
+        "options": [
+          {
+            "text": "10 jours.",
+            "isCorrect": false,
+            "rationale": "Délai des preuves, pas de la réponse."
+          },
+          {
+            "text": "3 mois.",
+            "isCorrect": true,
+            "rationale": "Réouverture légale pour laver son honneur après le procès."
+          },
+          {
+            "text": "1 an.",
+            "isCorrect": false,
+            "rationale": "Concerne la prescription de certains délits."
+          },
+          {
+            "text": "Permanent.",
+            "isCorrect": false,
+            "rationale": "Rien n'est permanent en droit de la presse."
+          }
+        ],
+        "hint": "Même durée que la prescription."
+      },
+      {
+        "id": 58,
+        "difficulty": "Difficile",
+        "question": "Critique technique arrêt ?",
+        "options": [
+          {
+            "text": "Discrédit puni.",
+            "isCorrect": false,
+            "rationale": "La critique est permise par la loi."
+          },
+          {
+            "text": "Protégée par Art 434-25 al 2.",
+            "isCorrect": true,
+            "rationale": "La loi exclut expressément la technique du délit de discrédit."
+          },
+          {
+            "text": "Si anonyme.",
+            "isCorrect": false,
+            "rationale": "L'anonymat ne définit pas la légalité."
+          },
+          {
+            "text": "Accord juge.",
+            "isCorrect": false,
+            "rationale": "Le juge ne peut pas interdire la critique de son œuvre."
+          }
+        ],
+        "hint": "Liberté de doctrine."
+      },
+      {
+        "id": 59,
+        "difficulty": "Difficile",
+        "question": "Happy Slapping et Journaliste ?",
+        "options": [
+          {
+            "text": "Brassard suffit.",
+            "isCorrect": false,
+            "rationale": "C'est l'acte d'informer qui compte, pas l'objet."
+          },
+          {
+            "text": "Inapplicable si mission info.",
+            "isCorrect": true,
+            "rationale": "Exclusion légale pour ne pas entraver le reportage."
+          },
+          {
+            "text": "Intervenir physiquement.",
+            "isCorrect": false,
+            "rationale": "Le secours est une autre obligation légale."
+          },
+          {
+            "text": "Flouter.",
+            "isCorrect": false,
+            "rationale": "Question d'image, pas de constitution du délit."
+          }
+        ],
+        "hint": "Exclusion professionnelle."
+      },
+      {
+        "id": 60,
+        "difficulty": "Difficile",
+        "question": "Retrait sans mise en demeure ?",
+        "options": [
+          {
+            "text": "Jamais.",
+            "isCorrect": false,
+            "rationale": "La loi prévoit des exceptions à cette règle."
+          },
+          {
+            "text": "Changement substantiel capital.",
+            "isCorrect": true,
+            "rationale": "Si la structure du média change trop, l'autorisation saute."
+          },
+          {
+            "text": "Audience < 1%.",
+            "isCorrect": false,
+            "rationale": "Pas un motif de retrait légal."
+          },
+          {
+            "text": "Accord Conseil Consti.",
+            "isCorrect": false,
+            "rationale": "Le Conseil Consti n'est pas le tuteur de l'ARCOM."
+          }
+        ],
+        "hint": "Cadre contractuel rompu."
+      }
+    ]
+  },
+  "flashcards": [
+    [
+      {
+        "question": "Quelle est la différence de sanction entre le droit et la déontologie ?",
+        "answer": "Le droit est sanctionné par la puissance publique (État), alors que la déontologie est sanctionnée par les pairs de la profession."
+      },
+      {
+        "question": "Quel texte de 1789 fonde la liberté de communication en France ?",
+        "answer": "C'est l'article 11 de la Déclaration des Droits de l'Homme et du Citoyen (DDHC)."
+      },
+      {
+        "question": "Quels sont les trois éléments nécessaires pour constituer une infraction ?",
+        "answer": "L'élément légal (un texte), l'élément matériel (un acte) et l'élément moral (l'intention)."
+      },
+      {
+        "question": "Quelle branche du droit régit les rapports entre l'État et les citoyens ?",
+        "answer": "Le droit public."
+      },
+      {
+        "question": "Quelle branche du droit régit les rapports entre les particuliers ?",
+        "answer": "Le droit privé."
+      },
+      {
+        "question": "Comment définit-on juridiquement le dénigrement ?",
+        "answer": "C'est la critique malveillante des produits ou services d'une entreprise concurrente."
+      },
+      {
+        "question": "Quelle est la définition légale de la diffamation ?",
+        "answer": "L'allégation ou l'imputation d'un fait précis qui porte atteinte à l'honneur ou à la considération."
+      },
+      {
+        "question": "Qu'est-ce qu'une injure selon la loi de 1881 ?",
+        "answer": "Une expression outrageante ou un terme de mépris ne renfermant l'imputation d'aucun fait précis."
+      },
+      {
+        "question": "Quel organisme est né de la fusion du CSA et de la HADOPI ?",
+        "answer": "L'ARCOM (Autorité de régulation de la communication audiovisuelle et numérique)."
+      },
+      {
+        "question": "Qu'est-ce que la censure par rapport à la sanction judiciaire ?",
+        "answer": "La censure est un contrôle administratif préventif (avant), tandis que la sanction est répressive (après)."
+      },
+      {
+        "question": "Quel critère permet de qualifier un groupe sur un réseau social de privé ?",
+        "answer": "L'existence d'une 'communauté d'intérêt' et un accès restreint aux membres agréés."
+      },
+      {
+        "question": "Que punit l'article 24 bis de la loi de 1881 ?",
+        "answer": "Le négationnisme, soit la contestation de l'existence des crimes contre l'humanité (ex: la Shoah)."
+      },
+      {
+        "question": "Quel est le rôle principal d'un Fournisseur d'Accès à Internet (FAI) ?",
+        "answer": "Assurer la connexion technique au réseau sans contrôler le contenu des messages."
+      },
+      {
+        "question": "Quelle est la responsabilité d'un hébergeur selon la LCEN ?",
+        "answer": "Il n'est responsable que s'il ne retire pas promptement un contenu illicite après avoir été notifié."
+      },
+      {
+        "question": "Quel droit fondamental est protégé par l'article 9 du Code Civil ?",
+        "answer": "Le droit au respect de la vie privée."
+      },
+      {
+        "question": "Peut-on utiliser l'image du bien d'autrui (ex: sa maison) ?",
+        "answer": "Oui, sauf si cette exploitation cause un trouble anormal au propriétaire."
+      },
+      {
+        "question": "Quel est le délai de prescription de principe pour les délits de presse ?",
+        "answer": "3 mois à compter de la première publication."
+      },
+      {
+        "question": "Dans quels cas la prescription de presse est-elle portée à 1 an ?",
+        "answer": "Pour les propos provoquant à la haine, à la violence ou à la discrimination (racisme, sexisme, etc.)."
+      },
+      {
+        "question": "Qu'est-ce que le droit de réponse ?",
+        "answer": "La faculté pour toute personne nommée dans un média de faire insérer gratuitement sa version des faits."
+      },
+      {
+        "question": "Qui est le premier responsable pénal dans le régime de la cascade ?",
+        "answer": "Le Directeur de Publication (DP)."
+      },
+      {
+        "question": "Qu'est-ce que l'Exception de Vérité (exceptio veritatis) ?",
+        "answer": "Un moyen de défense permettant de prouver la réalité des faits diffamatoires pour être relaxé."
+      },
+      {
+        "question": "Quels sont les 4 critères de la bonne foi du journaliste ?",
+        "answer": "But légitime, absence d'animosité, prudence dans l'expression et sérieux de l'enquête."
+      },
+      {
+        "question": "Qu'est-ce que la règle des trois tiers de l'ARCOM ?",
+        "answer": "Répartition du temps de parole : 1/3 pour l'exécutif et 2/3 pour les autres formations politiques."
+      },
+      {
+        "question": "Qui n'est pas tenu au secret de l'instruction selon la jurisprudence ?",
+        "answer": "Le journaliste, car il ne concourt pas directement à la procédure judiciaire."
+      },
+      {
+        "question": "L'enregistrement audiovisuel des procès est-il autorisé ?",
+        "answer": "Non, il est interdit par principe (Art. 38 ter de la loi de 1881) pour préserver la sérénité des débats."
+      },
+      {
+        "question": "Qu'est-ce que l'immunité judiciaire de l'article 41 ?",
+        "answer": "La protection des avocats contre les poursuites en diffamation pour leurs propos tenus en audience."
+      },
+      {
+        "question": "Quelle juridiction traite les recours contre les sanctions de l'ARCOM ?",
+        "answer": "Le Conseil d'État."
+      },
+      {
+        "question": "Pourquoi dit-on que le droit de la communication est 'non codifié' ?",
+        "answer": "Parce qu'il n'existe pas de Code unique ; les règles sont dispersées dans divers textes et codes."
+      },
+      {
+        "question": "Quelle est l'exception de responsabilité du DP pour le direct ?",
+        "answer": "Le DP n'est pas responsable s'il n'y a pas eu de fixation préalable du message avant diffusion."
+      },
+      {
+        "question": "Peut-on qualifier un même propos à la fois de diffamation et d'injure ?",
+        "answer": "Non, le cumul de qualifications entraîne la nullité de l'acte de poursuite."
+      },
+      {
+        "question": "Peut-on diffuser l'identité d'un mineur victime d'infraction ?",
+        "answer": "Non, sauf si la publication est faite à la demande des parents ou tuteurs (ex: avis de recherche)."
+      },
+      {
+        "question": "Qu'est-ce que le Revenge Porn (Art. 226-2-1 CP) ?",
+        "answer": "La diffusion sans accord d'images sexuelles obtenues avec le consentement de la personne."
+      },
+      {
+        "question": "Comment définit-on le harcèlement de meute numérique ?",
+        "answer": "Des propos répétés par plusieurs personnes, de manière concertée ou successive, contre une victime."
+      },
+      {
+        "question": "Quelle est la condition pour qu'une association poursuive un propos raciste ?",
+        "answer": "Elle doit avoir 5 ans d'existence et obtenir l'accord de la victime identifiée."
+      },
+      {
+        "question": "La critique technique d'un arrêt de justice est-elle un délit ?",
+        "answer": "Non, l'article 434-25 exclut expressément les commentaires techniques et la doctrine juridique."
+      },
+      {
+        "question": "Qu'est-ce que le Happy Slapping ?",
+        "answer": "Le fait de filmer et diffuser des violences physiques, puni comme complicité de ces violences."
+      },
+      {
+        "question": "Quelle mesure l'ARCOM doit-elle prendre avant de sanctionner ?",
+        "answer": "Une mise en demeure formelle."
+      },
+      {
+        "question": "La diffamation peut-elle être sous forme de doute ?",
+        "answer": "Oui, elle peut être constituée par voie d'insinuation ou sous forme dubitative (conditionnel)."
+      },
+      {
+        "question": "Quel droit protège la présomption d'innocence (Art. 9-1) ?",
+        "answer": "Le droit de ne pas être présenté comme coupable avant une condamnation définitive."
+      },
+      {
+        "question": "Quel ordre de juridiction juge les conflits entre particuliers ?",
+        "answer": "L'ordre judiciaire."
+      },
+      {
+        "question": "Quelle est la sanction maximale pour une injure privée simple ?",
+        "answer": "Une contravention de 38 euros (1ère classe)."
+      },
+      {
+        "question": "Peut-on prouver la vérité d'un fait relevant de la vie privée ?",
+        "answer": "Non, la loi interdit l'offre de preuve pour les faits concernant l'intimité de la vie privée."
+      },
+      {
+        "question": "Que signifie la neutralité technique du Fournisseur d'Accès ?",
+        "answer": "Le FAI transporte les données sans exercer de contrôle éditorial sur leur contenu."
+      },
+      {
+        "question": "Quel est le but de la signalétique jeunesse de l'ARCOM ?",
+        "answer": "Protéger les mineurs contre les contenus violents ou inadaptés à la télévision."
+      },
+      {
+        "question": "Un héritier peut-il agir en diffamation envers un mort ?",
+        "answer": "Oui, s'il prouve que le propos porte atteinte à l'honneur ou à la considération des héritiers."
+      }
+    ]
+  ],
+  "panic": [
+    [
+      "1881 : Loi pilier fondamentale sur la liberté de la presse.",
+      "Art. 11 DDHC : Fondement constitutionnel de la liberté d'expression.",
+      "Art. 9 Code Civil : Respect absolu de la vie privée.",
+      "Art. 9-1 Code Civil : Respect de la présomption d'innocence.",
+      "Prescription Presse : 3 mois (principe) / 1 an (haine, racisme, sexisme).",
+      "Diffamation : Imputation d'un FAIT PRÉCIS (débat sur la vérité possible).",
+      "Injure : Terme de mépris ou invective SANS fait précis.",
+      "Responsabilité Cascade : DP (1er) > Auteur (2e) > Imprimeur (3e).",
+      "Exception Direct : Pas de fixation préalable = DP non responsable.",
+      "ARCOM : Fusion CSA + HADOPI (9 membres nommés).",
+      "Mise en demeure : Préalable obligatoire avant toute sanction ARCOM.",
+      "Conseil d'État : Juge des recours contre les décisions de l'ARCOM.",
+      "LCEN 2004 : Responsabilité de l'hébergeur uniquement après signalement.",
+      "Notification LCEN : URL + motifs légaux + description (obligatoires).",
+      "Exceptio Veritatis : Offre de preuve de vérité (délai de 10 jours).",
+      "Vérité + Vie Privée : Preuve INTERDITE en diffamation (Art. 35).",
+      "Dénigrement : Vise les produits/services (responsabilité civile).",
+      "Droit de réponse : Gratuit, même place, mêmes caractères que l'article.",
+      "Art. 38 ter : Interdiction de filmer ou enregistrer les audiences.",
+      "Art. 41 : Immunité des plaidoiries et des comptes-rendus fidèles.",
+      "Secret instruction : Inopposable aux journalistes (Arrêt Bédat).",
+      "Cumul de qualifications : Interdit (Diffamation + Injure = Nullité).",
+      "Image d'un bien : Libre d'utilisation sauf trouble anormal de jouissance.",
+      "Revenge Porn : Délit de diffusion sans accord (Art. 226-2-1 CP).",
+      "Harcèlement de meute : Propos répétés par plusieurs (concertés ou non).",
+      "Bonne foi : But légitime + enquête sérieuse + prudence + pas d'animosité.",
+      "Communauté d'intérêt : Critère pour l'injure 'privée' sur les réseaux.",
+      "Éléments du délit : Légal (texte), Matériel (acte), Moral (intention).",
+      "Droit objectif : Ensemble des règles sanctionnées par la puissance publique.",
+      "Signalétique jeunesse : Mission ARCOM de protection des mineurs."
+    ]
+  ],
+  "concentre": {
+    "chapter_title": "Droit de la Communication - L'essentiel",
+    "reading_time": "15 min",
+    "sections": [
+      {
+        "title": "Les Fondements et la Hiérarchie du Droit",
+        "kind": "key",
+        "bullets": [
+          "Le droit objectif est l'ensemble des règles obligatoires et coercitives régissant la vie en société, tandis que la déontologie est une auto-régulation sanctionnée par les pairs.",
+          "Le droit public régit les relations entre l'État et les particuliers, alors que le droit privé s'occupe des rapports entre individus.",
+          "Selon l'article 55 de la Constitution, les traités internationaux comme la CEDH ont une autorité supérieure aux lois françaises régulièrement ratifiées."
+        ]
+      },
+      {
+        "title": "La Liberté de Communication et ses Limites",
+        "kind": "key",
+        "bullets": [
+          "L'article 11 de la DDHC de 1789 est le texte fondateur : 'La libre communication des pensées et des opinions est un des droits les plus précieux de l'homme'.",
+          "Cette liberté n'est pas absolue ; elle est limitée par la loi pour protéger l'honneur, la vie privée et l'ordre public.",
+          "La censure est un contrôle administratif préventif (avant diffusion), contrairement à la sanction judiciaire qui intervient a posteriori."
+        ]
+      },
+      {
+        "title": "Diffamation et Injure : Distinctions",
+        "kind": "def",
+        "bullets": [
+          "La diffamation (Art. 29) est l'allégation ou l'imputation d'un fait précis portant atteinte à l'honneur ou à la considération. Elle peut être insinuée ou dubitative.",
+          "L'injure est toute expression outrageante, terme de mépris ou invective qui ne renferme l'imputation d'aucun fait.",
+          "Le caractère public ou privé dépend de l'existence d'une 'communauté d'intérêt' (ex: compte privé sur réseau social avec accès restreint)."
+        ]
+      },
+      {
+        "title": "Le Régime de Responsabilité en Cascade",
+        "kind": "key",
+        "bullets": [
+          "L'article 42 de la loi de 1881 désigne le Directeur de Publication (DP) comme auteur principal, suivi de l'auteur du propos, puis de l'imprimeur.",
+          "Dans l'audiovisuel et sur Internet, la responsabilité pénale du DP est écartée en cas d'absence de fixation préalable du message (ex: direct imprévu).",
+          "Le DP est le 'capitaine' du média et assume la responsabilité éditoriale des contenus diffusés."
+        ]
+      },
+      {
+        "title": "Les Moyens de Défense en Diffamation",
+        "kind": "key",
+        "bullets": [
+          "L'Exception de Vérité (exceptio veritatis) permet de s'exonérer en prouvant la réalité du fait, sauf si cela concerne la vie privée (Art. 35).",
+          "La Bonne Foi repose sur quatre critères : un but légitime d'informer, l'absence d'animosité personnelle, la prudence dans l'expression et une enquête sérieuse.",
+          "Contrairement à la vérité, la bonne foi n'exige pas la preuve absolue de la réalité des faits mais la preuve d'un travail honnête."
+        ]
+      },
+      {
+        "title": "Régulation du Numérique et LCEN",
+        "kind": "key",
+        "bullets": [
+          "Le Fournisseur d'Accès (FAI) assure la connexion technique, tandis que l'hébergeur stocke les contenus.",
+          "L'hébergeur bénéficie d'une responsabilité limitée : il ne devient responsable que s'il ne retire pas 'promptement' un contenu illicite après une notification valide.",
+          "Une notification valide doit obligatoirement contenir la description du contenu, sa localisation exacte (URL) et les motifs légaux du signalement."
+        ]
+      },
+      {
+        "title": "L'ARCOM : Pouvoirs et Missions",
+        "kind": "key",
+        "bullets": [
+          "L'ARCOM (fusion CSA/HADOPI) est composée de 9 membres et régule la communication audiovisuelle et numérique.",
+          "La mise en demeure est un préalable obligatoire avant toute sanction plus grave (amende, suspension, retrait d'autorisation).",
+          "Elle garantit le pluralisme politique (règle des trois tiers hors élection) et assure la protection des mineurs (signalétique jeunesse)."
+        ]
+      },
+      {
+        "title": "Vie Privée et Droit à l'Image",
+        "kind": "key",
+        "bullets": [
+          "L'article 9 du Code Civil garantit à chacun le respect de sa vie privée. Les personnalités publiques ont la même protection pour leur sphère intime.",
+          "Une atteinte est licite si l'information est indispensable à un débat d'intérêt général ou liée aux fonctions officielles.",
+          "L'image d'un bien (maison, voiture) est libre d'utilisation, sauf si sa diffusion cause un 'trouble anormal' au propriétaire."
+        ]
+      },
+      {
+        "title": "Justice et Liberté d'Informer",
+        "kind": "key",
+        "bullets": [
+          "Le secret de l'instruction s'applique aux magistrats et policiers, mais les journalistes ne sont pas tenus au secret (arrêt Bédat).",
+          "L'enregistrement des audiences est interdit par principe (Art. 38 ter) pour garantir la sérénité des débats.",
+          "L'article 41 prévoit une immunité pour les propos tenus lors des plaidoiries et pour les comptes-rendus fidèles d'audiences."
+        ]
+      },
+      {
+        "title": "Délais, Procédure et Droit de Réponse",
+        "kind": "tip",
+        "bullets": [
+          "Le délai de prescription est de 3 mois (ou 1 an pour haine/racisme) à compter du premier acte de publication.",
+          "Une assignation est nulle si elle cumule les qualifications de diffamation et d'injure pour le même propos (Art. 50).",
+          "Le droit de réponse permet une insertion gratuite dans le média pour rétablir l'équilibre de l'information."
+        ]
+      },
+      {
+        "title": "Délits Spécifiques et Évolutions",
+        "kind": "def",
+        "bullets": [
+          "Le négationnisme (Art. 24 bis) réprime la contestation de l'existence des crimes contre l'humanité reconnus.",
+          "Le Revenge Porn (Art. 226-2-1) punit la diffusion sans accord d'un support sexuel obtenu avec consentement.",
+          "Le harcèlement de meute (Loi Schiappa) est constitué par la répétition de propos par plusieurs personnes, même sans concertation préalable."
+        ]
+      },
+      {
+        "title": "Astuces pour le QCM",
+        "kind": "tip",
+        "bullets": [
+          "Ne confondez pas le dénigrement (vise le produit) et la diffamation (vise la personne).",
+          "Attention au 'direct' : le DP est exonéré s'il n'y a pas eu de fixation préalable du message.",
+          "Retenez que le Conseil d'État est la juridiction de recours pour les décisions de l'ARCOM."
+        ]
+      }
+    ]
+  }
+}
