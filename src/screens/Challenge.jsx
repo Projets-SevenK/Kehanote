@@ -260,7 +260,12 @@ export function Challenge({ route, go }) {
 
   const questions = useMemo(() => {
     if (!level || !allQcm) return []
-    return allQcm.filter(q => q.level === level.id).sort(() => 0.5 - Math.random()).slice(0, level.target)
+    const filtered = allQcm.filter(q => q.level === level.id)
+    return filtered
+      .map(value => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value)
+      .slice(0, level.target)
   }, [allQcm, level])
 
   return (
