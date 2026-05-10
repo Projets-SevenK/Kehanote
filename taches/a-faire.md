@@ -113,11 +113,11 @@ Commit : `feat(exam): nouvel écran ExamenBlanc`
 
 ---
 
-## Étape H — Mise à jour App.jsx
+## Étape H — Mise à jour App.jsx ✅
 
-- [ ] Ajouter `ChapterHub`, `QRCPractice`, `ExamenBlanc` dans le routeur
-- [ ] Vérifier que la navigation complète fonctionne : Home → SubjectHub → ChapterHub → [Concentré / Flashcards / Challenge / QRC] → Reward → retour ChapterHub
-- [ ] Vérifier : Home → SubjectHub → ExamenBlanc → Reward
+- [x] Ajouter `ChapterHub`, `QRCPractice`, `ExamenBlanc` dans le routeur
+- [x] Vérifier que la navigation complète fonctionne : Home → SubjectHub → ChapterHub → [Concentré / Flashcards / Challenge / QRC] → Reward → home
+- [x] Vérifier : Home → SubjectHub → ExamenBlanc → Reward
 
 Commit : `refactor(app): mise à jour routeur pour architecture v2`
 
@@ -182,8 +182,8 @@ Format JSON attendu en entrée :
 }
 ```
 
-- [ ] Mettre à jour `scripts/import.js` pour créer le sujet, les chapitres, et insérer toutes les données liées
-- [ ] Tester sur un JSON minimal (1 chapitre, quelques questions)
+- [x] Mettre à jour `scripts/import.js` pour créer le sujet, les chapitres, et insérer toutes les données liées
+- [x] Tester sur un JSON minimal (1 chapitre) — test réussi, toutes les tables alimentées
 
 Commit : `chore(scripts): mise à jour import.js pour format v2 avec chapitres`
 
