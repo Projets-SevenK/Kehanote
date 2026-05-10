@@ -33,7 +33,7 @@ function BackBtn({ onBack }) {
 }
 
 // ── Difficulty picker ───────────────────────────────────────────────────────
-function DifficultyPicker({ subject, allQcm, onBack, onPick }) {
+function DifficultyPicker({ subject, chapter, allQcm, onBack, onPick }) {
   return (
     <div className="kn-screen screen-anim">
       <div className="kn-scroll" style={{ paddingTop: 60, paddingBottom: 110 }}>
@@ -41,7 +41,7 @@ function DifficultyPicker({ subject, allQcm, onBack, onPick }) {
           <BackBtn onBack={onBack} />
           <div style={{ textAlign: 'center' }}>
             <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.12em', color: '#6E5A8A', textTransform: 'uppercase' }}>Challenge</div>
-            <div style={{ fontSize: 13, color: 'var(--ink-500)', fontWeight: 700 }}>{subject?.title}</div>
+            <div style={{ fontSize: 13, color: 'var(--ink-500)', fontWeight: 700 }}>{chapter ? `Ch. ${chapter.number} · ${subject?.title}` : subject?.title}</div>
           </div>
           <div style={{ width: 40 }}/>
         </div>
@@ -103,7 +103,7 @@ function DifficultyPicker({ subject, allQcm, onBack, onPick }) {
 }
 
 // ── Quiz ────────────────────────────────────────────────────────────────────
-function Quiz({ subject, level, questions, onBack, onComplete }) {
+function Quiz({ subject, chapter, level, questions, onBack, onComplete }) {
   const [idx,     setIdx]     = useState(0)
   const [picked,  setPicked]  = useState(null)
   const [answers, setAnswers] = useState([])
@@ -156,7 +156,7 @@ function Quiz({ subject, level, questions, onBack, onComplete }) {
     const history   = recordRun(subject?.id, level.id, rounded)
 
     // Persist to Supabase
-    supabase.from('challenge_scores').insert({ subject_id: subject?.id, level: level.id, score: rounded }).then(() => {})
+    supabase.from('challenge_scores').insert({ subject_id: subject?.id, chapter_id: chapter?.id, level: level.id, score: rounded }).then(() => {})
     supabase.from('sessions').insert({ subject_id: subject?.id, mode: 'qcm', cards_done: questions.length }).then(() => {})
 
     onComplete({ score: rounded, total: 20, counts: { correct: c, wrong: w, skip: s, n: questions.length }, level, best: history.best, isNewBest: rounded > prevBest })
@@ -250,23 +250,24 @@ function Quiz({ subject, level, questions, onBack, onComplete }) {
 
 // ── Main Challenge component ────────────────────────────────────────────────
 export function Challenge({ route, go }) {
-  const { subject } = route
-  const { data: allQcm, loading } = useQCM(subject?.id)
+  const { subject, chapter } = route
+  const { data: allQcm, loading } = useQCM({ chapterId: chapter?.id })
   const [level, setLevel] = useState(null)
 
   if (loading) return <div className="kn-screen screen-anim" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}><p style={{ color: 'var(--ink-300)' }}>Chargement…</p></div>
 
-  if (!level) return <DifficultyPicker subject={subject} allQcm={allQcm} onBack={() => go({ name: 'subjectHub', subject })} onPick={setLevel} />
+  if (!level) return <DifficultyPicker subject={subject} chapter={chapter} allQcm={allQcm} onBack={() => go({ name: 'chapterHub', subject, chapter })} onPick={setLevel} />
 
   const questions = allQcm.filter(q => q.level === level.id).slice(0, level.target)
 
   return (
     <Quiz
       subject={subject}
+      chapter={chapter}
       level={level}
       questions={questions}
       onBack={() => setLevel(null)}
-      onComplete={(payload) => go({ name: 'reward', subject, mode: 'qcm', ...payload })}
+      onComplete={(payload) => go({ name: 'reward', subject, chapter, mode: 'qcm', ...payload })}
     />
   )
 }

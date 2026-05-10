@@ -35,8 +35,8 @@ function FloatingHearts() {
 }
 
 export function Flashcards({ route, go }) {
-  const { subject } = route
-  const { data: cards, loading } = useFlashcards(subject?.id)
+  const { subject, chapter } = route
+  const { data: cards, loading } = useFlashcards(chapter?.id)
 
   const [idx,      setIdx]      = useState(0)
   const [flipped,  setFlipped]  = useState(false)
@@ -72,8 +72,8 @@ export function Flashcards({ route, go }) {
 
   useEffect(() => {
     if (isLast && cards.length > 0) {
-      supabase.from('sessions').insert({ subject_id: subject?.id, mode: 'swipe', cards_done: cards.length }).then(() => {})
-      const t = setTimeout(() => go({ name: 'reward', subject, score: score.know, total: cards.length, mode: 'swipe' }), 600)
+      supabase.from('sessions').insert({ subject_id: subject?.id, chapter_id: chapter?.id, mode: 'swipe', cards_done: cards.length }).then(() => {})
+      const t = setTimeout(() => go({ name: 'reward', subject, chapter, score: score.know, total: cards.length, mode: 'swipe' }), 600)
       return () => clearTimeout(t)
     }
   }, [isLast])
@@ -85,8 +85,8 @@ export function Flashcards({ route, go }) {
   if (loading) return <div className="kn-screen screen-anim" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}><p style={{ color: 'var(--ink-300)' }}>Chargement…</p></div>
   if (!cards.length) return (
     <div className="kn-screen screen-anim" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 20, padding: 32 }}>
-      <p style={{ color: 'var(--ink-300)' }}>Pas de cartes pour cette matière.</p>
-      <button className="btn-ghost" onClick={() => go({ name: 'subjectHub', subject })}>Retour</button>
+      <p style={{ color: 'var(--ink-300)' }}>Pas de cartes pour ce chapitre.</p>
+      <button className="btn-ghost" onClick={() => go({ name: 'chapterHub', subject, chapter })}>Retour</button>
     </div>
   )
 
@@ -94,7 +94,7 @@ export function Flashcards({ route, go }) {
     <div className="kn-screen screen-anim">
       {/* Top bar */}
       <div style={{ padding: '60px 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-        <BackBtn onBack={() => go({ name: 'subjectHub', subject })} />
+        <BackBtn onBack={() => go({ name: 'chapterHub', subject, chapter })} />
         <div style={{ textAlign: 'center' }}>
           <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: '0.12em', color: 'var(--rose-600)', textTransform: 'uppercase' }}>Swipe & Retiens</div>
           <div style={{ fontSize: 13, color: 'var(--ink-500)', fontWeight: 700 }}>{Math.min(idx + 1, cards.length)} / {cards.length}</div>

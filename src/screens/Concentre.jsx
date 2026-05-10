@@ -20,13 +20,12 @@ const KIND = {
 }
 
 export function Concentre({ route, go }) {
-  const { subject } = route
-  const { data, loading } = useConcentre(subject?.id)
-  const chapter = data[0]
+  const { subject, chapter: routeChapter } = route
+  const { data: chapter, loading } = useConcentre(routeChapter?.id)
 
   useEffect(() => {
     if (chapter && subject) {
-      supabase.from('sessions').insert({ subject_id: subject.id, mode: 'concentre', cards_done: 1 }).then(() => {})
+      supabase.from('sessions').insert({ subject_id: subject.id, chapter_id: routeChapter?.id, mode: 'concentre', cards_done: 1 }).then(() => {})
     }
   }, [chapter, subject])
 
@@ -36,7 +35,7 @@ export function Concentre({ route, go }) {
 
         {/* Top bar */}
         <div style={{ padding: '0 18px 8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <BackBtn onBack={() => go({ name: 'subjectHub', subject })} />
+          <BackBtn onBack={() => go({ name: 'chapterHub', subject, chapter: routeChapter })} />
           {chapter && (
             <div style={{ display: 'flex', alignItems: 'center', gap: 6, color: 'var(--ink-500)', fontSize: 12, fontWeight: 700 }}>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
@@ -74,7 +73,7 @@ export function Concentre({ route, go }) {
             {/* Sections */}
             <div style={{ padding: '0 18px', display: 'flex', flexDirection: 'column', gap: 14 }}>
               {(chapter.sections ?? []).map((sec, idx) => {
-                const k = KIND[sec.kind] ?? KIND.key
+                const k = KIND[sec.type] ?? KIND.key
                 return (
                   <div key={idx} className="kn-card" style={{ padding: 18, animation: `screen-in 480ms ${idx * 100}ms backwards cubic-bezier(.22,.9,.32,1.02)` }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 12 }}>
