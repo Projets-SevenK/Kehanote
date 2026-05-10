@@ -4,11 +4,12 @@ import { Home }       from './screens/Home'
 import { SubjectHub } from './screens/SubjectHub'
 import { Concentre }  from './screens/Concentre'
 import { Flashcards } from './screens/Flashcards'
-import { Challenge }  from './screens/Challenge'
-import { Panic }      from './screens/Panic'
-import { Reward }     from './screens/Reward'
-import { Profile }    from './screens/Profile'
-import { AllCards }   from './screens/AllCards'
+import { Challenge }   from './screens/Challenge'
+import { ChapterHub }  from './screens/ChapterHub'
+import { Panic }       from './screens/Panic'
+import { Reward }      from './screens/Reward'
+import { Profile }     from './screens/Profile'
+import { AllCards }    from './screens/AllCards'
 
 export default function App() {
   const [route, setRoute] = useState({ name: 'onboarding' })
@@ -17,11 +18,11 @@ export default function App() {
   function go(newRoute) { setRoute(newRoute) }
 
   // Screens that live outside the tab shell
-  const MODAL_SCREENS = { onboarding: Onboarding, subjectHub: SubjectHub, concentre: Concentre, flashcards: Flashcards, challenge: Challenge, panic: Panic, reward: Reward }
+  const MODAL_SCREENS = { onboarding: Onboarding, subjectHub: SubjectHub, chapterHub: ChapterHub, concentre: Concentre, flashcards: Flashcards, challenge: Challenge, panic: Panic, reward: Reward }
 
   if (route.name !== 'home') {
     const Screen = MODAL_SCREENS[route.name]
-    if (Screen) return <Screen key={route.name + (route.subject?.id ?? '')} route={route} go={go} />
+    if (Screen) return <Screen key={route.name + (route.subject?.id ?? '') + (route.chapter?.id ?? '')} route={route} go={go} />
   }
 
   // Tab shell (home / cards / profile)
