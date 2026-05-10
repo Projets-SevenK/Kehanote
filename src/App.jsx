@@ -7,6 +7,7 @@ import { Flashcards } from './screens/Flashcards'
 import { Challenge }    from './screens/Challenge'
 import { ChapterHub }   from './screens/ChapterHub'
 import { QRCPractice }  from './screens/QRCPractice'
+import { ExamenBlanc }  from './screens/ExamenBlanc'
 import { Panic }        from './screens/Panic'
 import { Reward }       from './screens/Reward'
 import { Profile }      from './screens/Profile'
@@ -19,7 +20,7 @@ export default function App() {
   function go(newRoute) { setRoute(newRoute) }
 
   // Screens that live outside the tab shell
-  const MODAL_SCREENS = { onboarding: Onboarding, subjectHub: SubjectHub, chapterHub: ChapterHub, concentre: Concentre, flashcards: Flashcards, challenge: Challenge, qrcPractice: QRCPractice, panic: Panic, reward: Reward }
+  const MODAL_SCREENS = { onboarding: Onboarding, subjectHub: SubjectHub, chapterHub: ChapterHub, concentre: Concentre, flashcards: Flashcards, challenge: Challenge, qrcPractice: QRCPractice, examenBlanc: ExamenBlanc, panic: Panic, reward: Reward }
 
   if (route.name !== 'home') {
     const Screen = MODAL_SCREENS[route.name]

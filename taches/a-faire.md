@@ -98,16 +98,16 @@ Commit : `feat(qrc): nouvel écran QRCPractice`
 
 ---
 
-## Étape G — Nouvel écran ExamenBlanc
+## Étape G — Nouvel écran ExamenBlanc ✅
 
 Objectif : simulation d'examen — 30 questions difficiles sur toute la matière, sans indice de niveau.
 
-- [ ] Reprend la logique de `Challenge` (Quiz), sans le DifficultyPicker
-- [ ] Fetch `qcm_questions` où `subject_id = X` et `is_final_exam = true`
-- [ ] Mélange aléatoire des 30 questions
-- [ ] Pas de skip possible (ou pénalité identique au mode difficile)
-- [ ] Pas de feedback immédiat sur la réponse — révélation uniquement à la fin
-- [ ] Écran de résultat : score /20, détail par question (bonne / mauvaise + explication), → Reward avec badge "Partiel simulé"
+- [x] Reprend la logique de `Challenge` (Quiz), sans le DifficultyPicker
+- [x] Fetch `qcm_questions` où `subject_id = X` et `is_final_exam = true`
+- [x] Mélange aléatoire des 30 questions
+- [x] Pas de skip possible — avance auto après 400ms sans feedback
+- [x] Pas de feedback immédiat — révélation uniquement à la fin (dépliable)
+- [x] Écran de résultat : score /20, détail par question (bonne / mauvaise + explication), → Reward avec badge "Partiel Simule"
 
 Commit : `feat(exam): nouvel écran ExamenBlanc`
 
