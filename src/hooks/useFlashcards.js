@@ -1,24 +1,24 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
 
-export function useFlashcards(subjectId) {
+export function useFlashcards(chapterId) {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    if (!subjectId) return
+    if (!chapterId) return
     supabase
       .from('flashcards')
       .select('*')
-      .eq('subject_id', subjectId)
+      .eq('chapter_id', chapterId)
       .order('created_at')
       .then(({ data, error }) => {
         if (error) setError(error)
         else setData(data ?? [])
         setLoading(false)
       })
-  }, [subjectId])
+  }, [chapterId])
 
   return { data, loading, error }
 }

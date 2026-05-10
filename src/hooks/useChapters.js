@@ -1,24 +1,24 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
 
-export function useConcentre(chapterId) {
-  const [data, setData] = useState(null)
+export function useChapters(subjectId) {
+  const [data, setData] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    if (!chapterId) return
+    if (!subjectId) return
     supabase
-      .from('concentre')
+      .from('chapters')
       .select('*')
-      .eq('chapter_id', chapterId)
-      .single()
+      .eq('subject_id', subjectId)
+      .order('number')
       .then(({ data, error }) => {
-        if (error && error.code !== 'PGRST116') setError(error)
-        else setData(data ?? null)
+        if (error) setError(error)
+        else setData(data ?? [])
         setLoading(false)
       })
-  }, [chapterId])
+  }, [subjectId])
 
   return { data, loading, error }
 }
