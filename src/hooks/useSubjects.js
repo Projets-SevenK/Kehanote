@@ -9,7 +9,7 @@ export function useSubjects() {
   useEffect(() => {
     supabase
       .from('subjects')
-      .select('*, flashcards(count), sessions(mode, cards_done), challenge_scores(score)')
+      .select('*, flashcards(count), sessions(mode, cards_done), challenge_scores(score), chapters(count)')
       .order('created_at')
       .then(({ data, error }) => {
         if (error) {
@@ -17,6 +17,7 @@ export function useSubjects() {
         } else {
           const formatted = (data ?? []).map(s => {
             const cards_count = s.flashcards?.[0]?.count ?? 0
+            const chapters_count = s.chapters?.[0]?.count ?? 0
             
             // Flashcards mastery: how many cards swiped vs total existing cards
             const fcDone = s.sessions?.filter(x => x.mode === 'swipe').reduce((acc, x) => acc + (x.cards_done || 0), 0) ?? 0
@@ -32,6 +33,7 @@ export function useSubjects() {
             return {
               ...s,
               cards_count,
+              chapters_count,
               progress
             }
           })

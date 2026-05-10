@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sociologie de la Culture — L2 Info-Com — Cours complet</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 15px;
+  line-height: 1.85;
+  color: #1a1a1a;
+  background: #f7f6f3;
+  padding: 2rem 1rem 5rem;
+}
+.page {
+  max-width: 840px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 3rem 4rem;
+}
+
+/* COVER */
+.cover {
+  text-align: center;
+  padding: 1.5rem 0 2.5rem;
+  border-bottom: 2px solid #1a1a1a;
+  margin-bottom: 2.5rem;
+}
+.cover .top { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: #888; margin-bottom: 0.8rem; }
+.cover h1 { font-size: 26px; font-weight: normal; line-height: 1.35; margin-bottom: 0.5rem; }
+.cover .sub { font-size: 15px; color: #555; font-style: italic; margin-bottom: 1.5rem; }
+.cover .meta { font-size: 12px; color: #aaa; }
+
+/* EXAM BOX */
+.exam-box {
+  background: #fff8e6;
+  border: 1px solid #f0c040;
+  border-radius: 4px;
+  padding: 1rem 1.3rem;
+  margin-bottom: 2rem;
+  font-size: 13.5px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+.exam-box strong { color: #b8860b; }
+
+/* ENRICHI BADGE */
+.enrichi {
+  display: inline-block;
+  background: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  color: #2e7d32;
+  font-size: 10px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1px 6px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+/* SOMMAIRE */
+.toc {
+  background: #f5f4f0;
+  padding: 1.4rem 1.8rem;
+  border-radius: 4px;
+  margin-bottom: 2.5rem;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.toc h2 { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #888; margin-bottom: 0.8rem; font-weight: normal; }
+.toc ol { padding-left: 1.2rem; }
+.toc li { line-height: 2.1; color: #333; }
+.toc li.sub { padding-left: 1rem; color: #666; list-style-type: lower-alpha; }
+
+/* TITRES */
+.num-chap { font-size: 55px; color: #eeede8; font-weight: bold; line-height: 1; margin-bottom: -0.4rem; font-family: sans-serif; }
+h1.partie { font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: #999; margin-top: 3rem; margin-bottom: 0.2rem; font-weight: normal; font-family: sans-serif; }
+h2.titre { font-size: 21px; font-weight: normal; line-height: 1.3; margin-bottom: 1.3rem; padding-bottom: 0.5rem; border-bottom: 1px solid #ddd; }
+h3.section { font-size: 16px; font-weight: bold; margin-top: 2rem; margin-bottom: 0.7rem; font-family: sans-serif; }
+h4.sous { font-size: 14px; font-weight: bold; font-style: italic; margin-top: 1.4rem; margin-bottom: 0.4rem; }
+p { margin-bottom: 0.9rem; }
+
+/* BLOCS */
+.def {
+  background: #eef3fb;
+  border-left: 3px solid #4a6fa5;
+  padding: 0.9rem 1.1rem;
+  margin: 1.1rem 0;
+  border-radius: 0 3px 3px 0;
+}
+.def strong { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #4a6fa5; margin-bottom: 0.25rem; font-family: sans-serif; }
+
+.auteur {
+  background: #fff8f0;
+  border-left: 3px solid #c07a30;
+  padding: 0.9rem 1.1rem;
+  margin: 1.1rem 0;
+  border-radius: 0 3px 3px 0;
+}
+.auteur strong { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #c07a30; margin-bottom: 0.25rem; font-family: sans-serif; }
+
+.retenir {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 4px;
+  padding: 0.75rem 1.1rem;
+  margin: 1.1rem 0;
+  font-size: 13.5px;
+  font-family: sans-serif;
+}
+.retenir::before { content: "⚠ À RETENIR — "; font-weight: bold; color: #b8860b; }
+
+.qrc-tip {
+  background: #f3e8ff;
+  border: 1px solid #ce93d8;
+  border-radius: 4px;
+  padding: 0.75rem 1.1rem;
+  margin: 1.1rem 0;
+  font-size: 13.5px;
+  font-family: sans-serif;
+}
+.qrc-tip::before { content: "✎ FORMULATION QRC — "; font-weight: bold; color: #7b1fa2; }
+
+.citation {
+  border-left: 2px solid #bbb;
+  padding: 0.4rem 0 0.4rem 1.1rem;
+  margin: 1rem 0;
+  color: #555;
+  font-style: italic;
+}
+
+.schema {
+  background: #f8f8f5;
+  border: 1px solid #e0e0d8;
+  border-radius: 4px;
+  padding: 1.1rem 1.4rem;
+  margin: 1.3rem 0;
+  font-size: 13.5px;
+  font-family: sans-serif;
+}
+.schema .tit { font-weight: bold; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #777; margin-bottom: 0.7rem; }
+
+.tableau {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.3rem 0;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.tableau th {
+  background: #f0f0ec;
+  padding: 0.55rem 0.9rem;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.tableau td {
+  padding: 0.55rem 0.9rem;
+  border: 1px solid #e8e8e8;
+  vertical-align: top;
+  line-height: 1.6;
+}
+.tableau tr:nth-child(even) td { background: #fafaf8; }
+
+ul.l, ol.l { padding-left: 1.4rem; margin-bottom: 0.9rem; }
+ul.l li, ol.l li { margin-bottom: 0.35rem; }
+
+.sep { text-align: center; margin: 2.5rem 0; color: #ccc; letter-spacing: 8px; }
+.pb { height: 2.5rem; }
+
+.note-manquante {
+  background: #fff0f0;
+  border: 1px dashed #f48; 
+  border-radius: 4px;
+  padding: 0.7rem 1.1rem;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #c00;
+  margin: 1rem 0;
+}
+.note-manquante::before { content: "🔴 NOTE — "; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- COUVERTURE -->
+<div class="cover">
+  <div class="top">L2 Information et Communication &nbsp;·&nbsp; Sociologie</div>
+  <h1>Sociologie de la Culture<br>et des Institutions Culturelles</h1>
+  <div class="sub">Cours complet — notes + enrichissements académiques</div>
+  <div class="meta">Les sections marquées <span style="background:#e8f5e9;border:1px solid #a5d6a7;color:#2e7d32;font-size:10px;padding:1px 5px;border-radius:3px;">ENRICHI</span> ont été complétées à partir des textes sources officiels</div>
+</div>
+
+<!-- EXAM -->
+<div class="exam-box">
+  <strong>Format de l'examen :</strong> QRC — 2 questions avec Lagrave + 2 questions avec Sophie Noël. Réponses argumentées (pas une dissertation). Bonne présentation, aller à la ligne. Thèmes annoncés : introduction / grille de lecture d'un auteur / classement / patrimonialisation.
+</div>
+
+<!-- SOMMAIRE -->
+<div class="toc">
+  <h2>Sommaire</h2>
+  <ol>
+    <li><strong>Introduction — Qu'est-ce que la sociologie de la culture ?</strong>
+      <ol><li class="sub">Étymologie et définitions du mot « culture »</li>
+      <li class="sub">La sociologie de la culture (Vincent Dubois)</li>
+      <li class="sub">Les biens symboliques</li></ol>
+    </li>
+    <li><strong>Partie I — Pierre Bourdieu et le champ de production culturelle</strong>
+      <ol><li class="sub">Le champ : processus historique + autonomisation</li>
+      <li class="sub">Le concept de champ et les 4 capitaux</li>
+      <li class="sub">Deux caractéristiques des champs culturels</li>
+      <li class="sub">Pôle restreint vs. grande production</li></ol>
+    </li>
+    <li><strong>Partie II — Enquêtes sur les pratiques culturelles</strong>
+      <ol><li class="sub">Contexte : Malraux, Girard, politiques culturelles</li>
+      <li class="sub">Les grandes enquêtes du ministère</li>
+      <li class="sub">1980 : nouvelle conception de la culture</li>
+      <li class="sub">Tendances actuelles</li></ol>
+    </li>
+    <li><strong>Chapitre 2 — Howard Becker et les mondes de l'art</strong>
+      <ol><li class="sub">Méthode, interactionnisme symbolique</li>
+      <li class="sub">L'art comme travail collectif</li>
+      <li class="sub">Les conventions <span class="enrichi">enrichi</span></li>
+      <li class="sub">Les 4 types d'artistes <span class="enrichi">enrichi</span></li>
+      <li class="sub">La déviance et les outsiders <span class="enrichi">enrichi</span></li></ol>
+    </li>
+    <li><strong>Chapitre 3 — Qu'est-ce que classer ?</strong>
+      <ol><li class="sub">La patrimonialisation en 5 gestes</li>
+      <li class="sub">Littérarité (Jakobson) / Littéraire (Viala)</li>
+      <li class="sub">Trivialité (Jeanneret) — complété <span class="enrichi">enrichi</span></li>
+      <li class="sub">Qu'est-ce qu'un classique ?</li>
+      <li class="sub">Les dictionnaires d'écrivains</li></ol>
+    </li>
+  </ol>
+</div>
+
+<!-- ============================================================ -->
+<!-- INTRODUCTION -->
+<!-- ============================================================ -->
+<div class="num-chap">00</div>
+<h1 class="partie">Introduction</h1>
+<h2 class="titre">Qu'est-ce que la sociologie de la culture ?</h2>
+
+<p>La discipline s'articule autour de deux mots : <em>sociologie</em> et <em>culture</em>. Le problème c'est que le mot « culture » est partout : culture de masse, culture générale, culture populaire, sous-culture, ministère de la culture… Cette multiplicité a deux conséquences majeures : une <strong>élasticité</strong> très grande du terme, et une <strong>relative indétermination</strong> de son contenu.</p>
+
+<h3 class="section">A. Étymologie et définitions</h3>
+
+<div class="def">
+  <strong>Origine latine — fin du XI<sup>e</sup> siècle</strong>
+  Le mot désigne une pièce de terre à travailler. Culture et agriculture sont alors synonymes.
+</div>
+
+<p>À partir de la <strong>Renaissance</strong>, le sens change. La culture devient un symbole des Lumières : l'homme qui "cultive" la raison est un homme debout, émancipé. À partir du <strong>XVI<sup>e</sup> siècle</strong> (vers 1555), le Petit Robert enregistre un autre sens : les facultés de l'esprit, les connaissances qui permettent de développer son sens critique. S'y ajoute l'idée d'une certaine forme de civilisation et de comportements.</p>
+
+<p>Au <strong>XIX<sup>e</sup> siècle</strong>, le mot permet d'<em>opposer et de cliver</em> : culture vs nature, culture vs barbarie. Il se rapproche du mot civilisation. Le <strong>sens moderne</strong> renvoie à des objets symboliques, des valeurs, des mythes, des images, des modèles — et aussi à la culture de masse.</p>
+
+<table class="tableau">
+  <tr><th>Source</th><th>Définition / accent principal</th></tr>
+  <tr><td>Petit Robert (papier)</td><td>Cultiver la terre (XI<sup>e</sup>) → facultés de l'esprit (XVI<sup>e</sup>) → civilisation + comportements</td></tr>
+  <tr><td>Larousse</td><td>Phénomène matériel</td></tr>
+  <tr><td>Dictionnaire de la sociologie</td><td>5 remarques : origine agraire → esprit → Lumières → outil de clivage (XIX<sup>e</sup>) → objets symboliques</td></tr>
+</table>
+
+<h3 class="section">B. La sociologie de la culture — Vincent Dubois</h3>
+
+<div class="auteur">
+  <strong>Vincent Dubois — sociologue de la culture</strong>
+  Il propose une notice dans un dictionnaire. Il distingue deux façons d'envisager la discipline.
+</div>
+
+<ul class="l">
+  <li><strong>Division thématique :</strong> la sociologie de la culture comme un secteur parmi d'autres (à côté de la sociologie politique, économique…). Son cœur historique = la sociologie de l'art. Cette vision est aujourd'hui moins dominante.</li>
+  <li><strong>Division conceptuelle / ambitieuse :</strong> la culture n'est pas un secteur mais un <em>point d'entrée</em> pour comprendre les rapports sociaux dans leur ensemble. C'est l'analyse des biens symboliques qui débouche sur une compréhension large des rapports sociaux. La sociologie adopte ici la nature symbolique comme objet central.</li>
+</ul>
+
+<div class="retenir">
+  La division thématique est évolutive : les frontières varient selon les pays. La vision transversale (culture comme point d'entrée) est aujourd'hui dominante. C'est celle que l'on retient dans ce cours.
+</div>
+
+<h3 class="section">C. Les biens symboliques</h3>
+
+<div class="def">
+  <strong>Symbolique</strong>
+  Ce qui n'a de valeur que parce qu'il exprime ou évoque quelque chose. Un bien symbolique tire sa valeur de sa signification, pas de son utilité matérielle.
+</div>
+
+<p>Les biens symboliques couvrent un spectre très large (liste priorisée) : arts · idées politiques · pratiques amoureuses · produits des cultures populaires · produits numériques · styles de vie, vêtements, habitat, nourriture.</p>
+
+<p>L'enjeu central : appréhender <strong>l'activité culturelle comme une production collective</strong> — pas comme l'œuvre isolée d'un génie. Trois niveaux d'analyse :</p>
+<ol class="l">
+  <li>Les <strong>créateurs</strong> des œuvres symboliques</li>
+  <li>Les <strong>systèmes de producteurs</strong> des œuvres</li>
+  <li>Les <strong>relations entre producteurs et récepteurs</strong></li>
+</ol>
+
+<div class="qrc-tip">
+  Si on te demande "qu'est-ce que la sociologie de la culture" : commence par l'élasticité du mot culture, puis distingue les deux visions de Dubois, puis pose la définition des biens symboliques et l'idée de production collective. Trois temps = une réponse bien construite.
+</div>
+
+<!-- ============================================================ -->
+<!-- BOURDIEU -->
+<!-- ============================================================ -->
+<div class="pb"></div>
+<div class="num-chap">01</div>
+<h1 class="partie">Partie I</h1>
+<h2 class="titre">Pierre Bourdieu et le champ de production culturelle</h2>
+
+<div class="auteur">
+  <strong>Pierre Bourdieu (1930–2002)</strong>
+  Sociologue français, le plus traduit et le plus discuté au monde. Philosophe de formation, venu à la sociologie par l'ethnographie (enquêtes terrain en Algérie, Béarn). Concepts clés : champ · habitus · violence symbolique · capital culturel · domination symbolique et masculine. Trois ouvrages fondamentaux : <em>Les Héritiers</em> (1964, avec Passeron) · <em>Un art moyen</em> (1965) · <em>L'Amour de l'art</em> (1966, avec Darbel).
+</div>
+
+<h3 class="section">A. Le champ : un processus historique</h3>
+
+<p>Pour Bourdieu, <strong>tous les espaces sociaux sont des champs</strong>. Un champ = espace social particulier, produit d'une histoire spécifique, gouverné par ses propres logiques et règles. Les acteurs = tous ceux qui jouent un rôle dans la production, la promotion et la diffusion des biens symboliques.</p>
+
+<h4 class="sous">De l'hétéronomie à l'autonomie</h4>
+
+<p>Historiquement, un artiste ne pouvait produire qu'avec la protection de puissants. Les logiques <strong>hétéronomes</strong> dominaient (Église · État · commanditaires · fortunes). C'est au <strong>XIX<sup>e</sup> siècle</strong> qu'un marché de l'art apparaît : les artistes n'ont plus besoin de mécènes. Bourdieu appelle ça le <strong>processus d'autonomisation</strong> : gagner en liberté.</p>
+
+<div class="schema">
+  <div class="tit">Schéma du passage hétéronomie → autonomie</div>
+  <p style="text-align:center; font-size:13px;">
+    <strong>Hétéronomie</strong> [Église · État · Commanditaires · Fortunes]<br>
+    ↓ XIX<sup>e</sup> siècle : apparition du marché<br>
+    <strong>Autonomie</strong> [Pairs · "L'art pour l'art" · Règles fixées par les artistes]
+  </p>
+</div>
+
+<p>Être autonome = définir ses propres règles. Ce qui compte c'est d'<strong>être estimé par ses pairs</strong>. Bourdieu parle de l'idée de « l'art pour l'art » : la création artistique est sa propre fin.</p>
+
+<div class="citation">
+  « Il y a de tellement beau que ce qui ne peut servir à rien […] ce qui est utile est laid. »<br>
+  — Théophile Gautier, préface de <em>Mademoiselle de Maupin</em> (1835)
+</div>
+
+<p>Cette logique produit plusieurs phénomènes :</p>
+<ul class="l">
+  <li>La <strong>vie de Bohème</strong> : volonté de choquer le monde bourgeois</li>
+  <li>Le <strong>mythe de l'artiste maudit</strong> : opposition entre l'art et l'argent</li>
+  <li>Le <strong>Salon des refusés</strong> (1863) contre l'Académie des Beaux-Arts</li>
+  <li>Un <strong>décalage temporel</strong> dans la reconnaissance des artistes (ex : procès des <em>Fleurs du Mal</em>, 1857)</li>
+</ul>
+
+<div class="retenir">
+  Ce processus d'autonomisation n'est ni irréversible ni linéaire. Il faut aussi une évolution des codes mentaux collectifs pour qu'une œuvre nouvelle soit reconnue.
+</div>
+
+<h3 class="section">B. Le concept de champ et les 4 capitaux</h3>
+
+<p>Les champs = <strong>microcosmes</strong> : espaces séparés et plus ou moins autonomes, qui interagissent. Un champ est toujours <strong>relationnel</strong> : la position qu'on y occupe dépend de la position des autres. C'est un espace structuré, mais ces positions bougent.</p>
+
+<table class="tableau">
+  <tr><th>Capital</th><th>Contenu</th><th>Exemple concret</th></tr>
+  <tr><td><strong>Économique</strong></td><td>Ressources financières</td><td>Patrimoine, salaire</td></tr>
+  <tr><td><strong>Social</strong></td><td>Réseau de relations</td><td>Carnet d'adresses, contacts professionnels</td></tr>
+  <tr><td><strong>Culturel</strong></td><td>Connaissances, diplômes, dispositions incorporées</td><td>Diplômes, goûts cultivés, manière de parler</td></tr>
+  <tr><td><strong>Symbolique</strong></td><td>Prestige et reconnaissance légitime</td><td>Prix Nobel, réputation, honneur</td></tr>
+</table>
+
+<p>Bourdieu voit le champ comme un <strong>champ de lutte</strong>. Les positions sont relatives par la combinaison des capitaux. Ce sont les combinaisons qui expliquent aussi les positions.</p>
+
+<div class="def">
+  <strong>Capital symbolique</strong>
+  Tout autre capital (économique, social, culturel) lorsqu'il est reconnu comme légitime. Exemple : dans les sociétés méditerranéennes, ce qui fait l'honneur des hommes, c'est pas la ressource financière mais l'honneur lui-même. Le capital symbolique exprime ce que la société reconnaît comme digne de respect.
+</div>
+
+<h4 class="sous">Le capital culturel — 3 états</h4>
+<ul class="l">
+  <li><strong>Incorporé :</strong> dispositions durables, manières d'être. "Nos corps, de manière bête, peuvent nous tenir." Les corps valorisés ne sont pas les mêmes selon les classes.</li>
+  <li><strong>Objectivé :</strong> livres, tableaux, instruments de musique.</li>
+  <li><strong>Institutionnalisé :</strong> les diplômes. Mais Bourdieu dit : on ne peut pas tout mesurer par un seul diplôme.</li>
+</ul>
+
+<h3 class="section">C. Deux caractéristiques des champs culturels</h3>
+
+<h4 class="sous">1. La dénégation de l'économie (le nomos)</h4>
+
+<p>Dans les champs culturels, les acteurs <em>rejettent</em> les notions de l'économie quand on leur parle de leurs motivations. Ce rejet n'est pas une hypocrisie simple : c'est un <strong>principe de fonctionnement</strong> que Bourdieu appelle le <em>nomos</em>.</p>
+
+<p>Ces espaces fonctionnent comme les sociétés traditionnelles : ce qui compte c'est l'<strong>honneur et le prestige</strong>, pas l'argent. L'économie existe mais elle est mise en second plan. Exemple du don contre don : faire un cadeau trop généreux pour signifier qu'on n'est pas dans une logique marchande.</p>
+
+<div class="schema">
+  <div class="tit">L'économie de la mauvaise foi</div>
+  <p style="font-size:13.5px;">Faire <em>semblant</em> d'être désintéressé tout en étant en réalité intéressé à long terme. C'est une rationalité économique à long terme déguisée en désintéressement. Ex. : un auteur inconnu qui refuse les compromis commerciaux sera peut-être reconnu et traduit des décennies plus tard. Le nomos c'est : obtenir un prestige de reconnaissance — mais dans ces espaces, cette reconnaissance peut disparaître (est-ce qu'elle dure vraiment ?).</p>
+</div>
+
+<p><strong>Les intermédiaires culturels</strong> (éditeurs, galeristes, critiques…) font le lien entre auteurs et public. Ils ont une rationalité économique ET une logique culturelle. Ce sont des <em>personnages doubles</em> : interfaces entre économie et culture.</p>
+
+<h4 class="sous">2. Pôle de production restreinte vs pôle de grande production</h4>
+
+<p>Le champ n'est pas unifié. Il y a des positions différentes, ce ne sont pas des espaces unifiés :</p>
+
+<table class="tableau">
+  <tr><th></th><th>Pôle restreint</th><th>Pôle grande production</th></tr>
+  <tr><td><strong>Cycle de production</strong></td><td>Lent</td><td>Rapide</td></tr>
+  <tr><td><strong>Public</strong></td><td>Pairs, critiques, milieux spécialisés</td><td>Grand public</td></tr>
+  <tr><td><strong>Décalage temporel</strong></td><td>Important (entre l'œuvre et sa réception)</td><td>Faible</td></tr>
+  <tr><td><strong>Réussite = ?</strong></td><td>Reconnaissance par les pairs, prestige symbolique</td><td>Réussite commerciale</td></tr>
+  <tr><td><strong>Rapport à l'économie</strong></td><td>Éloigné (tabou de l'argent)</td><td>Très proche de l'économie</td></tr>
+  <tr><td><strong>Exemple</strong></td><td>Poésie d'avant-garde, art contemporain</td><td>Bestsellers, blockbusters</td></tr>
+</table>
+
+<!-- ============================================================ -->
+<!-- ENQUÊTES -->
+<!-- ============================================================ -->
+<div class="pb"></div>
+<div class="num-chap">02</div>
+<h1 class="partie">Partie I — suite</h1>
+<h2 class="titre">Enquêtes sur les pratiques culturelles</h2>
+
+<h3 class="section">A. Contexte historique et politique</h3>
+
+<p>La France a cherché à mesurer scientifiquement qui s'intéresse aux pratiques culturelles. Il y a un lien historique fort entre politiques publiques et sciences sociales depuis la guerre, dans une logique républicaine.</p>
+
+<div class="auteur">
+  <strong>André Malraux — Ministre de la Culture (1959)</strong>
+  Son projet : "Rendre accessibles au plus grand nombre les œuvres capitales de l'humanité et favoriser la création des œuvres d'art." La culture devient une catégorie d'intervention publique légitime.
+</div>
+
+<p>En <strong>1964</strong>, <strong>Augustin Girard</strong> initie les premières grandes enquêtes pour fonder une politique culturelle sur des bases scientifiques. Il dit qu'il faut en finir avec "l'ère des ponts et des couleurs". Son objectif : des explications scientifiques.</p>
+
+<h3 class="section">B. Les grandes enquêtes du ministère de la Culture</h3>
+
+<p>Ces enquêtes s'inspirent de la méthode statistique de Paul Lazarsfeld (sciences économiques). Tout ce qui est quantifié paraît "fiable". Objectif : dénombrer et identifier les caractéristiques sociales des publics.</p>
+
+<div class="auteur">
+  <strong>L'Amour de l'art — Bourdieu &amp; Darbel (1966)</strong>
+  10 000 questionnaires + entretiens + observations ethnographiques à la sortie des musées. Résultat clé : il y a 40 fois plus de cadres que d'ouvriers dans un musée. Ce qui fait la différence = le diplôme (pas le revenu, pas l'âge, pas le sexe). Et ça vaut pas seulement en France, mais partout.
+</div>
+
+<div class="citation">
+  « L'amour de l'art ne s'explique pas par un don inné mais par l'éducation. »<br>
+  — Bourdieu &amp; Darbel, <em>L'Amour de l'art</em>
+</div>
+
+<p>L'enquête montre aussi :</p>
+<ul class="l">
+  <li>Les œuvres d'art = des biens symboliques non accessibles si on n'est pas formé. Pour les apprécier il faut avoir appris, et ça a un coût.</li>
+  <li>Un très fort processus d'<strong>auto-élimination</strong> : les gens disent "ce n'est pas pour moi".</li>
+  <li>L'école est le grand outil démocratique — mais elle reproduit aussi les inégalités.</li>
+  <li>Il y a des musées plus accessibles que d'autres.</li>
+</ul>
+
+<div class="citation">
+  « Les gens ne voient que ce qu'ils voient. »<br>
+  — Pierre Bourdieu
+</div>
+
+<h3 class="section">C. 1980 : une nouvelle conception de la culture</h3>
+
+<ul class="l">
+  <li><strong>Reconnaître l'économie et la culture :</strong> imposer des pratiques managériales et gestionnaires dans les institutions culturelles.</li>
+  <li><strong>De la démocratie de la culture à la démocratie culturelle :</strong> tout peut être culture. Vision locale et régionale — pas seulement les Beaux-Arts.</li>
+  <li><strong>La culture et la fête :</strong> dimension événementielle. Rendre festif pour attirer davantage de gens. Très opposé à la version classique de la culture.</li>
+  <li><strong>Budget de la culture et décentralisation culturelle.</strong></li>
+</ul>
+
+<h3 class="section">D. Tendances actuelles</h3>
+
+<p>L'analyse de la consommation culturelle a été renouvelée par la numérisation de la société. Les chercheurs s'intéressent aux <strong>pratiques amateurs</strong>, à l'hybridation des pratiques. Claude Grignon et Jean-Claude Passeron ont théorisé l'hybridation. Aujourd'hui la sociologie de la culture ne pense plus la culture en isolant des activités séparées.</p>
+
+<!-- ============================================================ -->
+<!-- BECKER -->
+<!-- ============================================================ -->
+<div class="pb"></div>
+<div class="num-chap">03</div>
+<h1 class="partie">Chapitre 2</h1>
+<h2 class="titre">Howard Becker et les mondes de l'art</h2>
+
+<div class="auteur">
+  <strong>Howard S. Becker (1928–2023)</strong>
+  Sociologue américain, issu de l'École de Chicago. Photographe, pianiste. C'est parce qu'il était pianiste que son prof à l'université lui a dit qu'il devait diriger un orchestre. Ses joueurs de jazz fumaient de la marijuana : ça l'amène à étudier la déviance. Très peu connu en France avant la fin des années 1980. Connu pour avoir pensé l'art comme un travail et pour l'ouvrage <em>Art Worlds</em> (1982).
+</div>
+
+<h3 class="section">A. L'École de Chicago et la méthode</h3>
+
+<p>Becker s'inscrit dans la tradition de l'<strong>École de Chicago</strong>. Ce n'est pas qu'une école — c'est un label et une méthode. Les sociologues de Chicago ont des techniques d'observation qualitative, travaillent sur les récits des individus, font de l'ethnographie.</p>
+
+<p>Méthode de Becker : construire des <strong>hypothèses claires</strong>. Il propose de construire une <em>hypothèse zéro</em> (ce qui se passerait si rien d'exceptionnel n'intervenait). Par contraste, on voit ce qui s'écarte de la norme. Il aime prendre les <strong>petites choses des pratiques</strong> pour expliquer les grandes.</p>
+
+<h3 class="section">B. L'interactionnisme symbolique</h3>
+
+<p>Becker s'inscrit dans le courant de l'<strong>interactionnisme symbolique</strong>. Un pédagogue nous dit à avoir en tête trois idées fondamentales :</p>
+
+<div class="schema">
+  <div class="tit">Les 3 propositions fondamentales de l'interactionnisme</div>
+  <ol style="font-size:13.5px; padding-left:1.2rem; line-height:2;">
+    <li><strong>L'ordre social n'est ni stable ni figé</strong> — il est produit par ce que les gens font ensemble.</li>
+    <li><strong>Cette production sociale est possible parce que les interactions sont symboliques</strong> : les acteurs interprètent les situations dans les processus de communication.</li>
+    <li><strong>Nous tentons les uns vers les autres de définir le monde</strong> — co-construction permanente du sens.</li>
+  </ol>
+</div>
+
+<p>L'école met bcp l'accent sur le <em>sens des mots</em> et les interprétations. Avant d'agir, les individus interprètent la situation. C'est ça qui rend la vie sociale possible.</p>
+
+<h3 class="section">C. L'art comme travail collectif</h3>
+
+<p>Grande originalité de Becker : penser l'art non pas comme l'expression d'un génie solitaire mais comme un <strong>travail collectif</strong>. Tout travail artistique demande bcp de concentration — et chaque œuvre porte des traces de ce qu'il appelle la <strong>collaboration</strong>. Si on mettait de côté le travail des autres, l'œuvre n'existerait pas.</p>
+
+<div class="def">
+  <strong>Monde de l'art (Becker)</strong>
+  Ensemble de personnes dont l'activité coopérative, organisée autour de conventions partagées, produit des œuvres d'art. Ce n'est pas un individu seul qui fait l'œuvre, c'est un monde entier de personnes coordonnées. Exemple : un roman suppose un éditeur, un correcteur, un imprimeur, un distributeur. Une symphonie suppose des musiciens, des luthiers, des salles de concert, des critiques…
+</div>
+
+<div class="qrc-tip">
+  Formulation clé à retenir : "Pour Becker, une œuvre d'art n'est pas le produit d'un génie isolé, mais le résultat d'une coopération collective organisée autour de conventions partagées."
+</div>
+
+<h3 class="section">D. Les conventions <span class="enrichi">enrichi</span></h3>
+
+<p>Dans <em>Art Worlds</em> (1982), Becker montre que la coopération artistique est possible grâce à des <strong>conventions partagées</strong>.</p>
+
+<div class="def">
+  <strong>Convention (Becker)</strong>
+  Façon habituelle de faire les choses que tout le monde dans un monde de l'art connaît et applique sans avoir besoin de la négocier à chaque fois. Ce n'est pas une règle imposée — c'est un accord tacite qui facilite la coordination. Ex. : la gamme tempérée en musique occidentale, le format d'une nouvelle (début-milieu-fin), les 3 actes d'une pièce de théâtre, le format A4 pour un manuscrit.
+</div>
+
+<p>Les conventions ont une double fonction :</p>
+<ul class="l">
+  <li>Elles <strong>facilitent la coopération</strong> : tout le monde sait quoi faire sans se concerter à chaque fois.</li>
+  <li>Elles <strong>contraignent la création</strong> : un artiste qui s'écarte trop des conventions risque de ne pas être compris — ou au contraire d'être révolutionnaire.</li>
+</ul>
+
+<p>C'est là que Becker rejoint la question de la déviance. Celui qui enfreint les conventions n'est pas "libre" — il se situe par rapport à elles.</p>
+
+<div class="retenir">
+  Les conventions expliquent pourquoi la musique atonale dérange : elle viole des conventions tellement incorporées qu'on ne les voit plus. Becker dit : c'est un choix, pas un défaut de talent.
+</div>
+
+<h3 class="section">E. Les 4 types d'artistes <span class="enrichi">enrichi</span></h3>
+
+<p>Becker distingue quatre types d'artistes selon leur rapport aux conventions du monde de l'art :</p>
+
+<table class="tableau">
+  <tr><th>Type</th><th>Rapport aux conventions</th><th>Position dans le monde</th></tr>
+  <tr>
+    <td><strong>Professionnel intégré</strong></td>
+    <td>Respecte les conventions dominantes</td>
+    <td>Bien intégré, facilement reconnu, travail en coopération fluide</td>
+  </tr>
+  <tr>
+    <td><strong>Maverick (rebelle)</strong></td>
+    <td>Rejette certaines conventions, en crée de nouvelles</td>
+    <td>Tensions avec le monde, mais reste dans son espace</td>
+  </tr>
+  <tr>
+    <td><strong>Artiste naïf / folk</strong></td>
+    <td>Ignore les conventions du monde de l'art dominant</td>
+    <td>Marginalisé, souvent découvert tardivement comme "génie brut"</td>
+  </tr>
+  <tr>
+    <td><strong>Artiste du monde de l'art</strong></td>
+    <td>Conscient des conventions, les manipule délibérément</td>
+    <td>Peut briser les codes de façon calculée (avant-garde)</td>
+  </tr>
+</table>
+
+<div class="qrc-tip">
+  Si on te demande "comment Becker pense l'artiste" : insiste sur le fait qu'il ne pense pas l'artiste isolément mais dans son rapport aux conventions et à un monde social. Le maverick n'est pas "libre" — il se définit contre quelque chose.
+</div>
+
+<h3 class="section">F. La déviance et les outsiders <span class="enrichi">enrichi</span></h3>
+
+<div class="auteur">
+  <strong>Outsiders (Becker, 1963)</strong>
+  Ouvrage fondateur de la sociologie de la déviance. Becker montre que la déviance n'est pas une propriété intrinsèque d'un acte. C'est le résultat d'une étiquette (label) posée par d'autres sur un comportement. Il dit : "un acte déviant, c'est un acte que d'autres ont réussi à faire étiqueter ainsi."
+</div>
+
+<p>Howard B. suit cette tradition pour construire la déviance. En France, notre tradition vise davantage à mettre en évidence la culture nationale. Pour Becker, le sociologue peut "déchirer le voile" : nommer ce que les individus font, ce qu'ils pensent — y compris ce qu'ils appellent eux-mêmes des comportements "déviants".</p>
+
+<p>Le sociologue ne fait pas beaucoup plus que ses individus — mais il a une capacité à <em>collecter des informations</em> et à <em>nommer</em> ce qui se passe. C'est ça, l'apport sociologique.</p>
+
+<div class="schema">
+  <div class="tit">Ce que dit Becker sur la déviance — schéma simple</div>
+  <p style="font-size:13.5px;">
+    Acte déviant ≠ propriété de l'acte<br>
+    Acte déviant = <strong>résultat d'un étiquetage social</strong> par ceux qui font les règles<br>
+    → Ceux qui appliquent les règles ont du pouvoir.<br>
+    → L'outsider c'est celui sur qui on a collé l'étiquette "déviant" — pas forcément celui qui l'est "vraiment".
+  </p>
+</div>
+
+<div class="retenir">
+  Lien avec l'art : un artiste qui transgresse les conventions d'un monde de l'art est un "déviant" de ce monde. Mais s'il convainc ses pairs, ce qui était "déviance" devient "révolution artistique". La frontière est sociale, pas naturelle.
+</div>
+
+<!-- ============================================================ -->
+<!-- CHAPITRE 3 -->
+<!-- ============================================================ -->
+<div class="pb"></div>
+<div class="num-chap">04</div>
+<h1 class="partie">Chapitre 3</h1>
+<h2 class="titre">Qu'est-ce que classer ?</h2>
+
+<p><strong>Classer</strong> c'est établir des échelles de grandeur. On classe pour hiérarchiser. La classification est un acte social et politique : décider ce qui mérite d'être conservé, transmis, célébré — c'est exercer un pouvoir.</p>
+
+<h3 class="section">A. La patrimonialisation</h3>
+
+<div class="def">
+  <strong>Patrimonialisation</strong>
+  Processus par lequel un collectif reconnaît le statut de patrimoine à des objets matériels ou immatériels, de sorte que ce collectif se trouve devenir l'héritier de ceux qui les ont produits. Il a l'obligation de les garder et de les transmettre. En sciences de l'information, la patrimonialisation a été bcp utilisée comme processus pour penser la conservation et la transmission des savoirs.
+</div>
+
+<p>La patrimonialisation est le produit de <strong>cinq gestes</strong> :</p>
+<ol class="l">
+  <li><strong>Produire un savoir sur l'objet</strong> : le documenter, le décrire, le connaître. C'est une déclaration du statut patrimoine — un acte performatif juridique.</li>
+  <li><strong>Déclarer son statut patrimonial</strong> : un texte officiel, un classement. Il faut un "dite", un acte juridique.</li>
+  <li><strong>Donner accès à l'objet</strong> : le rendre visible, consultable, exposé. Il faut que ce collectif fasse accès à l'objet.</li>
+  <li><strong>Se construire comme héritier</strong> : une communauté se définit comme dépositaire et responsable. Il faut se construire en héritier.</li>
+  <li><strong>Transmettre</strong> : assurer la continuité vers les générations futures.</li>
+</ol>
+
+<p>La notion de <em>geste</em> est plus large que celle d'acte : elle inclut des pratiques informelles, pas seulement des décisions officielles.</p>
+
+<h4 class="sous">Patrimonialisation et genre</h4>
+
+<p>Le processus de sélection patrimoniale est <strong>genré</strong> : les femmes sont massivement marginalisées. Dans les dictionnaires d'écrivains, la moitié des auteurs référencés sont des hommes du XIX<sup>e</sup> siècle. On a 1/4 de femmes qui dirigent et écrivent des dictionnaires. Il y a une femme qui joue de l'ambiguïté du genre, un romancier contemporain entre XIX<sup>e</sup> et XX<sup>e</sup>.</p>
+
+<p>Ce processus atteste à la fois une patrimonialisation partielle des femmes, mais aussi un processus de <em>légitimation</em> qui consacre un type d'auteur — majoritairement masculin, mort, français.</p>
+
+<div class="qrc-tip">
+  Pour une QRC sur la patrimonialisation : définir le concept → les 5 gestes → pointer la dimension genrée comme limite critique du processus. Trois temps = réponse solide.
+</div>
+
+<h3 class="section">B. Littérarité, littéraire, trivialité</h3>
+
+<h4 class="sous">La littérarité (Jakobson)</h4>
+
+<div class="def">
+  <strong>Littérarité (Roman Jakobson)</strong>
+  C'est ce qui fait d'une œuvre donnée une œuvre littéraire — sa qualité spécifiquement littéraire. Jakobson est un linguiste, il n'a pas fourni de clef de science sociale directement — mais d'autres l'ont fait. Certains chercheurs adoptent une approche formelle : le texte lui-même possède des propriétés littéraires. D'autres retiennent ce concept pour penser la valeur sociale des textes.
+</div>
+
+<h4 class="sous">Le littéraire (Alain Viala)</h4>
+
+<div class="auteur">
+  <strong>Alain Viala — sociologue de la littérature</strong>
+  Professeur de littérature reconverti en sociologue. Projet : élargir le spectre de l'analyse littéraire. Il s'inscrit dans la tradition bourdieusienne. Il dit que dans le second sens, "littérarité" et "littéraire" ne sont pas si différents.
+</div>
+
+<p>Viala propose trois thèses (à retenir) :</p>
+<ol class="l">
+  <li>"L'étude du littéraire est fondamentalement littéraire, donc sociale."</li>
+  <li>"Le terme de littéraire permet de ne pas isoler les œuvres de l'ensemble des discours et pratiques où elles prennent place."</li>
+  <li>"Le littéraire doit s'analyser dans ses formes et ses significations, dans ses contextes de formation."</li>
+</ol>
+
+<h4 class="sous">La trivialité (Yves Jeanneret) <span class="enrichi">enrichi</span></h4>
+
+<div class="def">
+  <strong>Trivialité (Yves Jeanneret)</strong>
+  Concept très utilisé en Info-Com pour penser les objets culturels. Étymologiquement, "trivial" vient du latin <em>trivium</em> : le carrefour (là où se croisent trois routes). La trivialité c'est l'ordinaire, le banal, mais surtout la <em>circulation</em>. C'est un concept qui aide à penser comment les objets culturels circulent et se transforment en passant d'un espace à un autre.
+</div>
+
+<p>Jeanneret se saisit de l'étymologie pour construire son concept. La trivialité c'est le carrefour : les objets culturels passent par des carrefours, se transforment, changent de signification. Il y a des gens qui changent ces objets. <strong>La circulation n'est pas la seule condition de l'appropriation.</strong></p>
+
+<div class="schema">
+  <div class="tit">Comment ça marche — exemple concret <span class="enrichi">enrichi</span></div>
+  <p style="font-size:13.5px;">Prenons une recette de cuisine :<br>
+  <strong>Livre de l'auteur</strong> → [circulation + transformation] → <strong>Magazine féminin</strong> → [circulation + transformation] → <strong>Blog culinaire</strong> → [circulation + transformation] → <strong>Discussion à table</strong><br><br>
+  À chaque étape, la recette n'est plus tout à fait la même. Elle s'est <em>trivialisée</em> : elle est passée par le carrefour et a changé de sens, de support, d'usage. C'est ça la trivialité.</p>
+</div>
+
+<h4 class="sous">Les êtres culturels <span class="enrichi">enrichi</span></h4>
+
+<p>Jeanneret parle des <strong>êtres culturels</strong> : les objets culturels ne sont pas stables. Ils se transforment à chaque étape de leur circulation. Ce ne sont donc pas des "choses" fixes que l'on transmet à l'identique. Ce sont des êtres vivants, en quelque sorte, qui évoluent.</p>
+
+<ul class="l">
+  <li>Un mème internet = trivialisation d'une image originale (transformée, détournée, re-partagée)</li>
+  <li>Une citation littéraire = souvent sortie de son contexte, réappropriée</li>
+  <li>Un fait d'actualité = se transforme en passant du journal au réseau social au dîner en famille</li>
+</ul>
+
+<div class="retenir">
+  Trivialité ≠ péjoratif. Ce n'est pas "rendre vulgaire". C'est décrire le processus normal de circulation des objets culturels — leur passage par le carrefour (le trivium) et leur transformation en route.
+</div>
+
+<div class="qrc-tip">
+  Trivialité est un concept très pertinent en Info-Com pour penser le numérique. Si on te pose une question sur la circulation des objets culturels, c'est Jeanneret qu'il faut mobiliser.
+</div>
+
+<h3 class="section">C. Qu'est-ce qu'un classique ?</h3>
+
+<p>Le mot "classique" est un mot polysémique — on ne peut pas le soumettre à une définition unique. On évoque des choses considérées importantes qui ramènent au passé. Réfléchir à ce qu'est un classique c'est réfléchir aux <em>usages sociaux</em> de ce mot.</p>
+
+<p>Pour qu'un classique soit classique, il faut qu'il <em>passe l'épreuve du temps</em>. Mais pas trop ancré dans le passé non plus — un classique c'est un livre ou un auteur qui n'est <em>pas trop ancien</em>, qui reste lisible.</p>
+
+<div class="retenir">
+  Le classement des classiques est un acte social et institutionnel. C'est l'école, les éditeurs, les académies qui décident de ce qui entre dans le "panthéon" culturel. Ce n'est pas une donnée naturelle — c'est une construction. Et cette construction est genrée, nationale, historique.
+</div>
+
+<h3 class="section">D. Les dictionnaires d'écrivains</h3>
+
+<p>Un dictionnaire d'écrivain = dictionnaire qui n'analyse pas que l'œuvre mais aussi <em>l'écrivain lui-même</em>. Il permet de penser le processus de classification et de patrimonialisation en acte.</p>
+
+<h4 class="sous">Pourquoi étudier ce genre ? <span class="enrichi">enrichi</span></h4>
+
+<p>Le dictionnaire d'écrivain est un objet idéal pour étudier la patrimonialisation parce qu'il <em>donne à voir</em> les choix de sélection. Qui entre ? Qui n'entre pas ? Avec quelle notice, quelle importance ? Ces choix éditoriaux sont des actes de classification. En les étudiant, on voit comment se construit le canon littéraire.</p>
+
+<h4 class="sous">Les 5 caractéristiques du genre</h4>
+
+<table class="tableau">
+  <tr><th>Caractéristique</th><th>Ce que ça veut dire</th></tr>
+  <tr><td><strong>Genre récent et en expansion</strong></td><td>Il a quelques précédents mais se développe à quelques niches. Succès relatif. Une cinquantaine d'écrivains concentrés dans un seul dictionnaire. Une petite dizaine qui dispose de plusieurs écrivains.</td></tr>
+  <tr><td><strong>Genre de papier</strong></td><td>Ne s'inscrit pas dans la numérisation du monde social. Il y a que deux qui sont numérisés. Un seul dictionnaire a une édition électronique.</td></tr>
+  <tr><td><strong>Genre masculin</strong></td><td>Dirigé par des hommes. Seulement 1/4 de femmes qui dirigent et écrivent des dictionnaires. Les dictionnaires consacrent un type d'auteur : un homme, mort, français.</td></tr>
+  <tr><td><strong>Genre relativement élastique</strong></td><td>Trois axes : horizontal, vertical, diagonal. Un type d'écriture qualifié de narcissique. Il existe aussi des dictionnaires amoureux. Dimension collective ou individuelle selon les cas.</td></tr>
+  <tr><td><strong>Genre franco-centré</strong></td><td>Les dictionnaires d'écrivains en France = écrivains français. Il y a que 4 qui sont des écrivains étrangers.</td></tr>
+</table>
+
+<h4 class="sous">Le dictionnaire comme objet symbolique <span class="enrichi">enrichi</span></h4>
+
+<p>Un dictionnaire a une pédagogie intégrée : on apprend mieux dedans. Il y a un "ordre" : tout part du début à la fin de l'alphabet. Un dictionnaire est un objet imposant. Il y a le "pur élevé" de la chose. La maquette est un homologue d'un autre objet. Un dictionnaire c'est une <em>promesse</em> : j'attends quelque chose, une autorité de référence.</p>
+
+<p>Le dictionnaire d'écrivain <em>rencontre</em> des écrivains. Il permet de penser le processus de classification et de patrimonialisation en acte — c'est pourquoi c'est un objet d'étude si pertinent en sociologie de la culture.</p>
+
+<div class="qrc-tip">
+  Si on te demande de donner un exemple de classement / patrimonialisation : le dictionnaire d'écrivain est un exemple parfait. Il sélectionne, hiérarchise, transmet — les 5 gestes de la patrimonialisation s'y retrouvent.
+</div>
+
+<!-- ============================================================ -->
+<!-- FIN -->
+<!-- ============================================================ -->
+<div class="sep">· · ·</div>
+
+<div style="background:#f5f4f0; border-radius:4px; padding:1.4rem 1.8rem; font-family:sans-serif; font-size:13px;">
+  <p style="font-weight:bold; margin-bottom:0.7rem; font-size:14px;">Récapitulatif des auteurs à connaître pour les QRC</p>
+  <table class="tableau" style="margin:0;">
+    <tr><th>Auteur</th><th>Concept clé</th><th>À mobiliser pour</th></tr>
+    <tr><td>Bourdieu</td><td>Champ · capitaux · nomos · dénégation de l'économie</td><td>Production culturelle, inégalités, pratiques</td></tr>
+    <tr><td>Vincent Dubois</td><td>Division thématique vs conceptuelle</td><td>Définir la sociologie de la culture</td></tr>
+    <tr><td>Becker</td><td>Mondes de l'art · conventions · travail collectif</td><td>L'art comme production collective</td></tr>
+    <tr><td>Jakobson</td><td>Littérarité</td><td>Définir ce qui est littéraire</td></tr>
+    <tr><td>Alain Viala</td><td>Le littéraire (sociologie bourdieusienne)</td><td>Sociologie de la littérature</td></tr>
+    <tr><td>Yves Jeanneret</td><td>Trivialité · circulation · êtres culturels</td><td>Objets culturels numériques, Info-Com</td></tr>
+    <tr><td>Bourdieu &amp; Darbel</td><td>L'Amour de l'art · diplôme · auto-élimination</td><td>Démocratisation culturelle, musées</td></tr>
+    <tr><td>Malraux</td><td>Démocratisation culturelle</td><td>Politiques culturelles, enquêtes</td></tr>
+  </table>
+</div>
+
+</div>
+</body>
+</html>

@@ -6,16 +6,17 @@ import { Sparkle }     from '../components/Sparkle'
 import { supabase }    from '../lib/supabase'
 
 function SubjectPanicContent({ subjectId }) {
-  const { data, loading } = usePanic(subjectId)
+  const { data: groups, loading } = usePanic(subjectId)
   if (loading) return <p style={{ color: 'rgba(255,255,255,0.5)', padding: '0 18px' }}>Chargement…</p>
-  if (!data.length) return (
+  const items = groups.flatMap(g => g.items)
+  if (!items.length) return (
     <div style={{ margin: '0 18px', padding: 24, textAlign: 'center', background: 'rgba(255,255,255,0.05)', border: '1px dashed rgba(255,255,255,0.15)', borderRadius: 'var(--r-lg)', fontSize: 14, color: 'rgba(255,255,255,0.6)', fontStyle: 'italic' }}>
       Le résumé éclair pour cette matière arrive très bientôt.
     </div>
   )
   return (
     <div style={{ padding: '0 18px', display: 'flex', flexDirection: 'column', gap: 10 }} key={subjectId}>
-      {data.map((item, i) => (
+      {items.map((item, i) => (
         <div key={item.id} style={{ padding: '16px 18px', background: 'rgba(255,255,255,0.07)', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 'var(--r-md)', display: 'flex', gap: 14, alignItems: 'flex-start', animation: `screen-in 480ms ${i * 110}ms backwards cubic-bezier(.22,.9,.32,1.02)` }}>
           <div style={{ width: 28, height: 28, borderRadius: '50%', background: 'linear-gradient(155deg, var(--rose-400), var(--rose-600))', color: 'white', fontWeight: 800, fontSize: 13, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, boxShadow: '0 4px 12px rgba(236,111,146,0.4)' }}>{i + 1}</div>
           <div style={{ flex: 1, fontSize: 15, lineHeight: 1.45 }}>{item.content}</div>

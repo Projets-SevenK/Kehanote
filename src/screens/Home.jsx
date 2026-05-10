@@ -135,7 +135,7 @@ export function Home({ go, tab, onTab }) {
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div style={{ fontSize: 15, fontWeight: 800, marginBottom: 2, color: 'var(--ink-900)' }}>{s.title}</div>
                 <div style={{ fontSize: 12, color: 'var(--ink-500)', display: 'flex', gap: 8, alignItems: 'center' }}>
-                  <span>{s.chapters} chap.</span>
+                  <span>{s.chapters_count ?? '—'} chap.</span>
                   <span style={{ color: 'var(--rose-200)' }}>•</span>
                   <span>{s.cards_count ?? '—'} cartes</span>
                 </div>
