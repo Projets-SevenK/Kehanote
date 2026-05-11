@@ -1,0 +1,416 @@
+import json
+
+ch3 = {
+  "number": 3,
+  "title": "Hollywood à l'heure du gigantisme",
+  "concentre": {
+    "reading_time": 5,
+    "sections": [
+      {
+        "type": "key",
+        "title": "Concentration inédite et rachat par des groupes étrangers",
+        "bullets": [
+          "Années 1980 : contexte Reagan de déréglementation. Les majors reconstituent des réseaux de salles, violant le divorcment de 1948. La Columbia commence en 1983 avec 11 écrans.",
+          "1984 : 20th Century Fox rachetée par Rupert Murdoch (qui crée le 4e Network télévisuel : Fox). 1989 : Columbia rachetée par Sony (devient Sony Pictures Entertainment). 1989 : Time rachète Warner → groupe Time Warner = première mégafusion.",
+          "1993 : fin des Fin-Syn Rules → autorise la constitution de groupes avec Networks et majors. Les majors reprennent le contrôle de la production ET de la diffusion.",
+          "En 1995, Warner peut diffuser ses programmes dans 150 pays. Aucune société européenne ne peut avoir un réseau de distribution aussi dense."
+        ]
+      },
+      {
+        "type": "def",
+        "title": "Le piratage en ligne : de Napster aux cyberlockers",
+        "bullets": [
+          "Citation de Jack Valenti (président MPAA, 2003) : 'Le fait de pouvoir d'un simple clic de souris envoyer un long métrage à la vitesse de la lumière partout dans le monde est un rêve pour le marketing et un cauchemar pour la lutte anti-piratage.'",
+          "Réseaux pair-à-pair (P2P) : Napster (1999, Shawn Fanning, 7 millions d'utilisateurs, fermé en 2001) → Kazaa/Grokster (2001, sans serveur central, 5,6 millions utilisateurs quotidiens) → The Pirate Bay (2003, protocole BitTorrent).",
+          "Cyberlockers : Rapidshare (Allemagne, 2002), MegaUpload (Hong Kong, 2005 — 12 milliards de fichiers, 100 millions d'utilisateurs). MegaUpload fermé par le FBI à la demande de la MPAA.",
+          "Coût du piratage (rapport MPAA 2005) : 18 milliards de dollars pour l'industrie mondiale du cinéma, dont 6 milliards pour Hollywood. Le marché du piratage reproduit la concentration : on pirate ce dont tout le monde parle."
+        ]
+      },
+      {
+        "type": "def",
+        "title": "YouTube et Apple : nouveaux distributeurs",
+        "bullets": [
+          "YouTube (créé 2005 par 3 ex-employés PayPal) : concept initial = vidéos amateurs. Racheté par Google en 2006. En juillet 2006 : 65 000 vidéos publiées/jour, 100 millions de vues/jour.",
+          "Étude Burgess & Green (2009) sur YouTube : sur les 4 000 vidéos les plus populaires, plus de la moitié venaient des industries culturelles traditionnelles. Les vidéos professionnelles sont plus vues mais moins commentées.",
+          "Content ID : système mis en place par Google/YouTube pour identifier les contenus protégés. Les propriétaires peuvent choisir de garder le contenu et toucher des recettes publicitaires, ou de le faire retirer.",
+          "Apple : lancé IPod (2001), iTunes Music Store (2003), films et séries via iTunes (2005). En 2007 : 500 séries et 500 films disponibles. En 2012, 2/3 des achats de films aux USA passent par iTunes."
+        ]
+      },
+      {
+        "type": "key",
+        "title": "Netflix et la reprise de pouvoir d'Hollywood",
+        "bullets": [
+          "Netflix (créé 1997) : location de DVD par correspondance. 2007 : 1 milliard de DVD loués. Migration vers le streaming. 2011 : 23 millions d'abonnés streaming aux USA. Internationalisation : Canada (2010), Amérique latine, Europe (France en 2014), Asie.",
+          "Catalogues variables : 5 200 titres aux USA en 2016, 4 000 en Amérique latine, 1 200 en Zambie (Lobato, Netflix Nations).",
+          "Netflix Original : House of Cards (2013). Stratégie transnationale : identifier des segments de consommateurs au-delà des frontières. Marseille (2015) ne marche pas en France mais beaucoup à l'étranger. Seulement 10% du catalogue = Netflix Originals.",
+          "Reprise de pouvoir d'Hollywood : Hulu (2008, créé par ABCUniversal + Disney + Fox), Disney+ (2019), Amazon Prime Video (2006, a racheté MGM), Hulu racheté à 100% par Disney en 2019."
+        ]
+      }
+    ]
+  },
+  "flashcards": [
+    {
+      "question": "Qu'est-ce que la première mégafusion de l'industrie médiatique mondiale ?",
+      "answer": "Le rachat de Warner par Time en 1989, créant le groupe Time Warner. C'est la première mégafusion qui annonce celles qui se développent dans les années 1990-2000."
+    },
+    {
+      "question": "Qui a racheté la 20th Century Fox en 1984 et pourquoi est-ce significatif ?",
+      "answer": "Rupert Murdoch, grand propriétaire de médias (Australie, Grande-Bretagne). Il doit prendre la nationalité américaine car un non-Américain ne peut être propriétaire d'une chaîne TV aux USA. Il crée dans la foulée le 4e Network : Fox."
+    },
+    {
+      "question": "Qu'est-ce que Napster et quelle est son importance historique ?",
+      "answer": "Créé en 1999 par Shawn Fanning. Réseau pair-à-pair permettant d'échanger des fichiers musicaux via un serveur central. 7 millions d'utilisateurs à son pic (août 2000). Fermé en 2001 après procès de la RIAA. Première génération du piratage numérique."
+    },
+    {
+      "question": "Quelle est la différence entre Kazaa/Grokster et Napster sur le plan technique ?",
+      "answer": "Kazaa et Grokster (2001) utilisent le logiciel fast track qui permet de se passer du serveur central qu'utilisait Napster. Les abonnés s'échangent des fichiers directement entre eux (pair-à-pair pur), ce qui rend la fermeture plus difficile."
+    },
+    {
+      "question": "Qu'est-ce que le protocole BitTorrent utilisé par The Pirate Bay ?",
+      "answer": "Un protocole qui décompose un fichier en segments envoyés sur des serveurs différents, puis recomposés chez l'utilisateur. Cela permet de télécharger des fichiers lourds (films, séries) plus efficacement que les protocoles précédents."
+    },
+    {
+      "question": "Qu'est-ce que le Content ID de YouTube et pourquoi a-t-il été mis en place ?",
+      "answer": "Un système développé par Google/YouTube permettant d'identifier les contenus protégés par le droit d'auteur. Les producteurs confient leurs productions à YouTube qui les intègre dans une base de données. À chaque upload d'un contenu identifié, le propriétaire peut le faire retirer ou toucher des recettes publicitaires."
+    },
+    {
+      "question": "Que révèle l'étude de Burgess & Green (2009) sur YouTube ?",
+      "answer": "Sur les 4 000 vidéos les plus populaires de YouTube, plus de la moitié venaient des industries culturelles traditionnelles (chaînes TV, studios, labels). Les vidéos professionnelles sont plus vues que les amateurs mais moins commentées. YouTube n'est pas seulement une plateforme de vidéos amateurs."
+    },
+    {
+      "question": "Comment Apple est-il devenu un distributeur majeur de contenus audiovisuels ?",
+      "answer": "Via l'iPod (2001), l'iTunes Music Store (2003), puis l'ajout de séries et films (2005). En 2007 : 500 séries + 500 films disponibles. En 2012, 2/3 des achats de films aux USA passent par iTunes. Les majors ont accepté car Apple représentait une alternative légale au piratage."
+    },
+    {
+      "question": "Quel était le modèle original de Netflix et comment a-t-il évolué ?",
+      "answer": "Créé en 1997 : location de DVD par correspondance (prix bas, pas de frais de port, système de recommandations). En 2007 : 1 milliard de DVD loués. Migration progressive vers le streaming (financement par abonnement). En 2011 : 23 millions d'abonnés streaming aux USA."
+    },
+    {
+      "question": "Qu'est-ce que Netflix Nations selon Ramon Lobato et que révèle ce concept ?",
+      "answer": "Lobato montre dans Netflix Nations (2019) que les catalogues de Netflix varient considérablement d'un pays à l'autre : 5 200 titres aux USA, 4 000 en Amérique latine, 1 200 en Zambie. Cela traduit une hiérarchie des marchés prioritaires pour Netflix."
+    },
+    {
+      "question": "Qu'est-ce que Hulu et qui le crée ?",
+      "answer": "Plateforme de streaming créée en 2008 par ABCUniversal. Propose un modèle gratuit financé par la publicité (alternative légale au piratage), puis Hulu+ (payant). Disney, Fox et Columbia y investissent. Disney en devient actionnaire majoritaire en 2019. Coûts pub 60% inférieurs aux Networks."
+    },
+    {
+      "question": "Pourquoi les grandes sociétés hollywoodiennes ont-elles d'abord confié leurs programmes à Netflix avant de vouloir s'en séparer ?",
+      "answer": "Au départ, elles n'avaient pas les compétences pour affronter l'économie d'Internet et s'en remettaient à un acteur extérieur. Mais Netflix payait mal et acquérait du pouvoir. Toutes les grandes sociétés ont ensuite créé leurs propres plateformes (Disney+, Paramount+, etc.)."
+    }
+  ],
+  "qcm": {
+    "easy": [
+      {
+        "question": "Qui a racheté la Columbia en 1989 et comment la société s'appelle-t-elle après ?",
+        "choices": ["Rupert Murdoch → Fox Pictures", "Sony → Sony Pictures Entertainment", "Time → Time Pictures", "MCA → Universal Pictures"],
+        "correct_index": 1,
+        "explanation": "Sony, grand fabricant de matériel électronique, rachète la Columbia en 1989. Elle devient la Sony Pictures Entertainment."
+      },
+      {
+        "question": "Qu'est-ce que Napster ?",
+        "choices": ["Une plateforme de vidéo à la demande légale", "Un réseau pair-à-pair d'échange de fichiers musicaux créé en 1999 par Shawn Fanning", "Un site de vente de DVD en ligne", "Un système de streaming vidéo légal"],
+        "correct_index": 1,
+        "explanation": "Napster est un réseau pair-à-pair créé en 1999 permettant d'échanger des fichiers musicaux. 7 millions d'utilisateurs à son pic, fermé en 2001 après un procès de la RIAA."
+      },
+      {
+        "question": "Quand YouTube a-t-il été racheté par Google ?",
+        "choices": ["2005", "2006", "2007", "2008"],
+        "correct_index": 1,
+        "explanation": "YouTube, créé en 2005, est racheté par Google en 2006 grâce aux statistiques impressionnantes : 65 000 vidéos publiées par jour et 100 millions de vues par jour."
+      },
+      {
+        "question": "Qu'est-ce que MegaUpload ?",
+        "choices": ["Un site de streaming légal", "Un cyberlocker basé à Hong Kong avec 100 millions d'utilisateurs, fermé par le FBI", "Un réseau pair-à-pair suédois", "Une plateforme de vidéo à la demande de Hollywood"],
+        "correct_index": 1,
+        "explanation": "MegaUpload est un cyberlocker basé à Hong Kong (2005), avec 12 milliards de fichiers et 100 millions d'utilisateurs. Fermé par le FBI à la demande de la MPAA."
+      },
+      {
+        "question": "En quelle année Netflix lance-t-il son service de streaming ?",
+        "choices": ["2005", "2007", "2009", "2011"],
+        "correct_index": 1,
+        "explanation": "Netflix migre progressivement vers le streaming à partir de 2007. En 2007, ils atteignent le milliard de DVD loués. En 2011, ils comptent déjà 23 millions d'abonnés streaming aux USA."
+      },
+      {
+        "question": "Quelle est la première série originale produite par Netflix ?",
+        "choices": ["Orange is the New Black", "Stranger Things", "House of Cards", "Marseille"],
+        "correct_index": 2,
+        "explanation": "House of Cards (2013) est la première grande série Netflix Originals aux États-Unis, marquant le début de la politique de production de contenus propres."
+      },
+      {
+        "question": "Qu'est-ce que le Content ID de YouTube ?",
+        "choices": ["Un système de recommandation de vidéos", "Un système d'identification des contenus protégés permettant aux propriétaires de les retirer ou d'en monétiser la diffusion", "Un outil de mesure de l'audience", "Un système de modération des commentaires"],
+        "correct_index": 1,
+        "explanation": "Le Content ID est un système développé par Google/YouTube permettant d'identifier les contenus protégés. Les propriétaires peuvent choisir de faire retirer le contenu ou de toucher des recettes publicitaires."
+      },
+      {
+        "question": "Quel est le protocole utilisé par The Pirate Bay ?",
+        "choices": ["Napster Protocol", "Fast Track", "BitTorrent", "HTTP streaming"],
+        "correct_index": 2,
+        "explanation": "The Pirate Bay (2003) utilise le protocole BitTorrent qui décompose les fichiers en segments envoyés sur des serveurs différents, puis recomposés chez l'utilisateur — facilitant le téléchargement de fichiers lourds."
+      },
+      {
+        "question": "En quelle année Disney lance-t-il sa plateforme Disney+ ?",
+        "choices": ["2015", "2017", "2019", "2021"],
+        "correct_index": 2,
+        "explanation": "Disney+ est lancé en 2019, bénéficiant des catalogues de toutes les sociétés du groupe Disney (dont Marvel, Pixar, Star Wars, Fox)."
+      },
+      {
+        "question": "Quel est le coût estimé du piratage pour l'industrie mondiale du cinéma selon le rapport MPAA de 2005 ?",
+        "choices": ["6 milliards de dollars", "12 milliards de dollars", "18 milliards de dollars", "25 milliards de dollars"],
+        "correct_index": 2,
+        "explanation": "Selon le rapport MPAA de 2005, le coût global du piratage pour l'industrie mondiale du cinéma est estimé à 18 milliards de dollars, dont 6 milliards pour Hollywood."
+      }
+    ],
+    "medium": [
+      {
+        "question": "Pourquoi la citation de Jack Valenti (2003) est-elle révélatrice de la position d'Hollywood face à Internet ?",
+        "choices": [
+          "Elle montre qu'Hollywood a immédiatement saisi les opportunités d'Internet",
+          "Elle illustre la dualité de toute technologie perturbatrice : Internet est à la fois un rêve pour la distribution mondiale (marketing) et un cauchemar car Hollywood perd le contrôle de cette distribution (piratage)",
+          "Elle montre qu'Hollywood était uniquement préoccupé par les profits",
+          "Elle révèle que Valenti était opposé à toute forme de distribution numérique"
+        ],
+        "correct_index": 1,
+        "explanation": "La citation 'rêve pour le marketing et cauchemar pour la lutte anti-piratage' illustre parfaitement la dualité de toute technologie perturbatrice : elle ouvre de nouveaux marchés mais déstabilise les modèles existants. Hollywood n'a d'abord vu que la menace."
+      },
+      {
+        "question": "Que révèle l'étude de Burgess & Green sur YouTube en 2009 concernant la nature de la plateforme ?",
+        "choices": [
+          "YouTube était exclusivement une plateforme de vidéos amateurs",
+          "Sur les 4 000 vidéos les plus populaires, plus de la moitié venait des industries culturelles traditionnelles — YouTube était aussi un canal de diffusion des contenus professionnels, non leur concurrent",
+          "Les vidéos amateurs étaient plus populaires que les vidéos professionnelles",
+          "YouTube ne diffusait pratiquement aucun contenu des industries culturelles"
+        ],
+        "correct_index": 1,
+        "explanation": "L'étude Burgess & Green montre que sur les 4 000 vidéos les plus populaires, une petite majorité venait des industries culturelles traditionnelles (chaînes TV, studios, labels). YouTube était autant un canal de diffusion pour ces industries qu'une plateforme de créateurs."
+      },
+      {
+        "question": "Pourquoi les majors hollywoodiennes ont-elles accepté de confier leurs contenus à Apple dans les années 2000 ?",
+        "choices": [
+          "Parce qu'Apple leur payait des sommes très élevées",
+          "Parce qu'Apple représentait une alternative légale au piratage et que les majors n'avaient pas les compétences pour affronter seules l'économie d'Internet",
+          "Parce que Apple était propriétaire de droits sur leurs catalogues",
+          "Parce que le gouvernement américain les y avait obligées"
+        ],
+        "correct_index": 1,
+        "explanation": "Les majors n'avaient pas les compétences pour affronter l'économie d'Internet et cherchaient des alternatives légales au piratage. Apple, avec sa maîtrise technologique (iPod, iTunes) et son internationalisation rapide (21 pays fin 2005), représentait cette alternative."
+      },
+      {
+        "question": "Pourquoi Netflix a-t-il choisi d'investir dans la production de contenus propres ?",
+        "choices": [
+          "Parce que c'était moins cher que de licencier des contenus existants",
+          "Parce que les majors hollywoodiennes voulaient de moins en moins confier leurs programmes (elles les payaient mal) et lançaient leurs propres plateformes — Netflix devait produire pour affronter la concurrence",
+          "Parce que le gouvernement américain l'y avait obligé",
+          "Parce que les abonnés demandaient exclusivement des contenus originaux"
+        ],
+        "correct_index": 1,
+        "explanation": "Netflix a investi dans la production car les majors, initialement démunies face à l'économie d'Internet, ont progressivement voulu reprendre leurs programmes (Netflix les payait mal) et ont lancé leurs propres plateformes. Pour survivre à cette concurrence, Netflix devait produire ses propres contenus."
+      },
+      {
+        "question": "En quoi la stratégie de Netflix est-elle 'transnationale' et non simplement 'nationale' ?",
+        "choices": [
+          "Netflix produit uniquement des contenus américains",
+          "Netflix identifie des segments de consommateurs transnationaux grâce aux données des utilisateurs — il peut toucher un faible pourcentage de nationaux si cette niche existe dans de nombreux pays (ex : Marseille fonctionne mieux à l'étranger qu'en France)",
+          "Netflix ne produit que des contenus locaux dans chaque pays",
+          "Netflix n'a aucune stratégie de localisation"
+        ],
+        "correct_index": 1,
+        "explanation": "Netflix raisonne au niveau transnational : grâce aux données, il identifie des segments de consommateurs au-delà des frontières. Il peut accepter de toucher un pourcentage réduit de nationaux si ce segment existe dans de nombreux pays — ce qu'une chaîne nationale ne peut pas faire."
+      },
+      {
+        "question": "Comment le piratage en ligne a-t-il paradoxalement bénéficié à Hollywood selon une vision alternative ?",
+        "choices": [
+          "En augmentant les recettes publicitaires des studios",
+          "En faisant circuler plus largement les programmes hollywoodiens dans des marchés où ils n'étaient pas disponibles, contribuant à leur popularité mondiale — le piratage n'a pas été 'uniformément mauvais' comme le disait Jack Valenti",
+          "En poussant les studios à améliorer la qualité de leurs productions",
+          "En permettant de tester de nouveaux contenus auprès du public"
+        ],
+        "correct_index": 1,
+        "explanation": "Paradoxalement, le piratage a contribué à la diffusion mondiale des programmes hollywoodiens en les rendant disponibles dans des marchés où ils n'étaient pas officiellement distribués. Ils ont ainsi contribué à la popularité globale des productions américaines, un argument que Jack Valenti refusait d'entendre."
+      },
+      {
+        "question": "Pourquoi le procès Viacom contre YouTube (2007) est-il révélateur des pratiques de l'industrie culturelle ?",
+        "choices": [
+          "Il illustre uniquement la cupidité des grandes entreprises médiatiques",
+          "L'enquête a montré que certaines vidéos incriminées avaient été uploadées par des employés de Viacom eux-mêmes — révélant que les grandes entreprises utilisaient YouTube comme outil de promotion tout en le poursuivant en justice",
+          "Il illustre que YouTube ne respectait jamais les droits d'auteur",
+          "Il prouve que Viacom avait raison de poursuivre YouTube"
+        ],
+        "correct_index": 1,
+        "explanation": "Le procès Viacom/YouTube (2007) révèle une hypocrisie fondamentale : certaines vidéos incriminées avaient été uploadées par des employés des services marketing de Viacom. Les grandes entreprises utilisaient YouTube comme outil promotionnel tout en le poursuivant en justice pour les mêmes contenus."
+      },
+      {
+        "question": "Pourquoi le rapport NBC/Universal de 2011 sur le piratage est-il analytiquement intéressant ?",
+        "choices": [
+          "Il montre que le piratage est uniformément réparti sur tous les contenus",
+          "Il montre que le piratage se concentre sur un tout petit nombre de fichiers — les films, séries et musiques les plus populaires — reproduisant la concentration de la consommation légale",
+          "Il montre que le piratage concerne surtout les pays en développement",
+          "Il prouve que le piratage est entièrement dû aux réseaux pair-à-pair"
+        ],
+        "correct_index": 1,
+        "explanation": "Le rapport montre que le marché du piratage reproduit la concentration de la consommation : on pirate ce dont tout le monde parle, ce pour quoi il y a de la publicité. Ce n'est pas un espace de consommation alternative mais un miroir de la culture dominante."
+      },
+      {
+        "question": "Comment Hulu se distingue-t-il de Netflix dans son modèle économique initial ?",
+        "choices": [
+          "Hulu était payant dès le départ, contrairement à Netflix",
+          "Hulu propose un modèle gratuit financé par la publicité (alternative légale au piratage), avec des coûts publicitaires 60% inférieurs aux Networks, puis développe Hulu+ comme offre payante",
+          "Hulu ne proposait que des contenus originaux, contrairement à Netflix",
+          "Hulu était réservé aux abonnés des chaînes câblées"
+        ],
+        "correct_index": 1,
+        "explanation": "Hulu (2008) adopte un modèle gratuit financé par la publicité, en alternative aux plateformes pirates. Les coûts d'achat de la publicité sont 60% inférieurs à ceux des Networks. Hulu+ est ensuite développé comme offre payante."
+      },
+      {
+        "question": "Pourquoi la valorisation boursière de Google (3 fois celle de Disney en 2016) est-elle stratégiquement significative pour Hollywood ?",
+        "choices": [
+          "Parce que Google veut racheter Hollywood",
+          "Parce qu'une valorisation boursière plus élevée = plus de capacités de financement — les nouveaux distributeurs issus d'Internet sont financièrement beaucoup plus puissants que les acteurs traditionnels des industries culturelles, mais n'ont pas le savoir-faire en production",
+          "Parce que cela prouve que le cinéma est une industrie en déclin",
+          "Parce que Google et Disney sont en compétition directe sur tous les marchés"
+        ],
+        "correct_index": 1,
+        "explanation": "La valorisation boursière traduit des capacités de financement. Google (3x Disney en 2016) peut investir massivement dans la distribution numérique. Hollywood essaie de résister mais est confronté à des acteurs financièrement bien plus puissants, même si ces derniers n'ont pas le savoir-faire en production."
+      }
+    ],
+    "hard": [
+      {
+        "question": "En quoi le développement des cyberlockers comme MegaUpload marque-t-il un passage de l'artisanat à l'industrialisation du piratage audiovisuel ?",
+        "choices": [
+          "Les cyberlockers ne sont pas différents des réseaux pair-à-pair",
+          "Les cyberlockers industrialisent le piratage : MegaUpload (100 millions d'utilisateurs, 12 milliards de fichiers, 19 langues) est une entreprise mondiale avec une stratégie d'internationalisation — on passe de l'échange entre pairs à une infrastructure commerciale planétaire",
+          "Les cyberlockers ont rendu le piratage moins accessible",
+          "Les cyberlockers ne concernaient que les marchés asiatiques"
+        ],
+        "correct_index": 1,
+        "explanation": "Les cyberlockers marquent le passage du piratage artisanal (échange entre pairs) au piratage industriel : MegaUpload était une entreprise commerciale avec 100 millions d'utilisateurs, opérant dans 19 langues, financée par la publicité et des abonnements premium. La dimension économique et stratégique est comparable à celle d'une grande entreprise légale."
+      },
+      {
+        "question": "En quoi la stratégie de Netflix illustre-t-elle la tension entre universalisme et localisation dans la distribution culturelle mondiale ?",
+        "choices": [
+          "Netflix ne pratique aucune localisation — il diffuse uniquement des contenus américains",
+          "Netflix navigue entre une stratégie de segments transnationaux (identifier des nichés mondiales) et une nécessité de localisation (produire des contenus locaux pour pénétrer les marchés) — illustrant que la distribution mondiale ne peut pas ignorer les spécificités culturelles",
+          "Netflix a abandonné toute stratégie de localisation après l'échec de Marseille",
+          "Netflix impose uniquement des contenus américains dans tous les pays"
+        ],
+        "correct_index": 1,
+        "explanation": "Netflix illustre parfaitement cette tension : d'un côté une stratégie transnationale (identifier des segments de consommateurs au-delà des frontières via les données), de l'autre une nécessité de localisation (produire en Inde, au Brésil, en France) pour pénétrer les marchés et répondre aux régulations locales."
+      },
+      {
+        "question": "Comment la succession Napster → Kazaa → The Pirate Bay → cyberlockers illustre-t-elle la dynamique de l'innovation dans l'économie informelle du piratage ?",
+        "choices": [
+          "Elle illustre que le piratage est toujours identique technologiquement",
+          "Elle illustre une loi d'évolution : chaque génération condamnée est immédiatement remplacée par une nouvelle techniquement supérieure (serveur central → sans serveur → BitTorrent → hébergement centralisé), montrant que la répression seule est insuffisante",
+          "Elle montre que la répression judiciaire a finalement fonctionné",
+          "Elle illustre que le piratage n'est possible que dans les pays sans régulation"
+        ],
+        "correct_index": 1,
+        "explanation": "La succession des générations de piratage illustre une dynamique d'innovation permanente dans l'économie informelle : sitôt une génération condamnée, une autre plus performante techniquement (et plus résistante à la répression) la remplace. Napster (serveur central vulnérable) → Kazaa (sans serveur central) → BitTorrent (décentralisé) → cyberlockers (commerciaux et internationaux)."
+      },
+      {
+        "question": "En quoi YouTube illustre-t-il la transformation du rapport entre industries culturelles traditionnelles et plateformes numériques ?",
+        "choices": [
+          "YouTube a remplacé les industries culturelles traditionnelles",
+          "YouTube est à la fois un concurrent (qui capte de l'audience et des revenus publicitaires) et un canal de distribution pour les industries culturelles — le procès Viacom révèle même que ces industries l'utilisaient comme outil promotionnel tout en le poursuivant",
+          "YouTube n'a eu aucun impact sur les industries culturelles traditionnelles",
+          "YouTube et les industries culturelles n'ont jamais eu aucune interaction"
+        ],
+        "correct_index": 1,
+        "explanation": "YouTube illustre la complexité des rapports entre plateformes et industries culturelles : concurrent (capte audience et revenus publicitaires), canal de distribution (la majorité des vidéos populaires viennent des industries traditionnelles), outil promotionnel (Viacom uploadait ses propres contenus), et partenaire via le Content ID."
+      },
+      {
+        "question": "En quoi la constitution de grands conglomérats médiatiques dans les années 1990-2000 (Time Warner, Disney-ABC, Viacom-CBS) a-t-elle renforcé la domination américaine sur les marchés culturels mondiaux ?",
+        "choices": [
+          "Ces fusions ont uniquement visé le marché américain",
+          "En combinant production (studios), diffusion (Networks + câble), distribution (réseaux dans 150 pays), et catalogue (bibliothèques de programmes), ces conglomérats ont créé des intégrations verticales et horizontales que nul acteur européen ou mondial ne pouvait égaler en termes de puissance",
+          "Ces fusions ont au contraire affaibli les entreprises en les rendant trop grandes",
+          "Ces fusions n'ont eu aucun impact sur les marchés internationaux"
+        ],
+        "correct_index": 1,
+        "explanation": "Les mégafusions (Time Warner en 1989, puis les grandes fusions des années 1990-2000) créent des intégrations verticales ET horizontales : une même entreprise contrôle la production cinématographique, les Networks, les chaînes câblées, les studios de musique, et les réseaux de distribution mondiaux. En 1995, Warner pouvait diffuser dans 150 pays — aucune entreprise européenne n'était capable de rivaliser."
+      },
+      {
+        "question": "En quoi le modèle économique de Netflix remet-il en cause la notion traditionnelle de marché national dans l'industrie audiovisuelle ?",
+        "choices": [
+          "Netflix opère exactement comme une chaîne nationale classique",
+          "Netflix permet à une entreprise de ne viser qu'un faible pourcentage d'un marché national tout en étant rentable, si ce segment existe dans de nombreux pays — il déplace la logique de 'capter 25% des Français' vers 'toucher 2% de Français + 2% d'Italiens + 2% de Japonais'",
+          "Netflix ne fait aucune distinction entre les marchés nationaux",
+          "Netflix a abandonné le concept de segmentation par marché"
+        ],
+        "correct_index": 1,
+        "explanation": "Netflix remet en cause la logique du marché national : contrairement à TF1 qui doit capter 25% des Français, Netflix peut se permettre de toucher un pourcentage réduit de chaque marché si ce segment transnational est suffisamment large. L'échec de Marseille en France n'est pas un problème si la série marche à l'étranger."
+      },
+      {
+        "question": "Pourquoi le rachat de Columbia par Sony en 1989 puis le rachat de MGM par Amazon illustrent-ils une logique économique similaire malgré 30 ans d'écart ?",
+        "choices": [
+          "Les deux rachats sont motivés uniquement par des raisons fiscales",
+          "Dans les deux cas, un acteur technologique (fabricant de matériel ou plateforme e-commerce) rachète un studio hollywoodien pour maîtriser le contenu et se positionner dans la chaîne de valeur audiovisuelle — la logique hardware/software ne cesse de se reproduire",
+          "Les deux rachats sont guidés par des raisons uniquement géopolitiques",
+          "Les deux situations sont fondamentalement différentes et ne peuvent pas être comparées"
+        ],
+        "correct_index": 1,
+        "explanation": "Sony (fabricant de matériel) rachète Columbia (contenu) en 1989. Amazon (plateforme e-commerce et cloud) rachète MGM (catalogue et production) pour renforcer Prime Video. Dans les deux cas, la logique est identique : un acteur technologique comprend qu'il doit maîtriser le contenu pour créer de la valeur. La tension hardware/software se perpétue."
+      },
+      {
+        "question": "En quoi la politique de localisation imposée par Zee TV en Inde et adoptée ensuite par Netflix illustre-t-elle une limite structurelle de la domination culturelle américaine ?",
+        "choices": [
+          "La politique de localisation prouve qu'Hollywood n'est plus dominant",
+          "Pour pénétrer certains marchés (notamment l'Inde), même les plateformes les plus puissantes doivent adopter une stratégie de localisation — produire du contenu local, s'associer à des producteurs nationaux — ce qui introduit de la diversité culturelle dans les flux globaux",
+          "La politique de localisation ne concerne que l'Inde",
+          "La politique de localisation est purement cosmétique et ne change pas la domination américaine"
+        ],
+        "correct_index": 1,
+        "explanation": "Zee TV (créé en 1992) a montré que pour dominer le marché indien, il fallait diffuser des contenus locaux. Netflix, malgré sa puissance financière, a dû adopter la même logique. Cette nécessité de localisation révèle une limite structurelle de la domination culturelle américaine : certains marchés résistent par leur taille et leur spécificité culturelle."
+      },
+      {
+        "question": "Comment la lutte anti-piratage menée conjointement par Hollywood et le gouvernement américain (FBI, département d'État) illustre-t-elle la continuité du rôle de l'État dans le soutien à l'industrie culturelle ?",
+        "choices": [
+          "Le gouvernement américain n'a joué aucun rôle dans la lutte anti-piratage",
+          "La mobilisation du FBI et du département d'État pour fermer MegaUpload ou poursuivre The Pirate Bay reproduit une logique établie dès la MPPDA des années 1920 : l'État américain traite la protection des droits d'auteur d'Hollywood comme un intérêt national, non comme une simple affaire privée",
+          "Le gouvernement américain agissait uniquement pour des raisons humanitaires",
+          "La lutte anti-piratage était menée exclusivement par Hollywood sans implication gouvernementale"
+        ],
+        "correct_index": 1,
+        "explanation": "La mobilisation du FBI et du département d'État pour fermer MegaUpload ou poursuivre The Pirate Bay révèle une continuité fondamentale : depuis la MPPDA des années 1920 qualifiée de 'branche complémentaire du département d'État', le gouvernement américain traite la protection des droits d'auteur des majors comme un intérêt national, non comme une simple affaire privée."
+      }
+    ]
+  },
+  "panic": [
+    "1989 : Sony rachète Columbia. Time rachète Warner = première mégafusion. 1984 : Murdoch rachète Fox + crée le 4e Network.",
+    "Piratage P2P : Napster (1999) → Kazaa/Grokster (2001, sans serveur) → The Pirate Bay (2003, BitTorrent).",
+    "Cyberlockers : Rapidshare (2002), MegaUpload (2005 — 100M utilisateurs, fermé par FBI).",
+    "Coût piratage (MPAA, 2005) : 18 Md$ mondial, dont 6 Md$ pour Hollywood.",
+    "YouTube (2005) : racheté par Google (2006). Content ID. Burgess & Green : plus de la moitié des vidéos populaires vient des industries culturelles.",
+    "Apple iTunes : 500 séries + 500 films en 2007. En 2012, 2/3 des achats de films aux USA passent par iTunes.",
+    "Netflix (1997 DVD → streaming 2007) : 23M abonnés 2011. Netflix Nations (Lobato) : catalogues très variables. Netflix Originals (2013) = seulement 10% du catalogue."
+  ],
+  "qrc": [
+    {
+      "question": "Comment Hollywood a-t-il répondu à la menace du piratage en ligne dans les années 2000 ?",
+      "plan_type": "I. Les différentes générations de piratage et leur impact / II. La réponse répressive (procès, FBI, département d'État) / III. La réponse commerciale (Movielink, Apple, Netflix) et ses limites",
+      "model_answer": "L'essor d'Internet constitue pour Hollywood une technologie perturbatrice, à la fois 'rêve pour le marketing et cauchemar pour la lutte anti-piratage' selon Jack Valenti. Les générations de piratage se succèdent rapidement : Napster (1999, échange de musique via serveur central, 7 millions d'utilisateurs), Kazaa et Grokster (2001, sans serveur central), The Pirate Bay (2003, protocole BitTorrent permettant de télécharger des fichiers vidéo lourds), puis les cyberlockers comme MegaUpload (100 millions d'utilisateurs). Le rapport MPAA de 2005 estime à 18 milliards de dollars le coût du piratage pour l'industrie mondiale du cinéma.\n\nLa première réponse d'Hollywood est répressive : mobilisation du lobby (MPAA), du FBI et du département d'État pour fermer les plateformes pirates. C'est une continuité de la tradition de traitement du piratage comme un intérêt national, reproduisant la logique de la MPPDA des années 1920. Les procès aboutissent à la fermeture de Napster (2001), de MegaUpload (saisi par le FBI), et des linking sites en 2010.\n\nLa réponse commerciale est plus laborieuse. Movielink (2002), premier site légal de VOD rassemblant plusieurs majors, est un échec retentissant : tarifs trop élevés, chronologie des médias à respecter, disponibilité limitée aux USA. La réussite vient d'acteurs extérieurs à Hollywood : Apple, avec iTunes (500 séries et films dès 2007, 2/3 des achats aux USA en 2012), et surtout Netflix, qui migre de la location de DVD vers le streaming (23 millions d'abonnés en 2011), avant d'investir dans la production originale (House of Cards, 2013). Hollywood reprend ensuite le contrôle avec ses propres plateformes : Hulu (2008), Disney+ (2019), Amazon Prime Video.",
+      "key_concepts": ["technologie perturbatrice", "Napster", "BitTorrent", "The Pirate Bay", "MPAA", "FBI", "Movielink", "Apple iTunes", "Netflix", "Disney+", "cyberlocker", "répression", "offre légale"]
+    },
+    {
+      "question": "Comment Netflix a-t-il bouleversé le modèle économique de la distribution audiovisuelle mondiale ?",
+      "plan_type": "I. Origines et transition du DVD vers le streaming / II. La stratégie d'internationalisation et ses enjeux / III. L'investissement dans la production et la logique transnationale",
+      "model_answer": "Netflix est créé en 1997 par deux informaticiens comme service de location de DVD par correspondance, avec des atouts distinctifs : prix bas, pas de frais de port, et un système de recommandations basé sur les données des utilisateurs. En 2007, il atteint 1 milliard de DVD loués. Ses créateurs comprennent alors que l'avenir est à la distribution en ligne et migrent progressivement vers le streaming, financé par abonnement. En 2011, Netflix compte déjà 23 millions d'abonnés streaming aux USA, pendant que son concurrent physique Blockbuster fait faillite.\n\nForte de cette base américaine, Netflix s'internationalise à partir de 2010 : Canada, Amérique latine (où le haut débit est insuffisant et les prix doivent être revus à la baisse), Europe (France en 2014), Asie (Australie, Nouvelle-Zélande, Japon). Comme le montre Ramon Lobato dans Netflix Nations (2016), les catalogues varient considérablement : 5 200 titres aux USA, 4 000 en Amérique latine, 1 200 en Zambie. Cette variation reflète les marchés prioritaires de Netflix et les obstacles des droits de diffusion à négocier marché par marché.\n\nL'investissement dans la production propre (Netflix Originals) commence en 2013 avec House of Cards, motivé par le désengagement progressif des majors. Netflix exploite ses données pour identifier des segments transnationaux de consommateurs : contrairement à TF1 qui doit capter 25% des Français, Netflix peut se permettre de toucher un faible pourcentage de chaque marché si ce segment existe dans de nombreux pays. La série Marseille (2015) illustre cette logique : peu vue en France mais succès à l'international. Les grandes sociétés hollywoodiennes ont ensuite créé leurs propres plateformes (Hulu, Disney+, Paramount+), se positionnant comme concurrents de Netflix.",
+      "key_concepts": ["Netflix", "streaming", "abonnement", "internationalisation", "Netflix Nations", "Lobato", "Netflix Originals", "stratégie transnationale", "données utilisateurs", "Disney+", "Hulu", "droits de diffusion"]
+    }
+  ]
+}
+
+with open('scripts/intern_ch3.json', 'w', encoding='utf-8') as f:
+    json.dump(ch3, f, ensure_ascii=False, indent=2)
+
+with open('scripts/intern_ch3.json', 'w', encoding='utf-8') as f:
+    loaded = json.load(f)
+
+fc = len(loaded['flashcards'])
+easy = len(loaded['qcm']['easy'])
+med = len(loaded['qcm']['medium'])
+hard = len(loaded['qcm']['hard'])
+qrc = len(loaded['qrc'])
+panic = len(loaded['panic'])
+size = len(open('/home/claude/intern_ch3.json').read())
+print(f"Ch3 OK — FC:{fc} | QCM:{easy}/{med}/{hard} | QRC:{qrc} | Panic:{panic} | {size} chars")
