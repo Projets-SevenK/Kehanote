@@ -1887,338 +1887,1236 @@
           ]
         }
       ]
+    },
+    {
+      "number": 5,
+      "title": "Bollywood : des exportations informelles à l'internationalisation formelle",
+      "concentre": {
+        "reading_time": 5,
+        "sections": [
+          {
+            "type": "def",
+            "title": "La mise en place du cinéma masala",
+            "bullets": [
+              "L'Inde = premier ou second producteur mondial de films (1 724 films en 2013 selon l'Unesco). Seul pays à avoir bâti une industrie nationale sous domination coloniale (jusqu'en 1947).",
+              "1927 : rapport du Indian Cinematograph Committee commandé par l'administration britannique (inquiète des représentations immorales de l'homme blanc dans les films américains). Résultat : 80% des films diffusés en Inde sont américains.",
+              "Dadasaheb Phalke = père du cinéma indien. En 1910, il voit La vie du Christ et décide de produire des films sur les divinités indiennes. Raja Harischandra = premier film national. Naissance du cinéma indien.",
+              "Cinéma masala (mélange d'épices) : produit par l'atomisation de la production dans les années 1940. Des petits producteurs qui n'ont qu'un film à financer concentrent tous les genres en un : action, policier, romance, musique, injustice sociale, danse. Objectif : toucher tout le public indien (all India films)."
+            ]
+          },
+          {
+            "type": "def",
+            "title": "Économie du cinéma indien : spécificités",
+            "bullets": [
+              "Mode de production atypique : trouver une star → tourner quelques séquences → trouver un distributeur → trouver d'autres distributeurs régionaux → financer le reste. C'est en additionnant les distributeurs qu'on finance le film.",
+              "Atomisation de la production : 214 producteurs en 1947. En 1948, seulement 25% de ceux de 1946 résistent. Mais d'autres arrivent. Cette instabilité favorise le recours à l'argent sale pour financer les productions.",
+              "1948 : l'État indien refuse de considérer le cinéma comme une industrie légitime. Pas de prêts bancaires intéressants. Il faut attendre 1998 pour que le cinéma obtienne ce statut d'industrie.",
+              "Avec le parlant dans les années 1930, les films américains perdent leur domination — opportunité pour le cinéma national. En 1935 : 238 films indiens (contre 108 en 1927)."
+            ]
+          },
+          {
+            "type": "key",
+            "title": "Internationalisation : voies formelles et informelles",
+            "bullets": [
+              "Internationalisation informelle d'abord : les grandes sociétés indiennes de distribution sont concentrées sur le marché national (énorme). Des entrepreneurs individuels (marchands libanais, entrepreneurs hongkongais, indo-africains) assurent la distribution internationale de façon artisanale.",
+              "Exception formelle : exportation des films indiens en URSS à partir de 1954. Contexte diplomatique (Inde-URSS = liens forts). Festival de Moscou (1954). Sovexportfilm sélectionne les films en harmonie avec les idéaux soviétiques. En tout : 200 films exportés entre 1954 et 1991.",
+              "Années 1970 : le magnétoscope crée des réseaux pirates. Des entrepreneurs dans les pays du Golfe et en Grande-Bretagne diffusent des copies non autorisées dans les quartiers de la diaspora. Dubaï = hub de redistribution. Crescent Video = entreprise la plus célèbre.",
+              "Adrian Athique (India Media) : 'Sans les pirates, il aurait été difficile de développer dans les années 1980 ces marchés d'exportation.' Paradoxe : le piratage profite à tout le monde sauf au producteur."
+            ]
+          },
+          {
+            "type": "key",
+            "title": "Réformes des années 1990 et internationalisation formelle",
+            "bullets": [
+              "1991 : éclatement de l'URSS (premier partenaire commercial de l'Inde). Crise économique → libéralisation de l'économie. Ouverture aux capitaux étrangers, création d'entreprises privées, libéralisation des importations de films (quota passe de 100 à 200 films étrangers en 1995).",
+              "1998 : le cinéma obtient le statut d'industrie légitime. Accès aux prêts bancaires. Fin du recours obligatoire à l'argent sale.",
+              "Émergence de grandes sociétés : Yash Raj Films (créée dans les années 1970, bureau à Londres en 1997, New York en 1998, Dubaï en 2004), Eros International (créée 1977, origine dans les VCD pirates), UTV Motion Pictures (rachetée par Disney en 2012), Reliance Entertainment (détient des parts dans DreamWorks).",
+              "Cible : diaspora indienne (plus de 20 millions de personnes à l'étranger, revenu proportionnellement supérieur). 75% des recettes internationales viennent de la diaspora. Transformation des thèmes des films (Devdas, 2002 : jeune homme revenant d'études en Grande-Bretagne)."
+            ]
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Qu'est-ce que le cinéma masala et comment est-il né ?",
+          "answer": "Le 'cinéma masala' (mélange d'épices) naît dans les années 1940 de l'atomisation de la production indienne. Des petits producteurs n'ayant qu'un film à financer concentrent tous les genres en un seul (action, policier, romance, musique, injustice sociale, danse) pour toucher le maximum de spectateurs. Objectif : les 'all India films'."
+        },
+        {
+          "question": "Qui est Dadasaheb Phalke et pourquoi est-il important ?",
+          "answer": "Le père du cinéma indien. En 1910, en voyant le film français La vie du Christ, il décide de produire des films sur les divinités indiennes (Krishna plutôt que le Christ). Il réalise Raja Harischandra. Sa démarche marque la naissance d'un cinéma national indien en réaction au cinéma occidental."
+        },
+        {
+          "question": "Qu'est-ce que le Indian Cinematograph Committee (1927) et pourquoi est-il révélateur ?",
+          "answer": "Un rapport commandé par l'administration coloniale britannique, inquiète des représentations immorales de l'homme blanc dans les films américains. Il révèle que 80% des films diffusés en Inde sont américains et que quatre distributeurs dominent (Universal, Pathé, Madan, Globe). C'est la première enquête officielle sur le marché cinématographique indien."
+        },
+        {
+          "question": "Quel est le mode de production atypique des films indiens ?",
+          "answer": "On cherche d'abord une star, puis on tourne quelques séquences. Ces séquences permettent de convaincre un distributeur qui avance de l'argent. On tourne plus, puis on cherche d'autres distributeurs régionaux. C'est en additionnant les distributeurs qu'on finance le film — un mode de production très commercial et fragmenté."
+        },
+        {
+          "question": "Pourquoi le cinéma indien a-t-il recouru à l'argent sale de 1940 à 1998 ?",
+          "answer": "Parce que l'État indien refusait de considérer le cinéma comme une industrie légitime (jusqu'en 1998), lui interdisant l'accès aux prêts bancaires intéressants. Avec une production atomisée et sans financement officiel, les petits producteurs se sont tournés vers des investisseurs aux sources douteuses pour blanchir de l'argent."
+        },
+        {
+          "question": "Qu'est-ce que l'exportation formelle des films indiens en URSS à partir de 1954 ?",
+          "answer": "Après la mort de Staline (1953), les frontières de l'URSS s'ouvrent. Dans le cadre des liens diplomatiques forts entre l'Inde et l'URSS, Sovexportfilm sélectionne et importe des films indiens. Festival du film indien à Moscou en 1954 = succès énorme. Entre 1954 et 1991, 200 films sont exportés."
+        },
+        {
+          "question": "Quel rôle ont joué les réseaux informels (pirates) dans l'internationalisation du cinéma indien ?",
+          "answer": "Dans les années 1970-80, des entrepreneurs dans les pays du Golfe, en Grande-Bretagne et aux USA ont commercialisé des copies non autorisées de films indiens (cassettes VHS, puis VCD) dans les quartiers de la diaspora. Dubaï était un hub de redistribution. Crescent Video = entreprise la plus célèbre. Pour Adrian Athique : 'Sans les pirates, il aurait été difficile de développer ces marchés d'exportation.'"
+        },
+        {
+          "question": "Qu'est-ce que Yash Raj Films et quelle est sa stratégie d'internationalisation ?",
+          "answer": "Grande société indienne de production et distribution (fondée dans les années 1970 par Yash Chopra). Dès 1995, décision de s'internationaliser : bureau à Londres (1997), New York (1998), Dubaï (2004). Elle cible la diaspora indienne (20M+ de personnes à l'étranger, revenu supérieur aux Indiens restés au pays)."
+        },
+        {
+          "question": "Quelles sont les trois grandes réformes qui transforment le cinéma indien dans les années 1990 ?",
+          "answer": "1. Libéralisation des importations de films (quota passe de 100 à 200 films étrangers en 1995 — signal : arrivée de Jurassic Park fin 1993). 2. Assainissement de l'économie du cinéma (fin de l'argent sale). 3. Reconnaissance du cinéma comme industrie légitime en 1998 (accès aux prêts bancaires)."
+        },
+        {
+          "question": "Pourquoi la diaspora indienne est-elle la cible principale de l'internationalisation formelle des films indiens ?",
+          "answer": "Elle représente plus de 20 millions de personnes à l'étranger, avec un revenu proportionnellement supérieur aux Indiens restés au pays. Elle utilise les films indiens pour maintenir un lien avec leur culture d'origine. En pratique, 75% des recettes internationales des films indiens viennent de la diaspora."
+        },
+        {
+          "question": "Qu'est-ce que Zee TV et quel impact a-t-il eu sur l'industrie audiovisuelle indienne ?",
+          "answer": "Chaîne satellite créée en 1992 par Subhash Chandra, première à proposer des programmes indiens à l'échelle de l'Asie. Elle représente 65% du marché câble/satellite en Inde. Elle démontre que pour dominer le marché indien, il faut une stratégie de localisation avec des contenus locaux — leçon que Netflix et Prime Video ont ensuite appliquée."
+        },
+        {
+          "question": "Pourquoi dit-on que le cinéma indien connait une transformation de ses salles dans les années 2000 ?",
+          "answer": "Avec la libéralisation, l'autorisation préalable pour créer des salles disparaît. Des complexes multisalles luxueux remplacent les grands cinémas mono-écrans. Ces nouvelles salles coûtent 5 fois plus cher, creusant les inégalités. On passe de 10 000 cinémas mono-écrans en 2010 à 6 000 en 2016, au profit des complexes qui diffusent plus de films américains pour les classes moyennes émergentes."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Combien de films l'Inde a-t-elle produits en 2013 selon l'Unesco ?",
+            "choices": [
+              "500",
+              "800",
+              "1 724",
+              "2 500"
+            ],
+            "correct_index": 2,
+            "explanation": "L'Inde a produit 1 724 films en 2013 selon l'Unesco, soit 1 000 de plus que les États-Unis. Elle est le premier ou second producteur mondial selon les années."
+          },
+          {
+            "question": "Qui est le père du cinéma indien ?",
+            "choices": [
+              "Emilio Azcarraga",
+              "Raj Kapoor",
+              "Dadasaheb Phalke",
+              "Yash Chopra"
+            ],
+            "correct_index": 2,
+            "explanation": "Dadasaheb Phalke est le père du cinéma indien. En 1910, en voyant La vie du Christ, il décide de produire des films sur les divinités indiennes. Raja Harischandra est son premier film."
+          },
+          {
+            "question": "Que révèle le rapport du Indian Cinematograph Committee (1927) ?",
+            "choices": [
+              "Les films indiens dominent leur propre marché",
+              "80% des films diffusés en Inde sont américains",
+              "L'Inde n'a pas d'industrie cinématographique",
+              "Les films britanniques dominent le marché indien"
+            ],
+            "correct_index": 1,
+            "explanation": "Le rapport révèle que 80% des films diffusés en Inde sont américains, et que quatre distributeurs dominent : Universal, Pathé, Madan et Globe."
+          },
+          {
+            "question": "Qu'est-ce que le cinéma masala ?",
+            "choices": [
+              "Un genre de films d'horreur indien",
+              "Un film qui mélange tous les genres (action, romance, musique, danse, policier) pour toucher le maximum de spectateurs",
+              "Un film de Bollywood tourné en anglais",
+              "Un style de réalisation très réaliste"
+            ],
+            "correct_index": 1,
+            "explanation": "Le cinéma masala (mélange d'épices) concentre tous les genres en un seul film : action, romance, musique, danse, injustice sociale. Objectif : toucher tout le public indien."
+          },
+          {
+            "question": "En quelle année le cinéma indien obtient-il le statut d'industrie légitime en Inde ?",
+            "choices": [
+              "1947",
+              "1975",
+              "1991",
+              "1998"
+            ],
+            "correct_index": 3,
+            "explanation": "C'est seulement en 1998 que le cinéma indien est reconnu comme industrie à part entière, lui permettant d'accéder à des prêts bancaires intéressants et mettant fin au recours obligatoire à l'argent sale."
+          },
+          {
+            "question": "Quel est le rôle de Sovexportfilm dans l'exportation des films indiens ?",
+            "choices": [
+              "C'est une société indienne d'exportation créée en 1954",
+              "C'est la société d'import-export soviétique qui sélectionne et importe des films indiens à partir de 1954",
+              "C'est une filiale de Yash Raj Films en URSS",
+              "C'est un festival de cinéma organisé à Moscou"
+            ],
+            "correct_index": 1,
+            "explanation": "Sovexportfilm est la société soviétique d'import-export qui sélectionne les films indiens en harmonie avec les idéaux soviétiques. Entre 1954 et 1991, 200 films indiens sont ainsi importés en URSS."
+          },
+          {
+            "question": "Qu'est-ce que Zee TV et quand est-il créé ?",
+            "choices": [
+              "Un studio de cinéma bollywoodien créé en 1991",
+              "Une chaîne satellite indienne créée en 1992 par Subhash Chandra, première à proposer des programmes indiens à l'échelle de l'Asie",
+              "Une plateforme de streaming indien créée en 2005",
+              "Le nom de la première chaîne publique indienne"
+            ],
+            "correct_index": 1,
+            "explanation": "Zee TV est créée en 1992 par Subhash Chandra. Elle représente 65% du marché câble/satellite en Inde. Elle montre que pour dominer le marché indien, il faut des programmes locaux."
+          },
+          {
+            "question": "Qui est Adrian Athique et quelle est sa thèse sur le piratage indien ?",
+            "choices": [
+              "Un distributeur qui a combattu le piratage",
+              "Un chercheur qui affirme que sans les pirates, il aurait été difficile de développer les marchés d'exportation des films indiens dans les années 1980",
+              "Le fondateur de Crescent Video",
+              "Un réalisateur bollywoodien"
+            ],
+            "correct_index": 1,
+            "explanation": "Dans India Media, Adrian Athique soutient que les réseaux pirates ont joué un rôle crucial dans l'internationalisation du cinéma indien en assurant sa distribution dans des marchés non servis par les circuits officiels."
+          },
+          {
+            "question": "Quelle société indienne a été rachetée par Disney en 2012 ?",
+            "choices": [
+              "Yash Raj Films",
+              "Eros International",
+              "UTV Motion Pictures",
+              "Reliance Entertainment"
+            ],
+            "correct_index": 2,
+            "explanation": "UTV Motion Pictures, créée dans les années 1990 par Ronnie Screwvala, a été rachetée par Disney en 2012 — illustrant l'intérêt des majors américaines pour les marchés émergents et le savoir-faire indien."
+          },
+          {
+            "question": "Quel film de 2002 illustre le tournant de la production indienne vers la diaspora ?",
+            "choices": [
+              "Sholay",
+              "Lagaan",
+              "Devdas",
+              "Rang De Basanti"
+            ],
+            "correct_index": 2,
+            "explanation": "Devdas (2002) raconte l'histoire d'un jeune homme revenu d'études en Grande-Bretagne confronté à un choc culturel. Ce film touche à la fois les publics indiens locaux et la diaspora — illustrant la prise en compte de ce marché."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Pourquoi le mode de production du film indien (trouver une star → séquences → distributeurs) est-il révélateur de la structure économique de l'industrie ?",
+            "choices": [
+              "C'est une méthode artisanale sans signification économique",
+              "Ce mode de production reflète l'atomisation et l'informalité de l'industrie : sans accès aux prêts bancaires, sans grands studios stables, les producteurs doivent assembler le financement fragment par fragment auprès des distributeurs régionaux",
+              "C'est une méthode copiée sur Hollywood",
+              "Ce mode de production garantit la qualité des films indiens"
+            ],
+            "correct_index": 1,
+            "explanation": "Le mode de production fragment par fragment (star → séquences → distributeurs régionaux) révèle l'atomisation de l'industrie : sans financement bancaire institutionnel (jusqu'en 1998), les producteurs devaient mobiliser de nombreux petits financeurs, favorisant aussi le recours à l'argent sale."
+          },
+          {
+            "question": "Pourquoi l'ouverture du marché cinématographique soviétique aux films indiens après 1953 est-elle un cas exceptionnel d'exportation formelle ?",
+            "choices": [
+              "Parce que les Soviétiques aimaient particulièrement les films de danse indiens",
+              "Parce que c'est l'un des rares cas où l'exportation de films indiens s'est faite dans un cadre diplomatique officiel et organisé, via Sovexportfilm, au sein d'une relation bilatérale forte entre l'Inde et l'URSS",
+              "Parce que l'URSS ne diffusait aucun autre film étranger",
+              "Parce que l'Inde avait signé un accord de cooproduction avec l'URSS"
+            ],
+            "correct_index": 1,
+            "explanation": "L'URSS-Inde est une exception car l'exportation se fait dans un cadre officiel (Sovexportfilm, festival de Moscou 1954) et dans le contexte d'une relation diplomatique forte. Cela contraste avec la plupart des autres exportations de films indiens assurées de façon informelle par des entrepreneurs individuels."
+          },
+          {
+            "question": "En quoi la thèse d'Adrian Athique sur le piratage indien remet-elle en cause la vision d'Hollywood sur le piratage ?",
+            "choices": [
+              "Athique rejoint totalement la position d'Hollywood",
+              "Athique montre que le piratage peut avoir un rôle positif en assurant la distribution de contenus dans des marchés non servis par les circuits officiels — une nuance que Jack Valenti refusait d'admettre pour Hollywood",
+              "Athique dit que le piratage est toujours bénéfique",
+              "Athique pense que le piratage devrait être légalisé"
+            ],
+            "correct_index": 1,
+            "explanation": "Athique nuance la vision manichéenne : pour le cinéma indien, le piratage a joué un rôle de distribution dans des marchés (diaspora, pays du Golfe, Afrique) que les circuits officiels ne servaient pas. Sans ces réseaux informels, le cinéma indien serait resté confiné à son marché national. Hollywood refusait d'admettre que le piratage contribuait aussi à populariser ses propres contenus."
+          },
+          {
+            "question": "Comment la transformation des salles indien (mono-écrans → complexes multisalles) a-t-elle eu des conséquences sur les inégalités culturelles ?",
+            "choices": [
+              "Elle a rendu le cinéma plus accessible à tous les Indiens",
+              "Les nouvelles salles coûtent 5 fois plus cher, creusant les inégalités : ceux qui peuvent se les payer vs ceux condamnés aux grandes salles moins luxueuses. Les complexes attirent les classes moyennes émergentes et diffusent plus de films américains.",
+              "Elle n'a eu aucun impact sur les inégalités",
+              "Elle a uniformisé les prix d'entrée dans tout le pays"
+            ],
+            "correct_index": 1,
+            "explanation": "La transformation des salles reproduit une logique bourdieusienne : les complexes multisalles luxueux créent une ségrégation spatiale de la consommation culturelle. Les classes moyennes émergentes y vont, préfèrent des films américains. Les classes populaires restent dans les grandes salles mono-écrans. La libéralisation a creusé les inégalités d'accès au cinéma."
+          },
+          {
+            "question": "Pourquoi la stratégie d'internationalisation de Yash Raj Films via la diaspora est-elle économiquement pertinente ?",
+            "choices": [
+              "Parce que la diaspora est plus facile à cibler que le marché domestique",
+              "Parce que la diaspora (20M+ personnes) a un revenu proportionnellement supérieur aux Indiens restés au pays, utilise les films pour maintenir un lien culturel, et représente 75% des recettes internationales — c'est un marché premium bien identifié",
+              "Parce que la diaspora achète uniquement les DVD",
+              "Parce que les films indiens ne plaisent qu'à la diaspora"
+            ],
+            "correct_index": 1,
+            "explanation": "La diaspora indienne représente un marché premium : 20M+ personnes, revenu supérieur, forte motivation culturelle (maintenir le lien avec le pays d'origine). Les films sont un support identitaire. Cette cible rationnelle explique que Yash Raj Films ait investi dans des bureaux à Londres (1997) et New York (1998)."
+          },
+          {
+            "question": "En quoi l'exemple de Jurassic Park (arrivé en Inde fin 1993) est-il significatif pour comprendre la libéralisation du cinéma indien ?",
+            "choices": [
+              "Jurassic Park a prouvé que le public indien préfère les films américains",
+              "L'arrivée de Jurassic Park matérialise le signal de la libéralisation : le quota d'importation passe de 100 à 200 films étrangers en 1995, attirant les grandes sociétés américaines sur ce marché — et forçant le cinéma indien à se moderniser pour faire face à cette concurrence",
+              "Jurassic Park a été un échec en Inde",
+              "Jurassic Park est le premier film américain à être distribué en Inde"
+            ],
+            "correct_index": 1,
+            "explanation": "L'arrivée de Jurassic Park (fin 1993) est symbolique : c'est le signal de l'ouverture au cinéma américain. Elle enclenche la libéralisation (quota à 200 en 1995) et force le cinéma indien à se professionnaliser pour affronter la concurrence, accélérant les réformes de 1998 (reconnaissance comme industrie)."
+          },
+          {
+            "question": "Pourquoi la leçon de Zee TV (localisation) a-t-elle été si importante pour les plateformes de streaming comme Netflix en Inde ?",
+            "choices": [
+              "Parce que Netflix a racheté Zee TV",
+              "Parce que Zee TV a prouvé que le marché indien ne peut être pénétré qu'avec des contenus locaux — Netflix et Prime Video doivent reproduire cette stratégie en produisant des programmes originaux indiens et en s'associant à des producteurs locaux",
+              "Parce que Zee TV et Netflix diffusent le même contenu",
+              "Parce que la leçon de Zee TV ne s'applique qu'à la télévision, pas au streaming"
+            ],
+            "correct_index": 1,
+            "explanation": "Zee TV a démontré dès 1992 qu'un contenu étranger (Star TV américaine) ne peut pas dominer le marché indien sans localisation. Netflix et Prime Video ont reproduit cette leçon : pour pénétrer l'Inde (800M+ habitants potentiels), ils produisent des séries originales en hindi et s'associent à des producteurs locaux."
+          },
+          {
+            "question": "Comment l'origine de Eros International (commerce de VCD pirates → major légale) illustre-t-elle la transformation du secteur cinématographique indien ?",
+            "choices": [
+              "Elle illustre que le piratage est toujours bénéfique",
+              "Elle illustre la trajectoire paradoxale de l'industrie : certains acteurs qui ont d'abord prospéré dans l'économie informelle (VCD pirates) sont devenus des acteurs majeurs de l'économie formelle après les réformes de 1998 — une continuité plutôt qu'une rupture",
+              "Elle prouve que les pirates sont toujours des criminels",
+              "Elle illustre uniquement la corruption de l'industrie indienne"
+            ],
+            "correct_index": 1,
+            "explanation": "La trajectoire d'Eros International (fondée par Arjan Lulla, d'abord dans le commerce de VCD pirates, devenu ensuite une des grandes majors indiennes) illustre que les acteurs de l'économie informelle ont constitué le capital et les réseaux qui ont fondé l'économie formelle post-1998. La frontière entre formel et informel est moins nette qu'il n'y paraît."
+          },
+          {
+            "question": "En quoi le rachat de parts dans DreamWorks SKG par Reliance Entertainment illustre-t-il une nouvelle phase de l'internationalisation du cinéma indien ?",
+            "choices": [
+              "C'est uniquement un investissement financier sans signification culturelle",
+              "Cela illustre le passage d'une internationalisation réceptive (importer le savoir-faire américain) à une internationalisation active (investir dans les studios américains) — les majors indiennes sont passées d'imitateurs à co-producteurs et co-financeurs",
+              "Cela prouve que le cinéma indien est devenu plus important qu'Hollywood",
+              "C'est une stratégie purement fiscale"
+            ],
+            "correct_index": 1,
+            "explanation": "Reliance Entertainment prenant des parts dans DreamWorks SKG (créé par Steven Spielberg) illustre un changement qualitatif : l'industrie indienne ne cherche plus seulement à exporter ses films mais à s'intégrer dans le système hollywoodien comme co-financeur. C'est le passage du statut de producteur périphérique à celui d'acteur de la chaîne de valeur globale."
+          },
+          {
+            "question": "Pourquoi le succès des films indiens en Afrique (notamment au Nigeria) dans les années 1980 est-il analytiquement intéressant ?",
+            "choices": [
+              "Parce que les Nigérians parlaient hindi",
+              "Parce qu'il montre que les films indiens circulent à l'international sans proximité linguistique ni culturelle au sens strict, grâce à d'autres facteurs : prix compétitif, normes morales familiales, spectacle total (danse, musique, action) — remettant en cause la théorie de la proximité culturelle",
+              "Parce que le Nigeria avait signé un accord avec l'Inde",
+              "Parce que les films indiens étaient doublés en Yoruba"
+            ],
+            "correct_index": 1,
+            "explanation": "Le succès au Nigeria dans les années 1980 est analytiquement précieux : il montre que des films indiens circulent sans proximité culturelle directe. D'autres facteurs expliquent ce succès : prix compétitif (moins cher que les films américains), normes morales acceptables (pas de scènes de sexe, les baisers sont métaphorisés), et le spectacle total du cinéma masala (danse, musique, action, mélo)."
+          }
+        ],
+        "hard": [
+          {
+            "question": "En quoi le cinéma masala peut-il être analysé comme une réponse stratégique à l'atomisation de la production plutôt que comme un simple choix esthétique ?",
+            "choices": [
+              "Le cinéma masala est avant tout un choix artistique des réalisateurs indiens",
+              "L'atomisation de la production dans les années 1940 (un seul film à financer) a créé une contrainte économique : il faut que le film marche sinon c'est la catastrophe. Concentrer tous les genres en un seul est une réponse rationnelle à cette contrainte — une diversification des risques au sein d'un seul film",
+              "Le cinéma masala est une copie des films américains",
+              "Le cinéma masala résulte de commandes du gouvernement indien"
+            ],
+            "correct_index": 1,
+            "explanation": "Le cinéma masala est la réponse rationnelle à l'atomisation économique : quand on n'a qu'un film pour tout miser, on concentre tous les genres pour maximiser les chances de toucher tous les segments du public. Contrairement aux grands studios qui pouvaient produire 15 films/an et spécialiser chacun, les petits producteurs n'avaient pas cette option de diversification."
+          },
+          {
+            "question": "En quoi la dynamique informel → formel du cinéma indien contraste-t-elle avec la dynamique hollywoodienne dès ses origines ?",
+            "choices": [
+              "Hollywood a toujours été informel, comme le cinéma indien",
+              "Hollywood a très tôt constitué des structures formelles (MPPC, puis majors intégrées verticalement, soutien bancaire) dès les années 1910-20. Le cinéma indien est resté structurellement informel jusqu'en 1998 faute de reconnaissance étatique, forçant une internationalisation par voies informelles (pirates, diaspora artisanale)",
+              "Le cinéma indien a toujours été formel, contrairement à Hollywood",
+              "Les deux industries ont suivi des trajectoires strictement identiques"
+            ],
+            "correct_index": 1,
+            "explanation": "Le contraste est frappant : Hollywood a bénéficié très tôt du soutien des banques (1910-20), de la reconnaissance étatique via la MPPDA et d'une intégration verticale formelle. Le cinéma indien, non reconnu comme industrie jusqu'en 1998, a dû fonctionner dans l'informalité (argent sale, réseaux pirates, distribution artisanale) pendant plus de 50 ans après l'indépendance."
+          },
+          {
+            "question": "Comment la notion de diaspora renouvelle-t-elle la compréhension des marchés culturels internationaux ?",
+            "choices": [
+              "La diaspora n'est qu'un marché de niche sans importance stratégique",
+              "La diaspora crée un marché culturel transnational fondé sur l'identité et non la géographie : les Indiens de la diaspora sont prêts à payer pour des contenus qui les connectent à leur culture d'origine, indépendamment de leur localisation. Cela remet en cause la notion de marché national et préfigure la logique transnationale de Netflix",
+              "La diaspora ne consomme que des contenus locaux de son pays de résidence",
+              "La diaspora est un marché trop petit pour être stratégiquement significatif"
+            ],
+            "correct_index": 1,
+            "explanation": "La diaspora crée un marché culturel transnational fondé non sur la géographie mais sur l'identité. Les Indiens de Grande-Bretagne, des USA ou du Golfe forment un public dispersé mais homogène culturellement, prêt à payer premium pour des contenus indiens. Cette logique préfigure la stratégie transnationale de Netflix (identifier des segments au-delà des frontières nationales)."
+          },
+          {
+            "question": "Pourquoi peut-on dire que la reconnaissance du cinéma comme industrie légitime en 1998 constitue un tournant comparable au divorcment américain de 1948, mais avec un signe opposé ?",
+            "choices": [
+              "Les deux événements n'ont aucun rapport",
+              "Le divorcment de 1948 a fragilisé les majors en les séparant de leurs salles (rupture d'une intégration). La reconnaissance de 1998 a au contraire renforcé le cinéma indien en lui donnant accès aux prêts bancaires (construction d'une intégration) — dans les deux cas, une décision institutionnelle transforme radicalement la structure économique de l'industrie",
+              "Les deux événements ont eu exactement les mêmes effets",
+              "Le divorcment américain n'a rien à voir avec la politique indienne"
+            ],
+            "correct_index": 1,
+            "explanation": "L'analogie est pertinente : dans les deux cas, une décision institutionnelle transforme la structure économique de l'industrie. Mais avec des effets opposés : le divorcment de 1948 fragilise les majors (perd les salles). La reconnaissance de 1998 renforce le cinéma indien (accès aux prêts bancaires, fin de l'argent sale, émergence de grandes sociétés). Les deux illustrent le rôle décisif de l'État dans la structuration des industries culturelles."
+          },
+          {
+            "question": "En quoi le paradoxe d'Athique sur le piratage (profite à tous sauf au producteur) illustre-t-il une contradiction fondamentale des industries culturelles ?",
+            "choices": [
+              "Il n'y a aucun paradoxe dans cette situation",
+              "Ce paradoxe révèle la tension entre valeur d'usage et valeur d'échange dans les biens symboliques : le piratage maximise la valeur d'usage (diffusion maximale) mais détruit la valeur d'échange (les créateurs ne sont pas rémunérés). Cette tension est constitutive des biens culturels qui sont à la fois des biens publics (leur consommation n'est pas exclusive) et des marchandises",
+              "Le piratage ne profite à personne",
+              "Cette situation est propre à l'Inde et n'a pas de portée générale"
+            ],
+            "correct_index": 1,
+            "explanation": "Le paradoxe d'Athique révèle une contradiction fondamentale des biens culturels : ils sont à la fois des biens symboliques dont la valeur grandit avec la diffusion (plus un film est vu, plus il est populaire) et des marchandises dont la valeur est détruite par la duplication gratuite. Le piratage maximise la diffusion (valeur symbolique) tout en détruisant les revenus (valeur marchande)."
+          },
+          {
+            "question": "Comment l'internationalisation du cinéma indien dans les années 1980-90 illustre-t-elle le concept de 'voies parallèles' dans les échanges culturels mondiaux ?",
+            "choices": [
+              "Il n'existe qu'une seule voie d'internationalisation dans les industries culturelles",
+              "Le cinéma indien a emprunté simultanément deux voies : une voie formelle (URSS, distribution organisée dans certains pays) et une voie informelle (réseaux pirates, entrepreneurs de la diaspora). Ces voies parallèles révèlent que l'internationalisation culturelle ne suit pas un chemin unique mais s'adapte aux contraintes institutionnelles et économiques de chaque marché",
+              "L'internationalisation du cinéma indien était exclusivement informelle",
+              "L'internationalisation du cinéma indien était exclusivement formelle via les ambassades"
+            ],
+            "correct_index": 1,
+            "explanation": "Le cinéma indien illustre la coexistence de voies d'internationalisation parallèles : formelle (Sovexportfilm en URSS, Yash Raj Films avec ses bureaux à Londres et New York après 1997) et informelle (réseaux pirates, entrepreneurs de la diaspora, VCD). Cette pluralité des voies révèle que l'internationalisation culturelle n'est pas un processus linéaire mais s'adapte aux contraintes institutionnelles et économiques de chaque contexte."
+          },
+          {
+            "question": "En quoi l'histoire du cinéma indien illustre-t-elle les limites de la théorie de la proximité culturelle plus clairement encore que les telenovelas ?",
+            "choices": [
+              "La théorie de la proximité culturelle s'applique parfaitement au cinéma indien",
+              "Le cinéma indien a connu des succès massifs dans des contextes sans proximité culturelle (Nigeria, URSS, Chine), remettant en cause l'idée que le succès international d'un contenu dépend avant tout de la proximité culturelle avec le public récepteur — d'autres facteurs (normes morales, spectacle total, prix) sont déterminants",
+              "La théorie de la proximité culturelle est entièrement confirmée par le cinéma indien",
+              "La théorie de la proximité culturelle ne s'applique pas aux films"
+            ],
+            "correct_index": 1,
+            "explanation": "Le cinéma indien remet plus radicalement en cause la théorie de la proximité culturelle que les telenovelas : ses succès en URSS (contexte idéologique très différent), au Nigeria (absence de proximité linguistique et culturelle) et en Chine illustrent que d'autres facteurs sont déterminants : des normes morales familiales, le spectacle total du masala, les prix compétitifs et l'absence d'alternatives."
+          }
+        ]
+      },
+      "panic": [
+        "Inde = 1er ou 2e producteur mondial (1 724 films en 2013). Seul pays avec industrie nationale sous domination coloniale.",
+        "Rapport Indian Cinematograph Committee (1927) : 80% des films en Inde sont américains. Phalke = père du cinéma indien (Raja Harischandra).",
+        "Cinéma masala = tous les genres en un film. Atomisation des années 1940. Pas de prêts bancaires jusqu'en 1998 → argent sale.",
+        "Mode de production : star → séquences → distributeurs régionaux. Financement fragment par fragment.",
+        "Exportation URSS : 1954-1991, 200 films, via Sovexportfilm. Exception formelle.",
+        "Piratage années 1970-80 : cassettes VHS et VCD dans la diaspora. Dubaï = hub. Crescent Video. Athique : sans pirates, pas de marchés d'export.",
+        "Réformes 1990s : libéralisation → Jurassic Park 1993 → quota 200 films étrangers. 1998 : cinéma = industrie légitime. Yash Raj, Eros, UTV, Reliance. Diaspora = 75% des recettes internationales."
+      ],
+      "qrc": [
+        {
+          "question": "Comment expliquer que le cinéma indien soit parvenu à s'internationaliser malgré l'absence de grandes sociétés de distribution internationales ?",
+          "plan_type": "I. Les voies informelles de l'internationalisation (diaspora, pirates) / II. L'exception soviétique comme voie formelle / III. La transition vers une internationalisation formelle après les réformes des années 1990",
+          "model_answer": "Le cinéma indien présente un paradoxe : premier ou second producteur mondial de films (1 724 en 2013), il s'est internationalisé sans les structures formelles de distribution qu'Hollywood avait construites dès les années 1920. L'explication tient à la structure économique de l'industrie : les sociétés de distribution indiennes, concentrées sur leur marché national (qui est d'une taille exceptionnelle), n'ont pas développé de réseaux internationaux.\n\nL'internationalisation s'est d'abord faite par des voies informelles. Des entrepreneurs individuels — marchands libanais à Bombay, hommes d'affaires dans les pays du Golfe, Indiens de la diaspora à Londres ou New York — ont négocié directement avec les producteurs et organisé la distribution dans leurs réseaux. Dès les années 1970, l'apparition des magnétoscopes a amplifié ce processus : des copies non autorisées (VHS puis VCD) circulaient dans les boutiques des quartiers de la diaspora, Dubaï jouant un rôle de hub de redistribution. Adrian Athique résume ce paradoxe : 'Sans les pirates, il aurait été difficile de développer dans les années 1980 ces marchés d'exportation.'\n\nUne exception formelle notable est l'exportation vers l'URSS à partir de 1954 : dans le cadre de liens diplomatiques forts entre l'Inde et l'URSS, Sovexportfilm a importé 200 films indiens entre 1954 et 1991.\n\nLes réformes des années 1990 (libéralisation économique après la crise de 1991, reconnaissance du cinéma comme industrie légitime en 1998) permettent l'émergence de grandes sociétés (Yash Raj Films, Eros International, UTV rachetée par Disney en 2012). Yash Raj ouvre des bureaux à Londres (1997), New York (1998) et Dubaï (2004), ciblant la diaspora indienne (20M+ personnes, 75% des recettes internationales).",
+          "key_concepts": [
+            "voies informelles",
+            "diaspora",
+            "piratage",
+            "Sovexportfilm",
+            "Athique",
+            "réformes 1990",
+            "Yash Raj Films",
+            "internationalisation formelle",
+            "marché domestique gigantesque"
+          ]
+        },
+        {
+          "question": "Qu'est-ce que le cinéma masala et en quoi sa logique de production explique-t-elle à la fois ses succès et ses limites à l'international ?",
+          "plan_type": "I. Origines et caractéristiques du cinéma masala / II. Les facteurs de succès international (normes morales, prix, spectacle total) / III. Les limites (proximité culturelle, concurrence après 1991)",
+          "model_answer": "Le cinéma masala (littéralement 'mélange d'épices') naît dans les années 1940 de l'atomisation de la production cinématographique indienne. Quand un producteur ne peut financer qu'un seul film, il doit maximiser ses chances : il concentre alors tous les genres en un seul film — action, policier, romance, musique, danse, injustice sociale, référence à l'histoire indienne. L'objectif est de toucher tout le public indien (les 'all India films'). Cette logique s'explique aussi par la nécessité de transcender les différences culturelles et linguistiques internes à l'Inde (des dizaines de langues et d'ethnies).\n\nÀ l'international, ce modèle a connu des succès inattendus. En Afrique (notamment au Nigeria) dès les années 1980, dans les pays du Golfe, en URSS et même en Chine avec Escrava Isaura. Ces succès reposent sur trois facteurs : des normes morales familiales (pas de violence graphique, pas de scènes de sexe — les baisers sont métaphorisés par des fleurs), un spectacle total (danse, musique, émotions) qui transcende les barrières linguistiques, et des prix très compétitifs face aux productions américaines.\n\nCependant, les limites apparaissent après les réformes des années 1990. La libéralisation de 1995 (quota d'importation passant à 200 films étrangers) expose le cinéma indien à la concurrence directe de Jurassic Park et de ses successeurs. Les nouvelles salles multiscreens attirent les jeunes classes moyennes vers les films américains. La transformation des salles creuse les inégalités : les nouvelles salles coûtent cinq fois plus cher. Et si la diaspora représente 75% des recettes internationales, ce marché reste limité en volume.",
+          "key_concepts": [
+            "cinéma masala",
+            "atomisation",
+            "all India films",
+            "normes morales",
+            "spectacle total",
+            "prix compétitif",
+            "diaspora",
+            "libéralisation 1995",
+            "inégalités"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "L'exportation des dramas japonais et sud-coréens en Asie de l'Est",
+      "concentre": {
+        "reading_time": 5,
+        "sections": [
+          {
+            "type": "def",
+            "title": "Le trendy drama japonais",
+            "bullets": [
+              "Les programmes japonais sont présents sur les marchés internationaux depuis les années 1970 (dessins animés détrônant les productions américaines). Oshin (NHK, 297 épisodes) = un des premiers grands succès internationaux.",
+              "Ota Toru, producteur chez Fuji Television, constate l'absence de séries pour les 20-30 ans. Il crée le trendy drama : beaux acteurs (vingtaine d'années), lieux branchés de Tokyo, appartements fastueux, tenues à la mode, romance et mélodrame, tubes musicaux.",
+              "Package de succès : le casting vient en premier (stars réservées 2 ans à l'avance), puis la musique, puis le scénario. Tokyo Love Story (1991) = lancement à l'échelle asiatique.",
+              "Internationalisation non intentionnelle : Ota Toru dit que ce succès international 'nous a pris par surprise'. Aucune stratégie pensée pour les marchés étrangers — les Japonais craignaient que leur histoire coloniale (Corée, Chine, Taiwan) bloque la diffusion."
+            ]
+          },
+          {
+            "type": "key",
+            "title": "Voies informelles de diffusion des dramas japonais",
+            "bullets": [
+              "Interdictions formelles : à Taïwan, import de produits culturels japonais interdit jusqu'en 1993. En Corée du Sud, jusqu'en 1998 (séries jusqu'en 2004). En Chine, censure du Parti Communiste.",
+              "Voies informelles : dès les années 1980, des entrepreneurs hongkongais enregistraient la TV japonaise sur cassettes VHS et les revendaient. Le VCD a facilité la diffusion en Asie.",
+              "Exemple : Long Vacation (1996) est officiellement distribué à Hong Kong seulement en 2000 — mais il circulait déjà depuis des années via des copies pirates.",
+              "Facteurs de succès : qualité de réalisation + mode de vie japonais urbain et opulent (richesse, jeunesse, beauté, consommation à Tokyo) qui aspire les jeunes Asiatiques des classes moyennes émergentes."
+            ]
+          },
+          {
+            "type": "def",
+            "title": "L'essor des dramas sud-coréens (Hallyu)",
+            "bullets": [
+              "Hallyu = 'vague coréenne'. La Corée du Sud sort d'une dictature militaire (1961-1987). Retour à la démocratie (1992). Nouvelle chaîne SBS (1991) → concurrence accrue → besoin de produire plus.",
+              "Les réalisateurs coréens s'inspirent du trendy drama japonais (accessible via ondes hertziennes depuis Busan, à 200 km du Japon). Jealousy (MBC, 1992) copie Tokyo Love Story — procès pour plagiat. Appropriation du format.",
+              "La scène du lit de Tokyo Love Story n'est pas reproduite dans Jealousy : adaptation aux normes locales coréennes.",
+              "Winter Sonata = drama qui prend pied en Chine (1992), Taïwan, et même au Japon. À partir du milieu des années 1990, diffusion en Amérique latine, aux USA, en Europe occidentale."
+            ]
+          },
+          {
+            "type": "key",
+            "title": "Exportations formelles et contre-piratage coréen",
+            "bullets": [
+              "Prix compétitif : 1 épisode de drama japonais à Taïwan = 8 000$. Au même moment, drama sud-coréen = 1 200$. Avec la crise asiatique de 1998, les chaînes se dirigent vers les dramas coréens.",
+              "Diffusion mondiale : Roumanie, Pologne, Lituanie, Lettonie, Amérique latine. DramaFever (USA, 2009 par deux fans américains d'origine coréenne, racheté par Warner en 2016). DramaPassion (Belgique, 2009).",
+              "Anti-piratage : commission sud-coréenne créée en 2009 avec des bureaux à Bangkok, Pékin et Malaisie.",
+              "En 2011, volume des exportations audiovisuelles coréennes (séries + films) = 252 millions de dollars, soit la moitié de ce que rapporte un grand film américain qui fonctionne bien. Netflix, comme d'autres plateformes, développe une stratégie de localisation en Corée du Sud."
+            ]
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Qu'est-ce que le trendy drama japonais et qui l'invente ?",
+          "answer": "Genre créé par Ota Toru, producteur chez Fuji Television. Caractéristiques : beaux acteurs (vingtaine d'ans), lieux branchés de Tokyo, tenues à la mode, romance et mélodrame, tubes musicaux. Package de succès : casting d'abord (stars réservées 2 ans à l'avance), puis musique, puis scénario. Tokyo Love Story (1991) = lancement à l'échelle asiatique."
+        },
+        {
+          "question": "Pourquoi l'internationalisation des dramas japonais est-elle dite non intentionnelle ?",
+          "answer": "Ota Toru dit lui-même que ce succès international 'nous a pris par surprise'. Les entreprises japonaises ne pensaient pas aux marchés étrangers car : (1) elles étaient concentrées sur leur marché intérieur ; (2) elles pensaient que l'histoire coloniale du Japon (Corée, Chine, Taiwan) empêcherait la diffusion de leurs programmes."
+        },
+        {
+          "question": "Quelles interdictions bloquaient formellement la diffusion des dramas japonais en Asie ?",
+          "answer": "À Taïwan : import de produits culturels japonais interdit jusqu'en 1993. En Corée du Sud : interdiction jusqu'en 1998 (séries : jusqu'en 2004). En Chine : censure du Parti Communiste. Ces interdictions ont toutes été contournées par des réseaux informels (VHS, VCD pirates)."
+        },
+        {
+          "question": "Comment les entrepreneurs hongkongais ont-ils assuré la diffusion informelle des dramas japonais dans les années 1980 ?",
+          "answer": "Ils passaient une semaine au Japon, enregistraient la TV japonaise sur cassettes VHS, puis repartaient avec ces cassettes qu'ils reproduisaient et revendaient. Le VCD (populaire en Asie) a ensuite facilité cette diffusion informelle. Exemple : Long Vacation (1996) est officiellement distribué à Hong Kong en 2000 mais circulait déjà depuis des années."
+        },
+        {
+          "question": "Qu'est-ce que la Hallyu ?",
+          "answer": "La 'vague coréenne' — désigne le succès international des produits de la culture populaire sud-coréenne, notamment les K-Dramas. Elle émerge dans les années 1990, dans un contexte de retour à la démocratie (après la dictature 1961-1987) et de concurrence accrue entre chaînes TV."
+        },
+        {
+          "question": "Comment les réalisateurs coréens ont-ils créé leur industrie du drama ?",
+          "answer": "En s'inspirant (et copiant) le trendy drama japonais, accessible malgré l'interdiction via les ondes hertziennes depuis Busan (à 200 km du Japon). Jealousy (MBC, 1992) reproduit si fidèlement Tokyo Love Story qu'un procès pour plagiat est intenté. Mais les Coréens adaptent aux normes locales (la scène du lit de Tokyo Love Story n'est pas reproduite)."
+        },
+        {
+          "question": "Quel facteur économique a favorisé l'exportation des dramas coréens au détriment des dramas japonais ?",
+          "answer": "Le prix : à Taïwan, un épisode de drama japonais coûte 8 000$, contre 1 200$ pour un drama sud-coréen. Avec la crise asiatique de 1998, les chaînes cherchent des programmes de qualité comparable moins chers — elles se tournent vers la Corée du Sud."
+        },
+        {
+          "question": "Qu'est-ce que DramaFever et que révèle son rachat par Warner en 2016 ?",
+          "answer": "Plateforme créée en 2009 par deux fans américains d'origine coréenne pour diffuser légalement les dramas coréens aux USA. En 2016, la Warner la rachète — révélant que les grands groupes hollywoodiens ont reconnu la valeur commerciale des dramas coréens et veulent en contrôler la distribution légale aux USA."
+        },
+        {
+          "question": "Quel est le volume des exportations audiovisuelles coréennes en 2011 ?",
+          "answer": "252 millions de dollars (séries + films) — soit la moitié de ce que rapporte un grand film américain qui fonctionne bien. Ce chiffre illustre à la fois le succès croissant de la culture coréenne et sa disproportion face aux flux américains."
+        },
+        {
+          "question": "Comment Winter Sonata illustre-t-elle l'expansion internationale des dramas coréens ?",
+          "answer": "Winter Sonata est le drama coréen qui réussit à pénétrer la Chine populaire (1992), Taïwan et même le Japon — malgré l'histoire coloniale. Elle marque l'entrée officielle dans les marchés asiatiques et au-delà (Amérique latine, USA, Europe occidentale à partir du milieu des années 1990)."
+        },
+        {
+          "question": "Pourquoi les dramas coréens ont-ils eu du succès en Europe de l'Est et en Amérique latine ?",
+          "answer": "En grande partie grâce au prix : 1 200$ l'épisode (vs 8 000$ pour le drama japonais, des milliers de dollars pour les séries américaines). Les chaînes de pays comme la Roumanie, la Pologne, la Lituanie ou la Lettonie pouvaient se payer des dramas coréens de qualité comparable à des prix imbattables."
+        },
+        {
+          "question": "Pourquoi peut-on parler d'appropriation plutôt que de simple copie pour les dramas coréens par rapport aux japonais ?",
+          "answer": "Les Coréens ont copié la structure du trendy drama (esthétique, romance, jeunes urbains) mais l'ont adapté à leurs normes culturelles (suppression de la scène du lit) et à leur contexte. Comme Dadasaheb Phalke l'avait fait pour le cinéma indien, il y a substitution d'un modèle étranger par une production nationale — de la copie à l'appropriation créatrice."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Qui invente le trendy drama au Japon ?",
+            "choices": [
+              "Raj Kapoor",
+              "Ota Toru, producteur chez Fuji Television",
+              "Emilio Azcarraga",
+              "Subhash Chandra"
+            ],
+            "correct_index": 1,
+            "explanation": "Ota Toru, producteur chez Fuji Television, identifie le manque de séries pour les 20-30 ans et crée le trendy drama au début des années 1990."
+          },
+          {
+            "question": "Quel drama japonais a lancé le succès à l'échelle asiatique en 1991 ?",
+            "choices": [
+              "Oshin",
+              "Long Vacation",
+              "Tokyo Love Story",
+              "Winter Sonata"
+            ],
+            "correct_index": 2,
+            "explanation": "Tokyo Love Story (1991) est le drama produit par Ota Toru qui lance le succès international du trendy drama japonais à l'échelle asiatique."
+          },
+          {
+            "question": "Qu'est-ce que la Hallyu ?",
+            "choices": [
+              "La domination du cinéma américain en Asie",
+              "La vague coréenne — le succès international des produits de la culture populaire sud-coréenne",
+              "Un style de réalisation japonais",
+              "Un festival de films asiatiques"
+            ],
+            "correct_index": 1,
+            "explanation": "Hallyu désigne la vague coréenne, c'est-à-dire le succès international des produits de la culture populaire sud-coréenne, notamment les K-Dramas."
+          },
+          {
+            "question": "Jusqu'à quelle année l'importation de produits culturels japonais est-elle interdite à Taïwan ?",
+            "choices": [
+              "1985",
+              "1990",
+              "1993",
+              "2000"
+            ],
+            "correct_index": 2,
+            "explanation": "L'importation de produits culturels japonais est interdite à Taïwan jusqu'en 1993. En Corée du Sud, l'interdiction dure plus longtemps (1998 pour certains produits, 2004 pour les séries)."
+          },
+          {
+            "question": "Quel drama coréen de 1992 est considéré comme copiant directement Tokyo Love Story ?",
+            "choices": [
+              "Winter Sonata",
+              "Jealousy (MBC)",
+              "Full House",
+              "Boys Over Flowers"
+            ],
+            "correct_index": 1,
+            "explanation": "Jealousy (MBC, 1992) reproduit si fidèlement l'histoire de Tokyo Love Story qu'un procès pour plagiat est intenté. C'est le programme qui lance le genre du drama coréen."
+          },
+          {
+            "question": "Quel est le prix d'un épisode de drama coréen à Taïwan par rapport à un épisode japonais ?",
+            "choices": [
+              "2 000$ (coréen) vs 4 000$ (japonais)",
+              "1 200$ (coréen) vs 8 000$ (japonais)",
+              "500$ (coréen) vs 2 000$ (japonais)",
+              "3 000$ (coréen) vs 10 000$ (japonais)"
+            ],
+            "correct_index": 1,
+            "explanation": "À Taïwan, un épisode de drama japonais coûte environ 8 000$, contre 1 200$ pour un drama sud-coréen. Ce différentiel de prix explique en grande partie l'essor des dramas coréens après la crise asiatique de 1998."
+          },
+          {
+            "question": "Qu'est-ce que DramaFever ?",
+            "choices": [
+              "Un réseau coréen de chaînes câblées",
+              "Une plateforme de diffusion légale de dramas coréens aux USA, créée en 2009 et rachetée par Warner en 2016",
+              "Un festival de séries asiatiques",
+              "Un service de streaming créé par Netflix pour l'Asie"
+            ],
+            "correct_index": 1,
+            "explanation": "DramaFever est créé en 2009 par deux fans américains d'origine coréenne pour diffuser légalement les dramas coréens aux USA. Racheté par Warner en 2016."
+          },
+          {
+            "question": "Pourquoi Ota Toru dit-il que le succès international du trendy drama 'nous a pris par surprise' ?",
+            "choices": [
+              "Parce que les dramas n'étaient pas conçus pour l'export et que les Japonais craignaient que leur histoire coloniale bloque la diffusion",
+              "Parce que les dramas étaient trop chers pour être exportés",
+              "Parce que les Japonais ne savaient pas que leurs dramas étaient piratés",
+              "Parce que le marché asiatique n'existait pas encore dans les années 1990"
+            ],
+            "correct_index": 0,
+            "explanation": "Ota Toru n'avait pas pensé à l'internationalisation car les entreprises japonaises étaient concentrées sur leur marché intérieur ET craignaient que l'histoire coloniale du Japon (en Corée, Chine, Taïwan) empêche l'acceptation de leurs programmes."
+          },
+          {
+            "question": "Comment les réalisateurs coréens accédaient-ils aux dramas japonais pourtant interdits en Corée ?",
+            "choices": [
+              "Via des cassettes VHS achetées à Séoul",
+              "Via les ondes hertziennes reçues à Busan (à 200 km du Japon)",
+              "Via des échanges officiels entre les deux gouvernements",
+              "Via les cinémas qui diffusaient les séries japonaises"
+            ],
+            "correct_index": 1,
+            "explanation": "Depuis Busan (à 200 km du Japon), on peut capter directement les ondes hertziennes de la télévision japonaise. Les réalisateurs coréens ont ainsi pu s'inspirer du trendy drama malgré l'interdiction officielle."
+          },
+          {
+            "question": "Quel est le volume des exportations audiovisuelles coréennes en 2011 ?",
+            "choices": [
+              "50 millions de dollars",
+              "100 millions de dollars",
+              "252 millions de dollars",
+              "1 milliard de dollars"
+            ],
+            "correct_index": 2,
+            "explanation": "En 2011, le volume des exportations de contenu audiovisuel coréen (séries, films) atteint 252 millions de dollars — soit la moitié de ce que rapporte un grand film américain qui fonctionne bien."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Pourquoi l'internationalisation des dramas japonais constitue-t-elle un paradoxe par rapport à celle des telenovelas ?",
+            "choices": [
+              "Les telenovelas et les dramas japonais ont suivi exactement les mêmes voies",
+              "Les telenovelas ont été exportées intentionnellement par des entreprises organisées, alors que les dramas japonais ont été exportés de façon non intentionnelle et d'abord via des réseaux informels malgré les interdictions — le succès a précédé la stratégie",
+              "Les dramas japonais ont toujours été exportés officiellement",
+              "Les telenovelas n'ont jamais été exportées intentionnellement"
+            ],
+            "correct_index": 1,
+            "explanation": "Le paradoxe est que les dramas japonais ont connu un succès international massif sans stratégie d'exportation : les entreprises japonaises ne cherchaient pas à exporter, des réseaux informels (pirates, cassettes VHS) ont assuré la diffusion malgré les interdictions. C'est l'inverse des telenovelas où les producteurs cherchaient à vendre à l'international."
+          },
+          {
+            "question": "Comment la crise asiatique de 1998 a-t-elle indirectement favorisé l'exportation des dramas coréens ?",
+            "choices": [
+              "Elle a augmenté le budget des chaînes pour acheter plus de dramas coréens",
+              "Elle a contraint les chaînes asiatiques à chercher des programmes de qualité comparable aux dramas japonais mais moins chers — le drama coréen (1 200$ l'épisode vs 8 000$ pour le japonais) représentait cette opportunité",
+              "Elle a réduit la production de dramas japonais",
+              "Elle a rendu les dramas américains trop chers"
+            ],
+            "correct_index": 1,
+            "explanation": "La crise asiatique de 1998 a réduit les budgets des chaînes TV à travers l'Asie. Pour un épisode à 1 200$ (drama coréen) contre 8 000$ (drama japonais) avec une qualité comparable, le choix économique s'imposait. La crise a accéléré la substitution des dramas japonais par les dramas coréens."
+          },
+          {
+            "question": "En quoi l'exemple de Jealousy (1992) illustre-t-il la notion d'appropriation culturelle plutôt que de simple copie ?",
+            "choices": [
+              "Jealousy est une copie parfaite sans aucune adaptation",
+              "Les Coréens ont copié la structure narrative de Tokyo Love Story mais ont adapté le contenu aux normes culturelles coréennes (suppression de la scène du lit) et à leur contexte historique — transformant la copie en une forme d'appropriation créatrice",
+              "Les Coréens ont inventé un genre entièrement original",
+              "Jealousy n'a aucun lien avec Tokyo Love Story"
+            ],
+            "correct_index": 1,
+            "explanation": "L'appropriation est un processus actif : les Coréens ne se contentent pas de copier (structure narrative identique) mais adaptent (normes culturelles locales, suppression de la scène du lit) et contextualisent dans leur propre réalité sociale. C'est le même processus qu'avec Dadasaheb Phalke pour le cinéma indien : s'inspirer d'un modèle étranger pour créer quelque chose de propre."
+          },
+          {
+            "question": "Pourquoi la notion de proximité culturelle est-elle complexe à appliquer au cas des dramas japonais en Asie de l'Est ?",
+            "choices": [
+              "Parce qu'il n'y a aucune proximité culturelle entre le Japon et l'Asie de l'Est",
+              "Parce que la proximité géographique et certaines influences culturelles communes coexistent avec une histoire coloniale traumatique (Corée, Chine, Taïwan) — le succès des dramas japonais dans ces pays malgré les interdictions montre que la proximité culturelle peut exister malgré une histoire douloureuse",
+              "Parce que la proximité culturelle ne s'applique qu'aux pays hispanophones",
+              "Parce que les dramas japonais n'ont eu du succès qu'en dehors de l'Asie de l'Est"
+            ],
+            "correct_index": 1,
+            "explanation": "La complexité est que la proximité culturelle Japon-Asie de l'Est est réelle (traditions, valeurs, esthétiques communes) mais coexiste avec une histoire coloniale traumatique qui a poussé les gouvernements de Corée et Taïwan à interdire les produits culturels japonais. Le succès malgré les interdictions révèle que les publics et les gouvernements n'ont pas les mêmes attitudes face à cette histoire."
+          },
+          {
+            "question": "Comment la stratégie du 'package de succès' d'Ota Toru illustre-t-elle la rationalisation industrielle de la production culturelle ?",
+            "choices": [
+              "Elle montre que les dramas japonais sont purement artisanaux",
+              "En prioritisant d'abord le casting (stars réservées 2 ans à l'avance), puis la musique (tubes garantissant de la visibilité), puis le scénario, Ota Toru applique une logique industrielle de minimisation des risques au sein de la production culturelle",
+              "Elle montre que le talent est la seule clé du succès",
+              "Elle prouve que les scénarios ne sont pas importants dans les dramas"
+            ],
+            "correct_index": 1,
+            "explanation": "Le 'package de succès' d'Ota Toru est une rationalisation industrielle : en commençant par sécuriser les ingrédients qui garantissent l'audience (stars attractives, musique populaire) avant même d'avoir le scénario, il minimise le risque commercial. C'est une logique similaire aux package deals des agences de talents hollywoodiennes."
+          },
+          {
+            "question": "En quoi le rachat de DramaFever par Warner en 2016 s'inscrit-il dans la continuité de la stratégie hollywoodienne face aux nouvelles formes de distribution ?",
+            "choices": [
+              "C'est un mouvement entièrement nouveau sans précédent dans l'histoire d'Hollywood",
+              "Comme pour la vidéo (contrôle du marché de la location), les chaînes câblées ou les plateformes pirates (achetées ou poursuivies), Hollywood rachète une plateforme de distribution qu'il ne contrôle pas pour en maîtriser les revenus et le catalogue",
+              "Warner a racheté DramaFever uniquement pour des raisons géopolitiques",
+              "Ce rachat n'a aucune signification stratégique"
+            ],
+            "correct_index": 1,
+            "explanation": "Le rachat de DramaFever reproduit une logique récurrente dans l'histoire d'Hollywood : quand une nouvelle forme de distribution échappe au contrôle des majors et génère de la valeur, elles cherchent à l'acquérir. Hollywood ne pouvant plus ignorer la popularité des dramas coréens aux USA, Warner acquiert la plateforme leader pour en contrôler la distribution."
+          },
+          {
+            "question": "Pourquoi le mode de diffusion des dramas coréens en Europe occidentale (d'abord par des communautés de fans à la lisière de la légalité) reproduit-il un schéma déjà observé ailleurs ?",
+            "choices": [
+              "C'est un phénomène entièrement nouveau sans équivalent",
+              "Ce schéma reproduit exactement celui des dramas japonais (VHS pirates en Asie), des films indiens (VCD dans la diaspora) et de la musique (Napster) : la diffusion informelle par des fans précède toujours la distribution légale officielle",
+              "La diffusion par des fans est uniquement due à l'absence de cadre légal",
+              "Ce phénomène ne concerne que les dramas coréens"
+            ],
+            "correct_index": 1,
+            "explanation": "Le schéma diffusion informelle (fans) → distribution légale officielle est récurrent dans l'industrie culturelle : dramas japonais (VHS pirates en Asie dans les années 1980), films indiens (VCD dans la diaspora), musique (Napster). Dans tous les cas, des communautés de passionnés créent la demande avant que les acteurs économiques officiels reconnaissent le marché."
+          },
+          {
+            "question": "Comment les stratégies de localisation de Netflix en Corée du Sud illustrent-elles l'évolution de la relation entre Hollywood et les industries culturelles asiatiques ?",
+            "choices": [
+              "Netflix ignore la production locale coréenne et diffuse uniquement des contenus américains",
+              "Netflix doit adopter une stratégie de localisation (coproduire des contenus coréens) pour pénétrer le marché coréen — illustrant que les industries asiatiques sont passées du statut de marchés récepteurs à celui de partenaires de production que Hollywood doit ménager",
+              "Netflix a racheté toutes les chaînes coréennes",
+              "Netflix n'a aucune présence en Corée du Sud"
+            ],
+            "correct_index": 1,
+            "explanation": "La nécessité pour Netflix de développer une stratégie de localisation en Corée (coproduire des séries coréennes) révèle un changement de rapport de force : les industries culturelles coréennes ne sont plus de simples marchés à qui Hollywood impose ses contenus, mais des partenaires de production que même les plateformes les plus puissantes doivent ménager pour accéder à leur marché."
+          },
+          {
+            "question": "Comment la trajectoire des dramas japonais et coréens illustre-t-elle la notion de cycle entre informel et formel dans les exportations culturelles ?",
+            "choices": [
+              "Les dramas ont toujours été distribués formellement",
+              "Dans les deux cas, l'internationalisation a commencé par des voies informelles (pirates, fans) puis a été institutionnalisée : les entreprises japonaises et coréennes ont créé des structures d'exportation formelles une fois le marché prouvé par les réseaux informels",
+              "Les dramas ont toujours été distribués informellement",
+              "Il n'y a aucun cycle entre formel et informel dans ces industries"
+            ],
+            "correct_index": 1,
+            "explanation": "Le cycle informel → formel est systématique : les réseaux pirates prouvent l'existence d'un marché (fans en Asie, en Europe, aux USA). Prouvé par l'informel, ce marché est ensuite institutionnalisé par des structures formelles (bureaux à l'étranger, DramaFever légal, commissions anti-piratage). L'économie informelle joue un rôle d'exploration de marché que les acteurs formels récupèrent ensuite."
+          },
+          {
+            "question": "Pourquoi le volume des exportations audiovisuelles coréennes en 2011 (252 millions de dollars = la moitié d'un grand film américain) illustre-t-il à la fois le succès et les limites de la Hallyu ?",
+            "choices": [
+              "Ce chiffre prouve que la Corée domine les échanges culturels mondiaux",
+              "Ce chiffre illustre que la Hallyu est réelle (flux non américains significatifs) mais reste asymétrique : le volume total des exportations coréennes équivaut à la moitié d'un grand film hollywoodien, révélant la disproportion persistante des flux",
+              "Ce chiffre est trop faible pour être significatif",
+              "Ce chiffre montre que la Corée a dépassé Hollywood"
+            ],
+            "correct_index": 1,
+            "explanation": "Le chiffre de 252 millions de dollars révèle simultanément le succès (des flux non américains existent et sont significatifs) et les limites (ce total équivaut à la moitié d'un seul grand film américain). La Hallyu est réelle mais ne remet pas en cause la disproportion structurelle des échanges culturels mondiaux."
+          }
+        ],
+        "hard": [
+          {
+            "question": "En quoi l'histoire des dramas japonais et coréens illustre-t-elle la tension entre hégémonie culturelle et résistances locales dans les échanges culturels mondiaux ?",
+            "choices": [
+              "Elle montre que l'hégémonie américaine est impossible à contester",
+              "Elle montre que des industries périphériques (Japon, Corée) peuvent développer des genres qui circulent mondialement, d'abord par des voies informelles malgré les obstacles institutionnels (interdictions, histoire coloniale), constituant une forme de résistance culturelle — même si cette résistance reste asymétrique face à la domination américaine",
+              "Elle prouve que les échanges culturels sont toujours égaux",
+              "Elle montre que seule la qualité technique détermine le succès international"
+            ],
+            "correct_index": 1,
+            "explanation": "Les dramas japonais et coréens illustrent que la domination culturelle américaine n'est pas hégémonique au sens absolu : des industries périphériques peuvent créer des genres qui circulent mondialement (parfois malgré des interdictions officielles), créant des multi-polarités. Mais cette résistance reste asymétrique : le volume des échanges coréens (252M$) est la moitié d'un seul grand film américain."
+          },
+          {
+            "question": "Comment la notion d'appropriation culturelle appliquée aux dramas coréens (qui imitent les dramas japonais) remet-elle en cause les théories simplistes de la domination culturelle ?",
+            "choices": [
+              "L'appropriation confirme que la domination culturelle est totale",
+              "L'appropriation coréenne des dramas japonais montre que la diffusion culturelle n'est pas une simple imposition : les récepteurs transforment, adaptent et créent à partir de ce qu'ils reçoivent. Ce faisant, la Corée a créé un genre qui s'est imposé face à son modèle (drama coréen à 1 200$ vs japonais à 8 000$)",
+              "L'appropriation signifie que les Coréens n'ont aucune créativité propre",
+              "L'appropriation n'est qu'un phénomène temporaire sans signification"
+            ],
+            "correct_index": 1,
+            "explanation": "L'appropriation coréenne illustre la complexité des échanges culturels : les Coréens ont pris le format japonais, l'ont adapté à leurs normes, et ont finalement produit un genre qui s'est imposé face à son modèle original. C'est un dépassement dialectique — la copie devient originale et concurrence le modèle. Cela contredit les théories simplistes d'une domination culturelle unilatérale."
+          },
+          {
+            "question": "Comment le cas des dramas japonais et coréens renouvelle-t-il le débat sur la notion de proximité culturelle ?",
+            "choices": [
+              "Il confirme entièrement la théorie de la proximité culturelle",
+              "Il nuance la théorie de plusieurs façons : la proximité peut coexister avec une histoire traumatique (Corée/Japon), le succès peut transcender l'absence de proximité (dramas coréens en Roumanie, Pologne, Amérique latine), et la 'proximité' peut être une aspiration future (jeunes Asiatiques qui aspirent au mode de vie de Tokyo) plutôt qu'une réalité présente",
+              "Il infirme entièrement la théorie de la proximité culturelle",
+              "Il montre que la proximité culturelle s'applique uniquement en Asie"
+            ],
+            "correct_index": 1,
+            "explanation": "Les dramas japonais et coréens nuancent la théorie de Straubhaar à trois niveaux : (1) la proximité peut coexister avec une histoire coloniale traumatique (preuve que les publics et les gouvernements ont des temporalités différentes) ; (2) le succès en Europe de l'Est ou en Amérique latine montre que la proximité n'est pas nécessaire ; (3) le mode de vie de Tokyo aspire des publics qui n'ont aucune proximité culturelle avec le Japon mais qui y projettent leurs aspirations."
+          },
+          {
+            "question": "En quoi la succession informel → formel dans la diffusion des dramas asiatiques peut-elle être théorisée comme un processus de 'découverte de marché' ?",
+            "choices": [
+              "L'informel et le formel sont deux sphères totalement séparées",
+              "Les réseaux informels (pirates, fans) jouent le rôle d'explorateurs de marché : ils testent la demande, créent une familiarité avec le genre, et rendent visible une opportunité économique que les acteurs formels (studios, plateformes) n'avaient pas identifiée. L'économie formelle récupère ensuite les marchés prouvés par l'informel",
+              "L'économie formelle précède toujours l'économie informelle",
+              "Les acteurs informels sont toujours remplacés par des acteurs formels sans bénéfice pour eux"
+            ],
+            "correct_index": 1,
+            "explanation": "L'économie informelle joue un rôle de découverte de marché : elle test à faible coût (pas d'investissement institutionnel) la demande pour un contenu. Quand la demande est prouvée, les acteurs formels investissent (DramaFever racheté par Warner, Netflix investissant en Corée). Cette dynamique — économie informelle comme laboratoire de marchés — est une constante des industries culturelles mondiales."
+          },
+          {
+            "question": "Comment l'exemple des dramas coréens illustre-t-il le concept de soft power et ses limites pour la Corée du Sud ?",
+            "choices": [
+              "La Corée du Sud n'exerce aucun soft power via ses dramas",
+              "Les dramas coréens (et la Hallyu plus largement) constituent un soft power pour la Corée : ils diffusent un mode de vie, une esthétique, des valeurs qui améliorent l'image du pays. Mais leur portée reste asymétrique face au soft power américain, et le fait que des acteurs américains (Warner, Netflix) contrôlent la distribution de ces contenus montre les limites de cette souveraineté culturelle",
+              "Le soft power coréen via les dramas est plus puissant que celui d'Hollywood",
+              "Le soft power ne s'applique qu'aux grandes puissances comme les USA et la Chine"
+            ],
+            "correct_index": 1,
+            "explanation": "La Hallyu est un soft power réel pour la Corée du Sud : les dramas ont amélioré l'image du pays, stimulé le tourisme et les exportations culturelles. Mais ses limites sont structurelles : Warner rachetant DramaFever et Netflix coproduisant des séries coréennes révèlent que même quand la création est coréenne, la distribution reste souvent contrôlée par des acteurs américains. Le soft power coréen est réel mais médiatisé par des infrastructures étrangères."
+          },
+          {
+            "question": "Pourquoi peut-on dire que les dramas coréens représentent un cas particulièrement intéressant pour étudier la relation entre histoire politique et développement des industries culturelles ?",
+            "choices": [
+              "Parce que la Corée du Sud n'a pas d'histoire politique complexe",
+              "Parce que la transition dictature → démocratie (1987-1992) a simultanément libéré la production télévisuelle (fin de la censure), créé une concurrence entre chaînes (SBS en 1991) et coïncidé avec l'accès informel aux dramas japonais — montrant comment la conjoncture politique crée des conditions d'émergence d'une industrie culturelle",
+              "Parce que la politique coréenne n'a aucun rapport avec ses industries culturelles",
+              "Parce que la dictature a favorisé la créativité culturelle coréenne"
+            ],
+            "correct_index": 1,
+            "explanation": "Le cas coréen illustre parfaitement comment la conjoncture politique structure les industries culturelles : la fin de la dictature libère la production télévisuelle, la démocratisation crée une concurrence entre chaînes (besoin de produire plus), et la levée progressive des interdictions sur les contenus japonais (informelle d'abord, officielle ensuite) permet l'appropriation du trendy drama. Politique et culture sont profondément intriqués."
+          },
+          {
+            "question": "Comment la comparaison entre les exportations de dramas coréens (252M$ en 2011) et les revenus d'un grand film hollywoodien illustre-t-elle la notion d'asymétrie structurelle dans les échanges culturels mondiaux ?",
+            "choices": [
+              "Cette comparaison prouve que les échanges culturels sont équilibrés",
+              "Elle illustre que malgré des succès réels et croissants (252M$), les flux culturels non américains restent structurellement asymétriques : le volume total des exportations coréennes d'une année est inférieur aux recettes d'un seul film américain qui fonctionne bien — révélant que la domination américaine est moins une affaire de qualité que de puissance infrastructurelle et financière",
+              "Elle montre que les dramas coréens sont trop chers pour être exportés massivement",
+              "Elle illustre uniquement que Hollywood produit des films plus chers que la Corée"
+            ],
+            "correct_index": 1,
+            "explanation": "L'asymétrie structurelle révélée par ce chiffre est fondamentale : même un succès international notable comme la Hallyu produit un volume d'échanges inférieur à un seul film américain de taille moyenne. Cela illustre que la domination américaine n'est pas seulement une affaire de qualité ou de contenu, mais d'infrastructure (réseaux de distribution mondiale, puissance financière, capacité à promouvoir massivement)."
+          }
+        ]
+      },
+      "panic": [
+        "Trendy drama : Ota Toru (Fuji TV). Package : casting (2 ans à l'avance) > musique > scénario. Tokyo Love Story (1991) = lancement asiatique.",
+        "Internationalisation non intentionnelle : 'nous a pris par surprise'. Crainte de l'histoire coloniale. Voies informelles : VHS pirates (entrepreneurs HK), puis VCD.",
+        "Interdictions formelles : Taïwan jusqu'en 1993, Corée jusqu'en 1998 (séries : 2004). Long Vacation (1996) officiellement distribué à HK en 2000.",
+        "Hallyu : dictature coréenne 1961-1987 → démocratie 1992. SBS créée 1991 → concurrence. Jealousy (1992) copie Tokyo Love Story.",
+        "Prix clé : épisode japonais = 8 000$ vs coréen = 1 200$ à Taïwan. Crise asiatique 1998 → basculement vers la Corée.",
+        "DramaFever (2009, USA) racheté par Warner (2016). DramaPassion (2009, Belgique).",
+        "Exportations coréennes 2011 : 252M$ = moitié d'un grand film américain. Asymétrie structurelle persistante."
+      ],
+      "qrc": [
+        {
+          "question": "Comment expliquer l'essor des dramas sud-coréens (K-Dramas) sur les marchés internationaux depuis les années 1990 ?",
+          "plan_type": "I. Les conditions d'émergence internes (démocratisation, concurrence télévisuelle, appropriation du trendy drama japonais) / II. Les facteurs de succès international (prix, qualité, diffusion informelle puis formelle) / III. Les limites : asymétrie persistante face aux flux américains",
+          "model_answer": "L'essor des K-Dramas est indissociable de la transition politique en Corée du Sud. La fin de la dictature militaire (1987) et le retour à la démocratie (1992) libèrent la production télévisuelle de la censure. La création de la chaîne SBS en 1991 accroît la concurrence et oblige les producteurs à innover. Pour trouver de nouveaux formats, les réalisateurs coréens s'inspirent du trendy drama japonais, accessible malgré l'interdiction officielle via les ondes hertziennes depuis Busan. Jealousy (MBC, 1992) reproduit si fidèlement Tokyo Love Story qu'un procès pour plagiat est intenté — mais les Coréens adaptent aux normes locales (la scène du lit disparaît). C'est une appropriation créatrice, non une simple copie.\n\nL'internationalisation s'explique par plusieurs facteurs. D'abord un différentiel de prix décisif : à Taïwan, un épisode de drama japonais coûte 8 000$ contre 1 200$ pour un drama coréen. Avec la crise asiatique de 1998, les chaînes cherchent des programmes de qualité comparable moins chers. Winter Sonata perce en Chine, à Taïwan et même au Japon. La diffusion s'étend à l'Amérique latine, l'Europe de l'Est (Roumanie, Pologne, Lituanie) et aux USA via des communautés de fans, d'abord à la lisière de la légalité, puis via des plateformes légales (DramaFever, 2009 aux USA, racheté par Warner en 2016). La commission anti-piratage coréenne créée en 2009 avec des bureaux à Bangkok, Pékin et Kuala Lumpur institutionnalise la protection de ces exportations.\n\nCependant, les limites sont structurelles : en 2011, le volume total des exportations audiovisuelles coréennes atteint 252 millions de dollars — soit la moitié de ce que rapporte un seul grand film américain. La Hallyu est réelle mais n'inverse pas l'asymétrie fondamentale des échanges culturels mondiaux.",
+          "key_concepts": [
+            "Hallyu",
+            "Jealousy",
+            "trendy drama",
+            "appropriation",
+            "Winter Sonata",
+            "prix",
+            "DramaFever",
+            "asymétrie",
+            "crise asiatique 1998",
+            "démocratisation",
+            "Ota Toru"
+          ]
+        },
+        {
+          "question": "Comparez les modalités d'internationalisation des dramas japonais et des dramas coréens. Qu'est-ce que cette comparaison révèle sur les dynamiques des échanges culturels mondiaux ?",
+          "plan_type": "I. Points communs : interdictions + voies informelles d'abord / II. Différences : intentionnalité, séquence temporelle, résultats / III. Ce que la comparaison révèle : cycles informel/formel, rôle des prix, importance du contexte politique",
+          "model_answer": "Les dramas japonais et coréens présentent des trajectoires d'internationalisation qui partagent une structure commune mais diffèrent sur plusieurs points essentiels.\n\nLes points communs sont frappants. Dans les deux cas, l'internationalisation a d'abord emprunté des voies informelles : des cassettes VHS pirates (entrepreneurs hongkongais pour les dramas japonais), des fans à la lisière de la légalité (pour les dramas coréens en Europe et aux USA). Dans les deux cas, des interdictions formelles ont tenté de bloquer la diffusion (Taïwan et Corée pour les dramas japonais, histoire coloniale comme obstacle symbolique). Dans les deux cas enfin, la diffusion informelle a précédé et rendu possible la distribution formelle ultérieure.\n\nLes différences sont néanmoins significatives. Les dramas japonais se sont exportés de façon non intentionnelle — Ota Toru dit que le succès international 'nous a pris par surprise' et que les entreprises japonaises n'avaient aucune stratégie pensée pour les marchés étrangers. Les entreprises coréennes, au contraire, ont dès les années 1990 mis en place des structures d'exportation, s'appuyant sur les leçons de leurs voisins. Le prix est aussi un facteur différenciateur décisif : les dramas coréens (1 200$ l'épisode à Taïwan vs 8 000$ pour le japonais) ont bénéficié d'un avantage compétitif qu'ont amplifié la crise asiatique de 1998.\n\nCette comparaison révèle trois dynamiques fondamentales des échanges culturels mondiaux. D'abord, l'économie informelle joue systématiquement un rôle d'exploration de marchés que l'économie formelle récupère ensuite. Ensuite, le prix est un facteur structurant : les dramas coréens ont supplanté les japonais non par supériorité culturelle mais par compétitivité économique. Enfin, le contexte politique structure les industries culturelles : la démocratisation coréenne a libéré la production, comme la dictature brésilienne avait paradoxalement enrichi les telenovelas.",
+          "key_concepts": [
+            "informel vs formel",
+            "Ota Toru",
+            "non intentionnel",
+            "intentionnel",
+            "prix",
+            "crise asiatique",
+            "VHS pirates",
+            "DramaFever",
+            "appropriation",
+            "cycles",
+            "contexte politique"
+          ]
+        }
+      ]
     }
   ],
   "final_exam": [
     {
-      "question": "En quoi la notion de soft power s'applique-t-elle à la domination d'Hollywood sur les marchés internationaux ?",
+      "question": "Quel pourcentage des films projetés en Europe venait des USA en 1919 ?",
       "choices": [
-        "Le soft power désigne la politique de prix bas pratiquée par les distributeurs américains",
-        "Le soft power désigne la capacité d'influencer par la culture et les valeurs — Hollywood diffuse le mode de vie américain à travers ses films, créant une familiarité qui facilite les échanges commerciaux et politiques sans recourir à la contrainte",
-        "Le soft power est la capacité d'Hollywood à racheter les cinémas étrangers",
-        "Le soft power désigne uniquement l'utilisation de la MPAA comme outil diplomatique"
+        "50%",
+        "75%",
+        "90%",
+        "100%"
       ],
-      "correct_index": 1,
-      "explanation": "Le soft power désigne l'influence exercée par la culture et les idées plutôt que par la force (concept de Joseph Nye). Hollywood exerce un soft power : les films américains diffusent des valeurs et des modes de vie, créant une familiarité avec le modèle américain qui facilite les exportations commerciales et l'influence diplomatique."
+      "correct_index": 2,
+      "explanation": "En 1919, 90% des films projetés en Europe venaient des États-Unis. La domination française s'est effondrée après la Première Guerre mondiale."
     },
     {
-      "question": "Comment la structure oligopolistique du marché hollywoodien a-t-elle facilité la domination internationale ?",
+      "question": "Qu'est-ce que l'intégration verticale dans l'industrie cinématographique ?",
       "choices": [
-        "En permettant aux majors de s'entendre illégalement sur les prix à l'international",
-        "En concentrant les ressources (capital, réseaux de distribution, stars) entre quelques entreprises capables d'investir massivement et de déployer des réseaux de distribution mondiale que les petits producteurs ne pouvaient pas concurrencer",
-        "En éliminant juridiquement la concurrence étrangère",
-        "En bénéficiant d'un monopole légal accordé par le gouvernement américain"
+        "Produire des films dans plusieurs pays",
+        "Le contrôle par une même entreprise de la production, la distribution et l'exploitation",
+        "Faire travailler des acteurs internationaux",
+        "Vendre les droits à l'étranger"
       ],
       "correct_index": 1,
-      "explanation": "L'oligopole hollywoodien crée des barrières à l'entrée infranchissables : seules les Big Five ont les ressources pour produire massivement, distribuer à l'international via leurs propres réseaux et imposer leurs pratiques (block booking, blind bidding) aux exploitants du monde entier."
+      "explanation": "L'intégration verticale = contrôle de l'ensemble de la filière de l'amont (production) vers l'aval (exploitation des salles)."
     },
     {
-      "question": "En quoi le piratage précoce des films de Méliès aux USA illustre-t-il une tension fondamentale de l'internationalisation culturelle ?",
+      "question": "Qu'est-ce que le block booking ?",
       "choices": [
-        "Il illustre la supériorité technique des Américains",
-        "Il illustre la tension entre circulation internationale des oeuvres (qui profite à leur diffusion) et protection des droits de propriété intellectuelle (qui garantit les revenus des créateurs) — tension qui traverse toute l'histoire de l'industrie jusqu'à aujourd'hui",
-        "Il prouve que le cinéma américain n'était pas créatif",
-        "Il illustre uniquement la mauvaise gestion financière de Méliès"
+        "Réservation de salles à l'avance",
+        "Lier la vente d'un film à succès à l'achat de nombreux films médiocres",
+        "Vente d'un film avant sa réalisation",
+        "Un accord entre distributeurs américains"
       ],
       "correct_index": 1,
-      "explanation": "Le piratage des films de Méliès préfigure une tension structurelle qui traverse toute l'histoire des industries culturelles : la circulation internationale amplifie la diffusion des oeuvres (ce qui peut être bénéfique à leur rayonnement) mais prive les créateurs de leurs revenus. La même tension se retrouvera avec la vidéo VHS, puis Internet et le streaming."
+      "explanation": "Le block booking forçait les exploitants à acheter des films médiocres (jusqu'à 104 mauvais pour 1 bon) s'ils voulaient accéder aux films à succès."
     },
     {
-      "question": "Pourquoi le Motion Picture Production Code (1930) est-il à la fois un outil d'auto-censure et un outil de conquête des marchés internationaux ?",
+      "question": "Pourquoi le gouvernement américain soutient-il l'exportation des films hollywoodiens ?",
       "choices": [
-        "Parce qu'il permet aux majors d'interdire les films étrangers sur le marché américain",
-        "Parce qu'en garantissant que les films américains respectent certaines normes morales, il les rend exportables dans des pays conservateurs et évite les scandales pouvant provoquer des restrictions à l'importation à l'étranger",
-        "Parce qu'il impose aux pays étrangers d'adopter les mêmes règles de production",
-        "Parce qu'il finance directement les exportations des majors"
+        "Le gouvernement est propriétaire des studios",
+        "Les films sont des vitrines du mode de vie américain et favorisent les exportations commerciales — soft power + impact sur les ventes",
+        "Les studios paient des impôts très élevés",
+        "Hollywood finance les campagnes électorales"
       ],
       "correct_index": 1,
-      "explanation": "Le Motion Picture Production Code sert deux objectifs : éviter une censure externe (qui nuirait aux majors sur le marché américain) et produire des films moralement acceptables à l'international pour éviter que des gouvernements étrangers ne restreignent les importations américaines. Il contient explicitement des passages sur la nécessité d'éviter de représenter défavorablement les autres nations."
+      "explanation": "Deux raisons : soft power (vitrine du mode de vie américain) et impact commercial direct (Hoover : 'Où pénètrent les films américains, on vend deux fois plus d'automobiles américaines')."
     },
     {
-      "question": "Pourquoi peut-on dire que la création de Hollywood constitue un paradoxe dans l'histoire de l'anti-monopolisme américain ?",
+      "question": "Quel film de 1915 marque le début des superproductions à Hollywood ?",
       "choices": [
-        "Il n'y a aucun paradoxe dans cette histoire",
-        "Les producteurs indépendants ont détruit un monopole (MPPC) pour en créer un autre encore plus puissant (les Big Five), montrant que la concentration est une tendance structurelle de l'industrie culturelle, non un accident",
-        "La création de Hollywood a permis une véritable démocratisation du cinéma",
-        "Les producteurs indépendants sont restés indépendants après la dissolution du cartel"
+        "Le Voyage dans la Lune",
+        "Le Grand Train de l'Ouest",
+        "The Birth of a Nation",
+        "Naissance d'une nation"
       ],
-      "correct_index": 1,
-      "explanation": "Le paradoxe est fondamental : les producteurs qui ont combattu le cartel MPPC ont eux-mêmes créé un oligopole encore plus puissant (les Big Five) avec des pratiques de concentration verticale identiques (block booking, blind bidding). L'anti-monopolisme américain en matière de cinéma a tendance à remplacer une concentration par une autre."
+      "correct_index": 2,
+      "explanation": "The Birth of a Nation (Griffith, 1915) coûte 100 000$ et rapporte 20 millions — révélant qu'en investissant massivement on génère des recettes disproportionnées."
     },
     {
-      "question": "Comment l'importation du taylorisme dans la production cinématographique a-t-elle transformé la nature de la création artistique à Hollywood ?",
+      "question": "Qu'est-ce que le divorcment de 1948 ?",
       "choices": [
-        "Elle n'a eu aucun impact sur la création artistique",
-        "En divisant la production en tâches spécialisées et en donnant au producteur (mogul) le final cut, le taylorisme a subordonné la logique artistique à la logique commerciale — le film devient un produit industriel optimisé pour le marché",
-        "Elle a amélioré la qualité artistique des films en permettant aux réalisateurs de se concentrer",
-        "Elle a permis aux réalisateurs de garder un contrôle total sur leurs oeuvres"
+        "Le divorce entre studios et stars",
+        "L'obligation pour les majors de se séparer de la production ou de l'exploitation",
+        "La séparation des majors et des minors",
+        "L'interdiction du block booking"
       ],
       "correct_index": 1,
-      "explanation": "L'importation du taylorisme transforme profondément la création : le producteur (mogul) a le final cut, les équipes sont spécialisées, les test screenings permettent d'adapter le produit aux attentes du marché. La logique artistique se soumet à la logique commerciale — Hollywood devient une 'usine à rêves' (Hortense Powdermaker, 1950)."
+      "explanation": "Le divorcment de 1948 oblige les majors à choisir entre production et exploitation. Toutes choisissent la production, sauf RKO."
     },
     {
-      "question": "En quoi la domination de Pathé dans les années 1910 était-elle paradoxalement plus fragile que celle d'Hollywood dans les années 1920 ?",
+      "question": "Quel est le résultat paradoxal des Fin-Syn Rules (1970) selon Kerry Seagrave ?",
       "choices": [
-        "Parce que Pathé produisait des films de moins bonne qualité",
-        "Parce que la domination de Pathé reposait sur l'exportation sans marché intérieur suffisant pour amortir les productions, alors qu'Hollywood amortissait d'abord sur un marché intérieur gigantesque avant d'exporter à prix défiant toute concurrence",
-        "Parce que la France n'avait pas de système de distribution internationale",
-        "Parce que les films français ne plaisaient pas au public international"
+        "Elles ont rendu les Networks plus puissants",
+        "En voulant limiter les Networks, elles ont concentré le pouvoir de distribution internationale entre les mains des majors — 80% des recettes internationales de syndication en 1990",
+        "Elles ont favorisé les producteurs indépendants",
+        "Elles ont permis à l'État de contrôler la production TV"
       ],
       "correct_index": 1,
-      "explanation": "La domination de Pathé était paradoxalement fragile : 75% du CA à l'étranger en 1905. Hollywood a inversé le modèle : d'abord amortir sur un marché intérieur gigantesque (800 films/an), puis exporter à des prix que les concurrents étrangers ne peuvent pas atteindre car ils n'ont pas ce volume."
+      "explanation": "En interdisant aux Networks la production et la syndication, les Fin-Syn Rules ont involontairement concentré ces activités entre les mains des majors, renforçant leur domination internationale."
     },
     {
-      "question": "Comment les politiques de quotas adoptées par les pays européens dans les années 1920 illustrent-elles les limites d'une régulation défensive face à la domination culturelle américaine ?",
+      "question": "En quelle année les recettes vidéo des majors dépassent-elles les entrées en salle ?",
       "choices": [
-        "Les quotas ont parfaitement fonctionné et ont stoppé l'expansion d'Hollywood en Europe",
-        "Les quotas limitent les importations mais ne s'attaquent pas aux causes profondes de la domination (marché intérieur américain gigantesque, soutien bancaire, studio system, réseaux de distribution mondiaux) — ils protègent temporairement sans inverser le rapport de forces",
-        "Les quotas ont immédiatement été contournés par les majors via des coproductions",
-        "Les quotas ont eu un effet négatif sur la qualité des cinémas nationaux"
+        "1980",
+        "1983",
+        "1986",
+        "1990"
       ],
-      "correct_index": 1,
-      "explanation": "Les quotas sont une réponse défensive qui ne s'attaque pas aux causes structurelles de la domination : un marché intérieur américain gigantesque qui permet d'amortir les coûts avant d'exporter, le soutien des banques, la rationalisation industrielle et les réseaux de distribution mondiale. Ils protègent temporairement une part de marché sans reconstruire une industrie nationale compétitive."
+      "correct_index": 2,
+      "explanation": "Dès 1986, les recettes tirées de la location et vente de cassettes vidéo représentent plus d'argent que les entrées en salle pour les majors hollywoodiennes."
     },
     {
-      "question": "En quoi le passage du studio system au système de flexibilité post-1948 reflète-t-il une transformation des rapports de force dans l'industrie ?",
+      "question": "Qu'est-ce que la syndication dans le marché télévisuel américain ?",
       "choices": [
-        "Le système de flexibilité a donné plus de pouvoir aux réalisateurs",
-        "La fin des contrats longs a transféré du pouvoir aux agences de talents : sans marché garanti (les salles), les majors doivent négocier plutôt qu'imposer, renforçant les acteurs capables de constituer des packages attractifs",
-        "Le système de flexibilité a permis au gouvernement de mieux réguler l'industrie",
-        "La fin du studio system a favorisé les producteurs indépendants"
+        "Un accord entre producteurs pour partager les droits",
+        "Le marché de l'occasion des programmes — diffusé par un Network puis revendu à des stations locales",
+        "Un système de financement des séries",
+        "La vente de programmes à l'international"
       ],
       "correct_index": 1,
-      "explanation": "La fin du studio system crée un marché du travail plus fluide. Les agences de talents s'affirment car elles maîtrisent l'assemblage de packages. Le pouvoir se fragmente : on passe d'un modèle où les moguls imposaient tout à un système de négociations permanentes."
+      "explanation": "La syndication est le marché de l'occasion : un programme diffusé par un Network peut être revendu à des stations locales. Les Fin-Syn Rules ont interdit aux Networks de gérer ce marché."
     },
     {
-      "question": "Comment la notion de technologie perturbatrice s'applique-t-elle à la fois à la vidéo (années 1970-80) et à Internet (années 2000) ?",
+      "question": "Qu'est-ce qu'un blockbuster et d'où vient ce terme ?",
       "choices": [
-        "Les deux technologies n'ont eu aucun impact sur l'industrie",
-        "Les deux perturbent un ordre existant en portant simultanément des menaces (piratage, concurrence) et des opportunités (nouveaux marchés) — Hollywood réagit avec la même séquence : résistance juridique puis intégration commerciale",
-        "La vidéo était une technologie perturbatrice mais pas Internet",
-        "Internet n'a été qu'une menace, contrairement à la vidéo"
+        "Un film indépendant à petit budget",
+        "Une superproduction hollywoodienne — terme militaire (bombe détruisant un pâté de maisons) désignant l'objectif d'écraser la concurrence",
+        "Un film produit hors des USA",
+        "Un film tourné entièrement en studio"
       ],
       "correct_index": 1,
-      "explanation": "Les deux technologies perturbent un ordre existant avec la même dualité menaces/opportunités. Hollywood applique la même séquence : procès (contre Sony, puis contre Napster), puis intégration commerciale (marché vidéo contrôlé, streaming légal)."
+      "explanation": "Le terme militaire désigne une superproduction à très gros budget. Objectif : écraser la concurrence avec les plus grandes stars et les meilleurs effets spéciaux."
     },
     {
-      "question": "En quoi la politique des blockbusters crée-t-elle paradoxalement des barrières à l'entrée qui renforcent les majors face aux indépendants ?",
+      "question": "Quelle est la première mégafusion de l'industrie médiatique mondiale ?",
       "choices": [
-        "Les blockbusters ne concernent que les majors car les indépendants refusent cette stratégie",
-        "Plus les budgets sont élevés, moins les indépendants peuvent rivaliser — les blockbusters créent des barrières financières infranchissables, renforçant l'oligopole même si le risque par film augmente",
-        "Les blockbusters ont rendu les majors financièrement fragiles",
-        "Les budgets des blockbusters sont principalement financés par le gouvernement"
+        "Rachat de Columbia par Sony (1989)",
+        "Rachat de Fox par Murdoch (1984)",
+        "Rachat de Warner par Time (1989) créant Time Warner",
+        "Rachat de Paramount par Gulf Western (1966)"
       ],
-      "correct_index": 1,
-      "explanation": "La politique des blockbusters est paradoxalement un outil de concentration : en portant les budgets à des niveaux inatteignables pour les indépendants (200M$ pour Titanic), les majors créent des barrières à l'entrée infranchissables tout en diversifiant les risques sur plusieurs films."
+      "correct_index": 2,
+      "explanation": "Le rachat de Warner par Time en 1989, créant Time Warner, est la première mégafusion. Elle annonce celles qui se développent dans les années 1990-2000."
     },
     {
-      "question": "En quoi la reconstitution des réseaux de salles par les majors dans les années 1980 (malgré le divorcment de 1948) illustre-t-elle les limites de la régulation anti-trust ?",
+      "question": "Qu'est-ce que Napster et quelle est son importance historique ?",
       "choices": [
-        "Cette reconstitution prouve que la régulation anti-trust a toujours fonctionné",
-        "Dès les années 1980, dans le contexte Reagan de déréglementation, les majors reconstituent des réseaux de salles en violation de la décision de 1948. Le gouvernement réagit trop tard, montrant que la pression économique finit par l'emporter sur les contraintes réglementaires",
-        "La reconstitution a été autorisée par une nouvelle loi en 1980",
-        "C'est le gouvernement qui a encouragé les majors à reconstituer des réseaux pour contrer la concurrence"
+        "Une plateforme légale de VOD créée en 2002",
+        "Un réseau pair-à-pair d'échange de fichiers musicaux créé en 1999 par Shawn Fanning — 7 millions d'utilisateurs, fermé en 2001",
+        "Un site de vente de DVD en ligne",
+        "Un système de streaming créé par Hollywood"
       ],
       "correct_index": 1,
-      "explanation": "Dans le contexte de déréglementation de Reagan, la Columbia commence à racheter des salles en 1983. Sans réaction du gouvernement, Universal suit avec 400 écrans. Le signal est envoyé et toutes les majors reconstituent des réseaux, violant la décision de 1948 sans conséquences réelles."
+      "explanation": "Napster (1999) est la première grande plateforme de partage de fichiers musicaux. 7 millions d'utilisateurs à son pic. Fermé en 2001 après procès de la RIAA."
     },
     {
-      "question": "Comment les Fin-Syn Rules illustrent-elles le paradoxe de la régulation dans l'industrie culturelle américaine ?",
+      "question": "Que révèle l'étude de Burgess & Green (2009) sur YouTube ?",
       "choices": [
-        "Elles montrent que la régulation est toujours efficace quand l'État intervient",
-        "En voulant limiter la concentration (les Networks), la régulation a produit une concentration encore plus grande (les majors) dans le domaine de la distribution internationale — elle a résolu un problème de concentration en en créant un autre",
-        "Elles ont parfaitement atteint leur objectif de décentralisation",
-        "Elles ont favorisé l'émergence de nombreux acteurs indépendants"
+        "YouTube était exclusivement une plateforme de vidéos amateurs",
+        "Sur les 4 000 vidéos les plus populaires, plus de la moitié venait des industries culturelles traditionnelles — YouTube était aussi un canal de diffusion professionnelle",
+        "Les vidéos amateurs étaient plus vues que les professionnelles",
+        "YouTube ne diffusait aucun contenu des industries culturelles"
       ],
       "correct_index": 1,
-      "explanation": "Les Fin-Syn Rules illustrent un paradoxe classique de la régulation anti-trust dans les industries culturelles : en interdisant une forme de concentration (Networks dominant la production ET la syndication), la régulation a involontairement créé une autre forme de concentration (majors dominant la distribution internationale)."
+      "explanation": "L'étude montre que sur les 4 000 vidéos les plus populaires, une petite majorité provenait des industries culturelles traditionnelles. YouTube n'était pas qu'une plateforme amateur."
     },
     {
-      "question": "En quoi l'expérience de la vidéo a-t-elle préparé les majors à mieux gérer l'arrivée du DVD ?",
+      "question": "Quel modèle original Netflix avait-il avant de passer au streaming ?",
       "choices": [
-        "Les majors ont appliqué exactement les mêmes stratégies à la vidéo et au DVD",
-        "L'expérience vidéo (guerre de standards VHS/Betamax, piratage, nécessité de contrôle de la distribution) a poussé les majors à négocier dès le départ avec les fabricants un format unique, un cryptage anti-copie et des zones géographiques pour le DVD",
-        "L'expérience vidéo a montré aux majors qu'il ne fallait pas investir dans les nouveaux supports",
-        "L'expérience vidéo n'a eu aucun impact sur la stratégie DVD"
+        "Un service de streaming dès sa création",
+        "La location de DVD par correspondance (1997) — 1 milliard de DVD loués en 2007 avant la migration vers le streaming",
+        "Un réseau de salles de cinéma",
+        "Un service de câble comme HBO"
       ],
       "correct_index": 1,
-      "explanation": "Les leçons de la vidéo sont multiples : la guerre de standards (VHS vs Betamax) a retardé l'adoption, le piratage a coûté cher. Avec le DVD, les majors ont obtenu un format unique standardisé, intégré le cryptage et défini des zones géographiques dès le lancement. La concertation se fait au sein de la MPAA."
+      "explanation": "Netflix est créé en 1997 comme service de location de DVD par correspondance avec des atouts distinctifs (prix bas, pas de frais de port, recommandations). Il atteint 1 milliard de DVD loués en 2007."
     },
     {
-      "question": "Pourquoi peut-on qualifier la relation entre Hollywood et la télévision américaine de paradoxale entre 1945 et 1970 ?",
+      "question": "Qu'est-ce que Hulu et qui le crée en 2008 ?",
       "choices": [
-        "Parce que Hollywood a immédiatement vu dans la TV une opportunité de marché",
-        "Parce que les mêmes majors qui boycottaient la TV (Jack Warner interdisant les postes de TV dans ses films) ont finalement fait de la TV leur principal marché en moins de 15 ans, retournant l'ennemi déclaré en leur plus grand allié commercial",
-        "Parce que la TV a immédiatement tué les entrées en salle comme prévu",
-        "Parce que c'est le gouvernement qui a forcé Hollywood à collaborer avec la TV"
+        "Une plateforme créée par Netflix pour concurrencer Disney",
+        "Une plateforme créée par ABCUniversal proposant un modèle gratuit financé par la publicité — coûts pub 60% inférieurs aux Networks",
+        "Un service créé par le gouvernement américain",
+        "Une plateforme créée par Sony Pictures"
       ],
       "correct_index": 1,
-      "explanation": "Le paradoxe est total : les majors qui qualifiaient la TV de 'diable' et interdisaient à leurs employés d'y travailler se sont retrouvées à en faire leur principal marché en moins de 15 ans. Dans les années 1970, les recettes TV égalent les recettes en salle."
+      "explanation": "Hulu (2008) est créé par ABCUniversal avec un modèle gratuit financé par la publicité, alternative légale aux plateformes pirates. Disney en devient actionnaire majoritaire en 2019."
     },
     {
-      "question": "En quoi la notion d'économie de prototype s'applique-t-elle au cinéma et en quoi la TV l'a-t-elle partiellement résolue pour Hollywood ?",
+      "question": "Qui est Felix Caignet et quel est son rôle dans l'histoire de la telenovela ?",
       "choices": [
-        "L'économie de prototype ne s'applique qu'à l'industrie automobile",
-        "En cinéma, chaque film est un prototype unique dont le succès est incertain — un risque que la TV atténue grâce à la sérialisation : une fois la formule du succès trouvée, on la décline, réduisant l'incertitude et fidélisant le public",
-        "La TV a éliminé totalement le risque économique pour Hollywood",
-        "L'économie de prototype s'applique à la TV mais pas au cinéma"
+        "Fondateur de Televisa au Mexique",
+        "Pionnier de la radionovela cubaine — Le droit de naitre (1948, 314 épisodes). Formule : 'Pleurer est un plaisir'",
+        "Fondateur de Rede Globo au Brésil",
+        "Réalisateur de la première telenovela brésilienne"
       ],
       "correct_index": 1,
-      "explanation": "L'économie de prototype (chaque film est plus ou moins unique, son succès est incertain) est le principal risque du cinéma. La TV atténue ce risque grâce à la sérialisation : une fois la formule trouvée (personnages, format, univers), on la décline sur des saisons entières, réduisant l'incertitude et fidélisant le spectateur."
+      "explanation": "Felix Caignet diffuse Le droit de naitre en 1948 sur la radio CMQ. Sa formule 'Pleurer est un plaisir' définit le genre mélodramatique. Le programme s'exporte dès 1948."
     },
     {
-      "question": "En quoi le développement des cyberlockers comme MegaUpload marque-t-il un passage de l'artisanat à l'industrialisation du piratage audiovisuel ?",
+      "question": "Qu'est-ce que la proximité culturelle selon Joseph Straubhaar ?",
       "choices": [
-        "Les cyberlockers ne sont pas différents des réseaux pair-à-pair",
-        "Les cyberlockers industrialisent le piratage : MegaUpload (100 millions d'utilisateurs, 12 milliards de fichiers, 19 langues) est une entreprise mondiale avec une stratégie d'internationalisation — on passe de l'échange entre pairs à une infrastructure commerciale planétaire",
-        "Les cyberlockers ont rendu le piratage moins accessible",
-        "Les cyberlockers ne concernaient que les marchés asiatiques"
+        "Le fait que les cultures proches géographiquement ont les mêmes goûts",
+        "Le succès international des telenovelas s'explique par le fait que les publics se sentent plus proches de ces programmes que des programmes américains car ils y voient des réalités moins éloignées",
+        "Le fait que seuls les pays hispanophones regardent les telenovelas",
+        "La supériorité technique des telenovelas sur les séries américaines"
       ],
       "correct_index": 1,
-      "explanation": "Les cyberlockers marquent le passage du piratage artisanal (échange entre pairs) au piratage industriel : MegaUpload était une entreprise commerciale avec 100 millions d'utilisateurs, opérant dans 19 langues, financée par la publicité et des abonnements premium. La dimension économique et stratégique est comparable à celle d'une grande entreprise légale."
+      "explanation": "Straubhaar (fin des années 1970) : les publics préfèrent les telenovelas aux programmes américains parce qu'ils y voient des réalités moins éloignées de leur vécu."
     },
     {
-      "question": "En quoi la stratégie de Netflix illustre-t-elle la tension entre universalisme et localisation dans la distribution culturelle mondiale ?",
+      "question": "En quoi la telenovela brésilienne (Globo) est-elle différente de la mexicaine (Televisa) ?",
       "choices": [
-        "Netflix ne pratique aucune localisation — il diffuse uniquement des contenus américains",
-        "Netflix navigue entre une stratégie de segments transnationaux (identifier des nichés mondiales) et une nécessité de localisation (produire des contenus locaux pour pénétrer les marchés) — illustrant que la distribution mondiale ne peut pas ignorer les spécificités culturelles",
-        "Netflix a abandonné toute stratégie de localisation après l'échec de Marseille",
-        "Netflix impose uniquement des contenus américains dans tous les pays"
+        "La brésilienne est plus commerciale",
+        "La brésilienne est plus proche des réalités sociales et moins manichéenne — des intellectuels critiques se réfugient dans la fiction télévisée sous la dictature militaire",
+        "La mexicaine est plus réaliste socialement",
+        "Elles sont strictement identiques"
       ],
       "correct_index": 1,
-      "explanation": "Netflix illustre parfaitement cette tension : d'un côté une stratégie transnationale (identifier des segments de consommateurs au-delà des frontières via les données), de l'autre une nécessité de localisation (produire en Inde, au Brésil, en France) pour pénétrer les marchés et répondre aux régulations locales."
+      "explanation": "La dictature militaire (1964-1983) pousse des intellectuels critiques vers la fiction télévisée de Globo, y introduisant une dimension sociale plus réaliste. Beto Rockefeller (1968-69) marque ce tournant."
     },
     {
-      "question": "Comment la succession Napster → Kazaa → The Pirate Bay → cyberlockers illustre-t-elle la dynamique de l'innovation dans l'économie informelle du piratage ?",
+      "question": "Qu'est-ce qu'un contre-flux selon Daya Thussu (2007) ?",
       "choices": [
-        "Elle illustre que le piratage est toujours identique technologiquement",
-        "Elle illustre une loi d'évolution : chaque génération condamnée est immédiatement remplacée par une nouvelle techniquement supérieure (serveur central → sans serveur → BitTorrent → hébergement centralisé), montrant que la répression seule est insuffisante",
-        "Elle montre que la répression judiciaire a finalement fonctionné",
-        "Elle illustre que le piratage n'est possible que dans les pays sans régulation"
+        "Des accords entre producteurs pour contourner le droit d'auteur",
+        "Des flux médiatiques qui viendraient s'opposer aux flux dominants américains — les telenovelas en seraient emblématiques",
+        "La politique anti-piratage des industries culturelles",
+        "La domination des programmes américains sur les marchés mondiaux"
       ],
       "correct_index": 1,
-      "explanation": "La succession des générations de piratage illustre une dynamique d'innovation permanente dans l'économie informelle : sitôt une génération condamnée, une autre plus performante techniquement (et plus résistante à la répression) la remplace. Napster (serveur central vulnérable) → Kazaa (sans serveur central) → BitTorrent (décentralisé) → cyberlockers (commerciaux et internationaux)."
+      "explanation": "Daya Thussu (2007) développe l'idée que les telenovelas sont emblématiques de contre-flux — des flux non américains qui s'opposent aux flux dominants. Mais cette idée a des limites importantes."
     },
     {
-      "question": "En quoi YouTube illustre-t-il la transformation du rapport entre industries culturelles traditionnelles et plateformes numériques ?",
+      "question": "Pourquoi les exportations de telenovelas sont-elles 'économiquement insignifiantes' selon Hesmondhalgh ?",
       "choices": [
-        "YouTube a remplacé les industries culturelles traditionnelles",
-        "YouTube est à la fois un concurrent (qui capte de l'audience et des revenus publicitaires) et un canal de distribution pour les industries culturelles — le procès Viacom révèle même que ces industries l'utilisaient comme outil promotionnel tout en le poursuivant",
-        "YouTube n'a eu aucun impact sur les industries culturelles traditionnelles",
-        "YouTube et les industries culturelles n'ont jamais eu aucune interaction"
+        "Parce que les telenovelas ne sont jamais exportées",
+        "Parce que leur volume ne réussit pas à contrebalancer les flux américains dominants — les contre-flux existent mais restent marginaux économiquement",
+        "Parce qu'elles coûtent trop cher à l'export",
+        "Parce que les droits de diffusion sont trop compliqués"
       ],
       "correct_index": 1,
-      "explanation": "YouTube illustre la complexité des rapports entre plateformes et industries culturelles : concurrent (capte audience et revenus publicitaires), canal de distribution (la majorité des vidéos populaires viennent des industries traditionnelles), outil promotionnel (Viacom uploadait ses propres contenus), et partenaire via le Content ID."
+      "explanation": "Hesmondhalgh reconnaît l'existence des exportations mais relativise : leur volume ne contrebalance pas les flux américains. Les contre-flux sont réels mais asymétriques."
     },
     {
-      "question": "En quoi la constitution de grands conglomérats médiatiques dans les années 1990-2000 (Time Warner, Disney-ABC, Viacom-CBS) a-t-elle renforcé la domination américaine sur les marchés culturels mondiaux ?",
+      "question": "Qu'est-ce que le cinéma masala ?",
       "choices": [
-        "Ces fusions ont uniquement visé le marché américain",
-        "En combinant production (studios), diffusion (Networks + câble), distribution (réseaux dans 150 pays), et catalogue (bibliothèques de programmes), ces conglomérats ont créé des intégrations verticales et horizontales que nul acteur européen ou mondial ne pouvait égaler en termes de puissance",
-        "Ces fusions ont au contraire affaibli les entreprises en les rendant trop grandes",
-        "Ces fusions n'ont eu aucun impact sur les marchés internationaux"
+        "Un film de Bollywood tourné en anglais",
+        "Un film qui concentre tous les genres (action, romance, musique, danse, policier) pour toucher le maximum de spectateurs — né de l'atomisation de la production dans les années 1940",
+        "Un genre de films d'horreur indien",
+        "Un style réaliste inspiré du néoréalisme européen"
       ],
       "correct_index": 1,
-      "explanation": "Les mégafusions (Time Warner en 1989, puis les grandes fusions des années 1990-2000) créent des intégrations verticales ET horizontales : une même entreprise contrôle la production cinématographique, les Networks, les chaînes câblées, les studios de musique, et les réseaux de distribution mondiaux. En 1995, Warner pouvait diffuser dans 150 pays — aucune entreprise européenne n'était capable de rivaliser."
+      "explanation": "Le cinéma masala (mélange d'épices) concentre tous les genres en un seul film pour toucher tout le public indien — une réponse à l'atomisation de la production."
     },
     {
-      "question": "En quoi le modèle économique de Netflix remet-il en cause la notion traditionnelle de marché national dans l'industrie audiovisuelle ?",
+      "question": "Quelle thèse Adrian Athique défend-il sur le piratage du cinéma indien ?",
       "choices": [
-        "Netflix opère exactement comme une chaîne nationale classique",
-        "Netflix permet à une entreprise de ne viser qu'un faible pourcentage d'un marché national tout en étant rentable, si ce segment existe dans de nombreux pays — il déplace la logique de 'capter 25% des Français' vers 'toucher 2% de Français + 2% d'Italiens + 2% de Japonais'",
-        "Netflix ne fait aucune distinction entre les marchés nationaux",
-        "Netflix a abandonné le concept de segmentation par marché"
+        "Le piratage a totalement détruit le cinéma indien",
+        "Sans les pirates, il aurait été difficile de développer dans les années 1980 les marchés d'exportation des films indiens — le piratage a joué un rôle de distributeur dans les marchés non servis",
+        "Le piratage n'a eu aucun impact sur le cinéma indien",
+        "Le piratage a uniquement nui aux producteurs indiens"
       ],
       "correct_index": 1,
-      "explanation": "Netflix remet en cause la logique du marché national : contrairement à TF1 qui doit capter 25% des Français, Netflix peut se permettre de toucher un pourcentage réduit de chaque marché si ce segment transnational est suffisamment large. L'échec de Marseille en France n'est pas un problème si la série marche à l'étranger."
+      "explanation": "Athique (India Media) montre que le piratage a assuré la distribution des films indiens dans des marchés (diaspora, Golfe, Afrique) que les circuits officiels ne servaient pas."
     },
     {
-      "question": "Pourquoi le rachat de Columbia par Sony en 1989 puis le rachat de MGM par Amazon illustrent-ils une logique économique similaire malgré 30 ans d'écart ?",
+      "question": "Pourquoi le cinéma indien a-t-il recouru à l'argent sale pour son financement jusqu'en 1998 ?",
       "choices": [
-        "Les deux rachats sont motivés uniquement par des raisons fiscales",
-        "Dans les deux cas, un acteur technologique (fabricant de matériel ou plateforme e-commerce) rachète un studio hollywoodien pour maîtriser le contenu et se positionner dans la chaîne de valeur audiovisuelle — la logique hardware/software ne cesse de se reproduire",
-        "Les deux rachats sont guidés par des raisons uniquement géopolitiques",
-        "Les deux situations sont fondamentalement différentes et ne peuvent pas être comparées"
+        "Parce que les producteurs indiens étaient corrompus",
+        "Parce que l'État indien refusait de reconnaître le cinéma comme industrie légitime (jusqu'en 1998), l'empêchant d'accéder aux prêts bancaires intéressants",
+        "Parce que les recettes des films étaient insuffisantes",
+        "Parce que les banques indiennes refusaient tout prêt culturel"
       ],
       "correct_index": 1,
-      "explanation": "Sony (fabricant de matériel) rachète Columbia (contenu) en 1989. Amazon (plateforme e-commerce et cloud) rachète MGM (catalogue et production) pour renforcer Prime Video. Dans les deux cas, la logique est identique : un acteur technologique comprend qu'il doit maîtriser le contenu pour créer de la valeur. La tension hardware/software se perpétue."
+      "explanation": "Sans statut d'industrie légitime, le cinéma indien ne pouvait pas accéder aux prêts bancaires normaux. Il a dû se tourner vers des investisseurs aux sources douteuses pour financer les productions."
     },
     {
-      "question": "En quoi la politique de localisation imposée par Zee TV en Inde et adoptée ensuite par Netflix illustre-t-elle une limite structurelle de la domination culturelle américaine ?",
+      "question": "Qu'est-ce que Zee TV et quel impact a-t-il eu sur l'audiovisuel indien ?",
       "choices": [
-        "La politique de localisation prouve qu'Hollywood n'est plus dominant",
-        "Pour pénétrer certains marchés (notamment l'Inde), même les plateformes les plus puissantes doivent adopter une stratégie de localisation — produire du contenu local, s'associer à des producteurs nationaux — ce qui introduit de la diversité culturelle dans les flux globaux",
-        "La politique de localisation ne concerne que l'Inde",
-        "La politique de localisation est purement cosmétique et ne change pas la domination américaine"
+        "Un studio de cinéma bollywoodien",
+        "Une chaîne satellite créée en 1992 par Subhash Chandra — première à proposer des programmes indiens à l'échelle de l'Asie. Elle représente 65% du marché câble/satellite en Inde et démontre la nécessité d'une stratégie de localisation",
+        "La première chaîne publique indienne",
+        "Un service de streaming créé par Netflix en Inde"
       ],
       "correct_index": 1,
-      "explanation": "Zee TV (créé en 1992) a montré que pour dominer le marché indien, il fallait diffuser des contenus locaux. Netflix, malgré sa puissance financière, a dû adopter la même logique. Cette nécessité de localisation révèle une limite structurelle de la domination culturelle américaine : certains marchés résistent par leur taille et leur spécificité culturelle."
+      "explanation": "Zee TV (1992) est la première chaîne satellite à miser sur les programmes locaux indiens. Elle représente 65% du marché câble/satellite en Inde et impose la leçon : pour dominer le marché indien, il faut des contenus locaux."
     },
     {
-      "question": "En quoi le genre de la telenovela illustre-t-il la tension entre universalisme et particularisme dans les échanges culturels internationaux ?",
+      "question": "Pourquoi la diaspora indienne représente-t-elle 75% des recettes internationales du cinéma indien ?",
       "choices": [
-        "La telenovela est un genre purement universel qui transcende toutes les cultures",
-        "La telenovela est un genre suffisamment universel dans ses ressorts (mélo, romance, injustice sociale réparée) pour circuler à l'international, mais suffisamment particulier dans ses codes culturels pour que les publics nationaux y reconnaissent leur réalité — cette double dimension est la clé de son succès",
-        "La telenovela ne circule que dans les pays hispanophones",
-        "La telenovela est un genre purement commercial sans dimension culturelle"
+        "Parce qu'elle est la seule à avoir accès aux films indiens",
+        "Parce qu'elle représente 20M+ personnes avec un revenu supérieur aux Indiens restés au pays, et utilise les films pour maintenir un lien culturel avec le pays d'origine — un marché premium fortement motivé",
+        "Parce que les films indiens ne sont pas distribués dans les autres pays",
+        "Parce que la diaspora achète uniquement des DVD"
       ],
       "correct_index": 1,
-      "explanation": "La telenovela illustre la tension universalisme/particularisme : ses ressorts narratifs universaux (mélo, romance, injustice réparée, manichéisme) permettent une circulation internationale, tandis que ses ancrages culturels locaux (langue, costumes, références sociales) créent la proximité culturelle pour les publics nationaux. Cette double dimension explique à la fois sa diffusion mondiale et ses limites dans certains contextes."
+      "explanation": "La diaspora (20M+ personnes, revenu supérieur) utilise les films indiens comme support identitaire. C'est un marché premium fortement motivé qui explique les 75% des recettes internationales."
     },
     {
-      "question": "En quoi la théorie des contre-flux de Daya Thussu (2007) est-elle à la fois pertinente et insuffisante pour analyser la diffusion des telenovelas ?",
+      "question": "Qu'est-ce que le trendy drama japonais ?",
       "choices": [
-        "La théorie des contre-flux est parfaitement adaptée à l'analyse des telenovelas",
-        "La théorie est pertinente pour souligner l'existence de flux non américains, mais insuffisante car elle ignore que les grandes sociétés américaines (Telemundo) sont devenues productrices de telenovelas, et que les exportations restent économiquement marginales face aux flux américains",
-        "La théorie des contre-flux ne s'applique qu'aux pays en développement",
-        "La théorie est complètement erronée et n'a aucun intérêt"
+        "Un drama historique japonais",
+        "Un genre créé par Ota Toru : beaux acteurs (vingtaine d'ans), lieux branchés de Tokyo, tenues à la mode, romance et tubes musicaux. Package : casting > musique > scénario",
+        "Un drama policier japonais",
+        "Un genre de séries d'animation japonaise"
       ],
       "correct_index": 1,
-      "explanation": "La théorie des contre-flux est pertinente pour nommer un phénomène réel (des flux non américains existent et circulent). Mais elle est insuffisante car : 1) des acteurs américains (Telemundo) produisent maintenant des telenovelas, neutralisant l'idée de flux opposé ; 2) les exportations restent économiquement marginales (Hesmondhalgh) face aux flux américains dominants ; 3) Netflix a pénétré le marché latin avec des contenus américains."
+      "explanation": "Le trendy drama d'Ota Toru (Fuji TV) cible les 20-30 ans avec un package de succès précis : casting en premier (stars réservées 2 ans à l'avance), puis musique, puis scénario."
     },
     {
-      "question": "Comment la relation entre Rede Globo et la dictature militaire brésilienne illustre-t-elle le paradoxe des conditions d'émergence d'une industrie télévisuelle nationale forte ?",
+      "question": "Qu'est-ce que la Hallyu ?",
       "choices": [
-        "La dictature militaire n'a joué aucun rôle dans le développement de Globo",
-        "Globo doit sa puissance à un soutien politique (la dictature) qui a aussi verrouillé le champ culturel, poussant les intellectuels critiques dans la fiction télévisée — la force de Globo est paradoxalement liée à la répression politique qui lui a fourni des talents et un marché protégé",
-        "La dictature a uniquement nui au développement de Globo",
-        "La relation entre Globo et la dictature était purement commerciale"
+        "La domination américaine du cinéma coréen",
+        "La vague coréenne — le succès international des produits de la culture populaire sud-coréenne, notamment les K-Dramas",
+        "Un mouvement de censure du cinéma coréen",
+        "Le nom du système de production des dramas japonais"
       ],
       "correct_index": 1,
-      "explanation": "Le paradoxe est saisissant : la dictature militaire a autorisé le développement de Globo (proximité politique) et verrouillé le champ culturel (presse, cinéma, édition). Résultat paradoxal : des intellectuels critiques, n'ayant nulle part où s'exprimer, se sont réfugiés dans la fiction télévisée de Globo, y apportant une dimension sociale distinctive qui a fait la qualité spécifique de la telenovela brésilienne."
+      "explanation": "Hallyu désigne la vague coréenne, c'est-à-dire le succès international des K-Dramas et plus largement de la culture populaire sud-coréenne depuis les années 1990."
     },
     {
-      "question": "Comment l'analyse de la stratégie d'Univision illustre-t-elle la question de la souveraineté culturelle dans le contexte de la mondialisation ?",
+      "question": "Quel facteur économique explique principalement l'essor des dramas coréens au détriment des japonais à partir de 1998 ?",
       "choices": [
-        "Univision est un exemple de souveraineté culturelle parfaite des Latino-Américains aux USA",
-        "Univision illustre la complexité de la souveraineté culturelle : une chaîne mexicaine (Televisa) qui réussit à créer un réseau hispanique aux USA, mais dont la propriété étrangère la force à se retirer, et dont les fusions finales (avec Telemundo en 2022) montrent que la concentration des médias l'emporte sur les identités nationales",
-        "Univision n'a aucun rapport avec la souveraineté culturelle",
-        "Univision est une illustration de la domination américaine sur les Latino-Américains"
+        "La meilleure qualité artistique des dramas coréens",
+        "Le prix : 1 200$ l'épisode coréen vs 8 000$ pour le japonais à Taïwan. La crise asiatique de 1998 pousse les chaînes vers les dramas coréens moins chers",
+        "L'interdiction des dramas japonais en Asie",
+        "La supériorité technologique des studios coréens"
       ],
       "correct_index": 1,
-      "explanation": "Univision illustre la complexité de la souveraineté culturelle : d'un côté une initiative mexicaine (Televisa via Azcarraga Milmo) qui réussit à créer le 4e réseau aux USA ; de l'autre, la régulation américaine qui interdit à un étranger d'être propriétaire d'une chaîne TV (forçant Televisa à se retirer). La fusion Televisa-Univision en 2022 et le rachat de Telemundo par NBC Universal montrent que les logiques de concentration et de globalisation finissent par absorber les initiatives culturelles locales."
+      "explanation": "Le différentiel de prix (1 200$ vs 8 000$) combiné à la crise asiatique de 1998 explique le basculement des chaînes asiatiques vers les dramas coréens."
     },
     {
-      "question": "En quoi la trajectoire de Felix Caignet et des radionovelas illustre-t-elle la notion de bien symbolique et de production collective de Bourdieu/Becker ?",
+      "question": "Qu'est-ce que DramaFever et que révèle son rachat par Warner en 2016 ?",
       "choices": [
-        "Les radionovelas n'ont rien à voir avec les théories de Bourdieu ou Becker",
-        "La radionovela illustre à la fois la production collective (Becker : l'oeuvre nécessite les annonceurs, les acteurs, les techniciens radio, le scripteur) et la dimension symbolique (Bourdieu) : le genre tire sa valeur non de son utilité matérielle mais de ce qu'il évoque (mélo, larmes, reconnaissance sociale)",
-        "Les radionovelas illustrent uniquement les théories économiques du marché",
-        "Felix Caignet était le seul créateur de ses programmes, illustrant le génie individuel"
+        "Une chaîne coréenne rachetée par Warner",
+        "Une plateforme de diffusion légale de dramas coréens aux USA (2009) rachetée par Warner — révélant que les grands groupes hollywoodiens reconnaissent la valeur des dramas coréens et veulent contrôler leur distribution",
+        "Un fonds d'investissement dans les médias coréens",
+        "Un festival de séries asiatiques aux USA"
       ],
       "correct_index": 1,
-      "explanation": "Les radionovelas illustrent parfaitement les deux cadres théoriques : pour Becker, c'est un travail collectif (acteurs, techniciens, scripteurs, annonceurs financeurs — sans qui l'oeuvre n'existerait pas). Pour Bourdieu, c'est un bien symbolique dont la valeur est dans la signification (catharsis lacrymale, reconnaissance de situations sociales) et non dans une utilité matérielle. L'économie de la mauvaise foi s'y retrouve aussi : les annonceurs financent l'émotion tout en vendant leurs détergents."
+      "explanation": "DramaFever (2009) est racheté par Warner en 2016 — Hollywood reconnaît la valeur commerciale des dramas coréens et reprend le contrôle de leur distribution légale aux USA."
     },
     {
-      "question": "Comment l'internationalisation des telenovelas remet-elle en question l'idée que la domination culturelle est nécessairement unilatérale ?",
+      "question": "Quel est le volume des exportations audiovisuelles coréennes en 2011 et que révèle ce chiffre ?",
       "choices": [
-        "Elle ne remet pas en question cette idée — Hollywood reste totalement dominant",
-        "Les telenovelas montrent qu'il existe des multi-polarités dans les échanges culturels mondiaux — des industries du Sud peuvent développer des genres qui circulent à l'échelle mondiale, même si ces flux restent asymétriques face à la domination américaine",
-        "Les telenovelas prouvent que la domination américaine est terminée",
-        "L'internationalisation des telenovelas est un phénomène trop marginal pour avoir une portée théorique"
+        "5 milliards de dollars — la Corée domine les échanges mondiaux",
+        "252 millions de dollars — soit la moitié de ce que rapporte un grand film américain, illustrant à la fois le succès de la Hallyu et l'asymétrie structurelle persistante face aux flux américains",
+        "10 milliards de dollars — dépassant Hollywood",
+        "50 millions de dollars — un succès trop marginal pour être significatif"
       ],
       "correct_index": 1,
-      "explanation": "Les telenovelas remettent en question l'idée d'une domination culturelle strictement unilatérale (US → reste du monde). Elles montrent l'existence de multi-polarités : des industries du Sud (Mexique, Brésil, Colombie) développent des genres qui circulent à l'échelle mondiale (y compris aux USA via Univision/Telemundo). Cependant, ces flux restent asymétriques — ils n'inversent pas le rapport de forces économique (Hesmondhalgh)."
+      "explanation": "252 millions de dollars illustre la Hallyu (flux non américains significatifs) ET l'asymétrie persistante (ce total correspond à la moitié d'un seul grand film américain)."
     }
   ]
 }

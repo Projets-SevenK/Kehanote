@@ -404,7 +404,7 @@ ch1 = {
 with open('scripts/intern_ch1.json', 'w', encoding='utf-8') as f:
     json.dump(ch1, f, ensure_ascii=False, indent=2)
 
-with open('scripts/intern_ch1.json', 'w', encoding='utf-8') as f:
+with open('scripts/intern_ch1.json', 'r', encoding='utf-8') as f:
     loaded = json.load(f)
 
 fc = len(loaded['flashcards'])
@@ -413,5 +413,5 @@ med = len(loaded['qcm']['medium'])
 hard = len(loaded['qcm']['hard'])
 qrc = len(loaded['qrc'])
 panic = len(loaded['panic'])
-size = len(open('/home/claude/intern_ch1.json').read())
+size = len(open('scripts/intern_ch1.json').read())
 print(f"Ch1 OK — FC:{fc} | QCM:{easy}/{med}/{hard} | QRC:{qrc} | Panic:{panic} | {size} chars")

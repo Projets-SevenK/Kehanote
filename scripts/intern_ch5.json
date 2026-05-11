@@ -1,0 +1,447 @@
+{
+  "number": 5,
+  "title": "Bollywood : des exportations informelles à l'internationalisation formelle",
+  "concentre": {
+    "reading_time": 5,
+    "sections": [
+      {
+        "type": "def",
+        "title": "La mise en place du cinéma masala",
+        "bullets": [
+          "L'Inde = premier ou second producteur mondial de films (1 724 films en 2013 selon l'Unesco). Seul pays à avoir bâti une industrie nationale sous domination coloniale (jusqu'en 1947).",
+          "1927 : rapport du Indian Cinematograph Committee commandé par l'administration britannique (inquiète des représentations immorales de l'homme blanc dans les films américains). Résultat : 80% des films diffusés en Inde sont américains.",
+          "Dadasaheb Phalke = père du cinéma indien. En 1910, il voit La vie du Christ et décide de produire des films sur les divinités indiennes. Raja Harischandra = premier film national. Naissance du cinéma indien.",
+          "Cinéma masala (mélange d'épices) : produit par l'atomisation de la production dans les années 1940. Des petits producteurs qui n'ont qu'un film à financer concentrent tous les genres en un : action, policier, romance, musique, injustice sociale, danse. Objectif : toucher tout le public indien (all India films)."
+        ]
+      },
+      {
+        "type": "def",
+        "title": "Économie du cinéma indien : spécificités",
+        "bullets": [
+          "Mode de production atypique : trouver une star → tourner quelques séquences → trouver un distributeur → trouver d'autres distributeurs régionaux → financer le reste. C'est en additionnant les distributeurs qu'on finance le film.",
+          "Atomisation de la production : 214 producteurs en 1947. En 1948, seulement 25% de ceux de 1946 résistent. Mais d'autres arrivent. Cette instabilité favorise le recours à l'argent sale pour financer les productions.",
+          "1948 : l'État indien refuse de considérer le cinéma comme une industrie légitime. Pas de prêts bancaires intéressants. Il faut attendre 1998 pour que le cinéma obtienne ce statut d'industrie.",
+          "Avec le parlant dans les années 1930, les films américains perdent leur domination — opportunité pour le cinéma national. En 1935 : 238 films indiens (contre 108 en 1927)."
+        ]
+      },
+      {
+        "type": "key",
+        "title": "Internationalisation : voies formelles et informelles",
+        "bullets": [
+          "Internationalisation informelle d'abord : les grandes sociétés indiennes de distribution sont concentrées sur le marché national (énorme). Des entrepreneurs individuels (marchands libanais, entrepreneurs hongkongais, indo-africains) assurent la distribution internationale de façon artisanale.",
+          "Exception formelle : exportation des films indiens en URSS à partir de 1954. Contexte diplomatique (Inde-URSS = liens forts). Festival de Moscou (1954). Sovexportfilm sélectionne les films en harmonie avec les idéaux soviétiques. En tout : 200 films exportés entre 1954 et 1991.",
+          "Années 1970 : le magnétoscope crée des réseaux pirates. Des entrepreneurs dans les pays du Golfe et en Grande-Bretagne diffusent des copies non autorisées dans les quartiers de la diaspora. Dubaï = hub de redistribution. Crescent Video = entreprise la plus célèbre.",
+          "Adrian Athique (India Media) : 'Sans les pirates, il aurait été difficile de développer dans les années 1980 ces marchés d'exportation.' Paradoxe : le piratage profite à tout le monde sauf au producteur."
+        ]
+      },
+      {
+        "type": "key",
+        "title": "Réformes des années 1990 et internationalisation formelle",
+        "bullets": [
+          "1991 : éclatement de l'URSS (premier partenaire commercial de l'Inde). Crise économique → libéralisation de l'économie. Ouverture aux capitaux étrangers, création d'entreprises privées, libéralisation des importations de films (quota passe de 100 à 200 films étrangers en 1995).",
+          "1998 : le cinéma obtient le statut d'industrie légitime. Accès aux prêts bancaires. Fin du recours obligatoire à l'argent sale.",
+          "Émergence de grandes sociétés : Yash Raj Films (créée dans les années 1970, bureau à Londres en 1997, New York en 1998, Dubaï en 2004), Eros International (créée 1977, origine dans les VCD pirates), UTV Motion Pictures (rachetée par Disney en 2012), Reliance Entertainment (détient des parts dans DreamWorks).",
+          "Cible : diaspora indienne (plus de 20 millions de personnes à l'étranger, revenu proportionnellement supérieur). 75% des recettes internationales viennent de la diaspora. Transformation des thèmes des films (Devdas, 2002 : jeune homme revenant d'études en Grande-Bretagne)."
+        ]
+      }
+    ]
+  },
+  "flashcards": [
+    {
+      "question": "Qu'est-ce que le cinéma masala et comment est-il né ?",
+      "answer": "Le 'cinéma masala' (mélange d'épices) naît dans les années 1940 de l'atomisation de la production indienne. Des petits producteurs n'ayant qu'un film à financer concentrent tous les genres en un seul (action, policier, romance, musique, injustice sociale, danse) pour toucher le maximum de spectateurs. Objectif : les 'all India films'."
+    },
+    {
+      "question": "Qui est Dadasaheb Phalke et pourquoi est-il important ?",
+      "answer": "Le père du cinéma indien. En 1910, en voyant le film français La vie du Christ, il décide de produire des films sur les divinités indiennes (Krishna plutôt que le Christ). Il réalise Raja Harischandra. Sa démarche marque la naissance d'un cinéma national indien en réaction au cinéma occidental."
+    },
+    {
+      "question": "Qu'est-ce que le Indian Cinematograph Committee (1927) et pourquoi est-il révélateur ?",
+      "answer": "Un rapport commandé par l'administration coloniale britannique, inquiète des représentations immorales de l'homme blanc dans les films américains. Il révèle que 80% des films diffusés en Inde sont américains et que quatre distributeurs dominent (Universal, Pathé, Madan, Globe). C'est la première enquête officielle sur le marché cinématographique indien."
+    },
+    {
+      "question": "Quel est le mode de production atypique des films indiens ?",
+      "answer": "On cherche d'abord une star, puis on tourne quelques séquences. Ces séquences permettent de convaincre un distributeur qui avance de l'argent. On tourne plus, puis on cherche d'autres distributeurs régionaux. C'est en additionnant les distributeurs qu'on finance le film — un mode de production très commercial et fragmenté."
+    },
+    {
+      "question": "Pourquoi le cinéma indien a-t-il recouru à l'argent sale de 1940 à 1998 ?",
+      "answer": "Parce que l'État indien refusait de considérer le cinéma comme une industrie légitime (jusqu'en 1998), lui interdisant l'accès aux prêts bancaires intéressants. Avec une production atomisée et sans financement officiel, les petits producteurs se sont tournés vers des investisseurs aux sources douteuses pour blanchir de l'argent."
+    },
+    {
+      "question": "Qu'est-ce que l'exportation formelle des films indiens en URSS à partir de 1954 ?",
+      "answer": "Après la mort de Staline (1953), les frontières de l'URSS s'ouvrent. Dans le cadre des liens diplomatiques forts entre l'Inde et l'URSS, Sovexportfilm sélectionne et importe des films indiens. Festival du film indien à Moscou en 1954 = succès énorme. Entre 1954 et 1991, 200 films sont exportés."
+    },
+    {
+      "question": "Quel rôle ont joué les réseaux informels (pirates) dans l'internationalisation du cinéma indien ?",
+      "answer": "Dans les années 1970-80, des entrepreneurs dans les pays du Golfe, en Grande-Bretagne et aux USA ont commercialisé des copies non autorisées de films indiens (cassettes VHS, puis VCD) dans les quartiers de la diaspora. Dubaï était un hub de redistribution. Crescent Video = entreprise la plus célèbre. Pour Adrian Athique : 'Sans les pirates, il aurait été difficile de développer ces marchés d'exportation.'"
+    },
+    {
+      "question": "Qu'est-ce que Yash Raj Films et quelle est sa stratégie d'internationalisation ?",
+      "answer": "Grande société indienne de production et distribution (fondée dans les années 1970 par Yash Chopra). Dès 1995, décision de s'internationaliser : bureau à Londres (1997), New York (1998), Dubaï (2004). Elle cible la diaspora indienne (20M+ de personnes à l'étranger, revenu supérieur aux Indiens restés au pays)."
+    },
+    {
+      "question": "Quelles sont les trois grandes réformes qui transforment le cinéma indien dans les années 1990 ?",
+      "answer": "1. Libéralisation des importations de films (quota passe de 100 à 200 films étrangers en 1995 — signal : arrivée de Jurassic Park fin 1993). 2. Assainissement de l'économie du cinéma (fin de l'argent sale). 3. Reconnaissance du cinéma comme industrie légitime en 1998 (accès aux prêts bancaires)."
+    },
+    {
+      "question": "Pourquoi la diaspora indienne est-elle la cible principale de l'internationalisation formelle des films indiens ?",
+      "answer": "Elle représente plus de 20 millions de personnes à l'étranger, avec un revenu proportionnellement supérieur aux Indiens restés au pays. Elle utilise les films indiens pour maintenir un lien avec leur culture d'origine. En pratique, 75% des recettes internationales des films indiens viennent de la diaspora."
+    },
+    {
+      "question": "Qu'est-ce que Zee TV et quel impact a-t-il eu sur l'industrie audiovisuelle indienne ?",
+      "answer": "Chaîne satellite créée en 1992 par Subhash Chandra, première à proposer des programmes indiens à l'échelle de l'Asie. Elle représente 65% du marché câble/satellite en Inde. Elle démontre que pour dominer le marché indien, il faut une stratégie de localisation avec des contenus locaux — leçon que Netflix et Prime Video ont ensuite appliquée."
+    },
+    {
+      "question": "Pourquoi dit-on que le cinéma indien connait une transformation de ses salles dans les années 2000 ?",
+      "answer": "Avec la libéralisation, l'autorisation préalable pour créer des salles disparaît. Des complexes multisalles luxueux remplacent les grands cinémas mono-écrans. Ces nouvelles salles coûtent 5 fois plus cher, creusant les inégalités. On passe de 10 000 cinémas mono-écrans en 2010 à 6 000 en 2016, au profit des complexes qui diffusent plus de films américains pour les classes moyennes émergentes."
+    }
+  ],
+  "qcm": {
+    "easy": [
+      {
+        "question": "Combien de films l'Inde a-t-elle produits en 2013 selon l'Unesco ?",
+        "choices": [
+          "500",
+          "800",
+          "1 724",
+          "2 500"
+        ],
+        "correct_index": 2,
+        "explanation": "L'Inde a produit 1 724 films en 2013 selon l'Unesco, soit 1 000 de plus que les États-Unis. Elle est le premier ou second producteur mondial selon les années."
+      },
+      {
+        "question": "Qui est le père du cinéma indien ?",
+        "choices": [
+          "Emilio Azcarraga",
+          "Raj Kapoor",
+          "Dadasaheb Phalke",
+          "Yash Chopra"
+        ],
+        "correct_index": 2,
+        "explanation": "Dadasaheb Phalke est le père du cinéma indien. En 1910, en voyant La vie du Christ, il décide de produire des films sur les divinités indiennes. Raja Harischandra est son premier film."
+      },
+      {
+        "question": "Que révèle le rapport du Indian Cinematograph Committee (1927) ?",
+        "choices": [
+          "Les films indiens dominent leur propre marché",
+          "80% des films diffusés en Inde sont américains",
+          "L'Inde n'a pas d'industrie cinématographique",
+          "Les films britanniques dominent le marché indien"
+        ],
+        "correct_index": 1,
+        "explanation": "Le rapport révèle que 80% des films diffusés en Inde sont américains, et que quatre distributeurs dominent : Universal, Pathé, Madan et Globe."
+      },
+      {
+        "question": "Qu'est-ce que le cinéma masala ?",
+        "choices": [
+          "Un genre de films d'horreur indien",
+          "Un film qui mélange tous les genres (action, romance, musique, danse, policier) pour toucher le maximum de spectateurs",
+          "Un film de Bollywood tourné en anglais",
+          "Un style de réalisation très réaliste"
+        ],
+        "correct_index": 1,
+        "explanation": "Le cinéma masala (mélange d'épices) concentre tous les genres en un seul film : action, romance, musique, danse, injustice sociale. Objectif : toucher tout le public indien."
+      },
+      {
+        "question": "En quelle année le cinéma indien obtient-il le statut d'industrie légitime en Inde ?",
+        "choices": [
+          "1947",
+          "1975",
+          "1991",
+          "1998"
+        ],
+        "correct_index": 3,
+        "explanation": "C'est seulement en 1998 que le cinéma indien est reconnu comme industrie à part entière, lui permettant d'accéder à des prêts bancaires intéressants et mettant fin au recours obligatoire à l'argent sale."
+      },
+      {
+        "question": "Quel est le rôle de Sovexportfilm dans l'exportation des films indiens ?",
+        "choices": [
+          "C'est une société indienne d'exportation créée en 1954",
+          "C'est la société d'import-export soviétique qui sélectionne et importe des films indiens à partir de 1954",
+          "C'est une filiale de Yash Raj Films en URSS",
+          "C'est un festival de cinéma organisé à Moscou"
+        ],
+        "correct_index": 1,
+        "explanation": "Sovexportfilm est la société soviétique d'import-export qui sélectionne les films indiens en harmonie avec les idéaux soviétiques. Entre 1954 et 1991, 200 films indiens sont ainsi importés en URSS."
+      },
+      {
+        "question": "Qu'est-ce que Zee TV et quand est-il créé ?",
+        "choices": [
+          "Un studio de cinéma bollywoodien créé en 1991",
+          "Une chaîne satellite indienne créée en 1992 par Subhash Chandra, première à proposer des programmes indiens à l'échelle de l'Asie",
+          "Une plateforme de streaming indien créée en 2005",
+          "Le nom de la première chaîne publique indienne"
+        ],
+        "correct_index": 1,
+        "explanation": "Zee TV est créée en 1992 par Subhash Chandra. Elle représente 65% du marché câble/satellite en Inde. Elle montre que pour dominer le marché indien, il faut des programmes locaux."
+      },
+      {
+        "question": "Qui est Adrian Athique et quelle est sa thèse sur le piratage indien ?",
+        "choices": [
+          "Un distributeur qui a combattu le piratage",
+          "Un chercheur qui affirme que sans les pirates, il aurait été difficile de développer les marchés d'exportation des films indiens dans les années 1980",
+          "Le fondateur de Crescent Video",
+          "Un réalisateur bollywoodien"
+        ],
+        "correct_index": 1,
+        "explanation": "Dans India Media, Adrian Athique soutient que les réseaux pirates ont joué un rôle crucial dans l'internationalisation du cinéma indien en assurant sa distribution dans des marchés non servis par les circuits officiels."
+      },
+      {
+        "question": "Quelle société indienne a été rachetée par Disney en 2012 ?",
+        "choices": [
+          "Yash Raj Films",
+          "Eros International",
+          "UTV Motion Pictures",
+          "Reliance Entertainment"
+        ],
+        "correct_index": 2,
+        "explanation": "UTV Motion Pictures, créée dans les années 1990 par Ronnie Screwvala, a été rachetée par Disney en 2012 — illustrant l'intérêt des majors américaines pour les marchés émergents et le savoir-faire indien."
+      },
+      {
+        "question": "Quel film de 2002 illustre le tournant de la production indienne vers la diaspora ?",
+        "choices": [
+          "Sholay",
+          "Lagaan",
+          "Devdas",
+          "Rang De Basanti"
+        ],
+        "correct_index": 2,
+        "explanation": "Devdas (2002) raconte l'histoire d'un jeune homme revenu d'études en Grande-Bretagne confronté à un choc culturel. Ce film touche à la fois les publics indiens locaux et la diaspora — illustrant la prise en compte de ce marché."
+      }
+    ],
+    "medium": [
+      {
+        "question": "Pourquoi le mode de production du film indien (trouver une star → séquences → distributeurs) est-il révélateur de la structure économique de l'industrie ?",
+        "choices": [
+          "C'est une méthode artisanale sans signification économique",
+          "Ce mode de production reflète l'atomisation et l'informalité de l'industrie : sans accès aux prêts bancaires, sans grands studios stables, les producteurs doivent assembler le financement fragment par fragment auprès des distributeurs régionaux",
+          "C'est une méthode copiée sur Hollywood",
+          "Ce mode de production garantit la qualité des films indiens"
+        ],
+        "correct_index": 1,
+        "explanation": "Le mode de production fragment par fragment (star → séquences → distributeurs régionaux) révèle l'atomisation de l'industrie : sans financement bancaire institutionnel (jusqu'en 1998), les producteurs devaient mobiliser de nombreux petits financeurs, favorisant aussi le recours à l'argent sale."
+      },
+      {
+        "question": "Pourquoi l'ouverture du marché cinématographique soviétique aux films indiens après 1953 est-elle un cas exceptionnel d'exportation formelle ?",
+        "choices": [
+          "Parce que les Soviétiques aimaient particulièrement les films de danse indiens",
+          "Parce que c'est l'un des rares cas où l'exportation de films indiens s'est faite dans un cadre diplomatique officiel et organisé, via Sovexportfilm, au sein d'une relation bilatérale forte entre l'Inde et l'URSS",
+          "Parce que l'URSS ne diffusait aucun autre film étranger",
+          "Parce que l'Inde avait signé un accord de cooproduction avec l'URSS"
+        ],
+        "correct_index": 1,
+        "explanation": "L'URSS-Inde est une exception car l'exportation se fait dans un cadre officiel (Sovexportfilm, festival de Moscou 1954) et dans le contexte d'une relation diplomatique forte. Cela contraste avec la plupart des autres exportations de films indiens assurées de façon informelle par des entrepreneurs individuels."
+      },
+      {
+        "question": "En quoi la thèse d'Adrian Athique sur le piratage indien remet-elle en cause la vision d'Hollywood sur le piratage ?",
+        "choices": [
+          "Athique rejoint totalement la position d'Hollywood",
+          "Athique montre que le piratage peut avoir un rôle positif en assurant la distribution de contenus dans des marchés non servis par les circuits officiels — une nuance que Jack Valenti refusait d'admettre pour Hollywood",
+          "Athique dit que le piratage est toujours bénéfique",
+          "Athique pense que le piratage devrait être légalisé"
+        ],
+        "correct_index": 1,
+        "explanation": "Athique nuance la vision manichéenne : pour le cinéma indien, le piratage a joué un rôle de distribution dans des marchés (diaspora, pays du Golfe, Afrique) que les circuits officiels ne servaient pas. Sans ces réseaux informels, le cinéma indien serait resté confiné à son marché national. Hollywood refusait d'admettre que le piratage contribuait aussi à populariser ses propres contenus."
+      },
+      {
+        "question": "Comment la transformation des salles indien (mono-écrans → complexes multisalles) a-t-elle eu des conséquences sur les inégalités culturelles ?",
+        "choices": [
+          "Elle a rendu le cinéma plus accessible à tous les Indiens",
+          "Les nouvelles salles coûtent 5 fois plus cher, creusant les inégalités : ceux qui peuvent se les payer vs ceux condamnés aux grandes salles moins luxueuses. Les complexes attirent les classes moyennes émergentes et diffusent plus de films américains.",
+          "Elle n'a eu aucun impact sur les inégalités",
+          "Elle a uniformisé les prix d'entrée dans tout le pays"
+        ],
+        "correct_index": 1,
+        "explanation": "La transformation des salles reproduit une logique bourdieusienne : les complexes multisalles luxueux créent une ségrégation spatiale de la consommation culturelle. Les classes moyennes émergentes y vont, préfèrent des films américains. Les classes populaires restent dans les grandes salles mono-écrans. La libéralisation a creusé les inégalités d'accès au cinéma."
+      },
+      {
+        "question": "Pourquoi la stratégie d'internationalisation de Yash Raj Films via la diaspora est-elle économiquement pertinente ?",
+        "choices": [
+          "Parce que la diaspora est plus facile à cibler que le marché domestique",
+          "Parce que la diaspora (20M+ personnes) a un revenu proportionnellement supérieur aux Indiens restés au pays, utilise les films pour maintenir un lien culturel, et représente 75% des recettes internationales — c'est un marché premium bien identifié",
+          "Parce que la diaspora achète uniquement les DVD",
+          "Parce que les films indiens ne plaisent qu'à la diaspora"
+        ],
+        "correct_index": 1,
+        "explanation": "La diaspora indienne représente un marché premium : 20M+ personnes, revenu supérieur, forte motivation culturelle (maintenir le lien avec le pays d'origine). Les films sont un support identitaire. Cette cible rationnelle explique que Yash Raj Films ait investi dans des bureaux à Londres (1997) et New York (1998)."
+      },
+      {
+        "question": "En quoi l'exemple de Jurassic Park (arrivé en Inde fin 1993) est-il significatif pour comprendre la libéralisation du cinéma indien ?",
+        "choices": [
+          "Jurassic Park a prouvé que le public indien préfère les films américains",
+          "L'arrivée de Jurassic Park matérialise le signal de la libéralisation : le quota d'importation passe de 100 à 200 films étrangers en 1995, attirant les grandes sociétés américaines sur ce marché — et forçant le cinéma indien à se moderniser pour faire face à cette concurrence",
+          "Jurassic Park a été un échec en Inde",
+          "Jurassic Park est le premier film américain à être distribué en Inde"
+        ],
+        "correct_index": 1,
+        "explanation": "L'arrivée de Jurassic Park (fin 1993) est symbolique : c'est le signal de l'ouverture au cinéma américain. Elle enclenche la libéralisation (quota à 200 en 1995) et force le cinéma indien à se professionnaliser pour affronter la concurrence, accélérant les réformes de 1998 (reconnaissance comme industrie)."
+      },
+      {
+        "question": "Pourquoi la leçon de Zee TV (localisation) a-t-elle été si importante pour les plateformes de streaming comme Netflix en Inde ?",
+        "choices": [
+          "Parce que Netflix a racheté Zee TV",
+          "Parce que Zee TV a prouvé que le marché indien ne peut être pénétré qu'avec des contenus locaux — Netflix et Prime Video doivent reproduire cette stratégie en produisant des programmes originaux indiens et en s'associant à des producteurs locaux",
+          "Parce que Zee TV et Netflix diffusent le même contenu",
+          "Parce que la leçon de Zee TV ne s'applique qu'à la télévision, pas au streaming"
+        ],
+        "correct_index": 1,
+        "explanation": "Zee TV a démontré dès 1992 qu'un contenu étranger (Star TV américaine) ne peut pas dominer le marché indien sans localisation. Netflix et Prime Video ont reproduit cette leçon : pour pénétrer l'Inde (800M+ habitants potentiels), ils produisent des séries originales en hindi et s'associent à des producteurs locaux."
+      },
+      {
+        "question": "Comment l'origine de Eros International (commerce de VCD pirates → major légale) illustre-t-elle la transformation du secteur cinématographique indien ?",
+        "choices": [
+          "Elle illustre que le piratage est toujours bénéfique",
+          "Elle illustre la trajectoire paradoxale de l'industrie : certains acteurs qui ont d'abord prospéré dans l'économie informelle (VCD pirates) sont devenus des acteurs majeurs de l'économie formelle après les réformes de 1998 — une continuité plutôt qu'une rupture",
+          "Elle prouve que les pirates sont toujours des criminels",
+          "Elle illustre uniquement la corruption de l'industrie indienne"
+        ],
+        "correct_index": 1,
+        "explanation": "La trajectoire d'Eros International (fondée par Arjan Lulla, d'abord dans le commerce de VCD pirates, devenu ensuite une des grandes majors indiennes) illustre que les acteurs de l'économie informelle ont constitué le capital et les réseaux qui ont fondé l'économie formelle post-1998. La frontière entre formel et informel est moins nette qu'il n'y paraît."
+      },
+      {
+        "question": "En quoi le rachat de parts dans DreamWorks SKG par Reliance Entertainment illustre-t-il une nouvelle phase de l'internationalisation du cinéma indien ?",
+        "choices": [
+          "C'est uniquement un investissement financier sans signification culturelle",
+          "Cela illustre le passage d'une internationalisation réceptive (importer le savoir-faire américain) à une internationalisation active (investir dans les studios américains) — les majors indiennes sont passées d'imitateurs à co-producteurs et co-financeurs",
+          "Cela prouve que le cinéma indien est devenu plus important qu'Hollywood",
+          "C'est une stratégie purement fiscale"
+        ],
+        "correct_index": 1,
+        "explanation": "Reliance Entertainment prenant des parts dans DreamWorks SKG (créé par Steven Spielberg) illustre un changement qualitatif : l'industrie indienne ne cherche plus seulement à exporter ses films mais à s'intégrer dans le système hollywoodien comme co-financeur. C'est le passage du statut de producteur périphérique à celui d'acteur de la chaîne de valeur globale."
+      },
+      {
+        "question": "Pourquoi le succès des films indiens en Afrique (notamment au Nigeria) dans les années 1980 est-il analytiquement intéressant ?",
+        "choices": [
+          "Parce que les Nigérians parlaient hindi",
+          "Parce qu'il montre que les films indiens circulent à l'international sans proximité linguistique ni culturelle au sens strict, grâce à d'autres facteurs : prix compétitif, normes morales familiales, spectacle total (danse, musique, action) — remettant en cause la théorie de la proximité culturelle",
+          "Parce que le Nigeria avait signé un accord avec l'Inde",
+          "Parce que les films indiens étaient doublés en Yoruba"
+        ],
+        "correct_index": 1,
+        "explanation": "Le succès au Nigeria dans les années 1980 est analytiquement précieux : il montre que des films indiens circulent sans proximité culturelle directe. D'autres facteurs expliquent ce succès : prix compétitif (moins cher que les films américains), normes morales acceptables (pas de scènes de sexe, les baisers sont métaphorisés), et le spectacle total du cinéma masala (danse, musique, action, mélo)."
+      }
+    ],
+    "hard": [
+      {
+        "question": "En quoi le cinéma masala peut-il être analysé comme une réponse stratégique à l'atomisation de la production plutôt que comme un simple choix esthétique ?",
+        "choices": [
+          "Le cinéma masala est avant tout un choix artistique des réalisateurs indiens",
+          "L'atomisation de la production dans les années 1940 (un seul film à financer) a créé une contrainte économique : il faut que le film marche sinon c'est la catastrophe. Concentrer tous les genres en un seul est une réponse rationnelle à cette contrainte — une diversification des risques au sein d'un seul film",
+          "Le cinéma masala est une copie des films américains",
+          "Le cinéma masala résulte de commandes du gouvernement indien"
+        ],
+        "correct_index": 1,
+        "explanation": "Le cinéma masala est la réponse rationnelle à l'atomisation économique : quand on n'a qu'un film pour tout miser, on concentre tous les genres pour maximiser les chances de toucher tous les segments du public. Contrairement aux grands studios qui pouvaient produire 15 films/an et spécialiser chacun, les petits producteurs n'avaient pas cette option de diversification."
+      },
+      {
+        "question": "En quoi la dynamique informel → formel du cinéma indien contraste-t-elle avec la dynamique hollywoodienne dès ses origines ?",
+        "choices": [
+          "Hollywood a toujours été informel, comme le cinéma indien",
+          "Hollywood a très tôt constitué des structures formelles (MPPC, puis majors intégrées verticalement, soutien bancaire) dès les années 1910-20. Le cinéma indien est resté structurellement informel jusqu'en 1998 faute de reconnaissance étatique, forçant une internationalisation par voies informelles (pirates, diaspora artisanale)",
+          "Le cinéma indien a toujours été formel, contrairement à Hollywood",
+          "Les deux industries ont suivi des trajectoires strictement identiques"
+        ],
+        "correct_index": 1,
+        "explanation": "Le contraste est frappant : Hollywood a bénéficié très tôt du soutien des banques (1910-20), de la reconnaissance étatique via la MPPDA et d'une intégration verticale formelle. Le cinéma indien, non reconnu comme industrie jusqu'en 1998, a dû fonctionner dans l'informalité (argent sale, réseaux pirates, distribution artisanale) pendant plus de 50 ans après l'indépendance."
+      },
+      {
+        "question": "Comment la notion de diaspora renouvelle-t-elle la compréhension des marchés culturels internationaux ?",
+        "choices": [
+          "La diaspora n'est qu'un marché de niche sans importance stratégique",
+          "La diaspora crée un marché culturel transnational fondé sur l'identité et non la géographie : les Indiens de la diaspora sont prêts à payer pour des contenus qui les connectent à leur culture d'origine, indépendamment de leur localisation. Cela remet en cause la notion de marché national et préfigure la logique transnationale de Netflix",
+          "La diaspora ne consomme que des contenus locaux de son pays de résidence",
+          "La diaspora est un marché trop petit pour être stratégiquement significatif"
+        ],
+        "correct_index": 1,
+        "explanation": "La diaspora crée un marché culturel transnational fondé non sur la géographie mais sur l'identité. Les Indiens de Grande-Bretagne, des USA ou du Golfe forment un public dispersé mais homogène culturellement, prêt à payer premium pour des contenus indiens. Cette logique préfigure la stratégie transnationale de Netflix (identifier des segments au-delà des frontières nationales)."
+      },
+      {
+        "question": "Pourquoi peut-on dire que la reconnaissance du cinéma comme industrie légitime en 1998 constitue un tournant comparable au divorcment américain de 1948, mais avec un signe opposé ?",
+        "choices": [
+          "Les deux événements n'ont aucun rapport",
+          "Le divorcment de 1948 a fragilisé les majors en les séparant de leurs salles (rupture d'une intégration). La reconnaissance de 1998 a au contraire renforcé le cinéma indien en lui donnant accès aux prêts bancaires (construction d'une intégration) — dans les deux cas, une décision institutionnelle transforme radicalement la structure économique de l'industrie",
+          "Les deux événements ont eu exactement les mêmes effets",
+          "Le divorcment américain n'a rien à voir avec la politique indienne"
+        ],
+        "correct_index": 1,
+        "explanation": "L'analogie est pertinente : dans les deux cas, une décision institutionnelle transforme la structure économique de l'industrie. Mais avec des effets opposés : le divorcment de 1948 fragilise les majors (perd les salles). La reconnaissance de 1998 renforce le cinéma indien (accès aux prêts bancaires, fin de l'argent sale, émergence de grandes sociétés). Les deux illustrent le rôle décisif de l'État dans la structuration des industries culturelles."
+      },
+      {
+        "question": "En quoi le paradoxe d'Athique sur le piratage (profite à tous sauf au producteur) illustre-t-il une contradiction fondamentale des industries culturelles ?",
+        "choices": [
+          "Il n'y a aucun paradoxe dans cette situation",
+          "Ce paradoxe révèle la tension entre valeur d'usage et valeur d'échange dans les biens symboliques : le piratage maximise la valeur d'usage (diffusion maximale) mais détruit la valeur d'échange (les créateurs ne sont pas rémunérés). Cette tension est constitutive des biens culturels qui sont à la fois des biens publics (leur consommation n'est pas exclusive) et des marchandises",
+          "Le piratage ne profite à personne",
+          "Cette situation est propre à l'Inde et n'a pas de portée générale"
+        ],
+        "correct_index": 1,
+        "explanation": "Le paradoxe d'Athique révèle une contradiction fondamentale des biens culturels : ils sont à la fois des biens symboliques dont la valeur grandit avec la diffusion (plus un film est vu, plus il est populaire) et des marchandises dont la valeur est détruite par la duplication gratuite. Le piratage maximise la diffusion (valeur symbolique) tout en détruisant les revenus (valeur marchande)."
+      },
+      {
+        "question": "Comment l'internationalisation du cinéma indien dans les années 1980-90 illustre-t-elle le concept de 'voies parallèles' dans les échanges culturels mondiaux ?",
+        "choices": [
+          "Il n'existe qu'une seule voie d'internationalisation dans les industries culturelles",
+          "Le cinéma indien a emprunté simultanément deux voies : une voie formelle (URSS, distribution organisée dans certains pays) et une voie informelle (réseaux pirates, entrepreneurs de la diaspora). Ces voies parallèles révèlent que l'internationalisation culturelle ne suit pas un chemin unique mais s'adapte aux contraintes institutionnelles et économiques de chaque marché",
+          "L'internationalisation du cinéma indien était exclusivement informelle",
+          "L'internationalisation du cinéma indien était exclusivement formelle via les ambassades"
+        ],
+        "correct_index": 1,
+        "explanation": "Le cinéma indien illustre la coexistence de voies d'internationalisation parallèles : formelle (Sovexportfilm en URSS, Yash Raj Films avec ses bureaux à Londres et New York après 1997) et informelle (réseaux pirates, entrepreneurs de la diaspora, VCD). Cette pluralité des voies révèle que l'internationalisation culturelle n'est pas un processus linéaire mais s'adapte aux contraintes institutionnelles et économiques de chaque contexte."
+      },
+      {
+        "question": "En quoi l'histoire du cinéma indien illustre-t-elle les limites de la théorie de la proximité culturelle plus clairement encore que les telenovelas ?",
+        "choices": [
+          "La théorie de la proximité culturelle s'applique parfaitement au cinéma indien",
+          "Le cinéma indien a connu des succès massifs dans des contextes sans proximité culturelle (Nigeria, URSS, Chine), remettant en cause l'idée que le succès international d'un contenu dépend avant tout de la proximité culturelle avec le public récepteur — d'autres facteurs (normes morales, spectacle total, prix) sont déterminants",
+          "La théorie de la proximité culturelle est entièrement confirmée par le cinéma indien",
+          "La théorie de la proximité culturelle ne s'applique pas aux films"
+        ],
+        "correct_index": 1,
+        "explanation": "Le cinéma indien remet plus radicalement en cause la théorie de la proximité culturelle que les telenovelas : ses succès en URSS (contexte idéologique très différent), au Nigeria (absence de proximité linguistique et culturelle) et en Chine illustrent que d'autres facteurs sont déterminants : des normes morales familiales, le spectacle total du masala, les prix compétitifs et l'absence d'alternatives."
+      }
+    ]
+  },
+  "panic": [
+    "Inde = 1er ou 2e producteur mondial (1 724 films en 2013). Seul pays avec industrie nationale sous domination coloniale.",
+    "Rapport Indian Cinematograph Committee (1927) : 80% des films en Inde sont américains. Phalke = père du cinéma indien (Raja Harischandra).",
+    "Cinéma masala = tous les genres en un film. Atomisation des années 1940. Pas de prêts bancaires jusqu'en 1998 → argent sale.",
+    "Mode de production : star → séquences → distributeurs régionaux. Financement fragment par fragment.",
+    "Exportation URSS : 1954-1991, 200 films, via Sovexportfilm. Exception formelle.",
+    "Piratage années 1970-80 : cassettes VHS et VCD dans la diaspora. Dubaï = hub. Crescent Video. Athique : sans pirates, pas de marchés d'export.",
+    "Réformes 1990s : libéralisation → Jurassic Park 1993 → quota 200 films étrangers. 1998 : cinéma = industrie légitime. Yash Raj, Eros, UTV, Reliance. Diaspora = 75% des recettes internationales."
+  ],
+  "qrc": [
+    {
+      "question": "Comment expliquer que le cinéma indien soit parvenu à s'internationaliser malgré l'absence de grandes sociétés de distribution internationales ?",
+      "plan_type": "I. Les voies informelles de l'internationalisation (diaspora, pirates) / II. L'exception soviétique comme voie formelle / III. La transition vers une internationalisation formelle après les réformes des années 1990",
+      "model_answer": "Le cinéma indien présente un paradoxe : premier ou second producteur mondial de films (1 724 en 2013), il s'est internationalisé sans les structures formelles de distribution qu'Hollywood avait construites dès les années 1920. L'explication tient à la structure économique de l'industrie : les sociétés de distribution indiennes, concentrées sur leur marché national (qui est d'une taille exceptionnelle), n'ont pas développé de réseaux internationaux.\n\nL'internationalisation s'est d'abord faite par des voies informelles. Des entrepreneurs individuels — marchands libanais à Bombay, hommes d'affaires dans les pays du Golfe, Indiens de la diaspora à Londres ou New York — ont négocié directement avec les producteurs et organisé la distribution dans leurs réseaux. Dès les années 1970, l'apparition des magnétoscopes a amplifié ce processus : des copies non autorisées (VHS puis VCD) circulaient dans les boutiques des quartiers de la diaspora, Dubaï jouant un rôle de hub de redistribution. Adrian Athique résume ce paradoxe : 'Sans les pirates, il aurait été difficile de développer dans les années 1980 ces marchés d'exportation.'\n\nUne exception formelle notable est l'exportation vers l'URSS à partir de 1954 : dans le cadre de liens diplomatiques forts entre l'Inde et l'URSS, Sovexportfilm a importé 200 films indiens entre 1954 et 1991.\n\nLes réformes des années 1990 (libéralisation économique après la crise de 1991, reconnaissance du cinéma comme industrie légitime en 1998) permettent l'émergence de grandes sociétés (Yash Raj Films, Eros International, UTV rachetée par Disney en 2012). Yash Raj ouvre des bureaux à Londres (1997), New York (1998) et Dubaï (2004), ciblant la diaspora indienne (20M+ personnes, 75% des recettes internationales).",
+      "key_concepts": [
+        "voies informelles",
+        "diaspora",
+        "piratage",
+        "Sovexportfilm",
+        "Athique",
+        "réformes 1990",
+        "Yash Raj Films",
+        "internationalisation formelle",
+        "marché domestique gigantesque"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que le cinéma masala et en quoi sa logique de production explique-t-elle à la fois ses succès et ses limites à l'international ?",
+      "plan_type": "I. Origines et caractéristiques du cinéma masala / II. Les facteurs de succès international (normes morales, prix, spectacle total) / III. Les limites (proximité culturelle, concurrence après 1991)",
+      "model_answer": "Le cinéma masala (littéralement 'mélange d'épices') naît dans les années 1940 de l'atomisation de la production cinématographique indienne. Quand un producteur ne peut financer qu'un seul film, il doit maximiser ses chances : il concentre alors tous les genres en un seul film — action, policier, romance, musique, danse, injustice sociale, référence à l'histoire indienne. L'objectif est de toucher tout le public indien (les 'all India films'). Cette logique s'explique aussi par la nécessité de transcender les différences culturelles et linguistiques internes à l'Inde (des dizaines de langues et d'ethnies).\n\nÀ l'international, ce modèle a connu des succès inattendus. En Afrique (notamment au Nigeria) dès les années 1980, dans les pays du Golfe, en URSS et même en Chine avec Escrava Isaura. Ces succès reposent sur trois facteurs : des normes morales familiales (pas de violence graphique, pas de scènes de sexe — les baisers sont métaphorisés par des fleurs), un spectacle total (danse, musique, émotions) qui transcende les barrières linguistiques, et des prix très compétitifs face aux productions américaines.\n\nCependant, les limites apparaissent après les réformes des années 1990. La libéralisation de 1995 (quota d'importation passant à 200 films étrangers) expose le cinéma indien à la concurrence directe de Jurassic Park et de ses successeurs. Les nouvelles salles multiscreens attirent les jeunes classes moyennes vers les films américains. La transformation des salles creuse les inégalités : les nouvelles salles coûtent cinq fois plus cher. Et si la diaspora représente 75% des recettes internationales, ce marché reste limité en volume.",
+      "key_concepts": [
+        "cinéma masala",
+        "atomisation",
+        "all India films",
+        "normes morales",
+        "spectacle total",
+        "prix compétitif",
+        "diaspora",
+        "libéralisation 1995",
+        "inégalités"
+      ]
+    }
+  ]
+}
