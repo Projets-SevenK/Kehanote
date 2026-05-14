@@ -1,8 +1,8 @@
 {
   "subject_name": "Droit de la Communication",
   "teacher_name": "Expert Droit Com",
-  "subject_color": "blue",
-  "icon": "balance-scale",
+  "subject_color": "sage",
+  "icon": "scale",
   "exam_type": "QCM",
   "next_exam": "Session Partiels 2026",
   "chapters": [
@@ -13,19 +13,25 @@
         "reading_time": 8,
         "sections": [
           {
-            "type": "story",
+            "type": "key",
             "title": "C'est quoi le droit de la communication ?",
-            "text": "Le droit, c'est un peu comme les règles d'un jeu de société géant pour que tout le monde vive bien ensemble. En communication, on s'intéresse surtout à la 'publication'. Publier, ce n'est pas seulement sortir un livre, c'est rendre une info accessible à n'importe qui. Par exemple, si tu cries une insulte dans la rue ou que tu la postes sur un profil Facebook ouvert à tout le monde, c'est une publication publique. Mais si tu le dis en privé à un petit groupe d'amis très soudés, le droit considère que c'est du domaine privé. La différence est énorme : une insulte en public peut coûter 12 000 €, contre seulement 38 € en privé !"
+            "bullets": [
+              "Le droit, c'est un peu comme les règles d'un jeu de société géant pour que tout le monde vive bien ensemble. En communication, on s'intéresse surtout à la 'publication'. Publier, ce n'est pas seulement sortir un livre, c'est rendre une info accessible à n'importe qui. Par exemple, si tu cries une insulte dans la rue ou que tu la postes sur un profil Facebook ouvert à tout le monde, c'est une publication publique. Mais si tu le dis en privé à un petit groupe d'amis très soudés, le droit considère que c'est du domaine privé. La différence est énorme : une insulte en public peut coûter 12 000 €, contre seulement 38 € en privé !"
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "La pyramide des règles",
-            "text": "Toutes les règles n'ont pas la même force. Imagine une pyramide : tout en haut, il y a la Constitution (le texte sacré de la France). Juste en dessous, on trouve les Traités Internationaux (comme les accords européens), puis les Lois votées par les députés, et enfin les Règlements (les décisions du gouvernement). Une règle d'en bas n'a jamais le droit d'aller contre une règle d'en haut. C'est pour ça que la liberté d'expression est si forte : elle est inscrite tout en haut de la pyramide depuis 1789 !"
+            "bullets": [
+              "Toutes les règles n'ont pas la même force. Imagine une pyramide : tout en haut, il y a la Constitution (le texte sacré de la France). Juste en dessous, on trouve les Traités Internationaux (comme les accords européens), puis les Lois votées par les députés, et enfin les Règlements (les décisions du gouvernement). Une règle d'en bas n'a jamais le droit d'aller contre une règle d'en haut. C'est pour ça que la liberté d'expression est si forte : elle est inscrite tout en haut de la pyramide depuis 1789 !"
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Liberté vs Limites",
-            "text": "En France, on a le droit de tout dire, mais à une condition : il faut assumer les conséquences si on blesse quelqu'un ou si on casse les règles. C'est ce qu'on appelle la liberté d'expression. Mais attention, ce n'est pas un droit 'absolu'. On ne peut pas s'en servir pour inciter à la violence ou mentir sur les gens. Depuis quelques années, les juges disent même qu'avoir accès à Internet est un droit essentiel pour pouvoir s'exprimer librement aujourd'hui."
+            "bullets": [
+              "En France, on a le droit de tout dire, mais à une condition : il faut assumer les conséquences si on blesse quelqu'un ou si on casse les règles. C'est ce qu'on appelle la liberté d'expression. Mais attention, ce n'est pas un droit 'absolu'. On ne peut pas s'en servir pour inciter à la violence ou mentir sur les gens. Depuis quelques années, les juges disent même qu'avoir accès à Internet est un droit essentiel pour pouvoir s'exprimer librement aujourd'hui."
+            ]
           }
         ]
       },
@@ -437,19 +443,25 @@
         "reading_time": 9,
         "sections": [
           {
-            "type": "story",
+            "type": "key",
             "title": "Qui juge quoi ?",
-            "text": "En France, on a deux types de juges. Les juges 'judiciaires' s'occupent des problèmes entre les gens (divorce, vol, insultes) ou des crimes. Les juges 'administratifs' sont là quand tu as un souci avec la mairie, l'État ou une autorité comme l'ARCOM. Tout en haut, il y a le Conseil Constitutionnel qui vérifie que les lois ne font pas n'importe quoi par rapport à nos droits fondamentaux."
+            "bullets": [
+              "En France, on a deux types de juges. Les juges 'judiciaires' s'occupent des problèmes entre les gens (divorce, vol, insultes) ou des crimes. Les juges 'administratifs' sont là quand tu as un souci avec la mairie, l'État ou une autorité comme l'ARCOM. Tout en haut, il y a le Conseil Constitutionnel qui vérifie que les lois ne font pas n'importe quoi par rapport à nos droits fondamentaux."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Diffamation vs Injure : Ne te trompe pas !",
-            "text": "C'est le piège classique. La diffamation, c'est quand tu accuses quelqu'un d'avoir fait un truc précis qui salit son honneur (ex : 'Il a volé dans la caisse le 12 mai'). Comme c'est précis, on peut vérifier si c'est vrai. L'injure, c'est juste un mot méchant sans fait précis (ex : 'T'es un abruti'). Dans les deux cas, c'est puni, mais on se défend différemment. Pour la diffamation, si tu prouves que c'est vrai, tu es sauvé. Pour l'injure, on ne peut pas prouver la vérité d'un gros mot !"
+            "bullets": [
+              "C'est le piège classique. La diffamation, c'est quand tu accuses quelqu'un d'avoir fait un truc précis qui salit son honneur (ex : 'Il a volé dans la caisse le 12 mai'). Comme c'est précis, on peut vérifier si c'est vrai. L'injure, c'est juste un mot méchant sans fait précis (ex : 'T'es un abruti'). Dans les deux cas, c'est puni, mais on se défend différemment. Pour la diffamation, si tu prouves que c'est vrai, tu es sauvé. Pour l'injure, on ne peut pas prouver la vérité d'un gros mot !"
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Les propos interdits",
-            "text": "La liberté a des limites rouges. Tu ne peux pas appeler à la violence ou à la haine contre des gens à cause de leur religion, leur origine, leur sexe ou leur handicap. C'est ce qu'on appelle les discours de haine. Et attention, nier des crimes horribles comme la Shoah (négationnisme) est aussi un délit très grave. Le droit protège les personnes, pas les idées : tu as le droit de critiquer une religion, mais pas d'insulter les croyants."
+            "bullets": [
+              "La liberté a des limites rouges. Tu ne peux pas appeler à la violence ou à la haine contre des gens à cause de leur religion, leur origine, leur sexe ou leur handicap. C'est ce qu'on appelle les discours de haine. Et attention, nier des crimes horribles comme la Shoah (négationnisme) est aussi un délit très grave. Le droit protège les personnes, pas les idées : tu as le droit de critiquer une religion, mais pas d'insulter les croyants."
+            ]
           }
         ]
       },
@@ -861,19 +873,25 @@
         "reading_time": 8,
         "sections": [
           {
-            "type": "story",
+            "type": "key",
             "title": "Le système de la cascade",
-            "text": "Dans un journal ou à la télé, on ne cherche pas midi à quatorze heures : le premier responsable, c'est le 'Directeur de Publication' (le grand patron). C'est lui qui prend les coups juridiques en premier, même s'il n'a pas écrit l'article. Le journaliste, lui, est considéré comme son complice. Si le patron est introuvable, on descend la cascade : l'auteur, puis l'imprimeur, etc. C'est fait pour que la victime trouve toujours quelqu'un à attaquer."
+            "bullets": [
+              "Dans un journal ou à la télé, on ne cherche pas midi à quatorze heures : le premier responsable, c'est le 'Directeur de Publication' (le grand patron). C'est lui qui prend les coups juridiques en premier, même s'il n'a pas écrit l'article. Le journaliste, lui, est considéré comme son complice. Si le patron est introuvable, on descend la cascade : l'auteur, puis l'imprimeur, etc. C'est fait pour que la victime trouve toujours quelqu'un à attaquer."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Hébergeur vs Éditeur sur le web",
-            "text": "C'est super important ! Un éditeur (ex : le site du journal Le Monde) contrôle tout ce qu'il publie, donc il est responsable de tout. Un hébergeur (ex : YouTube, Instagram, TikTok) ne fait que stocker les vidéos des autres. Il n'a pas l'obligation de tout regarder tout le temps. Il devient responsable seulement si tu lui signales un contenu illicite avec une notification officielle et qu'il ne l'enlève pas très vite."
+            "bullets": [
+              "C'est super important ! Un éditeur (ex : le site du journal Le Monde) contrôle tout ce qu'il publie, donc il est responsable de tout. Un hébergeur (ex : YouTube, Instagram, TikTok) ne fait que stocker les vidéos des autres. Il n'a pas l'obligation de tout regarder tout le temps. Il devient responsable seulement si tu lui signales un contenu illicite avec une notification officielle et qu'il ne l'enlève pas très vite."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Le chrono de 3 mois",
-            "text": "En droit de la presse, tout va très vite. Si quelqu'un t'insulte dans un journal ou sur un blog, tu as seulement 3 mois pour porter plainte à partir du jour où c'est publié. Si tu attends 3 mois et un jour, c'est trop tard, l'action est 'prescrite'. Pour les propos racistes ou haineux, le délai est plus long (1 an), mais il ne faut quand même pas traîner !"
+            "bullets": [
+              "En droit de la presse, tout va très vite. Si quelqu'un t'insulte dans un journal ou sur un blog, tu as seulement 3 mois pour porter plainte à partir du jour où c'est publié. Si tu attends 3 mois et un jour, c'est trop tard, l'action est 'prescrite'. Pour les propos racistes ou haineux, le délai est plus long (1 an), mais il ne faut quand même pas traîner !"
+            ]
           }
         ]
       },
@@ -1285,19 +1303,25 @@
         "reading_time": 9,
         "sections": [
           {
-            "type": "story",
+            "type": "key",
             "title": "Le jardin secret (Vie privée)",
-            "text": "Tout le monde a droit au respect de sa vie privée, c'est écrit dans le Code civil (Article 9). Ta vie amoureuse, ta santé, ce que tu fais chez toi ou ta religion, ça ne regarde personne d'autre. Même si tu es une star, tu as un 'jardin secret'. Un journaliste peut parler de ta vie privée seulement s'il y a un vrai intérêt pour le public (ex : la santé du Président qui ne peut plus diriger le pays). Sinon, c'est interdit !"
+            "bullets": [
+              "Tout le monde a droit au respect de sa vie privée, c'est écrit dans le Code civil (Article 9). Ta vie amoureuse, ta santé, ce que tu fais chez toi ou ta religion, ça ne regarde personne d'autre. Même si tu es une star, tu as un 'jardin secret'. Un journaliste peut parler de ta vie privée seulement s'il y a un vrai intérêt pour le public (ex : la santé du Président qui ne peut plus diriger le pays). Sinon, c'est interdit !"
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "C'est ma tête ! (Droit à l'image)",
-            "text": "Tu es le seul maître de ton image. On n'a pas le droit de te prendre en photo et de la publier sans ton accord. Mais attention, il y a des exceptions : si tu es dans une grande foule lors d'une manif ou si tu es au cœur d'une actualité importante (et que la photo ne te montre pas dans une position humiliante), le droit à l'information peut l'emporter."
+            "bullets": [
+              "Tu es le seul maître de ton image. On n'a pas le droit de te prendre en photo et de la publier sans ton accord. Mais attention, il y a des exceptions : si tu es dans une grande foule lors d'une manif ou si tu es au cœur d'une actualité importante (et que la photo ne te montre pas dans une position humiliante), le droit à l'information peut l'emporter."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "La justice et la presse",
-            "text": "En France, on est 'innocent tant qu'un juge n'a pas dit qu'on était coupable'. La presse n'a pas le droit de te présenter comme le coupable idéal avant la fin du procès. De plus, il est interdit de filmer ou d'enregistrer dans les tribunaux pour que la justice travaille sereinement. Enfin, on protège les victimes : on ne publie pas d'images montrant des gens morts ou souffrants de façon indécente."
+            "bullets": [
+              "En France, on est 'innocent tant qu'un juge n'a pas dit qu'on était coupable'. La presse n'a pas le droit de te présenter comme le coupable idéal avant la fin du procès. De plus, il est interdit de filmer ou d'enregistrer dans les tribunaux pour que la justice travaille sereinement. Enfin, on protège les victimes : on ne publie pas d'images montrant des gens morts ou souffrants de façon indécente."
+            ]
           }
         ]
       },
@@ -1709,19 +1733,25 @@
         "reading_time": 8,
         "sections": [
           {
-            "type": "story",
+            "type": "key",
             "title": "C'est quoi l'ARCOM ?",
-            "text": "Imagine un arbitre sur un terrain de foot : c'est l'ARCOM pour la télé et la radio. C'est une 'Autorité Publique Indépendante'. Ça veut dire qu'elle ne reçoit pas d'ordres du gouvernement. Son rôle, c'est de vérifier que les chaînes respectent les règles : ne pas dire de bêtises haineuses, protéger les enfants des images violentes (avec la signalétique -10, -12, etc.) et s'assurer que tout le monde peut parler."
+            "bullets": [
+              "Imagine un arbitre sur un terrain de foot : c'est l'ARCOM pour la télé et la radio. C'est une 'Autorité Publique Indépendante'. Ça veut dire qu'elle ne reçoit pas d'ordres du gouvernement. Son rôle, c'est de vérifier que les chaînes respectent les règles : ne pas dire de bêtises haineuses, protéger les enfants des images violentes (avec la signalétique -10, -12, etc.) et s'assurer que tout le monde peut parler."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Le temps de parole (Pluralisme)",
-            "text": "L'ARCOM doit garantir que toutes les idées politiques sont représentées à la télé. Il y a une règle simple : le Président et le Gouvernement ont le droit à 1/3 du temps, et tous les autres partis se partagent les 2/3 restants. En période d'élection, c'est encore plus strict : les chaînes doivent être équitables et donner la parole à tous les candidats selon leur importance réelle dans la campagne."
+            "bullets": [
+              "L'ARCOM doit garantir que toutes les idées politiques sont représentées à la télé. Il y a une règle simple : le Président et le Gouvernement ont le droit à 1/3 du temps, et tous les autres partis se partagent les 2/3 restants. En période d'élection, c'est encore plus strict : les chaînes doivent être équitables et donner la parole à tous les candidats selon leur importance réelle dans la campagne."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Carton jaune et Carton rouge",
-            "text": "Si une chaîne fait une faute (ex : un animateur insulte un invité), l'ARCOM sort les cartons. D'abord, elle envoie une 'Mise en demeure' (le carton jaune). Si la chaîne recommence, elle peut mettre une amende (parfois des millions d'euros), suspendre une émission pendant quelques jours, ou même retirer le droit de diffuser (le carton rouge final). C'est le Conseil d'État qui vérifie que l'arbitre ne triche pas !"
+            "bullets": [
+              "Si une chaîne fait une faute (ex : un animateur insulte un invité), l'ARCOM sort les cartons. D'abord, elle envoie une 'Mise en demeure' (le carton jaune). Si la chaîne recommence, elle peut mettre une amende (parfois des millions d'euros), suspendre une émission pendant quelques jours, ou même retirer le droit de diffuser (le carton rouge final). C'est le Conseil d'État qui vérifie que l'arbitre ne triche pas !"
+            ]
           }
         ]
       },

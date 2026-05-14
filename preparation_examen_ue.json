@@ -1,8 +1,8 @@
 {
   "subject_name": "Institutions et Politiques de l'UE",
   "teacher_name": "B. MESNEL-REPPLINGER",
-  "subject_color": "gold",
-  "icon": "university",
+  "subject_color": "peach",
+  "icon": "book",
   "exam_type": "QCM (60 questions)",
   "next_exam": "Session Partiels S4",
   "chapters": [
@@ -13,19 +13,25 @@
         "reading_time": 10,
         "sections": [
           {
-            "type": "story",
+            "type": "key",
             "title": "Pourquoi avoir créé l'Europe ?",
-            "text": "Après la Seconde Guerre mondiale, l'Europe est en ruines. L'idée géniale de Jean Monnet et Robert Schuman en 1950 (la Déclaration Schuman), c'est de dire : 'Si on met en commun nos ressources pour faire la guerre (le charbon et l'acier), on ne pourra plus se battre'. C'est la naissance de la CECA en 1951. C'est un petit début technique pour arriver à une grande amitié politique."
+            "bullets": [
+              "Après la Seconde Guerre mondiale, l'Europe est en ruines. L'idée géniale de Jean Monnet et Robert Schuman en 1950 (la Déclaration Schuman), c'est de dire : 'Si on met en commun nos ressources pour faire la guerre (le charbon et l'acier), on ne pourra plus se battre'. C'est la naissance de la CECA en 1951. C'est un petit début technique pour arriver à une grande amitié politique."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Les étapes clés (Rome, Maastricht, Lisbonne)",
-            "text": "En 1957, le Traité de Rome crée le 'Marché Commun' : les marchandises circulent librement. En 1992, le Traité de Maastricht change tout : on ne parle plus juste d'économie, mais d'Union Européenne, de citoyenneté et bientôt d'une monnaie unique (l'Euro). Enfin, en 2009, le Traité de Lisbonne répare le moteur de l'UE pour qu'elle fonctionne mieux à 27 pays, en donnant plus de pouvoir au Parlement."
+            "bullets": [
+              "En 1957, le Traité de Rome crée le 'Marché Commun' : les marchandises circulent librement. En 1992, le Traité de Maastricht change tout : on ne parle plus juste d'économie, mais d'Union Européenne, de citoyenneté et bientôt d'une monnaie unique (l'Euro). Enfin, en 2009, le Traité de Lisbonne répare le moteur de l'UE pour qu'elle fonctionne mieux à 27 pays, en donnant plus de pouvoir au Parlement."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "L'élargissement : de 6 à 27",
-            "text": "Au début, ils n'étaient que 6 (France, Allemagne, Italie, Benelux). Petit à petit, d'autres sont arrivés. Le plus gros choc, c'est en 2004 quand 10 pays de l'Est rejoignent l'UE après la chute du mur de Berlin. Aujourd'hui, on est 27 (depuis que le Royaume-Uni est parti avec le Brexit). Chaque pays doit respecter des critères de démocratie pour entrer."
+            "bullets": [
+              "Au début, ils n'étaient que 6 (France, Allemagne, Italie, Benelux). Petit à petit, d'autres sont arrivés. Le plus gros choc, c'est en 2004 quand 10 pays de l'Est rejoignent l'UE après la chute du mur de Berlin. Aujourd'hui, on est 27 (depuis que le Royaume-Uni est parti avec le Brexit). Chaque pays doit respecter des critères de démocratie pour entrer."
+            ]
           }
         ]
       },
@@ -437,19 +443,25 @@
         "reading_time": 10,
         "sections": [
           {
-            "type": "story",
+            "type": "key",
             "title": "Le Trio Magique",
-            "text": "Pour faire une loi européenne, il faut trois acteurs. 1. La Commission (à Bruxelles) : c'est le cerveau, elle propose les lois. 2. Le Parlement (à Strasbourg) : ce sont les représentants des citoyens, ils votent. 3. Le Conseil de l'UE (à Bruxelles) : ce sont les ministres des pays, ils votent aussi. Pour qu'une loi passe, il faut l'accord du Parlement ET du Conseil."
+            "bullets": [
+              "Pour faire une loi européenne, il faut trois acteurs. 1. La Commission (à Bruxelles) : c'est le cerveau, elle propose les lois. 2. Le Parlement (à Strasbourg) : ce sont les représentants des citoyens, ils votent. 3. Le Conseil de l'UE (à Bruxelles) : ce sont les ministres des pays, ils votent aussi. Pour qu'une loi passe, il faut l'accord du Parlement ET du Conseil."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "La Commission : Le moteur supranational",
-            "text": "Imagine la Commission comme le gouvernement de l'Europe. Il y a un Commissaire par pays, mais attention : ils ne travaillent pas pour leur pays, ils travaillent pour l'intérêt de toute l'Europe ! Ils vérifient aussi que les pays respectent bien les règles. Si un pays triche, la Commission peut le gronder (et l'emmener devant le juge)."
+            "bullets": [
+              "Imagine la Commission comme le gouvernement de l'Europe. Il y a un Commissaire par pays, mais attention : ils ne travaillent pas pour leur pays, ils travaillent pour l'intérêt de toute l'Europe ! Ils vérifient aussi que les pays respectent bien les règles. Si un pays triche, la Commission peut le gronder (et l'emmener devant le juge)."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "Les Conseils : Ne pas confondre !",
-            "text": "C'est l'erreur fatale à l'examen. Le Conseil Européen (les chefs d'État comme Macron), c'est le patron qui donne la direction générale mais qui ne vote pas les lois. Le Conseil de l'UE (les ministres), c'est lui qui vote les lois avec le Parlement. Et le Conseil de l'Europe ? C'est un piège ! Il n'a rien à voir avec l'UE, il s'occupe juste des droits de l'homme."
+            "bullets": [
+              "C'est l'erreur fatale à l'examen. Le Conseil Européen (les chefs d'État comme Macron), c'est le patron qui donne la direction générale mais qui ne vote pas les lois. Le Conseil de l'UE (les ministres), c'est lui qui vote les lois avec le Parlement. Et le Conseil de l'Europe ? C'est un piège ! Il n'a rien à voir avec l'UE, il s'occupe juste des droits de l'homme."
+            ]
           }
         ]
       },
@@ -861,19 +873,25 @@
         "reading_time": 10,
         "sections": [
           {
-            "type": "story",
+            "type": "key",
             "title": "Le match Fédéralisme vs Intergouvernementalisme",
-            "text": "Il y a deux façons de voir l'Europe. Les Fédéralistes veulent que l'UE devienne comme un pays (les États-Unis d'Europe) avec un chef fort. Les Intergouvernementalistes (comme De Gaulle) disent non : ce sont les pays qui doivent rester les patrons et décider ensemble, sans qu'une autorité au-dessus d'eux leur impose tout."
+            "bullets": [
+              "Il y a deux façons de voir l'Europe. Les Fédéralistes veulent que l'UE devienne comme un pays (les États-Unis d'Europe) avec un chef fort. Les Intergouvernementalistes (comme De Gaulle) disent non : ce sont les pays qui doivent rester les patrons et décider ensemble, sans qu'une autorité au-dessus d'eux leur impose tout."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "L'effet engrenage (Néofonctionnalisme)",
-            "text": "C'est la théorie du 'doigt dans l'engrenage'. Si on commence par coopérer sur le charbon, on va avoir besoin de coopérer sur les transports, puis sur la monnaie, puis sur la police... Une petite coopération technique entraîne forcément une grosse coopération politique. C'est le 'Spill-over'."
+            "bullets": [
+              "C'est la théorie du 'doigt dans l'engrenage'. Si on commence par coopérer sur le charbon, on va avoir besoin de coopérer sur les transports, puis sur la monnaie, puis sur la police... Une petite coopération technique entraîne forcément une grosse coopération politique. C'est le 'Spill-over'."
+            ]
           },
           {
-            "type": "story",
+            "type": "key",
             "title": "L'Européanisation : L'Europe est partout !",
-            "text": "L'européanisation, c'est quand les règles de l'Europe changent nos vies à la maison. Par exemple, si la France change ses lois sur l'environnement parce que l'UE l'a demandé, c'est de l'européanisation. Ça change aussi la façon dont nos politiciens travaillent : ils passent la moitié de leur temps à Bruxelles !"
+            "bullets": [
+              "L'européanisation, c'est quand les règles de l'Europe changent nos vies à la maison. Par exemple, si la France change ses lois sur l'environnement parce que l'UE l'a demandé, c'est de l'européanisation. Ça change aussi la façon dont nos politiciens travaillent : ils passent la moitié de leur temps à Bruxelles !"
+            ]
           }
         ]
       },
