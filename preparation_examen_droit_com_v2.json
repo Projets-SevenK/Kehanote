@@ -1,0 +1,2462 @@
+{
+  "subject_name": "Droit de la Communication",
+  "teacher_name": "Expert Droit Com",
+  "subject_color": "blue",
+  "icon": "balance-scale",
+  "exam_type": "QCM",
+  "next_exam": "Session Partiels 2026",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Les bases : d'où vient le droit et comment ça marche ?",
+      "concentre": {
+        "reading_time": 8,
+        "sections": [
+          {
+            "type": "story",
+            "title": "C'est quoi le droit de la communication ?",
+            "text": "Le droit, c'est un peu comme les règles d'un jeu de société géant pour que tout le monde vive bien ensemble. En communication, on s'intéresse surtout à la 'publication'. Publier, ce n'est pas seulement sortir un livre, c'est rendre une info accessible à n'importe qui. Par exemple, si tu cries une insulte dans la rue ou que tu la postes sur un profil Facebook ouvert à tout le monde, c'est une publication publique. Mais si tu le dis en privé à un petit groupe d'amis très soudés, le droit considère que c'est du domaine privé. La différence est énorme : une insulte en public peut coûter 12 000 €, contre seulement 38 € en privé !"
+          },
+          {
+            "type": "story",
+            "title": "La pyramide des règles",
+            "text": "Toutes les règles n'ont pas la même force. Imagine une pyramide : tout en haut, il y a la Constitution (le texte sacré de la France). Juste en dessous, on trouve les Traités Internationaux (comme les accords européens), puis les Lois votées par les députés, et enfin les Règlements (les décisions du gouvernement). Une règle d'en bas n'a jamais le droit d'aller contre une règle d'en haut. C'est pour ça que la liberté d'expression est si forte : elle est inscrite tout en haut de la pyramide depuis 1789 !"
+          },
+          {
+            "type": "story",
+            "title": "Liberté vs Limites",
+            "text": "En France, on a le droit de tout dire, mais à une condition : il faut assumer les conséquences si on blesse quelqu'un ou si on casse les règles. C'est ce qu'on appelle la liberté d'expression. Mais attention, ce n'est pas un droit 'absolu'. On ne peut pas s'en servir pour inciter à la violence ou mentir sur les gens. Depuis quelques années, les juges disent même qu'avoir accès à Internet est un droit essentiel pour pouvoir s'exprimer librement aujourd'hui."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Article 11 de la DDHC",
+          "answer": "Le texte qui dit que la liberté de pensée et d'opinion est un droit précieux."
+        },
+        {
+          "question": "La sanction pour injure publique",
+          "answer": "Jusqu'à 12 000 € d'amende."
+        },
+        {
+          "question": "La sanction pour injure privée",
+          "answer": "38 € d'amende."
+        },
+        {
+          "question": "Hiérarchie des normes",
+          "answer": "L'ordre d'importance des textes (Constitution > Traité > Loi)."
+        },
+        {
+          "question": "L'ARCOM",
+          "answer": "Le gendarme de la télé, de la radio et d'Internet (fusion du CSA et d'Hadopi)."
+        },
+        {
+          "question": "Article 55 de la Constitution",
+          "answer": "Dit que les traités internationaux sont plus forts que les lois françaises."
+        },
+        {
+          "question": "Communauté d'intérêt",
+          "answer": "Un groupe de personnes liées (amis, collègues) qui rend un message privé."
+        },
+        {
+          "question": "Loi de 1881",
+          "answer": "La loi de base qui protège la liberté de la presse."
+        },
+        {
+          "question": "Loi de 1986",
+          "answer": "La loi qui organise la liberté de la télé et de la radio."
+        },
+        {
+          "question": "Publication",
+          "answer": "Le fait de diffuser un message à un public indéterminé."
+        },
+        {
+          "question": "Contrôle répressif",
+          "answer": "Le juge intervient après la diffusion, il n'y a pas de censure avant."
+        },
+        {
+          "question": "Ordre judiciaire",
+          "answer": "Pour les disputes entre personnes ou les crimes."
+        },
+        {
+          "question": "Ordre administratif",
+          "answer": "Pour les disputes avec l'État ou la mairie."
+        },
+        {
+          "question": "Droit à l'information",
+          "answer": "Le droit pour le citoyen d'accéder à des infos variées pour se faire son avis."
+        },
+        {
+          "question": "CEDH",
+          "answer": "Cour Européenne des Droits de l'Homme, elle veille sur nos libertés depuis Strasbourg."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Quel texte de 1789 protège la liberté d'expression ?",
+            "choices": [
+              "Code Civil",
+              "Article 11 de la DDHC",
+              "La loi 1881",
+              "Le règlement du lycée"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'article fondateur de notre démocratie."
+          },
+          {
+            "question": "Comment s'appelle le gendarme de l'audiovisuel ?",
+            "choices": [
+              "La Police",
+              "L'ARCOM",
+              "Le CSA",
+              "Hadopi"
+            ],
+            "correct_index": 1,
+            "explanation": "L'ARCOM a remplacé le CSA et Hadopi en 2022."
+          },
+          {
+            "question": "Une injure entre amis sur un groupe WhatsApp privé est une :",
+            "choices": [
+              "Injure publique",
+              "Injure privée",
+              "Diffamation",
+              "Félicitation"
+            ],
+            "correct_index": 1,
+            "explanation": "Le cercle restreint (communauté d'intérêt) rend le propos privé."
+          },
+          {
+            "question": "Quelle est la sanction pour une injure publique ?",
+            "choices": [
+              "Prison",
+              "12 000 €",
+              "38 €",
+              "Une heure de colle"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une amende fixée par la loi de 1881."
+          },
+          {
+            "question": "Qui vote les lois en France ?",
+            "choices": [
+              "Le Président",
+              "Le Parlement",
+              "Le juge",
+              "Les influenceurs"
+            ],
+            "correct_index": 1,
+            "explanation": "Le Parlement (députés et sénateurs) a le pouvoir législatif."
+          },
+          {
+            "question": "Quel est le texte le plus puissant en France ?",
+            "choices": [
+              "La Loi",
+              "La Constitution",
+              "Le Décret",
+              "Le Journal de 20h"
+            ],
+            "correct_index": 1,
+            "explanation": "Elle est au sommet de la hiérarchie des normes."
+          },
+          {
+            "question": "La liberté de la presse date de quelle année ?",
+            "choices": [
+              "1881",
+              "1986",
+              "2024",
+              "1789"
+            ],
+            "correct_index": 0,
+            "explanation": "C'est la grande loi libérale du 29 juillet 1881."
+          },
+          {
+            "question": "Que signifie 'indétermination du public' ?",
+            "choices": [
+              "On ne sait pas qui va lire",
+              "On connaît tout le monde",
+              "Le message est codé",
+              "Il n'y a personne"
+            ],
+            "correct_index": 0,
+            "explanation": "C'est un indice que le message est public."
+          },
+          {
+            "question": "Le droit de la communication est un 'droit carrefour' car :",
+            "choices": [
+              "Il y a des voitures",
+              "Il mélange droit public, privé et pénal",
+              "Il est compliqué",
+              "Il est facultatif"
+            ],
+            "correct_index": 1,
+            "explanation": "Il puise ses règles dans plusieurs domaines du droit."
+          },
+          {
+            "question": "Un décret est pris par :",
+            "choices": [
+              "Les députés",
+              "Le Gouvernement",
+              "La police",
+              "Le maire"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un acte administratif du pouvoir exécutif."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Selon l'article 55, un traité international est plus fort que :",
+            "choices": [
+              "La Constitution",
+              "La Loi",
+              "Le Président",
+              "Tout"
+            ],
+            "correct_index": 1,
+            "explanation": "Le traité prime sur la loi, mais pas sur la Constitution."
+          },
+          {
+            "question": "L'arrêt 'Société Agence du Palais' définit :",
+            "choices": [
+              "Le prix de l'immobilier",
+              "La communauté d'intérêt",
+              "Le secret médical",
+              "La liberté de culte"
+            ],
+            "correct_index": 1,
+            "explanation": "Il sert à savoir si un message sur les réseaux sociaux est privé ou public."
+          },
+          {
+            "question": "Le pluralisme des courants de pensée est un :",
+            "choices": [
+              "Conseil",
+              "Objectif de valeur constitutionnelle",
+              "Droit individuel",
+              "Simple mot"
+            ],
+            "correct_index": 1,
+            "explanation": "L'État doit garantir que plusieurs opinions puissent s'exprimer."
+          },
+          {
+            "question": "Pourquoi Hadopi a été fusionnée ?",
+            "choices": [
+              "Elle ne servait à rien",
+              "Pour créer l'ARCOM et réguler tout le numérique",
+              "Elle n'avait plus de budget",
+              "Le nom était moche"
+            ],
+            "correct_index": 1,
+            "explanation": "Il fallait un régulateur unique pour la télé et le web."
+          },
+          {
+            "question": "Le droit à l'information implique :",
+            "choices": [
+              "Qu'on nous dise tout",
+              "Que l'État garantisse l'accès à des infos variées",
+              "Que les journaux soient gratuits",
+              "Qu'il n'y ait plus de secrets"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un 'droit-créance' : l'État doit agir pour le permettre."
+          },
+          {
+            "question": "Quelle est la condition pour qu'un traité s'applique en France ?",
+            "choices": [
+              "Il doit être écrit en français",
+              "Il doit être ratifié et appliqué aussi par les autres pays",
+              "Le peuple doit voter",
+              "Il faut 10 ans d'attente"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la condition de réciprocité de l'article 55."
+          },
+          {
+            "question": "Un message est public si :",
+            "choices": [
+              "Il est écrit sur un mur",
+              "Le cercle de destinataires est ouvert et sans lien entre eux",
+              "Il y a plus de 3 personnes",
+              "Il est sur Internet"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'absence de lien (communauté d'intérêt) qui compte."
+          },
+          {
+            "question": "L'article 10 de la CEDH protège :",
+            "choices": [
+              "Les infos neutres seulement",
+              "Même les idées qui choquent ou inquiètent",
+              "Uniquement les politiciens",
+              "Seulement les livres"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est le principe du pluralisme démocratique."
+          },
+          {
+            "question": "La prescription en droit de la presse est de :",
+            "choices": [
+              "10 ans",
+              "3 mois",
+              "1 an",
+              "38 jours"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un délai très court pour protéger la liberté d'expression."
+          },
+          {
+            "question": "Le Conseil Constitutionnel vérifie :",
+            "choices": [
+              "Si les gens sont gentils",
+              "Si les lois respectent la Constitution",
+              "Si les journalistes mentent",
+              "Si le Président travaille"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est le gardien de la Loi Fondamentale."
+          }
+        ],
+        "hard": [
+          {
+            "question": "Si une loi est contraire à la Constitution, on peut utiliser :",
+            "choices": [
+              "Une pétition",
+              "Une QPC (Question Prioritaire de Constitutionnalité)",
+              "L'ARCOM",
+              "Rien"
+            ],
+            "correct_index": 1,
+            "explanation": "Permet de faire annuler une loi pendant un procès."
+          },
+          {
+            "question": "L'arrêt Handyside (CEDH, 1976) est célèbre pour :",
+            "choices": [
+              "Le droit à l'image",
+              "La protection des idées qui 'heurtent, choquent ou inquiètent'",
+              "Le piratage",
+              "Le secret des sources"
+            ],
+            "correct_index": 1,
+            "explanation": "Fondement du pluralisme européen."
+          },
+          {
+            "question": "Que se passe-t-il si un traité est contraire à la Constitution ?",
+            "choices": [
+              "Le traité gagne",
+              "On doit réviser la Constitution pour ratifier le traité",
+              "On ignore le traité",
+              "La loi change"
+            ],
+            "correct_index": 1,
+            "explanation": "Article 54 de la Constitution."
+          },
+          {
+            "question": "La décision HADOPI de 2009 du Conseil Constitutionnel dit que :",
+            "choices": [
+              "Internet est dangereux",
+              "L'accès à Internet est une liberté fondamentale",
+              "On ne peut pas punir les pirates",
+              "Hadopi est illégale"
+            ],
+            "correct_index": 1,
+            "explanation": "Elle lie Internet à la liberté d'expression de 1789."
+          },
+          {
+            "question": "Le droit de la communication est 'instable' car :",
+            "choices": [
+              "Il change avec la technologie et la politique",
+              "Les avocats sont mauvais",
+              "Il n'y a pas de code",
+              "Tout le monde s'en moque"
+            ],
+            "correct_index": 0,
+            "explanation": "L'évolution des médias force le droit à se renouveler sans cesse."
+          },
+          {
+            "question": "Un 'objectif de valeur constitutionnelle' :",
+            "choices": [
+              "Est une simple idée",
+              "Oblige le législateur à agir (ex: pluralisme)",
+              "Est facultatif",
+              "Est pour le Président"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une obligation juridique pour l'État."
+          },
+          {
+            "question": "La neutralité d'Internet signifie :",
+            "choices": [
+              "Pas de pub",
+              "Traitement égal de toutes les données sans discrimination",
+              "C'est gratuit",
+              "C'est anonyme"
+            ],
+            "correct_index": 1,
+            "explanation": "Principe clé pour la liberté d'information en ligne."
+          },
+          {
+            "question": "La 'communauté d'intérêt' est exclue si :",
+            "choices": [
+              "Les gens s'aiment bien",
+              "Le groupe est ouvert à des inconnus (ex: compte Twitter public)",
+              "Il y a plus de 50 personnes",
+              "C'est en anglais"
+            ],
+            "correct_index": 1,
+            "explanation": "Si n'importe qui peut entrer, ce n'est plus privé."
+          },
+          {
+            "question": "Pourquoi la censure est-elle interdite en France ?",
+            "choices": [
+              "Parce qu'elle coûte cher",
+              "Parce que le contrôle doit être répressif (après) et non préventif (avant)",
+              "Elle n'est pas interdite",
+              "C'est pour les films seulement"
+            ],
+            "correct_index": 1,
+            "explanation": "La liberté est la règle, la punition l'exception."
+          },
+          {
+            "question": "L'article 34 de la Constitution confie au Parlement :",
+            "choices": [
+              "Le choix des programmes TV",
+              "Les règles sur les libertés et le pluralisme des médias",
+              "Le salaire des journalistes",
+              "La météo"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est le domaine de la Loi."
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "title": "Les juges et les pièges à éviter (Diffamation et Injure)",
+      "concentre": {
+        "reading_time": 9,
+        "sections": [
+          {
+            "type": "story",
+            "title": "Qui juge quoi ?",
+            "text": "En France, on a deux types de juges. Les juges 'judiciaires' s'occupent des problèmes entre les gens (divorce, vol, insultes) ou des crimes. Les juges 'administratifs' sont là quand tu as un souci avec la mairie, l'État ou une autorité comme l'ARCOM. Tout en haut, il y a le Conseil Constitutionnel qui vérifie que les lois ne font pas n'importe quoi par rapport à nos droits fondamentaux."
+          },
+          {
+            "type": "story",
+            "title": "Diffamation vs Injure : Ne te trompe pas !",
+            "text": "C'est le piège classique. La diffamation, c'est quand tu accuses quelqu'un d'avoir fait un truc précis qui salit son honneur (ex : 'Il a volé dans la caisse le 12 mai'). Comme c'est précis, on peut vérifier si c'est vrai. L'injure, c'est juste un mot méchant sans fait précis (ex : 'T'es un abruti'). Dans les deux cas, c'est puni, mais on se défend différemment. Pour la diffamation, si tu prouves que c'est vrai, tu es sauvé. Pour l'injure, on ne peut pas prouver la vérité d'un gros mot !"
+          },
+          {
+            "type": "story",
+            "title": "Les propos interdits",
+            "text": "La liberté a des limites rouges. Tu ne peux pas appeler à la violence ou à la haine contre des gens à cause de leur religion, leur origine, leur sexe ou leur handicap. C'est ce qu'on appelle les discours de haine. Et attention, nier des crimes horribles comme la Shoah (négationnisme) est aussi un délit très grave. Le droit protège les personnes, pas les idées : tu as le droit de critiquer une religion, mais pas d'insulter les croyants."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Diffamation",
+          "answer": "Accuser quelqu'un d'un fait précis qui nuit à son honneur."
+        },
+        {
+          "question": "Injure",
+          "answer": "Un mot méchant ou méprisant sans fait précis."
+        },
+        {
+          "question": "Exceptio veritatis",
+          "answer": "Le droit de prouver que ce qu'on a dit en diffamation est vrai pour ne pas être puni."
+        },
+        {
+          "question": "Négationnisme",
+          "answer": "Dire que des génocides (comme la Shoah) n'ont pas existé."
+        },
+        {
+          "question": "Provocation à la haine",
+          "answer": "Pousser les gens à détester ou frapper un groupe de personnes."
+        },
+        {
+          "question": "Bonne foi",
+          "answer": "Quand un journaliste a fait son travail sérieusement même s'il s'est trompé."
+        },
+        {
+          "question": "Tribunal Judiciaire",
+          "answer": "Le tribunal de base pour les insultes et la diffamation."
+        },
+        {
+          "question": "Cour d'Appel",
+          "answer": "Là où on va si on n'est pas d'accord avec le premier jugement."
+        },
+        {
+          "question": "Cour de Cassation",
+          "answer": "La plus haute cour, elle vérifie juste si la loi a été bien appliquée."
+        },
+        {
+          "question": "Conseil d'État",
+          "answer": "Le chef des juges administratifs."
+        },
+        {
+          "question": "Animosité personnelle",
+          "answer": "Quand on insulte quelqu'un juste parce qu'on ne l'aime pas (enlève la bonne foi)."
+        },
+        {
+          "question": "Fait précis",
+          "answer": "Un événement qu'on peut prouver (date, lieu, action)."
+        },
+        {
+          "question": "Apologie",
+          "answer": "Présenter un crime (comme le terrorisme) comme quelque chose de bien."
+        },
+        {
+          "question": "Blasphème",
+          "answer": "Insulter une religion (n'est pas un délit en France)."
+        },
+        {
+          "question": "Prescription raciale",
+          "answer": "Le délai pour porter plainte est d'un an (au lieu de 3 mois)."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Accuser un maire d'avoir pris 1000€ de pot-de-vin est :",
+            "choices": [
+              "Une injure",
+              "Une diffamation",
+              "Légal",
+              "Une blague"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un fait précis et vérifiable."
+          },
+          {
+            "question": "Traiter quelqu'un de 'sale nul' est :",
+            "choices": [
+              "Une diffamation",
+              "Une injure",
+              "Un compliment",
+              "Un crime"
+            ],
+            "correct_index": 1,
+            "explanation": "Il n'y a pas de fait précis, juste du mépris."
+          },
+          {
+            "question": "Quel tribunal s'occupe des disputes avec la mairie ?",
+            "choices": [
+              "Tribunal Judiciaire",
+              "Tribunal Administratif",
+              "Cour d'Assises",
+              "Conseil de Prud'hommes"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'ordre administratif."
+          },
+          {
+            "question": "Peut-on prouver la vérité d'une injure ?",
+            "choices": [
+              "Oui",
+              "Non",
+              "Seulement le lundi",
+              "Si on a une vidéo"
+            ],
+            "correct_index": 1,
+            "explanation": "Un mot méchant ne se prouve pas, contrairement à un fait."
+          },
+          {
+            "question": "Nier l'existence des chambres à gaz est :",
+            "choices": [
+              "Une opinion",
+              "Un délit (négationnisme)",
+              "Une diffamation",
+              "Autorisé"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est puni par la loi Gayssot."
+          },
+          {
+            "question": "Pour être diffamée, la personne doit être :",
+            "choices": [
+              "Morte",
+              "Identifiable",
+              "Inconnue",
+              "Forcément nommée par son nom complet"
+            ],
+            "correct_index": 1,
+            "explanation": "Même sans nom, si on comprend de qui on parle, ça suffit."
+          },
+          {
+            "question": "La diffamation envers la police est :",
+            "choices": [
+              "Plus grave que pour un particulier",
+              "Moins grave",
+              "Pareil",
+              "Interdite"
+            ],
+            "correct_index": 0,
+            "explanation": "Les institutions sont protégées plus lourdement (45k€)."
+          },
+          {
+            "question": "Qui a le dernier mot dans l'ordre judiciaire ?",
+            "choices": [
+              "Le Procureur",
+              "La Cour de Cassation",
+              "Le Président",
+              "Le juge de paix"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la juridiction suprême."
+          },
+          {
+            "question": "Une injure raciale est :",
+            "choices": [
+              "Une opinion",
+              "Une circonstance aggravante",
+              "Moins grave",
+              "Normale"
+            ],
+            "correct_index": 1,
+            "explanation": "La peine est beaucoup plus forte."
+          },
+          {
+            "question": "Un crime est jugé par :",
+            "choices": [
+              "Le juge de proximité",
+              "La Cour d'Assises",
+              "Le Tribunal de Police",
+              "L'ARCOM"
+            ],
+            "correct_index": 1,
+            "explanation": "Pour les peines de plus de 10 ans de prison."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Le dénigrement concerne :",
+            "choices": [
+              "Une personne",
+              "Un produit ou un service",
+              "La météo",
+              "Le gouvernement"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est civil (concurrence), pas pénal."
+          },
+          {
+            "question": "En diffamation, on ne peut pas prouver la vérité si :",
+            "choices": [
+              "C'est trop vieux",
+              "Cela touche à la vie privée",
+              "On n'a pas de preuves",
+              "La personne est célèbre"
+            ],
+            "correct_index": 1,
+            "explanation": "La vie privée est sacrée, même si l'info est vraie."
+          },
+          {
+            "question": "Quels sont les 4 piliers de la 'bonne foi' ?",
+            "choices": [
+              "Argent, Gloire, Beauté, Succès",
+              "But légitime, enquête sérieuse, prudence, pas d'animosité",
+              "Vitesse, Audace, Chance, Force",
+              "Humour, Anonymat, Vidéo, Témoins"
+            ],
+            "correct_index": 1,
+            "explanation": "Si le journaliste respecte ça, il n'est pas condamné."
+          },
+          {
+            "question": "L'excuse de provocation peut servir pour :",
+            "choices": [
+              "La diffamation",
+              "L'injure",
+              "Le vol",
+              "Le meurtre"
+            ],
+            "correct_index": 1,
+            "explanation": "Si on t'insulte et que tu réponds direct par une insulte."
+          },
+          {
+            "question": "Une association peut porter plainte pour racisme si :",
+            "choices": [
+              "Elle a 100 membres",
+              "Elle existe depuis 5 ans et protège ces droits",
+              "Le Président est d'accord",
+              "Elle est riche"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une condition de la loi de 1881."
+          },
+          {
+            "question": "La provocation à la haine (Art 24) demande :",
+            "choices": [
+              "De détester quelqu'un",
+              "Un appel concret à la discrimination ou violence",
+              "De ne pas dire bonjour",
+              "De critiquer un livre"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un acte positif d'incitation."
+          },
+          {
+            "question": "Le Tribunal des Conflits sert à :",
+            "choices": [
+              "Arrêter les guerres",
+              "Décider si c'est le juge administratif ou judiciaire qui est compétent",
+              "Juger les ministres",
+              "Divorcer"
+            ],
+            "correct_index": 1,
+            "explanation": "Il règle les 'conflits de compétence'."
+          },
+          {
+            "question": "Un arrêt de la Cour de Cassation qui 'casse' veut dire :",
+            "choices": [
+              "La loi est nulle",
+              "Le jugement précédent est annulé et on doit rejuger",
+              "Le juge est renvoyé",
+              "Rien"
+            ],
+            "correct_index": 1,
+            "explanation": "Elle renvoie l'affaire devant une autre Cour d'Appel."
+          },
+          {
+            "question": "Le délai de 10 jours pour la preuve de vérité sert à :",
+            "choices": [
+              "Réfléchir",
+              "Permettre à la victime de répondre aux preuves",
+              "Payer l'avocat",
+              "Trouver des témoins"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une règle très stricte de procédure de presse."
+          },
+          {
+            "question": "L'apologie du terrorisme est désormais dans :",
+            "choices": [
+              "La loi 1881",
+              "Le Code Pénal",
+              "Le Code Civil",
+              "La charte du web"
+            ],
+            "correct_index": 1,
+            "explanation": "Pour pouvoir agir plus vite et plus fort."
+          }
+        ],
+        "hard": [
+          {
+            "question": "Pourquoi ne peut-on pas changer la 'qualification' pendant le procès ?",
+            "choices": [
+              "C'est trop long",
+              "Pour protéger la défense (on doit savoir de quoi on nous accuse dès le début)",
+              "Le juge est fatigué",
+              "C'est interdit par la Constitution"
+            ],
+            "correct_index": 1,
+            "explanation": "Si on t'accuse de diffamation, tu prépares tes preuves ; si le juge change en injure à la fin, tu ne peux plus te défendre."
+          },
+          {
+            "question": "L'exception de l'article 54-1 permet de requalifier :",
+            "choices": [
+              "Un vol en meurtre",
+              "Des propos racistes ou sexistes s'il y a eu erreur de nom (diffamation/injure)",
+              "Une amende en prison",
+              "Rien"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une nouveauté pour éviter que les haineux s'en sortent sur un détail."
+          },
+          {
+            "question": "Une injure envers un mort est punie si :",
+            "choices": [
+              "Le mort était gentil",
+              "L'auteur a voulu blesser les héritiers vivants",
+              "Le mort n'a pas de tombe",
+              "On a une photo"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'article 34 de la loi 1881."
+          },
+          {
+            "question": "La 'base factuelle suffisante' (CEDH) veut dire :",
+            "choices": [
+              "Il faut beaucoup de pages",
+              "Le journaliste doit avoir des sources sérieuses avant de parler",
+              "Le juge doit être payé",
+              "Il n'y a pas de secret"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'équivalent de l'enquête sérieuse en France."
+          },
+          {
+            "question": "L'affaire Orelsan a montré que :",
+            "choices": [
+              "Le rap est interdit",
+              "La création artistique a plus de liberté (on distingue l'artiste de son personnage)",
+              "Il faut flouter les clips",
+              "Les chanteurs sont au-dessus des lois"
+            ],
+            "correct_index": 1,
+            "explanation": "Le juge admet que les chansons sont une fiction."
+          },
+          {
+            "question": "La Loi Avia a été censurée car :",
+            "choices": [
+              "Elle était trop courte",
+              "Elle obligeait les plateformes à censurer trop vite sans juge",
+              "Elle était raciste",
+              "Elle n'avait pas de titre"
+            ],
+            "correct_index": 1,
+            "explanation": "Le Conseil Constit protège la liberté face à l'administration."
+          },
+          {
+            "question": "Le cumul de qualifications (viser diffamation ET injure) entraîne :",
+            "choices": [
+              "Une double peine",
+              "La nullité de la poursuite",
+              "Un bonus",
+              "Rien"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est interdit pour ne pas perdre la défense."
+          },
+          {
+            "question": "Si tu prouves la vérité mais que tu es de mauvaise foi :",
+            "choices": [
+              "Tu es condamné",
+              "Tu es relaxé (la vérité gagne toujours en diffamation)",
+              "Tu vas en prison",
+              "Le juge choisit"
+            ],
+            "correct_index": 1,
+            "explanation": "La vérité est une 'cause d'impunité absolue'."
+          },
+          {
+            "question": "Le négationnisme d'un génocide non-Shoah demande :",
+            "choices": [
+              "Une preuve vidéo",
+              "Une condamnation par une cour internationale (ex: Rwanda)",
+              "L'avis du Président",
+              "100 ans d'attente"
+            ],
+            "correct_index": 1,
+            "explanation": "Article 24 bis alinéa 2."
+          },
+          {
+            "question": "L'immunité parlementaire protège les députés :",
+            "choices": [
+              "Partout",
+              "Seulement pour ce qu'ils disent dans l'Hémicycle",
+              "À la télé",
+              "Sur Twitter"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est pour garantir la liberté des débats politiques."
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "title": "Qui est responsable sur Internet et dans les médias ?",
+      "concentre": {
+        "reading_time": 8,
+        "sections": [
+          {
+            "type": "story",
+            "title": "Le système de la cascade",
+            "text": "Dans un journal ou à la télé, on ne cherche pas midi à quatorze heures : le premier responsable, c'est le 'Directeur de Publication' (le grand patron). C'est lui qui prend les coups juridiques en premier, même s'il n'a pas écrit l'article. Le journaliste, lui, est considéré comme son complice. Si le patron est introuvable, on descend la cascade : l'auteur, puis l'imprimeur, etc. C'est fait pour que la victime trouve toujours quelqu'un à attaquer."
+          },
+          {
+            "type": "story",
+            "title": "Hébergeur vs Éditeur sur le web",
+            "text": "C'est super important ! Un éditeur (ex : le site du journal Le Monde) contrôle tout ce qu'il publie, donc il est responsable de tout. Un hébergeur (ex : YouTube, Instagram, TikTok) ne fait que stocker les vidéos des autres. Il n'a pas l'obligation de tout regarder tout le temps. Il devient responsable seulement si tu lui signales un contenu illicite avec une notification officielle et qu'il ne l'enlève pas très vite."
+          },
+          {
+            "type": "story",
+            "title": "Le chrono de 3 mois",
+            "text": "En droit de la presse, tout va très vite. Si quelqu'un t'insulte dans un journal ou sur un blog, tu as seulement 3 mois pour porter plainte à partir du jour où c'est publié. Si tu attends 3 mois et un jour, c'est trop tard, l'action est 'prescrite'. Pour les propos racistes ou haineux, le délai est plus long (1 an), mais il ne faut quand même pas traîner !"
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Directeur de Publication (DP)",
+          "answer": "Le chef du média, responsable n°1 devant la loi."
+        },
+        {
+          "question": "Responsabilité en cascade",
+          "answer": "L'ordre des responsables : DP -> Auteur -> Imprimeur."
+        },
+        {
+          "question": "Hébergeur",
+          "answer": "Celui qui stocke les contenus des autres (ex: Insta, YouTube)."
+        },
+        {
+          "question": "Éditeur",
+          "answer": "Celui qui choisit et contrôle ses contenus (ex: un blogueur, un journal)."
+        },
+        {
+          "question": "Notification LCEN",
+          "answer": "Le message officiel pour demander à un hébergeur de retirer un contenu."
+        },
+        {
+          "question": "Prescription de 3 mois",
+          "answer": "Le délai court pour agir en justice en droit de la presse."
+        },
+        {
+          "question": "Retrait prompt",
+          "answer": "Le fait d'enlever une info illicite très rapidement après signalement."
+        },
+        {
+          "question": "Droit de réponse",
+          "answer": "Le droit d'écrire sa version des faits dans le même journal qui nous a critiqués."
+        },
+        {
+          "question": "Fixation préalable",
+          "answer": "Quand un message est enregistré avant diffusion (permet le contrôle du DP)."
+        },
+        {
+          "question": "Fournisseur d'accès (FAI)",
+          "answer": "Ceux qui donnent Internet (Orange, Free) : ils ne sont jamais responsables du contenu."
+        },
+        {
+          "question": "Action en référé",
+          "answer": "Une procédure d'urgence devant le juge."
+        },
+        {
+          "question": "Solidarité pécuniaire",
+          "answer": "L'entreprise de presse paie les amendes à la place du journaliste."
+        },
+        {
+          "question": "Signalement",
+          "answer": "Bouton sur les réseaux pour rapporter un abus."
+        },
+        {
+          "question": "Manipulation de l'info",
+          "answer": "Loi contre les Fake News en période électorale."
+        },
+        {
+          "question": "Unicité de publication",
+          "answer": "Le délai de 3 mois commence le jour de la première mise en ligne."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Qui est le responsable n°1 d'un journal ?",
+            "choices": [
+              "Le journaliste",
+              "Le lecteur",
+              "Le Directeur de Publication",
+              "L'imprimeur"
+            ],
+            "correct_index": 2,
+            "explanation": "C'est la règle de la cascade."
+          },
+          {
+            "question": "YouTube est considéré comme un :",
+            "choices": [
+              "Éditeur",
+              "Hébergeur",
+              "Fournisseur d'accès",
+              "Journal"
+            ],
+            "correct_index": 1,
+            "explanation": "Il stocke les vidéos des utilisateurs."
+          },
+          {
+            "question": "Quel est le délai pour porter plainte pour diffamation ?",
+            "choices": [
+              "3 mois",
+              "1 an",
+              "10 ans",
+              "3 jours"
+            ],
+            "correct_index": 0,
+            "explanation": "C'est le délai de base très court."
+          },
+          {
+            "question": "Un hébergeur doit enlever un contenu s'il est :",
+            "choices": [
+              "Moche",
+              "Signalé officiellement comme illicite",
+              "Trop long",
+              "En anglais"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la règle de la LCEN."
+          },
+          {
+            "question": "Le droit de réponse permet de :",
+            "choices": [
+              "Gagner de l'argent",
+              "Répondre à une mise en cause dans le média",
+              "Faire fermer le journal",
+              "Insulter en retour"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un droit gratuit pour se défendre."
+          },
+          {
+            "question": "Un blogueur qui écrit ses propres articles est :",
+            "choices": [
+              "Uniquement hébergeur",
+              "Éditeur et Directeur de Publication",
+              "Intouchable",
+              "Un simple lecteur"
+            ],
+            "correct_index": 1,
+            "explanation": "Il contrôle son contenu."
+          },
+          {
+            "question": "Orange ou Free sont responsables du contenu des sites ?",
+            "choices": [
+              "Oui",
+              "Non, ils ne font que transporter les données",
+              "Seulement le dimanche",
+              "S'ils sont payés"
+            ],
+            "correct_index": 1,
+            "explanation": "Ce sont des 'simples transporteurs'."
+          },
+          {
+            "question": "La prescription commence le jour de :",
+            "choices": [
+              "La rédaction",
+              "La publication (mise à disposition du public)",
+              "La lecture",
+              "La plainte"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la publicité du propos qui compte."
+          },
+          {
+            "question": "Si le DP est poursuivi, le journaliste est :",
+            "choices": [
+              "Libre",
+              "Complice",
+              "Témoin",
+              "Juge"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est automatique dans la loi 1881."
+          },
+          {
+            "question": "La notification LCEN doit être envoyée à :",
+            "choices": [
+              "La police",
+              "L'hébergeur",
+              "Le Président",
+              "L'ARCOM"
+            ],
+            "correct_index": 1,
+            "explanation": "Pour qu'il retire le contenu."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Pourquoi la prescription est-elle courte ?",
+            "choices": [
+              "Pour gagner du temps",
+              "Pour ne pas bloquer la liberté d'expression trop longtemps",
+              "Pour aider les avocats",
+              "C'est une tradition"
+            ],
+            "correct_index": 1,
+            "explanation": "Le débat public doit avancer."
+          },
+          {
+            "question": "Dans une émission en direct, si un invité insulte quelqu'un :",
+            "choices": [
+              "Le DP est responsable",
+              "L'auteur est seul responsable (pas de contrôle possible)",
+              "Personne n'est puni",
+              "La télé est coupée"
+            ],
+            "correct_index": 1,
+            "explanation": "Exception de l'absence de fixation préalable."
+          },
+          {
+            "question": "Une notification LCEN est nulle si :",
+            "choices": [
+              "Elle est écrite à la main",
+              "Elle n'indique pas l'URL précise du contenu",
+              "Elle est trop polie",
+              "Elle est envoyée par mail"
+            ],
+            "correct_index": 1,
+            "explanation": "L'hébergeur n'a pas à chercher lui-même le contenu."
+          },
+          {
+            "question": "Le délai de 3 mois repart à zéro si :",
+            "choices": [
+              "On relit l'article",
+              "On fait un acte de poursuite (plainte officielle)",
+              "On change de site",
+              "On attend"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'interruption de la prescription."
+          },
+          {
+            "question": "La loi Fake News de 2018 s'applique :",
+            "choices": [
+              "Tout le temps",
+              "3 mois avant une élection nationale",
+              "Uniquement sur Facebook",
+              "Pour les journalistes"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un outil pour protéger les votes."
+          },
+          {
+            "question": "L'employeur (le journal) paie les amendes du journaliste :",
+            "choices": [
+              "C'est un cadeau",
+              "C'est la responsabilité civile du commettant",
+              "C'est interdit",
+              "Seulement s'il est gentil"
+            ],
+            "correct_index": 1,
+            "explanation": "L'entreprise assume les risques financiers de ses salariés."
+          },
+          {
+            "question": "L'unicité de publication sur le web signifie :",
+            "choices": [
+              "On ne peut publier qu'une fois",
+              "Le délai de 3 mois ne recommence pas à chaque clic",
+              "Le site est unique",
+              "Il n'y a qu'un seul auteur"
+            ],
+            "correct_index": 1,
+            "explanation": "Sinon la prescription ne s'arrêterait jamais."
+          },
+          {
+            "question": "Un hébergeur devient éditeur s'il :",
+            "choices": [
+              "Gagne de l'argent",
+              "Modifie ou choisit lui-même les contenus",
+              "A beaucoup d'utilisateurs",
+              "Est français"
+            ],
+            "correct_index": 1,
+            "explanation": "Le rôle passif est la condition de son irresponsabilité."
+          },
+          {
+            "question": "Le délai pour les propos racistes est de :",
+            "choices": [
+              "3 mois",
+              "1 an",
+              "10 ans",
+              "Infini"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une exception à la règle des 3 mois."
+          },
+          {
+            "question": "L'article 1240 du Code Civil (responsabilité classique) :",
+            "choices": [
+              "S'applique toujours",
+              "Est exclu pour les délits de presse (on utilise QUE la loi 1881)",
+              "Est facultatif",
+              "Est pour le vol"
+            ],
+            "correct_index": 1,
+            "explanation": "On ne peut pas contourner la protection de la loi 1881."
+          }
+        ],
+        "hard": [
+          {
+            "question": "Sur un forum, le DP du site est responsable des commentaires si :",
+            "choices": [
+              "Il les a lus",
+              "Il en a eu connaissance et n'a pas agi (régime hébergeur)",
+              "C'est son site donc il est responsable de tout",
+              "Les gens sont anonymes"
+            ],
+            "correct_index": 1,
+            "explanation": "Adaptation du web à la loi de 1982."
+          },
+          {
+            "question": "La 'non-cumulativité' des peines de presse (Art 63) signifie :",
+            "choices": [
+              "Pas de prison",
+              "Seule la peine la plus forte est appliquée pour plusieurs délits dans un même numéro",
+              "On ne peut pas être puni deux fois",
+              "Le juge choisit"
+            ],
+            "correct_index": 1,
+            "explanation": "Règle spécifique très protectrice."
+          },
+          {
+            "question": "L'erreur de qualification (viser injure au lieu de diffamation) :",
+            "choices": [
+              "Est corrigée par le juge",
+              "Entraîne la nullité de la procédure",
+              "N'est pas grave",
+              "Change juste le prix"
+            ],
+            "correct_index": 1,
+            "explanation": "La loi 1881 est ultra-formaliste pour protéger la défense."
+          },
+          {
+            "question": "La prescription peut-elle être suspendue par la minorité ?",
+            "choices": [
+              "Oui",
+              "Non, les délais de presse sont 'préfixes' et rigides",
+              "Seulement pour le viol",
+              "Si le juge veut"
+            ],
+            "correct_index": 1,
+            "explanation": "Rien n'arrête le chrono des 3 mois sauf un acte de justice."
+          },
+          {
+            "question": "Le 'recel de violation du secret professionnel' permet de :",
+            "choices": [
+              "Poursuivre un journaliste qui a des documents fuités",
+              "Poursuivre la source seulement",
+              "Rien faire",
+              "Donner un prix"
+            ],
+            "correct_index": 0,
+            "explanation": "Même si le journaliste n'a pas volé, détenir le document est un recel."
+          },
+          {
+            "question": "La notification LCEN doit prouver qu'on a d'abord contacté :",
+            "choices": [
+              "Le Président",
+              "L'auteur ou l'éditeur (ou expliquer pourquoi on n'a pas pu)",
+              "La police",
+              "L'ARCOM"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une condition de l'article 6-1-5."
+          },
+          {
+            "question": "La suspension d'un journal est possible pour :",
+            "choices": [
+              "Toute erreur",
+              "Provocations graves aux crimes ou haine répétée",
+              "Dettes",
+              "Pas de raison"
+            ],
+            "correct_index": 1,
+            "explanation": "Mais c'est rarissime pour ne pas tuer la liberté."
+          },
+          {
+            "question": "Au civil, le procès de presse suit :",
+            "choices": [
+              "Le Code Civil",
+              "Les règles de la loi de 1881 (délais, qualifications)",
+              "Le Code de la route",
+              "Les règles du web"
+            ],
+            "correct_index": 1,
+            "explanation": "Le formalisme de 1881 s'impose même sans juge pénal."
+          },
+          {
+            "question": "Le Procureur peut-il arrêter un procès de presse ?",
+            "choices": [
+              "Non",
+              "Oui, il a l'opportunité des poursuites (classement sans suite)",
+              "Seulement si le DP paie",
+              "Si l'ARCOM le demande"
+            ],
+            "correct_index": 1,
+            "explanation": "Sauf si la victime fait une citation directe."
+          },
+          {
+            "question": "L'interdiction de qualification multiple empêche :",
+            "choices": [
+              "D'accuser deux personnes",
+              "De viser deux textes pour le même propos",
+              "De porter plainte deux fois",
+              "De changer d'avocat"
+            ],
+            "correct_index": 1,
+            "explanation": "On doit choisir son angle d'attaque et s'y tenir."
+          }
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "title": "Ta vie privée, ton image et la justice",
+      "concentre": {
+        "reading_time": 9,
+        "sections": [
+          {
+            "type": "story",
+            "title": "Le jardin secret (Vie privée)",
+            "text": "Tout le monde a droit au respect de sa vie privée, c'est écrit dans le Code civil (Article 9). Ta vie amoureuse, ta santé, ce que tu fais chez toi ou ta religion, ça ne regarde personne d'autre. Même si tu es une star, tu as un 'jardin secret'. Un journaliste peut parler de ta vie privée seulement s'il y a un vrai intérêt pour le public (ex : la santé du Président qui ne peut plus diriger le pays). Sinon, c'est interdit !"
+          },
+          {
+            "type": "story",
+            "title": "C'est ma tête ! (Droit à l'image)",
+            "text": "Tu es le seul maître de ton image. On n'a pas le droit de te prendre en photo et de la publier sans ton accord. Mais attention, il y a des exceptions : si tu es dans une grande foule lors d'une manif ou si tu es au cœur d'une actualité importante (et que la photo ne te montre pas dans une position humiliante), le droit à l'information peut l'emporter."
+          },
+          {
+            "type": "story",
+            "title": "La justice et la presse",
+            "text": "En France, on est 'innocent tant qu'un juge n'a pas dit qu'on était coupable'. La presse n'a pas le droit de te présenter comme le coupable idéal avant la fin du procès. De plus, il est interdit de filmer ou d'enregistrer dans les tribunaux pour que la justice travaille sereinement. Enfin, on protège les victimes : on ne publie pas d'images montrant des gens morts ou souffrants de façon indécente."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Article 9 du Code Civil",
+          "answer": "Le texte qui protège la vie privée."
+        },
+        {
+          "question": "Article 9-1 du Code Civil",
+          "answer": "Le texte qui protège la présomption d'innocence."
+        },
+        {
+          "question": "Droit à l'image",
+          "answer": "Le droit de décider qui peut utiliser ta photo."
+        },
+        {
+          "question": "Droit à l'oubli",
+          "answer": "Effacer des vieilles infos gênantes sur Google (déréférencement)."
+        },
+        {
+          "question": "Présomption d'innocence",
+          "answer": "Être considéré innocent jusqu'au jugement final."
+        },
+        {
+          "question": "Secret des sources",
+          "answer": "Le droit des journalistes de ne pas dire qui leur a donné une info."
+        },
+        {
+          "question": "Atteinte à la dignité",
+          "answer": "Montrer une victime dans une situation horrible ou dégradante."
+        },
+        {
+          "question": "Lieu privé",
+          "answer": "Chez toi, une chambre d'hôtel, ta voiture (protection totale)."
+        },
+        {
+          "question": "Exception d'actualité",
+          "answer": "Le droit de montrer une image liée à un événement important du jour."
+        },
+        {
+          "question": "Cyber-harcèlement",
+          "answer": "Insulter ou menacer quelqu'un de façon répétée en ligne."
+        },
+        {
+          "question": "Harcèlement de meute",
+          "answer": "Quand plein de gens attaquent une personne en même temps."
+        },
+        {
+          "question": "Doxing",
+          "answer": "Publier l'adresse ou le numéro de quelqu'un pour lui faire peur."
+        },
+        {
+          "question": "Captation illicite",
+          "answer": "Filmer quelqu'un sans qu'il le sache dans un lieu privé (délit)."
+        },
+        {
+          "question": "Secret médical",
+          "answer": "Les infos sur ta santé sont strictement privées."
+        },
+        {
+          "question": "Mise en danger d'autrui",
+          "answer": "Loi Samuel Paty : punit ceux qui balancent des infos qui mettent la vie de quelqu'un en péril."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Quel article protège la vie privée ?",
+            "choices": [
+              "Art 1",
+              "Art 9",
+              "Art 11",
+              "Art 49.3"
+            ],
+            "correct_index": 1,
+            "explanation": "Article 9 du Code Civil."
+          },
+          {
+            "question": "Peut-on filmer un procès ?",
+            "choices": [
+              "Oui",
+              "Non, c'est interdit (sauf archives)",
+              "Seulement avec un iPhone",
+              "Si le juge est d'accord"
+            ],
+            "correct_index": 1,
+            "explanation": "Article 38 ter de la loi 1881."
+          },
+          {
+            "question": "Prendre une photo de quelqu'un chez lui par la fenêtre est :",
+            "choices": [
+              "Légal",
+              "Un délit (atteinte à l'intimité)",
+              "Un exploit",
+              "Autorisé pour les stars"
+            ],
+            "correct_index": 1,
+            "explanation": "Article 226-1 du Code pénal."
+          },
+          {
+            "question": "La présomption d'innocence s'arrête quand :",
+            "choices": [
+              "On est arrêté",
+              "Le jugement est définitif",
+              "Le journal le dit",
+              "On avoue"
+            ],
+            "correct_index": 1,
+            "explanation": "Tant qu'il y a un recours possible, on est présumé innocent."
+          },
+          {
+            "question": "Publier l'adresse d'un prof pour qu'il se fasse harceler est :",
+            "choices": [
+              "Une opinion",
+              "Un délit (Loi Samuel Paty)",
+              "Une blague",
+              "Légal"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la mise en danger de la vie d'autrui."
+          },
+          {
+            "question": "Le harcèlement demande :",
+            "choices": [
+              "1 message",
+              "Plusieurs messages répétés",
+              "Une vidéo",
+              "De l'argent"
+            ],
+            "correct_index": 1,
+            "explanation": "La répétition est la clé."
+          },
+          {
+            "question": "Peut-on filmer la police dans la rue ?",
+            "choices": [
+              "Non",
+              "Oui (sauf services secrets)",
+              "Seulement si on a une carte de presse",
+              "Si on floute leur visage"
+            ],
+            "correct_index": 1,
+            "explanation": "Le Conseil Constit a validé ce droit."
+          },
+          {
+            "question": "Le secret médical protège :",
+            "choices": [
+              "Le médecin",
+              "Le patient (vie privée)",
+              "L'hôpital",
+              "La sécu"
+            ],
+            "correct_index": 1,
+            "explanation": "La santé appartient à la vie privée."
+          },
+          {
+            "question": "Une photo d'une star en maillot sur une plage privée est :",
+            "choices": [
+              "Une info importante",
+              "Une atteinte à la vie privée",
+              "Légale",
+              "Un cadeau"
+            ],
+            "correct_index": 1,
+            "explanation": "Les vacances sont privées."
+          },
+          {
+            "question": "Le droit à l'oubli sert à :",
+            "choices": [
+              "Tout effacer",
+              "Enlever des liens Google gênants et vieux",
+              "Changer de nom",
+              "Ne plus payer d'impôts"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est le déréférencement."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Quel critère permet de passer outre la vie privée ?",
+            "choices": [
+              "La beauté",
+              "L'intérêt pour un débat d'intérêt général",
+              "L'argent",
+              "La vitesse"
+            ],
+            "correct_index": 1,
+            "explanation": "Le droit à l'info vs Vie privée (balance CEDH)."
+          },
+          {
+            "question": "Une personne qui expose sa vie à la télé (télé-réalité) :",
+            "choices": [
+              "N'a plus de vie privée",
+              "Garde des droits sur ce qu'elle n'a pas montré",
+              "Est protégée deux fois plus",
+              "Ne peut plus rien dire"
+            ],
+            "correct_index": 1,
+            "explanation": "Le comportement antérieur compte dans le jugement."
+          },
+          {
+            "question": "Pourquoi la photo de menottes est-elle interdite ?",
+            "choices": [
+              "C'est moche",
+              "Ça préjuge de la culpabilité (présomption d'innocence)",
+              "C'est secret",
+              "C'est pour la police"
+            ],
+            "correct_index": 1,
+            "explanation": "Article 35 ter."
+          },
+          {
+            "question": "Un journaliste peut-il utiliser un document volé ?",
+            "choices": [
+              "Non",
+              "Oui (recel autorisé si info d'intérêt général pour la CEDH)",
+              "S'il paie",
+              "Seulement s'il est anonyme"
+            ],
+            "correct_index": 1,
+            "explanation": "La CEDH protège souvent l'info contre le secret."
+          },
+          {
+            "question": "Le harcèlement de meute punit :",
+            "choices": [
+              "Seulement le chef",
+              "Tous ceux qui participent même s'ils n'envoient qu'un message",
+              "Le site web",
+              "Personne"
+            ],
+            "correct_index": 1,
+            "explanation": "Loi Schiappa (2018)."
+          },
+          {
+            "question": "La Loi Samuel Paty (2021) crée un délit si on diffuse :",
+            "choices": [
+              "Des insultes",
+              "Des infos permettant d'identifier quelqu'un pour lui nuire",
+              "Des photos moches",
+              "Des secrets d'État"
+            ],
+            "correct_index": 1,
+            "explanation": "Article 223-1-1 CP."
+          },
+          {
+            "question": "En cas d'atteinte à l'innocence, le juge ordonne :",
+            "choices": [
+              "La prison",
+              "Un communiqué de rectification",
+              "Une amende",
+              "Le silence"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la réparation (Art 9-1)."
+          },
+          {
+            "question": "La photo d'un préfet mort a été interdite pour :",
+            "choices": [
+              "Secret défense",
+              "Atteinte à la dignité humaine",
+              "Droit d'auteur",
+              "Politique"
+            ],
+            "correct_index": 1,
+            "explanation": "Affaire Érignac."
+          },
+          {
+            "question": "Une photo de ta maison publiée dans un journal :",
+            "choices": [
+              "Est toujours interdite",
+              "Est autorisée sauf si elle te cause un trouble anormal",
+              "Est gratuite",
+              "N'existe pas"
+            ],
+            "correct_index": 1,
+            "explanation": "Jurisprudence sur l'image des biens."
+          },
+          {
+            "question": "La protection des sources peut être levée si :",
+            "choices": [
+              "Le juge est curieux",
+              "Un intérêt public supérieur l'exige (ex : terrorisme)",
+              "Le journal est pauvre",
+              "L'ARCOM le demande"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une exception très encadrée."
+          }
+        ],
+        "hard": [
+          {
+            "question": "Depuis 2021, on peut filmer les procès pour :",
+            "choices": [
+              "Faire du buzz",
+              "Motif pédagogique ou culturel (Loi Confiance)",
+              "Remplacer les greffiers",
+              "Youtube"
+            ],
+            "correct_index": 1,
+            "explanation": "Très encadré par le garde des Sceaux."
+          },
+          {
+            "question": "L'affaire Kate Middleton a coûté cher car :",
+            "choices": [
+              "Elle est riche",
+              "Le traumatisme de Lady Di a été pris en compte",
+              "C'était en France",
+              "Le juge n'aimait pas Closer"
+            ],
+            "correct_index": 1,
+            "explanation": "Le contexte familial aggrave le préjudice."
+          },
+          {
+            "question": "Le recel de secret est neutralisé si :",
+            "choices": [
+              "Le journaliste est gentil",
+              "L'info est d'intérêt public prépondérant (CEDH)",
+              "C'est une vidéo",
+              "Le coupable a avoué"
+            ],
+            "correct_index": 1,
+            "explanation": "Affaire des écoutes de l'Élysée."
+          },
+          {
+            "question": "Le Happy Slapping est puni comme :",
+            "choices": [
+              "Complicité de violence",
+              "Simple photo",
+              "Droit à l'image",
+              "Erreur technique"
+            ],
+            "correct_index": 0,
+            "explanation": "Filmer une agression rend complice."
+          },
+          {
+            "question": "L'humour face à l'injure (ex: caricature) :",
+            "choices": [
+              "Échoue toujours",
+              "Est admis si c'est satirique et politique",
+              "Est interdit pour le Président",
+              "N'est pas un droit"
+            ],
+            "correct_index": 1,
+            "explanation": "La Cour de Cassation protège la satire."
+          },
+          {
+            "question": "Un hébergeur qui reçoit un signalement de vie privée :",
+            "choices": [
+              "Peut attendre",
+              "Doit réagir promptement pour éviter d'être responsable",
+              "S'en fiche",
+              "Appelle la police"
+            ],
+            "correct_index": 1,
+            "explanation": "Connaissance effective de l'atteinte manifeste."
+          },
+          {
+            "question": "L'effet de gel (Chilling effect) signifie :",
+            "choices": [
+              "Il fait froid",
+              "La peur de la sanction pousse les médias à ne plus enquêter",
+              "Le site est bloqué",
+              "Le juge est lent"
+            ],
+            "correct_index": 1,
+            "explanation": "La CEDH déteste ça car ça tue la démocratie."
+          },
+          {
+            "question": "Diffuser des images de scènes de crime (Art 35 quater) est puni si :",
+            "choices": [
+              "C'est en couleur",
+              "Atteinte grave à la dignité d'une victime sans son accord",
+              "On n'a pas la date",
+              "C'est moche"
+            ],
+            "correct_index": 1,
+            "explanation": "Protection de la dignité humaine."
+          },
+          {
+            "question": "Le harcèlement moral au travail est plus grave si :",
+            "choices": [
+              "Il est fait par mail/numérique",
+              "Il est fait le soir",
+              "Le chef est vieux",
+              "Il y a des témoins"
+            ],
+            "correct_index": 0,
+            "explanation": "Circonstance aggravante numérique."
+          },
+          {
+            "question": "Le domicile inclut-il le bureau pour la vie privée ?",
+            "choices": [
+              "Non",
+              "Oui (vision large de la CEDH)",
+              "Seulement si c'est public",
+              "Uniquement les archives"
+            ],
+            "correct_index": 1,
+            "explanation": "Le lieu de travail est protégé."
+          }
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "title": "L'ARCOM : Le gendarme de la télé et du web",
+      "concentre": {
+        "reading_time": 8,
+        "sections": [
+          {
+            "type": "story",
+            "title": "C'est quoi l'ARCOM ?",
+            "text": "Imagine un arbitre sur un terrain de foot : c'est l'ARCOM pour la télé et la radio. C'est une 'Autorité Publique Indépendante'. Ça veut dire qu'elle ne reçoit pas d'ordres du gouvernement. Son rôle, c'est de vérifier que les chaînes respectent les règles : ne pas dire de bêtises haineuses, protéger les enfants des images violentes (avec la signalétique -10, -12, etc.) et s'assurer que tout le monde peut parler."
+          },
+          {
+            "type": "story",
+            "title": "Le temps de parole (Pluralisme)",
+            "text": "L'ARCOM doit garantir que toutes les idées politiques sont représentées à la télé. Il y a une règle simple : le Président et le Gouvernement ont le droit à 1/3 du temps, et tous les autres partis se partagent les 2/3 restants. En période d'élection, c'est encore plus strict : les chaînes doivent être équitables et donner la parole à tous les candidats selon leur importance réelle dans la campagne."
+          },
+          {
+            "type": "story",
+            "title": "Carton jaune et Carton rouge",
+            "text": "Si une chaîne fait une faute (ex : un animateur insulte un invité), l'ARCOM sort les cartons. D'abord, elle envoie une 'Mise en demeure' (le carton jaune). Si la chaîne recommence, elle peut mettre une amende (parfois des millions d'euros), suspendre une émission pendant quelques jours, ou même retirer le droit de diffuser (le carton rouge final). C'est le Conseil d'État qui vérifie que l'arbitre ne triche pas !"
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "ARCOM",
+          "answer": "Autorité de Régulation de la Communication Audiovisuelle et Numérique."
+        },
+        {
+          "question": "Indépendance",
+          "answer": "L'ARCOM n'obéit pas au Ministre de la Culture."
+        },
+        {
+          "question": "Mise en demeure",
+          "answer": "L'avertissement officiel avant la sanction."
+        },
+        {
+          "question": "Pluralisme",
+          "answer": "Garantir que toutes les opinions politiques s'expriment."
+        },
+        {
+          "question": "Équité électorale",
+          "answer": "Donner un accès juste aux candidats selon leur importance."
+        },
+        {
+          "question": "Signalétique jeunesse",
+          "answer": "Les logos -10, -12, -16, -18 imposés par l'ARCOM."
+        },
+        {
+          "question": "Sanction pécuniaire",
+          "answer": "Une amende (peut aller jusqu'à 3% du CA)."
+        },
+        {
+          "question": "Fréquences hertziennes",
+          "answer": "Les ondes pour la TNT et la radio, prêtées par l'État."
+        },
+        {
+          "question": "Convention",
+          "answer": "Le contrat entre l'ARCOM et une chaîne (ex: TF1, C8)."
+        },
+        {
+          "question": "Pluralisme interne",
+          "answer": "Obligation pour CHAQUE chaîne d'être équilibrée."
+        },
+        {
+          "question": "Publicité clandestine",
+          "answer": "Faire de la pub pour un produit dans un film ou une émission sans le dire (interdit)."
+        },
+        {
+          "question": "Dignité de la personne",
+          "answer": "Règle de base que les chaînes doivent respecter à l'antenne."
+        },
+        {
+          "question": "Harcèlement en direct",
+          "answer": "Si un animateur humilie un chroniqueur, l'ARCOM punit."
+        },
+        {
+          "question": "SMAD",
+          "answer": "Services comme Netflix ou Disney+, aussi régulés par l'ARCOM."
+        },
+        {
+          "question": "Recours",
+          "answer": "On conteste les décisions de l'ARCOM devant le Conseil d'État."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "L'ARCOM est née de la fusion de :",
+            "choices": [
+              "La Police et la Gendarmerie",
+              "Le CSA et Hadopi",
+              "TF1 et M6",
+              "Google et Apple"
+            ],
+            "correct_index": 1,
+            "explanation": "En janvier 2022."
+          },
+          {
+            "question": "Les logos -10 ou -12 servent à :",
+            "choices": [
+              "Gagner de l'argent",
+              "Protéger les mineurs",
+              "Faire joli",
+              "Indiquer le prix"
+            ],
+            "correct_index": 1,
+            "explanation": "Mission de protection de l'enfance."
+          },
+          {
+            "question": "L'ARCOM peut mettre une amende à une chaîne ?",
+            "choices": [
+              "Oui",
+              "Non",
+              "Seulement si elle veut",
+              "Uniquement si le Président le demande"
+            ],
+            "correct_index": 0,
+            "explanation": "C'est son pouvoir de sanction."
+          },
+          {
+            "question": "Qui nomme le président de France TV ?",
+            "choices": [
+              "Le Ministre",
+              "L'ARCOM",
+              "Le public",
+              "Les journalistes"
+            ],
+            "correct_index": 1,
+            "explanation": "Pour garantir l'indépendance de l'audiovisuel public."
+          },
+          {
+            "question": "La publicité clandestine est :",
+            "choices": [
+              "Autorisée",
+              "Interdite",
+              "Obligatoire",
+              "Seulement la nuit"
+            ],
+            "correct_index": 1,
+            "explanation": "On ne peut pas cacher de la pub dans une émission."
+          },
+          {
+            "question": "Le pluralisme politique veut dire :",
+            "choices": [
+              "Plusieurs caméras",
+              "La parole à tous les partis",
+              "Avoir beaucoup d'argent",
+              "Ne pas parler de politique"
+            ],
+            "correct_index": 1,
+            "explanation": "Garantie démocratique."
+          },
+          {
+            "question": "Une mise en demeure est :",
+            "choices": [
+              "Un secret",
+              "Un avertissement public",
+              "Une amende",
+              "Une lettre de félicitations"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est le préalable à la sanction."
+          },
+          {
+            "question": "L'ARCOM régule aussi Internet ?",
+            "choices": [
+              "Oui (haine en ligne, piratage)",
+              "Non, seulement la télé",
+              "Uniquement YouTube",
+              "Seulement si on lui demande"
+            ],
+            "correct_index": 0,
+            "explanation": "Elle a repris les missions de Hadopi."
+          },
+          {
+            "question": "La règle du 1/3 - 2/3 concerne :",
+            "choices": [
+              "Le temps de pub",
+              "Le temps de parole politique",
+              "Le financement",
+              "Le nombre de films"
+            ],
+            "correct_index": 1,
+            "explanation": "Gouvernement vs Opposition."
+          },
+          {
+            "question": "Le Conseil d'État peut annuler une sanction de l'ARCOM ?",
+            "choices": [
+              "Oui",
+              "Non",
+              "Seulement le dimanche",
+              "Si le peuple vote"
+            ],
+            "correct_index": 0,
+            "explanation": "C'est le juge administratif suprême."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Pourquoi l'ARCOM est-elle 'indépendante' ?",
+            "choices": [
+              "Pour ne pas être influencée par les politiciens",
+              "Car elle n'a pas de bureau",
+              "Parce qu'elle est privée",
+              "C'est un mot à la mode"
+            ],
+            "correct_index": 0,
+            "explanation": "Elle protège la liberté face au pouvoir."
+          },
+          {
+            "question": "Le pluralisme 'interne' d'une chaîne signifie :",
+            "choices": [
+              "Elle a plein d'employés",
+              "Elle doit être équilibrée dans ses propres programmes",
+              "Elle diffuse partout",
+              "Elle est française"
+            ],
+            "correct_index": 1,
+            "explanation": "Obligation de chaque éditeur."
+          },
+          {
+            "question": "La sanction pécuniaire est plafonnée à :",
+            "choices": [
+              "100 €",
+              "3% du chiffre d'affaires",
+              "1 million",
+              "10 €"
+            ],
+            "correct_index": 1,
+            "explanation": "Pour être proportionnée à la taille de la chaîne."
+          },
+          {
+            "question": "Quelle est la durée du mandat à l'ARCOM ?",
+            "choices": [
+              "6 ans non renouvelables",
+              "2 ans",
+              "À vie",
+              "10 ans"
+            ],
+            "correct_index": 0,
+            "explanation": "Pour éviter les pressions."
+          },
+          {
+            "question": "L'ARCOM s'occupe du piratage de films ?",
+            "choices": [
+              "Oui",
+              "Non, c'est la police",
+              "Seulement au cinéma",
+              "Si on lui envoie un mail"
+            ],
+            "correct_index": 0,
+            "explanation": "C'est la mission Hadopi."
+          },
+          {
+            "question": "L'arrêt CNews (2024) dit que l'ARCOM doit regarder :",
+            "choices": [
+              "Seulement le chrono",
+              "L'ensemble de la programmation (thèmes, invités, chroniqueurs)",
+              "Rien du tout",
+              "Le prix des pubs"
+            ],
+            "correct_index": 1,
+            "explanation": "Contrôle qualitatif du pluralisme."
+          },
+          {
+            "question": "Le principe d'équité électorale est :",
+            "choices": [
+              "L'égalité parfaite de temps",
+              "Un accès juste selon la représentativité",
+              "Le tirage au sort",
+              "Rien"
+            ],
+            "correct_index": 1,
+            "explanation": "On donne plus de temps aux 'gros' candidats qu'aux 'petits'."
+          },
+          {
+            "question": "L'ARCOM donne les fréquences TNT via :",
+            "choices": [
+              "Un tirage au sort",
+              "Un appel à candidatures et une convention",
+              "Un achat aux enchères",
+              "Le hasard"
+            ],
+            "correct_index": 1,
+            "explanation": "Les ondes sont rares, on choisit les meilleurs projets."
+          },
+          {
+            "question": "Une 'mise en garde' est-elle une sanction ?",
+            "choices": [
+              "Oui",
+              "Non, c'est un avertissement plus léger que la mise en demeure",
+              "C'est une amende",
+              "C'est secret"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est le premier niveau de rappel à l'ordre."
+          },
+          {
+            "question": "Les 'SMAD' (Netflix, etc.) doivent :",
+            "choices": [
+              "Rien du tout",
+              "Financer la création française et respecter des règles",
+              "Être gratuits",
+              "Avoir un logo ARCOM"
+            ],
+            "correct_index": 1,
+            "explanation": "Ils sont désormais intégrés à la régulation."
+          }
+        ],
+        "hard": [
+          {
+            "question": "L'ARCOM peut sanctionner SANS mise en demeure si :",
+            "choices": [
+              "Elle est en colère",
+              "Le capital de la chaîne a changé sans accord",
+              "Il pleut",
+              "Le DP est malade"
+            ],
+            "correct_index": 1,
+            "explanation": "Exception de l'article 42-1."
+          },
+          {
+            "question": "Le 'recours de pleine juridiction' permet au Conseil d'État de :",
+            "choices": [
+              "Annuler seulement",
+              "Annuler ET condamner l'ARCOM à payer des dommages",
+              "Changer le président de l'ARCOM",
+              "Arrêter la télé"
+            ],
+            "correct_index": 1,
+            "explanation": "Le juge peut corriger la décision administrative."
+          },
+          {
+            "question": "Le rapporteur indépendant à l'ARCOM sert à :",
+            "choices": [
+              "Faire le café",
+              "Séparer celui qui enquête de celui qui juge",
+              "Défendre la chaîne",
+              "Vérifier l'orthographe"
+            ],
+            "correct_index": 1,
+            "explanation": "Garantie du procès équitable."
+          },
+          {
+            "question": "L'affaire RSF contre l'ARCOM (2024) a montré que :",
+            "choices": [
+              "RSF n'a aucun droit",
+              "Une asso peut attaquer l'ARCOM si elle ne fait pas son boulot de régulation",
+              "CNews est fermée",
+              "L'ARCOM est supprimée"
+            ],
+            "correct_index": 1,
+            "explanation": "Reconnaissance de l'intérêt à agir des associations."
+          },
+          {
+            "question": "Une chaîne étrangère (ex: RT France) peut être suspendue si :",
+            "choices": [
+              "Elle parle mal français",
+              "Elle menace les intérêts fondamentaux de la nation (Fake News graves)",
+              "Elle n'a pas de pub",
+              "Elle est trop riche"
+            ],
+            "correct_index": 1,
+            "explanation": "Article 42-6 (protection de la souveraineté)."
+          },
+          {
+            "question": "Le 'pluralisme externe' c'est :",
+            "choices": [
+              "Avoir des chaînes étrangères",
+              "Éviter que le même patron possède trop de médias différents",
+              "Diffuser sur le web",
+              "Rien"
+            ],
+            "correct_index": 1,
+            "explanation": "Lutte contre la concentration des médias."
+          },
+          {
+            "question": "Le temps de parole du Président compte-t-il toujours ?",
+            "choices": [
+              "Oui",
+              "Seulement s'il parle de politique nationale (sinon il est hors-chrono)",
+              "Jamais",
+              "Il est illimité"
+            ],
+            "correct_index": 1,
+            "explanation": "Jurisprudence du Conseil d'État de 2009."
+          },
+          {
+            "question": "Une sanction de l'ARCOM est-elle applicable tout de suite ?",
+            "choices": [
+              "Oui, elle est exécutoire",
+              "Non, il faut attendre 1 an",
+              "Seulement si le journal le dit",
+              "Si le policier vient"
+            ],
+            "correct_index": 0,
+            "explanation": "Sauf si le Conseil d'État l'arrête en urgence (référé)."
+          },
+          {
+            "question": "Pourquoi l'amende de C8 (3,5M€) était historique ?",
+            "choices": [
+              "C'était une erreur",
+              "Sanction d'un manquement grave à la dignité et au contrôle de l'antenne (Affaire Boyard)",
+              "C'était pour de la pub",
+              "C'est le prix de la chaîne"
+            ],
+            "correct_index": 1,
+            "explanation": "L'ARCOM a frappé fort sur le non-respect du direct."
+          },
+          {
+            "question": "L'ARCOM peut-elle réguler les réseaux sociaux ?",
+            "choices": [
+              "Non",
+              "Oui, sur la lutte contre la haine et la transparence des algos",
+              "Seulement s'ils sont français",
+              "Uniquement les messages privés"
+            ],
+            "correct_index": 1,
+            "explanation": "Nouvelles lois européennes (DSA)."
+          }
+        ]
+      }
+    }
+  ],
+  "final_exam": [
+    {
+      "question": "L'article 55 de la Constitution demande une condition de ____ pour qu'un traité prime sur la loi.",
+      "choices": [
+        "Réciprocité",
+        "Légalité",
+        "Solidarité",
+        "Météorologie"
+      ],
+      "correct_index": 0,
+      "explanation": "Les autres pays doivent aussi l'appliquer."
+    },
+    {
+      "question": "Le délai de prescription de presse est de 3 mois. Il est dit :",
+      "choices": [
+        "Facultatif",
+        "D'ordre public et rigide (ne se suspend pas)",
+        "Souple",
+        "Négociable"
+      ],
+      "correct_index": 1,
+      "explanation": "C'est une règle de fer pour la liberté d'expression."
+    },
+    {
+      "question": "Le DP est responsable en cascade :",
+      "choices": [
+        "Parce qu'il a écrit",
+        "À cause de sa fonction de direction (responsabilité pénale du fait d'autrui)",
+        "S'il est présent",
+        "S'il a signé"
+      ],
+      "correct_index": 1,
+      "explanation": "Système dérogatoire de la loi 1881."
+    },
+    {
+      "question": "Une notification LCEN sans URL précise est :",
+      "choices": [
+        "Valable",
+        "Nulle",
+        "À corriger",
+        "Une injure"
+      ],
+      "correct_index": 1,
+      "explanation": "L'hébergeur ne peut pas agir sans localisation exacte."
+    },
+    {
+      "question": "L'intérêt public prépondérant (CEDH) peut neutraliser :",
+      "choices": [
+        "Un meurtre",
+        "Le secret professionnel ou le recel de documents",
+        "Une amende",
+        "La police"
+      ],
+      "correct_index": 1,
+      "explanation": "Droit du public à savoir vs Secret."
+    },
+    {
+      "question": "Le Conseil d'État (2024) oblige l'ARCOM à vérifier le pluralisme de façon :",
+      "choices": [
+        "Quantitative (chrono)",
+        "Qualitative (programmes, thèmes, chroniqueurs)",
+        "Financière",
+        "Administrative"
+      ],
+      "correct_index": 1,
+      "explanation": "Vision globale de la chaîne."
+    },
+    {
+      "question": "La diffamation exige un fait 'précis'. Cela veut dire :",
+      "choices": [
+        "Un fait vrai",
+        "Un fait qui peut être débattu et prouvé",
+        "Un fait récent",
+        "Un fait écrit"
+      ],
+      "correct_index": 1,
+      "explanation": "Critère pour distinguer de l'injure."
+    },
+    {
+      "question": "Prouver la vérité d'une injure est :",
+      "choices": [
+        "Possible",
+        "Impossible (on ne prouve pas un mépris)",
+        "Obligatoire",
+        "Facultatif"
+      ],
+      "correct_index": 1,
+      "explanation": "C'est une impossibilité juridique."
+    },
+    {
+      "question": "L'article 41 de la loi 1881 protège :",
+      "choices": [
+        "Le piratage",
+        "Les comptes-rendus de procès fidèles",
+        "La pub",
+        "Le DP"
+      ],
+      "correct_index": 1,
+      "explanation": "Immunité judiciaire."
+    },
+    {
+      "question": "Le journaliste en 'happy slapping' est protégé s'il :",
+      "choices": [
+        "Rigole",
+        "Informe le public dans son cadre pro",
+        "A une caméra pro",
+        "Est anonyme"
+      ],
+      "correct_index": 1,
+      "explanation": "Exception légale pour l'info."
+    },
+    {
+      "question": "L'effet de gel (chilling effect) est :",
+      "choices": [
+        "Une météo",
+        "L'autocensure par peur des gros procès",
+        "Une panne web",
+        "Une grève"
+      ],
+      "correct_index": 1,
+      "explanation": "Concept clé de la CEDH."
+    },
+    {
+      "question": "Le président de Radio France est nommé pour :",
+      "choices": [
+        "3 ans",
+        "5 ans",
+        "7 ans",
+        "10 ans"
+      ],
+      "correct_index": 1,
+      "explanation": "Mandat de l'ARCOM."
+    },
+    {
+      "question": "La limitation de la concentration des médias assure le pluralisme :",
+      "choices": [
+        "Interne",
+        "Externe",
+        "Politique",
+        "Financier"
+      ],
+      "correct_index": 1,
+      "explanation": "Diversité des patrons de médias."
+    },
+    {
+      "question": "Filmer quelqu'un dans sa voiture sans son accord est :",
+      "choices": [
+        "Légal",
+        "Atteinte à l'intimité (lieu privé)",
+        "Autorisé pour les people",
+        "Normal"
+      ],
+      "correct_index": 1,
+      "explanation": "La voiture est un lieu privé."
+    },
+    {
+      "question": "Une 'communauté d'intérêt' suppose :",
+      "choices": [
+        "Des gens qui ne se connaissent pas",
+        "Un lien étroit et un intérêt commun (ex: amis proches)",
+        "Plus de 1000 personnes",
+        "Un forum public"
+      ],
+      "correct_index": 1,
+      "explanation": "Définit le caractère privé du message."
+    },
+    {
+      "question": "Le Doxing est puni par la loi :",
+      "choices": [
+        "1881",
+        "Samuel Paty (Mise en danger d'autrui)",
+        "Avia",
+        "Gayssot"
+      ],
+      "correct_index": 1,
+      "explanation": "Protection contre la divulgation d'infos privées pour nuire."
+    },
+    {
+      "question": "Le recel de secret par la presse est souvent :",
+      "choices": [
+        "Condamné par la France",
+        "Protégé par la CEDH au nom de l'info",
+        "Interdit par l'ARCOM",
+        "Ignoré"
+      ],
+      "correct_index": 1,
+      "explanation": "Jurisprudence européenne libérale."
+    },
+    {
+      "question": "L'amende pour diffamer une armée est de :",
+      "choices": [
+        "12k€",
+        "45k€",
+        "100€",
+        "1 million"
+      ],
+      "correct_index": 1,
+      "explanation": "Protection des institutions (Art 30)."
+    },
+    {
+      "question": "Viser deux fautes pour un seul propos entraîne :",
+      "choices": [
+        "Un bonus",
+        "La nullité de l'assignation",
+        "Le choix du juge",
+        "Rien"
+      ],
+      "correct_index": 1,
+      "explanation": "Interdiction du cumul de qualifications."
+    },
+    {
+      "question": "Le secret de l'instruction s'applique :",
+      "choices": [
+        "Aux journalistes",
+        "Aux policiers et magistrats",
+        "Aux victimes",
+        "À tout le monde"
+      ],
+      "correct_index": 1,
+      "explanation": "Seuls les pros de la justice sont liés."
+    },
+    {
+      "question": "La Loi Badinter (1985) permet de filmer les procès pour :",
+      "choices": [
+        "Youtube",
+        "Archives historiques",
+        "Le JT",
+        "Le plaisir"
+      ],
+      "correct_index": 1,
+      "explanation": "Patrimoine judiciaire."
+    },
+    {
+      "question": "La Constitution est ____ à la Loi.",
+      "choices": [
+        "Inférieure",
+        "Supérieure",
+        "Égale",
+        "Indifférente"
+      ],
+      "correct_index": 1,
+      "explanation": "Sommet de la pyramide."
+    },
+    {
+      "question": "La 'bonne foi' est une création de :",
+      "choices": [
+        "La Loi",
+        "La Jurisprudence (les juges)",
+        "L'ARCOM",
+        "La Constitution"
+      ],
+      "correct_index": 1,
+      "explanation": "Non écrite dans la loi de 1881."
+    },
+    {
+      "question": "La peine de suspension d'un média est :",
+      "choices": [
+        "Courante",
+        "Théorique et rarissime",
+        "Interdite",
+        "Hebdomadaire"
+      ],
+      "correct_index": 1,
+      "explanation": "Arme fatale peu utilisée."
+    },
+    {
+      "question": "L'irresponsabilité de l'hébergeur est :",
+      "choices": [
+        "Absolue",
+        "Conditionnée au retrait prompt après signalement",
+        "Nulle",
+        "Facultative"
+      ],
+      "correct_index": 1,
+      "explanation": "Régime de responsabilité limitée."
+    },
+    {
+      "question": "Un message est public si le public est :",
+      "choices": [
+        "Connu",
+        "Indéterminé",
+        "Absent",
+        "Petit"
+      ],
+      "correct_index": 1,
+      "explanation": "Ouvert à tous."
+    },
+    {
+      "question": "Diffamer quelqu'un à cause de sa religion coûte :",
+      "choices": [
+        "12k€",
+        "45k€ + prison possible",
+        "38€",
+        "Rien"
+      ],
+      "correct_index": 1,
+      "explanation": "Diffamation raciale/religieuse aggravée."
+    },
+    {
+      "question": "L'immunité judiciaire protège :",
+      "choices": [
+        "Les voleurs",
+        "Les avocats et témoins pour leurs paroles au procès",
+        "Le DP",
+        "La police"
+      ],
+      "correct_index": 1,
+      "explanation": "Article 41 loi 1881."
+    },
+    {
+      "question": "Le délai de 3 mois sur le web court à partir de :",
+      "choices": [
+        "Chaque clic",
+        "La première mise en ligne",
+        "La lecture",
+        "La suppression"
+      ],
+      "correct_index": 1,
+      "explanation": "Unicité de publication."
+    },
+    {
+      "question": "Le retrait d'une fréquence TV par l'ARCOM est :",
+      "choices": [
+        "Automatique",
+        "Exceptionnel et grave",
+        "Facile",
+        "Interdit"
+      ],
+      "correct_index": 1,
+      "explanation": "Sanction ultime."
+    }
+  ]
+}

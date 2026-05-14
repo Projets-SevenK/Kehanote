@@ -1,0 +1,1614 @@
+{
+  "subject_name": "Institutions et Politiques de l'UE",
+  "teacher_name": "B. MESNEL-REPPLINGER",
+  "subject_color": "gold",
+  "icon": "university",
+  "exam_type": "QCM (60 questions)",
+  "next_exam": "Session Partiels S4",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "L'Histoire de l'Europe : De la paix au grand marché",
+      "concentre": {
+        "reading_time": 10,
+        "sections": [
+          {
+            "type": "story",
+            "title": "Pourquoi avoir créé l'Europe ?",
+            "text": "Après la Seconde Guerre mondiale, l'Europe est en ruines. L'idée géniale de Jean Monnet et Robert Schuman en 1950 (la Déclaration Schuman), c'est de dire : 'Si on met en commun nos ressources pour faire la guerre (le charbon et l'acier), on ne pourra plus se battre'. C'est la naissance de la CECA en 1951. C'est un petit début technique pour arriver à une grande amitié politique."
+          },
+          {
+            "type": "story",
+            "title": "Les étapes clés (Rome, Maastricht, Lisbonne)",
+            "text": "En 1957, le Traité de Rome crée le 'Marché Commun' : les marchandises circulent librement. En 1992, le Traité de Maastricht change tout : on ne parle plus juste d'économie, mais d'Union Européenne, de citoyenneté et bientôt d'une monnaie unique (l'Euro). Enfin, en 2009, le Traité de Lisbonne répare le moteur de l'UE pour qu'elle fonctionne mieux à 27 pays, en donnant plus de pouvoir au Parlement."
+          },
+          {
+            "type": "story",
+            "title": "L'élargissement : de 6 à 27",
+            "text": "Au début, ils n'étaient que 6 (France, Allemagne, Italie, Benelux). Petit à petit, d'autres sont arrivés. Le plus gros choc, c'est en 2004 quand 10 pays de l'Est rejoignent l'UE après la chute du mur de Berlin. Aujourd'hui, on est 27 (depuis que le Royaume-Uni est parti avec le Brexit). Chaque pays doit respecter des critères de démocratie pour entrer."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "9 mai 1950",
+          "answer": "Déclaration Schuman (acte de naissance de l'Europe)."
+        },
+        {
+          "question": "Traité de Rome (1957)",
+          "answer": "Création de la CEE (Communauté Économique Européenne)."
+        },
+        {
+          "question": "Traité de Maastricht (1992)",
+          "answer": "Création de l'UE et de la citoyenneté européenne."
+        },
+        {
+          "question": "Traité de Lisbonne (2009)",
+          "answer": "Dernier grand traité qui organise l'UE actuelle."
+        },
+        {
+          "question": "Les 6 pays fondateurs",
+          "answer": "France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg."
+        },
+        {
+          "question": "CECA",
+          "answer": "Communauté Européenne du Charbon et de l'Acier (1951)."
+        },
+        {
+          "question": "Critères de Copenhague",
+          "answer": "Règles (démocratie, économie) pour entrer dans l'UE."
+        },
+        {
+          "question": "Brexit",
+          "answer": "Sortie du Royaume-Uni de l'UE en 2020."
+        },
+        {
+          "question": "L'Acte Unique (1986)",
+          "answer": "Création du grand marché intérieur sans frontières."
+        },
+        {
+          "question": "1er janvier 2002",
+          "answer": "Mise en circulation des billets et pièces en Euro."
+        },
+        {
+          "question": "Schengen",
+          "answer": "Espace de libre circulation des personnes sans contrôles aux frontières."
+        },
+        {
+          "question": "EURATOM",
+          "answer": "Communauté européenne de l'énergie atomique (1957)."
+        },
+        {
+          "question": "Élargissement 2004",
+          "answer": "Entrée de 10 pays, principalement d'Europe de l'Est."
+        },
+        {
+          "question": "Jean Monnet",
+          "answer": "L'un des 'Pères de l'Europe', inspirateur de la CECA."
+        },
+        {
+          "question": "Drapeau européen",
+          "answer": "12 étoiles d'or sur fond bleu (symbole d'unité)."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Combien de pays compte l'UE aujourd'hui ?",
+            "choices": [
+              "12",
+              "15",
+              "27",
+              "28"
+            ],
+            "correct_index": 2,
+            "explanation": "Depuis le départ du Royaume-Uni, nous sommes 27."
+          },
+          {
+            "question": "Quel traité a créé l'Union Européenne en 1992 ?",
+            "choices": [
+              "Rome",
+              "Maastricht",
+              "Lisbonne",
+              "Paris"
+            ],
+            "correct_index": 1,
+            "explanation": "Le Traité de Maastricht marque le passage de la CEE à l'UE."
+          },
+          {
+            "question": "Quelle ville n'est pas un siège officiel des institutions ?",
+            "choices": [
+              "Bruxelles",
+              "Strasbourg",
+              "Luxembourg",
+              "Madrid"
+            ],
+            "correct_index": 3,
+            "explanation": "Madrid n'héberge pas de siège institutionnel majeur."
+          },
+          {
+            "question": "Quel pays a quitté l'UE récemment ?",
+            "choices": [
+              "Grèce",
+              "Pologne",
+              "Royaume-Uni",
+              "Turquie"
+            ],
+            "correct_index": 2,
+            "explanation": "Le Brexit est devenu effectif en 2020."
+          },
+          {
+            "question": "Qui a prononcé le discours fondateur du 9 mai 1950 ?",
+            "choices": [
+              "Charles de Gaulle",
+              "Robert Schuman",
+              "Winston Churchill",
+              "Jacques Delors"
+            ],
+            "correct_index": 1,
+            "explanation": "Robert Schuman était le ministre français des Affaires étrangères."
+          },
+          {
+            "question": "La CECA concernait quels produits ?",
+            "choices": [
+              "Le blé et le vin",
+              "Le charbon et l'acier",
+              "L'or et l'argent",
+              "Le pétrole et le gaz"
+            ],
+            "correct_index": 1,
+            "explanation": "C'étaient les matériaux de base de l'industrie de guerre."
+          },
+          {
+            "question": "Où siège le Parlement européen ?",
+            "choices": [
+              "Paris",
+              "Strasbourg",
+              "Berlin",
+              "Genève"
+            ],
+            "correct_index": 1,
+            "explanation": "Les sessions plénières se tiennent à Strasbourg."
+          },
+          {
+            "question": "Quel est le nombre d'étoiles sur le drapeau européen ?",
+            "choices": [
+              "Le nombre de pays",
+              "12",
+              "50",
+              "27"
+            ],
+            "correct_index": 1,
+            "explanation": "Le nombre 12 symbolise la perfection et l'unité, pas le nombre de pays."
+          },
+          {
+            "question": "En quelle année l'Euro est-il arrivé dans nos poches ?",
+            "choices": [
+              "1992",
+              "2000",
+              "2002",
+              "2009"
+            ],
+            "correct_index": 2,
+            "explanation": "Le 1er janvier 2002."
+          },
+          {
+            "question": "Le Traité de Rome a été signé en :",
+            "choices": [
+              "1945",
+              "1951",
+              "1957",
+              "1992"
+            ],
+            "correct_index": 2,
+            "explanation": "Il crée la Communauté Économique Européenne."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Quels étaient les 6 pays fondateurs ?",
+            "choices": [
+              "France, All, GB, It, Esp, Port",
+              "France, All, It, Bel, PB, Lux",
+              "France, All, It, Autriche, Suède, Danemark",
+              "France, All, Russie, Turquie, Grèce, It"
+            ],
+            "correct_index": 1,
+            "explanation": "Ce sont les signataires des traités de Paris (1951) et Rome (1957)."
+          },
+          {
+            "question": "Que signifie la 'Communauté d'intérêt' chez Jean Monnet ?",
+            "choices": [
+              "Gagner de l'argent ensemble",
+              "Lier les économies pour rendre la guerre impossible",
+              "Avoir la même religion",
+              "Parler la même langue"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la méthode fonctionnaliste : l'économie mène à la paix."
+          },
+          {
+            "question": "Quel traité a mis fin à la structure en 'piliers' de l'UE ?",
+            "choices": [
+              "Amsterdam",
+              "Nice",
+              "Lisbonne",
+              "Rome"
+            ],
+            "correct_index": 2,
+            "explanation": "Lisbonne unifie l'UE en une seule personnalité juridique."
+          },
+          {
+            "question": "Les 'Critères de Copenhague' servent à :",
+            "choices": [
+              "Vérifier la pollution",
+              "Évaluer si un pays peut entrer dans l'UE",
+              "Fixer le prix du blé",
+              "Choisir les députés"
+            ],
+            "correct_index": 1,
+            "explanation": "Ils incluent la démocratie, l'État de droit et l'économie de marché."
+          },
+          {
+            "question": "L'élargissement de 2004 est surnommé :",
+            "choices": [
+              "Le Big Bang",
+              "Le Petit Saut",
+              "La Grande Crise",
+              "Le Miracle"
+            ],
+            "correct_index": 0,
+            "explanation": "À cause du nombre record (10) de nouveaux entrants."
+          },
+          {
+            "question": "L'espace Schengen concerne :",
+            "choices": [
+              "La monnaie unique",
+              "La libre circulation des personnes",
+              "L'énergie nucléaire",
+              "L'agriculture"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la suppression des contrôles aux frontières intérieures."
+          },
+          {
+            "question": "Quelle institution représente les intérêts des citoyens ?",
+            "choices": [
+              "Le Conseil européen",
+              "Le Parlement européen",
+              "La Commission européenne",
+              "La Cour de Justice"
+            ],
+            "correct_index": 1,
+            "explanation": "Ses membres sont élus au suffrage universel direct."
+          },
+          {
+            "question": "La 'Haute Autorité' était l'ancêtre de :",
+            "choices": [
+              "L'ONU",
+              "La Commission européenne",
+              "Le Parlement",
+              "L'OTAN"
+            ],
+            "correct_index": 1,
+            "explanation": "C'était l'organe supranational de la CECA."
+          },
+          {
+            "question": "Le Traité d'Amsterdam (1997) a surtout renforcé :",
+            "choices": [
+              "L'armée",
+              "La protection des citoyens et l'emploi",
+              "Le prix de l'Euro",
+              "La sortie de l'UE"
+            ],
+            "correct_index": 1,
+            "explanation": "Il a ajouté des volets sociaux et de sécurité intérieure."
+          },
+          {
+            "question": "L'EURATOM s'occupe de :",
+            "choices": [
+              "L'Euro",
+              "L'énergie atomique",
+              "L'espace",
+              "L'aviation"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'un des deux traités signés à Rome en 1957."
+          }
+        ],
+        "hard": [
+          {
+            "question": "Pourquoi la CED (Communauté Européenne de Défense) a échoué en 1954 ?",
+            "choices": [
+              "L'Allemagne a refusé",
+              "Le Parlement français a rejeté le traité",
+              "Les USA étaient contre",
+              "Il n'y avait pas assez d'argent"
+            ],
+            "correct_index": 1,
+            "explanation": "Ce fut l'échec de la première tentative d'Europe politique et militaire."
+          },
+          {
+            "question": "Quel était le rôle du 'Compromis de Luxembourg' en 1966 ?",
+            "choices": [
+              "Créer l'Euro",
+              "Finir la crise de la 'chaise vide' en autorisant le veto des États",
+              "Installer l'UE au Luxembourg",
+              "Autoriser le Brexit"
+            ],
+            "correct_index": 1,
+            "explanation": "De Gaulle exigeait le maintien de l'unanimité pour les dossiers vitaux."
+          },
+          {
+            "question": "Le Traité de Nice (2001) est souvent critiqué pour :",
+            "choices": [
+              "Être trop social",
+              "Ne pas avoir assez réformé les institutions avant l'élargissement",
+              "Avoir supprimé le Parlement",
+              "Avoir imposé l'Euro"
+            ],
+            "correct_index": 1,
+            "explanation": "Il a rendu le système de vote très complexe et inefficace."
+          },
+          {
+            "question": "Quelle est la particularité juridique du Traité de Lisbonne ?",
+            "choices": [
+              "Il remplace tous les anciens traités",
+              "Il modifie les traités précédents sans les remplacer (TUE et TFUE)",
+              "Il n'est pas écrit",
+              "Il est facultatif"
+            ],
+            "correct_index": 1,
+            "explanation": "L'UE repose désormais sur le Traité sur l'Union Européenne et le Traité sur le Fonctionnement de l'UE."
+          },
+          {
+            "question": "Le projet de 'Constitution Européenne' (2004) a échoué car :",
+            "choices": [
+              "Le Conseil l'a rejeté",
+              "Le 'Non' a gagné aux référendums en France et aux Pays-Bas",
+              "La guerre a éclaté",
+              "Le texte était trop court"
+            ],
+            "correct_index": 1,
+            "explanation": "L'échec en 2005 a mené à la création du Traité de Lisbonne, plus discret."
+          },
+          {
+            "question": "Qui a théorisé l'intégration européenne comme un 'engrenage' (spill-over) ?",
+            "choices": [
+              "De Gaulle",
+              "Ernst Haas (Néofonctionnalisme)",
+              "Jean Monnet",
+              "Margaret Thatcher"
+            ],
+            "correct_index": 1,
+            "explanation": "Une coopération technique en entraîne forcément une politique."
+          },
+          {
+            "question": "La 'clause de retrait' (Art 50) est apparue avec quel traité ?",
+            "choices": [
+              "Maastricht",
+              "Amsterdam",
+              "Nice",
+              "Lisbonne"
+            ],
+            "correct_index": 3,
+            "explanation": "Avant Lisbonne, aucun texte ne prévoyait la sortie d'un pays."
+          },
+          {
+            "question": "Quel pays a rejoint l'UE en dernier (2013) ?",
+            "choices": [
+              "Roumanie",
+              "Bulgarie",
+              "Croatie",
+              "Slovénie"
+            ],
+            "correct_index": 2,
+            "explanation": "La Croatie est le 27ème membre actuel (28ème à l'époque)."
+          },
+          {
+            "question": "Le 'Triangle Institutionnel' originel excluait quelle institution ?",
+            "choices": [
+              "La Commission",
+              "Le Conseil",
+              "La Cour de Justice",
+              "Le Parlement (qui n'était qu'une assemblée consultative)"
+            ],
+            "correct_index": 3,
+            "explanation": "Au début, le Parlement n'avait quasiment aucun pouvoir de décision."
+          },
+          {
+            "question": "La Déclaration Schuman s'inspire de quelle philosophie ?",
+            "choices": [
+              "Le Fédéralisme intégral",
+              "Le Fonctionnalisme (petits pas)",
+              "L'Intergouvernementalisme",
+              "Le Marxisme"
+            ],
+            "correct_index": 1,
+            "explanation": "Construire des solidarités concrètes avant les grandes structures politiques."
+          }
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "title": "Qui commande l'Europe ? (Le Triangle Institutionnel)",
+      "concentre": {
+        "reading_time": 10,
+        "sections": [
+          {
+            "type": "story",
+            "title": "Le Trio Magique",
+            "text": "Pour faire une loi européenne, il faut trois acteurs. 1. La Commission (à Bruxelles) : c'est le cerveau, elle propose les lois. 2. Le Parlement (à Strasbourg) : ce sont les représentants des citoyens, ils votent. 3. Le Conseil de l'UE (à Bruxelles) : ce sont les ministres des pays, ils votent aussi. Pour qu'une loi passe, il faut l'accord du Parlement ET du Conseil."
+          },
+          {
+            "type": "story",
+            "title": "La Commission : Le moteur supranational",
+            "text": "Imagine la Commission comme le gouvernement de l'Europe. Il y a un Commissaire par pays, mais attention : ils ne travaillent pas pour leur pays, ils travaillent pour l'intérêt de toute l'Europe ! Ils vérifient aussi que les pays respectent bien les règles. Si un pays triche, la Commission peut le gronder (et l'emmener devant le juge)."
+          },
+          {
+            "type": "story",
+            "title": "Les Conseils : Ne pas confondre !",
+            "text": "C'est l'erreur fatale à l'examen. Le Conseil Européen (les chefs d'État comme Macron), c'est le patron qui donne la direction générale mais qui ne vote pas les lois. Le Conseil de l'UE (les ministres), c'est lui qui vote les lois avec le Parlement. Et le Conseil de l'Europe ? C'est un piège ! Il n'a rien à voir avec l'UE, il s'occupe juste des droits de l'homme."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "La Commission européenne",
+          "answer": "L'institution qui propose les lois et protège l'intérêt général de l'UE."
+        },
+        {
+          "question": "Le Conseil européen",
+          "answer": "Les chefs d'État/Gouvernement (donnent les grandes impulsions)."
+        },
+        {
+          "question": "Le Conseil de l'UE",
+          "answer": "Les ministres des 27 pays (votent les lois)."
+        },
+        {
+          "question": "Le Parlement européen",
+          "answer": "705 (ou 720) députés élus par nous, votent les lois et le budget."
+        },
+        {
+          "question": "CJUE",
+          "answer": "Cour de Justice de l'Union Européenne (Luxembourg), fait respecter le droit."
+        },
+        {
+          "question": "BCE",
+          "answer": "Banque Centrale Européenne (Francfort), gère l'Euro."
+        },
+        {
+          "question": "Supranational",
+          "answer": "Quand l'institution est au-dessus des États (ex: Commission)."
+        },
+        {
+          "question": "Intergouvernemental",
+          "answer": "Quand ce sont les États qui décident entre eux (ex: Conseil)."
+        },
+        {
+          "question": "Procédure législative ordinaire",
+          "answer": "Le Parlement et le Conseil votent la loi sur un pied d'égalité."
+        },
+        {
+          "question": "Nombre de Commissaires",
+          "answer": "27 (un par État membre)."
+        },
+        {
+          "question": "Cour des Comptes",
+          "answer": "Vérifie que l'argent de l'UE est bien dépensé."
+        },
+        {
+          "question": "Haut Représentant",
+          "answer": "Le 'ministre des affaires étrangères' de l'UE."
+        },
+        {
+          "question": "Médiateur européen",
+          "answer": "Reçoit les plaintes des citoyens contre l'administration de l'UE."
+        },
+        {
+          "question": "Comité des Régions",
+          "answer": "Donne l'avis des maires et présidents de régions sur les lois UE."
+        },
+        {
+          "question": "Directives vs Règlements",
+          "answer": "Le règlement s'applique direct, la directive doit être adaptée par chaque pays."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Quelle institution propose les lois européennes ?",
+            "choices": [
+              "Le Parlement",
+              "La Commission",
+              "Le Conseil",
+              "La Cour de Justice"
+            ],
+            "correct_index": 1,
+            "explanation": "Elle a le 'monopole de l'initiative'."
+          },
+          {
+            "question": "Qui élit les députés européens ?",
+            "choices": [
+              "Les Présidents",
+              "Les citoyens (suffrage universel direct)",
+              "Le Pape",
+              "Les maires"
+            ],
+            "correct_index": 1,
+            "explanation": "Tous les 5 ans lors des élections européennes."
+          },
+          {
+            "question": "Combien y a-t-il de commissaires européens ?",
+            "choices": [
+              "12",
+              "27",
+              "705",
+              "9"
+            ],
+            "correct_index": 1,
+            "explanation": "Un par État membre."
+          },
+          {
+            "question": "Où siège la Cour de Justice (CJUE) ?",
+            "choices": [
+              "Bruxelles",
+              "Strasbourg",
+              "Luxembourg",
+              "Rome"
+            ],
+            "correct_index": 2,
+            "explanation": "C'est son siège historique."
+          },
+          {
+            "question": "Le Conseil européen réunit :",
+            "choices": [
+              "Les ministres",
+              "Les chefs d'État ou de gouvernement",
+              "Les députés",
+              "Les juges"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est le sommet des dirigeants."
+          },
+          {
+            "question": "La Banque Centrale Européenne (BCE) se trouve à :",
+            "choices": [
+              "Paris",
+              "Francfort",
+              "Londres",
+              "Bruxelles"
+            ],
+            "correct_index": 1,
+            "explanation": "En Allemagne, au cœur de la finance européenne."
+          },
+          {
+            "question": "Une 'Directive' européenne :",
+            "choices": [
+              "S'applique immédiatement partout",
+              "Fixe un but, mais chaque pays choisit comment l'atteindre",
+              "Est facultative",
+              "Est un conseil"
+            ],
+            "correct_index": 1,
+            "explanation": "Elle doit être 'transposée' en droit national."
+          },
+          {
+            "question": "Quel est le rôle du Parlement avec le budget ?",
+            "choices": [
+              "Il ne le regarde pas",
+              "Il le vote avec le Conseil",
+              "Il le dépense tout seul",
+              "Il le prête aux banques"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un pouvoir majeur du Parlement."
+          },
+          {
+            "question": "La Commission est-elle responsable devant le Parlement ?",
+            "choices": [
+              "Oui (il peut la renvoyer par une motion de censure)",
+              "Non",
+              "Seulement le lundi",
+              "Si le Conseil est d'accord"
+            ],
+            "correct_index": 0,
+            "explanation": "C'est une preuve de contrôle démocratique."
+          },
+          {
+            "question": "Qui préside la Commission européenne (en 2024) ?",
+            "choices": [
+              "Emmanuel Macron",
+              "Ursula von der Leyen",
+              "Charles Michel",
+              "Christine Lagarde"
+            ],
+            "correct_index": 1,
+            "explanation": "Elle a été élue par le Parlement."
+          }
+        ],
+        "medium": [
+          {
+            "question": "La 'Majorité Qualifiée' au Conseil de l'UE, c'est :",
+            "choices": [
+              "50% des pays",
+              "55% des pays représentant 65% de la population",
+              "100% des pays (unanimité)",
+              "Le choix du Président"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la règle de la 'double majorité' de Lisbonne."
+          },
+          {
+            "question": "Le Conseil de l'Europe (Strasbourg) fait-il partie de l'UE ?",
+            "choices": [
+              "Oui",
+              "Non, c'est une organisation séparée pour les Droits de l'Homme",
+              "C'est l'ancien nom de l'UE",
+              "Seulement pour le budget"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est le piège classique des QCM UE."
+          },
+          {
+            "question": "Que signifie le 'monopole de l'initiative' de la Commission ?",
+            "choices": [
+              "Elle gagne tout le temps",
+              "Elle est la seule à pouvoir proposer une loi",
+              "Elle peut renvoyer les députés",
+              "Elle crée la monnaie"
+            ],
+            "correct_index": 1,
+            "explanation": "Sans sa proposition, le Parlement et le Conseil ne peuvent pas voter."
+          },
+          {
+            "question": "La Cour de Justice s'occupe de :",
+            "choices": [
+              "Juger les voleurs de poules",
+              "Interpréter le droit européen et punir les pays qui ne le respectent pas",
+              "Remplacer la police",
+              "Fixer les impôts"
+            ],
+            "correct_index": 1,
+            "explanation": "Elle assure l'unité du droit dans toute l'Union."
+          },
+          {
+            "question": "Le Parlement européen est organisé par :",
+            "choices": [
+              "Nationalité (les Français ensemble)",
+              "Groupes politiques (les idées ensemble)",
+              "Âge",
+              "Ordre alphabétique"
+            ],
+            "correct_index": 1,
+            "explanation": "Les députés se regroupent par familles politiques (ex: EPP, S&D)."
+          },
+          {
+            "question": "Le COREPER sert à :",
+            "choices": [
+              "Manger",
+              "Préparer le travail des ministres du Conseil de l'UE",
+              "Nettoyer le Parlement",
+              "Surveiller les frontières"
+            ],
+            "correct_index": 1,
+            "explanation": "Ce sont les ambassadeurs des pays qui préparent les dossiers techniques."
+          },
+          {
+            "question": "Une motion de censure du Parlement :",
+            "choices": [
+              "Augmente le budget",
+              "Oblige toute la Commission à démissionner",
+              "Interdit un film",
+              "Ferme les frontières"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une arme très forte (utilisée une seule fois contre la commission Santer)."
+          },
+          {
+            "question": "Les Commissaires doivent être indépendants. Cela veut dire :",
+            "choices": [
+              "Ils n'ont pas de patron",
+              "Ils ne doivent pas recevoir d'ordres de leur gouvernement national",
+              "Ils travaillent de chez eux",
+              "Ils ne votent pas"
+            ],
+            "correct_index": 1,
+            "explanation": "Ils représentent l'intérêt de l'Union, pas de leur pays."
+          },
+          {
+            "question": "Le Conseil de l'UE siège en 'formations'. Par exemple :",
+            "choices": [
+              "Formation Yoga",
+              "Formation Agriculture, Formation Économie...",
+              "Formation Débutant",
+              "Formation Web"
+            ],
+            "correct_index": 1,
+            "explanation": "Selon le sujet, c'est le ministre concerné qui vient."
+          },
+          {
+            "question": "Le rôle du Conseil européen est de :",
+            "choices": [
+              "Voter les lois de détail",
+              "Donner les impulsions et les priorités politiques",
+              "Trancher les divorces",
+              "Imprimer l'Euro"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la 'boussole' de l'UE."
+          }
+        ],
+        "hard": [
+          {
+            "question": "Le 'Trilogue', c'est quoi ?",
+            "choices": [
+              "Une course de vélo",
+              "Une réunion informelle Commission/Parlement/Conseil pour se mettre d'accord sur une loi",
+              "Une loi en 3 parties",
+              "La réunion des 3 Présidents"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est là que se décide la majorité des lois aujourd'hui pour aller plus vite."
+          },
+          {
+            "question": "Comment le Parlement est-il élu ?",
+            "choices": [
+              "Scrutin majoritaire à 1 tour",
+              "Scrutin proportionnel (chaque pays a ses règles mais c'est proportionnel)",
+              "Nomination par le Président",
+              "Tirage au sort"
+            ],
+            "correct_index": 1,
+            "explanation": "Le nombre de sièges par pays dépend de la population (proportionnalité dégressive)."
+          },
+          {
+            "question": "Quelle est la différence entre le Président du Conseil européen et le Président de la Commission ?",
+            "choices": [
+              "Aucune",
+              "L'un gère les chefs d'État, l'autre gère l'administration et les lois",
+              "L'un est élu par le peuple, l'autre pas",
+              "Ils sont la même personne"
+            ],
+            "correct_index": 1,
+            "explanation": "Charles Michel (Conseil) vs Ursula von der Leyen (Commission)."
+          },
+          {
+            "question": "La 'Comitologie' désigne :",
+            "choices": [
+              "L'étude des comités",
+              "Le contrôle des pays sur les pouvoirs d'exécution de la Commission",
+              "La décoration des bureaux",
+              "Le système de vote du Parlement"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un système complexe pour que les États gardent un œil sur la Commission."
+          },
+          {
+            "question": "Pourquoi dit-on que la Commission est 'collégiale' ?",
+            "choices": [
+              "Car ils travaillent au collège",
+              "Car toutes les décisions sont prises par l'ensemble des commissaires ensemble",
+              "Car ils sont amis",
+              "Car ils sont 27"
+            ],
+            "correct_index": 1,
+            "explanation": "Un commissaire ne décide pas seul pour son domaine, c'est le groupe qui valide."
+          },
+          {
+            "question": "Le droit de pétition permet aux citoyens de saisir :",
+            "choices": [
+              "La Cour de Justice",
+              "Le Parlement européen",
+              "Le Président de la République",
+              "La police"
+            ],
+            "correct_index": 1,
+            "explanation": "Tout citoyen peut interpeller le Parlement sur un sujet UE."
+          },
+          {
+            "question": "L'Initiative Citoyenne Européenne (ICE) demande :",
+            "choices": [
+              "100 signatures",
+              "1 million de signatures provenant de 7 pays différents",
+              "Le vote du Parlement",
+              "Une vidéo"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est un outil de démocratie directe pour demander une loi à la Commission."
+          },
+          {
+            "question": "Quel est le rôle du Haut Représentant (PESC) ?",
+            "choices": [
+              "Vendre des timbres",
+              "Diriger la diplomatie de l'UE et vice-présider la Commission",
+              "Gérer l'agriculture",
+              "Commander l'armée européenne"
+            ],
+            "correct_index": 1,
+            "explanation": "Il fait le pont entre les États (Conseil) et l'Union (Commission)."
+          },
+          {
+            "question": "Un 'Règlement' européen a une portée :",
+            "choices": [
+              "Générale et obligatoire dans tous ses éléments",
+              "Limitée à la France",
+              "Facultative",
+              "Uniquement pour les entreprises"
+            ],
+            "correct_index": 0,
+            "explanation": "C'est la loi la plus forte : elle s'applique telle quelle sans loi nationale."
+          },
+          {
+            "question": "Qui assure la 'Présidence tournante' de l'UE ?",
+            "choices": [
+              "Le Parlement",
+              "Un État membre tous les 6 mois (Conseil de l'UE)",
+              "La Commission",
+              "Le Luxembourg tout le temps"
+            ],
+            "correct_index": 1,
+            "explanation": "Chaque pays dirige les réunions des ministres à son tour."
+          }
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "title": "Comment on explique l'Europe ? (Théories et Effets)",
+      "concentre": {
+        "reading_time": 10,
+        "sections": [
+          {
+            "type": "story",
+            "title": "Le match Fédéralisme vs Intergouvernementalisme",
+            "text": "Il y a deux façons de voir l'Europe. Les Fédéralistes veulent que l'UE devienne comme un pays (les États-Unis d'Europe) avec un chef fort. Les Intergouvernementalistes (comme De Gaulle) disent non : ce sont les pays qui doivent rester les patrons et décider ensemble, sans qu'une autorité au-dessus d'eux leur impose tout."
+          },
+          {
+            "type": "story",
+            "title": "L'effet engrenage (Néofonctionnalisme)",
+            "text": "C'est la théorie du 'doigt dans l'engrenage'. Si on commence par coopérer sur le charbon, on va avoir besoin de coopérer sur les transports, puis sur la monnaie, puis sur la police... Une petite coopération technique entraîne forcément une grosse coopération politique. C'est le 'Spill-over'."
+          },
+          {
+            "type": "story",
+            "title": "L'Européanisation : L'Europe est partout !",
+            "text": "L'européanisation, c'est quand les règles de l'Europe changent nos vies à la maison. Par exemple, si la France change ses lois sur l'environnement parce que l'UE l'a demandé, c'est de l'européanisation. Ça change aussi la façon dont nos politiciens travaillent : ils passent la moitié de leur temps à Bruxelles !"
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Fédéralisme",
+          "answer": "Vise une union politique forte avec un pouvoir central (type États-Unis)."
+        },
+        {
+          "question": "Intergouvernementalisme",
+          "answer": "Vision où les États restent les seuls maîtres de l'intégration."
+        },
+        {
+          "question": "Fonctionnalisme",
+          "answer": "Théorie des 'petits pas' techniques pour arriver à la paix (Schuman/Monnet)."
+        },
+        {
+          "question": "Néofonctionnalisme",
+          "answer": "Idée que l'intégration se nourrit d'elle-même par 'engrenage' (Spill-over)."
+        },
+        {
+          "question": "Spill-over",
+          "answer": "Quand un succès dans un domaine force à coopérer dans un autre."
+        },
+        {
+          "question": "Européanisation",
+          "answer": "Influence de l'UE sur les politiques, les lois et les institutions nationales."
+        },
+        {
+          "question": "Multi-level governance",
+          "answer": "L'UE est un système où le pouvoir est partagé entre l'Europe, les États et les Régions."
+        },
+        {
+          "question": "Déficit démocratique",
+          "answer": "Critique disant que l'UE est trop loin des citoyens et trop dirigée par des technocrates."
+        },
+        {
+          "question": "Identité européenne",
+          "answer": "Le sentiment d'appartenir à une culture commune au-delà de sa nation."
+        },
+        {
+          "question": "Output legitimacy",
+          "answer": "L'UE est acceptée parce qu'elle donne des résultats concrets (ex: pas de roaming)."
+        },
+        {
+          "question": "Input legitimacy",
+          "answer": "L'UE est acceptée parce que le processus est démocratique (vote du Parlement)."
+        },
+        {
+          "question": "Top-down",
+          "answer": "L'Europe impose ses règles aux États."
+        },
+        {
+          "question": "Bottom-up",
+          "answer": "Les États influencent la création des règles à Bruxelles."
+        },
+        {
+          "question": "Path dependency",
+          "answer": "Idée qu'une fois qu'on a pris une direction en Europe, on ne peut plus revenir en arrière."
+        },
+        {
+          "question": "Souveraineté partagée",
+          "answer": "Les États acceptent de ne plus décider seuls pour être plus forts ensemble."
+        }
+      ],
+      "qcm": {
+        "easy": [
+          {
+            "question": "Quelle théorie prône l'intégration par 'petits pas' ?",
+            "choices": [
+              "Fédéralisme",
+              "Fonctionnalisme",
+              "Marxisme",
+              "Libéralisme"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la méthode Monnet."
+          },
+          {
+            "question": "L'européanisation, c'est quand :",
+            "choices": [
+              "On part en vacances en Europe",
+              "L'Europe influence les lois nationales",
+              "On apprend l'anglais",
+              "On change de drapeau"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'impact de l'UE sur les États membres."
+          },
+          {
+            "question": "Le mot 'Spill-over' signifie :",
+            "choices": [
+              "Débordement ou engrenage",
+              "Sortie de l'UE",
+              "Crise économique",
+              "Voter deux fois"
+            ],
+            "correct_index": 0,
+            "explanation": "L'intégration s'étend d'un domaine à l'autre."
+          },
+          {
+            "question": "Qui sont les acteurs principaux pour les intergouvernementalistes ?",
+            "choices": [
+              "Les citoyens",
+              "Les États membres",
+              "La Commission",
+              "Les entreprises"
+            ],
+            "correct_index": 1,
+            "explanation": "Pour eux, l'UE est un club d'États souverains."
+          },
+          {
+            "question": "Le 'Déficit démocratique' est une critique sur :",
+            "choices": [
+              "Le manque d'argent",
+              "Le manque de pouvoir du peuple dans l'UE",
+              "La météo à Bruxelles",
+              "Le prix de l'essence"
+            ],
+            "correct_index": 1,
+            "explanation": "On reproche à l'UE d'être trop technocratique."
+          },
+          {
+            "question": "L'intégration européenne a commencé par quel domaine ?",
+            "choices": [
+              "L'armée",
+              "L'économie (charbon, acier, marché)",
+              "La culture",
+              "Le sport"
+            ],
+            "correct_index": 1,
+            "explanation": "On a commencé par le concret pour éviter la guerre."
+          },
+          {
+            "question": "Un fédéraliste convaincu voudrait :",
+            "choices": [
+              "Supprimer l'UE",
+              "Créer un gouvernement européen puissant",
+              "Fermer les frontières",
+              "Garder les monnaies nationales"
+            ],
+            "correct_index": 1,
+            "explanation": "Il veut un État fédéral supranational."
+          },
+          {
+            "question": "La gouvernance 'multi-niveaux' dit que :",
+            "choices": [
+              "Le pouvoir est à un seul endroit",
+              "Le pouvoir est partagé (UE, État, Région)",
+              "Il n'y a plus de pouvoir",
+              "Le peuple décide de tout"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la réalité du fonctionnement complexe de l'UE."
+          },
+          {
+            "question": "Le drapeau et l'hymne servent à créer :",
+            "choices": [
+              "De la pub",
+              "Une identité européenne",
+              "Des emplois",
+              "De la confusion"
+            ],
+            "correct_index": 1,
+            "explanation": "Ce sont des symboles d'appartenance."
+          },
+          {
+            "question": "Si la France influence Bruxelles, c'est de l'européanisation :",
+            "choices": [
+              "Top-down",
+              "Bottom-up",
+              "Left-right",
+              "Inside-out"
+            ],
+            "correct_index": 1,
+            "explanation": "De bas en haut : l'État remonte ses idées vers l'Union."
+          }
+        ],
+        "medium": [
+          {
+            "question": "Andrew Moravcsik est le grand théoricien de :",
+            "choices": [
+              "Le Fédéralisme",
+              "L'Intergouvernementalisme libéral",
+              "Le Néofonctionnalisme",
+              "Le Communisme"
+            ],
+            "correct_index": 1,
+            "explanation": "Il pense que les États décident en fonction de leurs intérêts économiques nationaux."
+          },
+          {
+            "question": "Le 'Spill-over' politique, c'est quand :",
+            "choices": [
+              "Les politiciens se disputent",
+              "Les élites et groupes d'intérêt se tournent vers Bruxelles car c'est là que ça se passe",
+              "L'Euro baisse",
+              "On change de traité"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une conséquence du succès technique."
+          },
+          {
+            "question": "L'européanisation 'Top-down' étudie :",
+            "choices": [
+              "Comment l'UE change les structures nationales",
+              "Comment les pays changent l'UE",
+              "Le prix des loyers",
+              "La météo"
+            ],
+            "correct_index": 0,
+            "explanation": "Du haut (UE) vers le bas (États)."
+          },
+          {
+            "question": "Pourquoi De Gaulle était-il contre la 'supranationalité' ?",
+            "choices": [
+              "Il n'aimait pas les Belges",
+              "Il voulait une 'Europe des Nations' où la France garde son veto",
+              "Il voulait supprimer l'Europe",
+              "Il préférait les USA"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est la vision intergouvernementale classique."
+          },
+          {
+            "question": "La légitimité par les 'Outputs' (résultats) signifie :",
+            "choices": [
+              "On aime l'UE si elle est démocratique",
+              "On aime l'UE si elle apporte la paix et la richesse",
+              "On aime l'UE si elle est grande",
+              "On aime l'UE si elle est vieille"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une légitimité par l'efficacité."
+          },
+          {
+            "question": "La 'Path dependency' (dépendance au sentier) explique que :",
+            "choices": [
+              "On se perd en forêt",
+              "Les décisions passées limitent les choix futurs",
+              "L'UE avance vite",
+              "Les traités sont nuls"
+            ],
+            "correct_index": 1,
+            "explanation": "Une fois qu'on a l'Euro, on ne peut pas revenir en arrière facilement."
+          },
+          {
+            "question": "L'institution qui représente le mieux le Fédéralisme est :",
+            "choices": [
+              "Le Conseil de l'UE",
+              "La Commission européenne",
+              "Le Conseil européen",
+              "Les Parlements nationaux"
+            ],
+            "correct_index": 1,
+            "explanation": "Elle agit pour l'intérêt général, pas pour les États."
+          },
+          {
+            "question": "Le néofonctionnalisme a été critiqué car :",
+            "choices": [
+              "Il est trop simple",
+              "Il a sous-estimé la résistance des États et du nationalisme",
+              "Il ne parle pas d'argent",
+              "Il est trop vieux"
+            ],
+            "correct_index": 1,
+            "explanation": "La crise de la 'chaise vide' de De Gaulle a montré que les États pouvaient bloquer l'engrenage."
+          },
+          {
+            "question": "L'européanisation par 'imitation' :",
+            "choices": [
+              "Un pays copie les bonnes idées d'un voisin à cause de l'UE",
+              "On porte les mêmes vêtements",
+              "On parle tous anglais",
+              "On a le même drapeau"
+            ],
+            "correct_index": 0,
+            "explanation": "L'UE favorise la diffusion des 'bonnes pratiques'."
+          },
+          {
+            "question": "Le concept de 'Souveraineté partagée' veut dire :",
+            "choices": [
+              "On n'a plus de souveraineté",
+              "On met sa souveraineté en commun pour peser plus lourd face à la Chine ou aux USA",
+              "On divise le pays en deux",
+              "On donne tout à l'ONU"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est l'idée que l'union fait la force."
+          }
+        ],
+        "hard": [
+          {
+            "question": "Quelle est la différence majeure entre Fonctionnalisme et Néofonctionnalisme ?",
+            "choices": [
+              "Aucune",
+              "Le néofonctionnalisme ajoute une dimension politique et institutionnelle au processus",
+              "Le premier est pour la guerre",
+              "Le second est contre l'Euro"
+            ],
+            "correct_index": 1,
+            "explanation": "Haas a complété Monnet en expliquant comment les institutions poussent à la suite."
+          },
+          {
+            "question": "La théorie du 'Principal-Agent' en UE suggère que :",
+            "choices": [
+              "Le Président est le patron",
+              "Les États (Principaux) délèguent du pouvoir à la Commission (Agent), mais celle-ci peut devenir autonome",
+              "La police surveille tout",
+              "On doit voter tous les jours"
+            ],
+            "correct_index": 1,
+            "explanation": "L'agent (Commission) finit par avoir ses propres intérêts (le 'renégat')."
+          },
+          {
+            "question": "Le concept de 'Policy framing' en européanisation :",
+            "choices": [
+              "C'est prendre des photos",
+              "C'est la façon dont l'UE définit un problème pour influencer les solutions nationales",
+              "C'est construire des murs",
+              "C'est voter une loi"
+            ],
+            "correct_index": 1,
+            "explanation": "L'UE cadre le débat (ex: 'Urgence climatique')."
+          },
+          {
+            "question": "L'approche 'Constructiviste' de l'UE dit que :",
+            "choices": [
+              "L'UE est un bâtiment",
+              "L'UE change les identités et les idées des gens au fil du temps",
+              "L'UE est juste un contrat",
+              "L'UE va s'écrouler"
+            ],
+            "correct_index": 1,
+            "explanation": "On ne se sent pas seulement Français, on commence à se sentir Européen."
+          },
+          {
+            "question": "L'intergouvernementalisme libéral insiste sur le rôle :",
+            "choices": [
+              "De la Commission",
+              "Des groupes d'intérêt économiques nationaux qui dictent la position de leur État",
+              "De l'armée",
+              "Du Pape"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est une vision très économique du pouvoir des États."
+          },
+          {
+            "question": "Le 'misfit' en européanisation désigne :",
+            "choices": [
+              "Une erreur de frappe",
+              "Le décalage entre une règle européenne et les habitudes d'un pays",
+              "Une panne d'électricité",
+              "Un pays qui sort de l'UE"
+            ],
+            "correct_index": 1,
+            "explanation": "Plus le décalage est grand, plus le pays aura du mal à s'adapter (pression au changement)."
+          },
+          {
+            "question": "La 'méthode ouverte de coordination' (MOC) est :",
+            "choices": [
+              "Une loi dure",
+              "Une coopération souple basée sur l'échange de bonnes pratiques (sans punition)",
+              "Une réunion secrète",
+              "Une élection"
+            ],
+            "correct_index": 1,
+            "explanation": "Utilisée pour le social ou l'éducation où l'UE n'a pas tout le pouvoir."
+          },
+          {
+            "question": "Qui a parlé d'un 'objet politique non-identifié' pour l'UE ?",
+            "choices": [
+              "De Gaulle",
+              "Jacques Delors",
+              "Jean Monnet",
+              "Barack Obama"
+            ],
+            "correct_index": 1,
+            "explanation": "Pour dire que l'UE ne ressemble à rien de connu (ni un État, ni une simple organisation)."
+          },
+          {
+            "question": "La 'supranationalité' implique :",
+            "choices": [
+              "L'unanimité obligatoire",
+              "Des décisions prises à la majorité qui s'imposent aux États minoritaires",
+              "Le retour aux monnaies nationales",
+              "La fin du Parlement"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est ce qui rend l'UE unique au monde."
+          },
+          {
+            "question": "Le traité constitutionnel de 2004 visait quel type d'intégration ?",
+            "choices": [
+              "Technique",
+              "Symbolique et politique (pour ressembler à un État)",
+              "Uniquement agricole",
+              "Militaire"
+            ],
+            "correct_index": 1,
+            "explanation": "C'est pour cela qu'il y avait un drapeau, un hymne et une devise dans le texte."
+          }
+        ]
+      }
+    }
+  ],
+  "final_exam": [
+    {
+      "question": "Quelle est la différence fondamentale entre le Conseil européen et le Conseil de l'UE ?",
+      "choices": [
+        "Aucune",
+        "L'un donne les impulsions politiques (chefs d'État), l'autre vote les lois (ministres)",
+        "L'un est à Strasbourg, l'autre à Bruxelles",
+        "L'un est élu, l'autre nommé"
+      ],
+      "correct_index": 1,
+      "explanation": "C'est la distinction entre le politique et le législatif."
+    },
+    {
+      "question": "Le 'Compromis de Luxembourg' (1966) a de facto imposé :",
+      "choices": [
+        "Le vote à la majorité",
+        "L'unanimité pour les intérêts nationaux très importants",
+        "La fin de la Commission",
+        "L'Euro"
+      ],
+      "correct_index": 1,
+      "explanation": "C'était une victoire des thèses intergouvernementalistes de De Gaulle."
+    },
+    {
+      "question": "Comment appelle-t-on le fait qu'une coopération économique entraîne une coopération politique ?",
+      "choices": [
+        "Le spill-over",
+        "Le crash-test",
+        "Le break-up",
+        "Le check-up"
+      ],
+      "correct_index": 0,
+      "explanation": "Terme central du néofonctionnalisme."
+    },
+    {
+      "question": "Quelle institution possède le 'monopole de l'initiative' ?",
+      "choices": [
+        "Le Parlement",
+        "Le Conseil",
+        "La Commission",
+        "La Cour de Justice"
+      ],
+      "correct_index": 2,
+      "explanation": "Elle est la seule à pouvoir proposer une loi (sauf exceptions rares)."
+    },
+    {
+      "question": "L'article 50 du Traité de Lisbonne traite de :",
+      "choices": [
+        "L'agriculture",
+        "La procédure de retrait d'un État membre",
+        "La monnaie unique",
+        "Les droits de l'homme"
+      ],
+      "correct_index": 1,
+      "explanation": "Utilisé pour la première fois par le Royaume-Uni (Brexit)."
+    },
+    {
+      "question": "Le COREPER réunit :",
+      "choices": [
+        "Les ministres",
+        "Les ambassadeurs permanents des États membres auprès de l'UE",
+        "Les députés",
+        "Les juges"
+      ],
+      "correct_index": 1,
+      "explanation": "Ils préparent les dossiers pour le Conseil de l'UE."
+    },
+    {
+      "question": "La procédure législative 'ordinaire' met sur un pied d'égalité :",
+      "choices": [
+        "La France et l'Allemagne",
+        "Le Parlement et le Conseil de l'UE",
+        "Le Parlement et la Commission",
+        "La Cour et le Conseil"
+      ],
+      "correct_index": 1,
+      "explanation": "Ils doivent tous deux approuver le texte final."
+    },
+    {
+      "question": "L'élargissement de 2004 a vu l'entrée de combien de pays ?",
+      "choices": [
+        "6",
+        "10",
+        "12",
+        "15"
+      ],
+      "correct_index": 1,
+      "explanation": "Majoritairement des pays d'Europe centrale et orientale."
+    },
+    {
+      "question": "Le 'Spill-over' fonctionnel signifie que :",
+      "choices": [
+        "On change de métier",
+        "L'intégration d'un secteur économique exige celle d'un secteur voisin pour être efficace",
+        "L'UE va s'arrêter",
+        "L'Euro est trop fort"
+      ],
+      "correct_index": 1,
+      "explanation": "Ex: le marché unique exige une monnaie unique."
+    },
+    {
+      "question": "Quelle cour siège à Luxembourg et assure l'unité du droit ?",
+      "choices": [
+        "CEDH",
+        "CJUE",
+        "CPI",
+        "Cour d'Assises"
+      ],
+      "correct_index": 1,
+      "explanation": "La Cour de Justice de l'Union Européenne."
+    },
+    {
+      "question": "Le Traité de Maastricht a créé 'trois piliers'. Lequel était supranational ?",
+      "choices": [
+        "Le 1er (Communauté européenne)",
+        "Le 2ème (PESC)",
+        "Le 3ème (Justice/Affaires intérieures)",
+        "Tous"
+      ],
+      "correct_index": 0,
+      "explanation": "Les 2ème et 3ème étaient purement intergouvernementaux."
+    },
+    {
+      "question": "La 'motion de censure' du Parlement vise :",
+      "choices": [
+        "Le Conseil",
+        "Le Président de la République",
+        "La Commission (collégialement)",
+        "La Cour de Justice"
+      ],
+      "correct_index": 2,
+      "explanation": "Elle oblige les commissaires à démissionner."
+    },
+    {
+      "question": "Qui préside le Conseil européen ?",
+      "choices": [
+        "Un pays tous les 6 mois",
+        "Un Président permanent élu pour 2,5 ans (Charles Michel en 2024)",
+        "La Reine d'Angleterre",
+        "Le Président de la Commission"
+      ],
+      "correct_index": 1,
+      "explanation": "Le Président est élu par les chefs d'État eux-mêmes."
+    },
+    {
+      "question": "Une 'Directive' doit être :",
+      "choices": [
+        "Ignorée",
+        "Transposée dans le droit national par une loi",
+        "Lue à haute voix",
+        "Signée par tous les citoyens"
+      ],
+      "correct_index": 1,
+      "explanation": "Elle laisse le choix des moyens aux États."
+    },
+    {
+      "question": "L'intergouvernementalisme libéral (Moravcsik) pense que l'UE est :",
+      "choices": [
+        "Un futur État",
+        "Un instrument au service des intérêts économiques des États",
+        "Une erreur",
+        "Un club de sport"
+      ],
+      "correct_index": 1,
+      "explanation": "L'intégration est un choix rationnel des États souverains."
+    },
+    {
+      "question": "Le 'Déficit démocratique' critique surtout :",
+      "choices": [
+        "Le prix de l'Euro",
+        "Le pouvoir excessif d'organes non-élus (Commission) par rapport au Parlement",
+        "La taille des bâtiments",
+        "Le nombre de langues parlées"
+      ],
+      "correct_index": 1,
+      "explanation": "C'est la critique majeure contre la 'technocratie' bruxelloise."
+    },
+    {
+      "question": "La CJUE peut être saisie par un juge national via :",
+      "choices": [
+        "Un appel téléphonique",
+        "Le renvoi préjudiciel",
+        "Une plainte",
+        "Un mail"
+      ],
+      "correct_index": 1,
+      "explanation": "Le juge national demande à la CJUE comment interpréter une règle UE."
+    },
+    {
+      "question": "L'européanisation 'Bottom-up' signifie :",
+      "choices": [
+        "L'UE change la France",
+        "La France essaie de faire passer ses idées à Bruxelles",
+        "On regarde le sol",
+        "La fin de l'Europe"
+      ],
+      "correct_index": 1,
+      "explanation": "Les États sont les acteurs de la construction européenne."
+    },
+    {
+      "question": "Quel traité a donné la 'personnalité juridique' à l'UE ?",
+      "choices": [
+        "Rome",
+        "Maastricht",
+        "Nice",
+        "Lisbonne"
+      ],
+      "correct_index": 3,
+      "explanation": "Cela permet à l'UE de signer des traités internationaux en son nom propre."
+    },
+    {
+      "question": "La 'méthode communautaire' (Monnet) repose sur :",
+      "choices": [
+        "L'unanimité tout le temps",
+        "Le dialogue entre intérêt général (Commission) et intérêts nationaux (Conseil)",
+        "La dictature de la France",
+        "Le vote des citoyens uniquement"
+      ],
+      "correct_index": 1,
+      "explanation": "C'est l'équilibre subtil des institutions."
+    },
+    {
+      "question": "En cas de conflit, le droit européen est-il supérieur au droit national ?",
+      "choices": [
+        "Non",
+        "Oui (principe de primauté)",
+        "Seulement pour la météo",
+        "Si le Président est d'accord"
+      ],
+      "correct_index": 1,
+      "explanation": "Arrêt Costa contre ENEL (1964)."
+    },
+    {
+      "question": "Le 'Trilogue' réunit informellement :",
+      "choices": [
+        "France, All, Italie",
+        "Commission, Parlement, Conseil de l'UE",
+        "Les 3 juges",
+        "Les 3 banques"
+      ],
+      "correct_index": 1,
+      "explanation": "Pour accélérer le vote des lois."
+    },
+    {
+      "question": "L'EURATOM s'occupe de :",
+      "choices": [
+        "L'Euro",
+        "L'atome civil (énergie)",
+        "L'espace",
+        "L'aviation"
+      ],
+      "correct_index": 1,
+      "explanation": "Signé en même temps que le Marché Commun en 1957."
+    },
+    {
+      "question": "Qui gère la politique monétaire de la zone Euro ?",
+      "choices": [
+        "Le Ministre des finances",
+        "La BCE (Banque Centrale Européenne)",
+        "La Commission",
+        "Le FMI"
+      ],
+      "correct_index": 1,
+      "explanation": "Elle est indépendante des gouvernements."
+    },
+    {
+      "question": "Un 'Misfit' élevé en européanisation signifie :",
+      "choices": [
+        "Une bonne entente",
+        "Un grand décalage entre l'Europe et le pays (pression forte)",
+        "Pas de loi",
+        "Un petit pays"
+      ],
+      "correct_index": 1,
+      "explanation": "Plus c'est différent, plus c'est dur à changer."
+    },
+    {
+      "question": "Les députés européens siègent par :",
+      "choices": [
+        "Ordre alphabétique",
+        "Groupes politiques transnationaux",
+        "Pays",
+        "Taille"
+      ],
+      "correct_index": 1,
+      "explanation": "Ex: Le groupe des Verts, les Socialistes, la Droite..."
+    },
+    {
+      "question": "Le budget de l'UE représente environ ____ du RNB européen.",
+      "choices": [
+        "1%",
+        "10%",
+        "50%",
+        "90%"
+      ],
+      "correct_index": 0,
+      "explanation": "Le budget de l'UE est très petit comparé aux budgets nationaux."
+    },
+    {
+      "question": "La Présidence du Conseil de l'UE change tous les :",
+      "choices": [
+        "1 mois",
+        "6 mois",
+        "1 an",
+        "5 ans"
+      ],
+      "correct_index": 1,
+      "explanation": "C'est la présidence tournante des pays."
+    },
+    {
+      "question": "Le Traité de Rome (1957) prévoyait déjà :",
+      "choices": [
+        "L'Euro",
+        "La libre circulation des marchandises, personnes, services et capitaux",
+        "L'armée européenne",
+        "Le Brexit"
+      ],
+      "correct_index": 1,
+      "explanation": "C'est le fondement du Marché Unique."
+    },
+    {
+      "question": "Le 'Haut Représentant' préside quelle formation du Conseil ?",
+      "choices": [
+        "Agriculture",
+        "Affaires étrangères",
+        "Justice",
+        "Économie"
+      ],
+      "correct_index": 1,
+      "explanation": "Il est le seul président permanent d'une formation du Conseil."
+    }
+  ]
+}
